@@ -1,14 +1,6 @@
 name: EA Demo Regression Tests
 
 on:
-  # Run on every push to main/master (e.g. after a plugin release)
-  push:
-    branches: [main, master]
-
-  # Run on every PR targeting main/master
-  pull_request:
-    branches: [main, master]
-
   # Manual trigger from the GitHub Actions UI
   # Allows choosing whether to UPDATE baselines or just compare
   workflow_dispatch:
