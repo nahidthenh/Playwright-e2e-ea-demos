@@ -120,6 +120,5 @@
     - text: You can set tooltip for Icon, Image, Text or shortcodes. Creativaty 0% Applications 0% Photoshop 0% Development 0% Creativaty 0% Applications 0% Photoshop 0% Development 0%
     - heading "Advanced Tooltips Style 06" [level=3]
     - text: You can set tooltip for Icon, Image, Text or shortcodes.
-    - iframe
 - text: desktop
 - status

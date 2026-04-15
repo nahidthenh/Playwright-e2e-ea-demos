@@ -68,7 +68,7 @@ for (const url of filteredUrls) {
     // (img alt text, etc. still captured); they just don't download.
     await page.route('**/*', (route) => {
       const type = route.request().resourceType();
-      const url  = route.request().url();
+      const url = route.request().url();
 
       const blockTypes = ['image', 'media', 'font'];
       const blockDomains = [
@@ -173,11 +173,13 @@ for (const url of filteredUrls) {
           display: none !important;
         }
 
-        /* ── Carousels / sliders (Swiper, Splide, Slick, EA Business Reviews) ──
-           Cloned slides for infinite-loop and auto-advancing position make
-           the ARIA tree non-deterministic on every run.
-           Hide clones so only the real slides appear, and freeze all
-           slide-track transitions so the active position is stable. */
+        /* ── Carousels / sliders (Swiper, Splide, Slick) ──
+           Hide cloned/duplicate slides used for infinite-loop so only the
+           real original slides appear in the ARIA tree.
+           Suppress slide transitions so the JS reset to slide-0 is instant.
+           NOTE: do NOT override transform — Swiper uses transforms to
+           position slides and its ARIA module (group "X / N" labels) depends
+           on those transforms being correct. */
         .swiper-slide-duplicate,
         .slick-cloned,
         .splide__slide--clone {
@@ -189,7 +191,15 @@ for (const url of filteredUrls) {
         .splide__list {
           transition: none !important;
           animation: none !important;
-          transform: none !important;
+        }
+
+        /* ── Google Maps widget ──
+           The Maps API injects dynamic controls (Zoom, Satellite toggle,
+           Pegman, map scale, Terms link) and their values change per render.
+           Hiding the entire widget gives a deterministic snapshot. */
+        [data-widget_type="google_maps.default"],
+        .elementor-widget-google_maps {
+          display: none !important;
         }
 
         /* ── Live chat widgets ──
@@ -209,7 +219,39 @@ for (const url of filteredUrls) {
       `,
     });
 
-    // ── 6. Capture the ARIA tree and compare against the stored snapshot ───
+    // ── 6. Stop Swiper carousels and reset to slide 0 ─────────────────────
+    // Swiper in loop-mode clones slides. When autoplay advances into the
+    // cloned region those slides lack aria-label, so `group "X / N"` roles
+    // and nav buttons disappear from the ARIA tree — causing non-deterministic
+    // failures on every run even after baseline regeneration.
+    // Stopping autoplay + snapping back to slide 0 (0 ms animation) gives a
+    // stable, deterministic ARIA tree every time.
+    await page.evaluate(() => {
+      // ── Swiper carousels ──────────────────────────────────────────────────
+      document.querySelectorAll('.swiper-container, .swiper').forEach((el) => {
+        const swiper = el.swiper;
+        if (!swiper) return;
+        try {
+          swiper.autoplay?.stop();
+          swiper.slideTo(0, 0, false); // instant — no animation, no callbacks
+        } catch (_) { /* ignore non-Swiper elements */ }
+      });
+
+      // ── Splide carousels ──────────────────────────────────────────────────
+      document.querySelectorAll('.splide').forEach((el) => {
+        const splide = el.splide;
+        if (!splide) return;
+        try {
+          splide.Components?.Autoplay?.pause();
+          splide.go(0); // snap to first slide
+        } catch (_) { /* ignore non-Splide elements */ }
+      });
+    });
+
+    // Short pause so Swiper can update its ARIA attributes after slideTo
+    await page.waitForTimeout(300);
+
+    // ── 7. Capture the ARIA tree and compare against the stored snapshot ───
     // page.locator('body').ariaSnapshot() returns a YAML-like string of the
     // full accessibility tree — roles, names, headings, buttons, links, text.
     // CSS classes, nonces, asset hashes and inline styles are invisible to it.
