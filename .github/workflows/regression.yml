@@ -77,7 +77,7 @@ jobs:
           URL_FILTER: ${{ github.event.inputs.url_filter || '' }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
-          PAGES_URL: "https://nahidthenh.github.io/playwright-e2e-ea-demos"
+          PAGES_URL: "https://nahidthenh.github.io/Playwright-e2e-ea-demos"
         run: |
           if [ "${{ github.event.inputs.update_snapshots }}" = "yes" ]; then
             echo "Updating baseline snapshots..."
