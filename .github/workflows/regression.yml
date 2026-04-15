@@ -18,6 +18,12 @@ on:
   schedule:
     - cron: "0 8 * * 1"
 
+# Permissions required for GitHub Pages deployment and snapshot commits
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   regression:
     name: DOM Regression (${{ matrix.project }})
@@ -62,8 +68,8 @@ jobs:
       # ---------------------------------------------------------------
       # 5. Run regression tests
       #    SLACK_CHANNEL_ID  → set in repo Settings → Secrets
-      #    SLACK_BOT_TOKEN → set in repo Settings → Secrets
-      #    PAGES_URL         → link shown in the Slack message
+      #    SLACK_BOT_TOKEN   → set in repo Settings → Secrets
+      #    PAGES_URL         → GitHub Pages URL shown in the Slack message
       # ---------------------------------------------------------------
       - name: Run regression tests
         env:
@@ -71,8 +77,7 @@ jobs:
           URL_FILTER: ${{ github.event.inputs.url_filter || '' }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
-          # Deep-link to the HTML report artifact for this run
-          PAGES_URL: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          PAGES_URL: "https://nahidthenh.github.io/playwright-e2e-ea-demos"
         run: |
           if [ "${{ github.event.inputs.update_snapshots }}" = "yes" ]; then
             echo "Updating baseline snapshots..."
@@ -83,15 +88,16 @@ jobs:
           fi
 
       # ---------------------------------------------------------------
-      # 6. Upload HTML report (always, 30 day retention)
+      # 6. Upload blob report for later merging (always, 1 day retention)
+      #    The publish job downloads these and merges into one HTML report
       # ---------------------------------------------------------------
-      - name: Upload Playwright report
+      - name: Upload blob report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-report-${{ matrix.project }}
-          path: playwright-report/
-          retention-days: 30
+          name: blob-report-${{ matrix.project }}
+          path: blob-report/
+          retention-days: 1
 
       # ---------------------------------------------------------------
       # 7. Upload snapshot diffs on failure (14 day retention)
@@ -115,3 +121,60 @@ jobs:
           git add snapshots/
           git diff --cached --quiet || git commit -m "chore: update regression snapshots [${{ matrix.project }}] [skip ci]"
           git push
+
+  # ---------------------------------------------------------------
+  # Merge both matrix reports and publish to GitHub Pages
+  # Runs after both desktop + mobile jobs finish (pass or fail)
+  # ---------------------------------------------------------------
+  publish:
+    name: Publish Report to GitHub Pages
+    needs: regression
+    if: always()
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # ---------------------------------------------------------------
+      # Download blob reports from both matrix jobs into one folder
+      # ---------------------------------------------------------------
+      - name: Download blob reports
+        uses: actions/download-artifact@v4
+        with:
+          pattern: blob-report-*
+          path: all-blob-reports
+          merge-multiple: true
+
+      # ---------------------------------------------------------------
+      # Install Playwright so we can run merge-reports
+      # ---------------------------------------------------------------
+      - name: Install Playwright
+        run: npm install @playwright/test
+
+      # ---------------------------------------------------------------
+      # Merge desktop + mobile blob reports into a single HTML report
+      # ---------------------------------------------------------------
+      - name: Merge reports
+        run: npx playwright merge-reports --reporter html ./all-blob-reports
+
+      # ---------------------------------------------------------------
+      # Upload the merged report as a Pages artifact
+      # ---------------------------------------------------------------
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: playwright-report/
+
+      # ---------------------------------------------------------------
+      # Deploy to GitHub Pages
+      # ---------------------------------------------------------------
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

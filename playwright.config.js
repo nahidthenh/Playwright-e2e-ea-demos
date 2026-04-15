@@ -22,6 +22,7 @@ module.exports = defineConfig({
   // Local: list output + HTML report (no Slack)
   reporter: process.env.CI
     ? [
+        ['blob'],
         ['github'],
         ['html', { outputFolder: 'playwright-report', open: 'never' }],
         [
