@@ -6,7 +6,6 @@
     - link "Documentation":
       - /url: https://essential-addons.com/docs/flip-carousel/
     - img "Flip Carousel 2"
-    - iframe
     - heading "Remarkable coverflow style" [level=3]
     - text: Make it available for any type of posts, besides individually can configure it only for all posts or pages type. Elements Panel
     - heading "Amazing flat carousel style" [level=3]

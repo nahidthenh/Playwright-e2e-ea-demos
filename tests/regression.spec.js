@@ -127,6 +127,17 @@ for (const url of filteredUrls) {
           display: none !important;
         }
 
+        /* ── Fancy Text (typewriter animation) ──
+           The typing cursor and partially-typed text change on every render —
+           guaranteed false positives. Hide the animated span only, not the
+           whole widget, so surrounding headings/descriptions remain testable. */
+        .eael-fancy-text-strings,
+        .eael-fancy-text-prefix,
+        .typed-cursor,
+        .elementor-widget-eael-fancy-text .typed-strings {
+          display: none !important;
+        }
+
         /* ── Embedded videos ──
            We block the media file from downloading but the <video> element
            and its native browser controls (Play/Seek/Mute/Fullscreen) still
@@ -136,7 +147,18 @@ for (const url of filteredUrls) {
         .elementor-video-container,
         .elementor-fit-aspect-ratio,
         .eael-video-gallery-wrap,
-        .eael-video-gallery {
+        .eael-video-gallery,
+
+        /* ── Custom / third-party video players (Plyr, EA Video, YouTube embeds) ──
+           These wrap <video> or <iframe> with their own controls that also
+           surface in the ARIA tree but are not covered by the selectors above. */
+        .plyr,
+        .plyr--video,
+        .plyr__video-wrapper,
+        [data-plyr-provider],
+        .elementor-widget-ea-video,
+        iframe[src*="youtube"],
+        iframe[src*="youtu.be"] {
           display: none !important;
         }
 

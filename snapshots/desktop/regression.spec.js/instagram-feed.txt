@@ -7,7 +7,6 @@
       - /url: https://essential-addons.com/docs/instagram-feed/
     - text: Elements Panel
     - img "Instagram Feed for Elementor 101"
-    - iframe
     - heading "Instagram Posts With Card Layout" [level=3]
     - text: A simple classic layout to showcase your Instagram posts in minimalistic way
     - link "Photo by eademo2020":

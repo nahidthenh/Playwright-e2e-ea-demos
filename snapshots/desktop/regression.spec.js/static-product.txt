@@ -7,7 +7,6 @@
       - /url: https://essential-addons.com/docs/static-product/
     - text: Elements Panel
     - img "Static Product 101"
-    - iframe
     - heading "Hover Effect On Static Product Image" [level=3]
     - text: Display your product images with preferred content, change background color, add CTA and style it by using hover effect
     - link:

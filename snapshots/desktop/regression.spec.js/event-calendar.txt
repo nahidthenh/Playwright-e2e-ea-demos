@@ -7,7 +7,6 @@
       - /url: https://essential-addons.com/elementor/docs/event-calendar/
     - text: Elements Panel
     - img "Event Calendar 101"
-    - iframe
     - img "Event Calendar 102"
     - heading "Instantly Integrate With The Calendar Tool You're Using" [level=3]
     - paragraph: Essential Addons Event Calendar let's you integrate with the most popular calendar tools and showcase that calendar in your website

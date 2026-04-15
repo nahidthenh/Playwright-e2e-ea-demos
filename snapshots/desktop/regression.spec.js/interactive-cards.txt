@@ -78,8 +78,6 @@
       - /url: "#"
     - heading "Complete Customization Options" [level=3]
     - paragraph: Customize both front/rear panels any way you want and display 'Video Card' type
-    - text: 
-    - iframe
-    - text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    - text:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
 - text: desktop
 - status

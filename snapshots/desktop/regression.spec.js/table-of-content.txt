@@ -7,7 +7,6 @@
       - /url: https://essential-addons.com/elementor/docs/table-of-content/
     - text: Elements Panel
     - img "Table of Contents 101"
-    - iframe
     - heading "Different Styles Of Table Of Contents" [level=3]
     - text: Table of Contents will showcase your all blog posts headers, sub headers in a list view and you can style it in advance
     - link "Table of Contents 102":
