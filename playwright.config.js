@@ -28,7 +28,8 @@ module.exports = defineConfig({
         [
           './node_modules/playwright-slack-report/dist/src/SlackReporter.js',
           {
-            // SLACK_CHANNEL_ID is set as a GitHub Actions secret
+            // SLACK_BOT_TOKEN and SLACK_CHANNEL_ID are set as GitHub Actions secrets
+            slackOAuthToken: process.env.SLACK_BOT_TOKEN,
             channels: [process.env.SLACK_CHANNEL_ID],
 
             // Send to Slack whether tests pass or fail

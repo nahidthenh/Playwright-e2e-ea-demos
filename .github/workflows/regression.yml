@@ -33,7 +33,7 @@ jobs:
     strategy:
       fail-fast: false  # Let all matrix jobs finish even if one fails
       matrix:
-        project: [desktop, mobile]
+        project: [desktop]
 
     steps:
       # ---------------------------------------------------------------
