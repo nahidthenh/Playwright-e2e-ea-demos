@@ -117,7 +117,7 @@
     - button "Next slide": 
     - button "Previous slide": 
     - heading "Advanced Tooltips Style 05" [level=3]
-    - text: You can set tooltip for Icon, Image, Text or shortcodes. Creativaty 0% Applications 0% Photoshop 0% Development 0% Creativaty 0% Applications 0% Photoshop 0% Development 0%
+    - text: You can set tooltip for Icon, Image, Text or shortcodes.
     - heading "Advanced Tooltips Style 06" [level=3]
     - text: You can set tooltip for Icon, Image, Text or shortcodes.
 - text: desktop

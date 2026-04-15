@@ -76,6 +76,13 @@ for (const url of filteredUrls) {
         'facebook.net', 'facebook.com/tr',
         'hotjar.com', 'clarity.ms',
         'doubleclick.net', 'googlesyndication.com',
+        // Block Google Maps API so map tiles/controls never load.
+        // The Maps JS API renders dynamic controls (Zoom, Satellite, Markers,
+        // Keyboard shortcuts, Scale) whose presence and values change per-render.
+        // Blocking at the network level is the only reliable suppression because
+        // the controls are injected as DOM overlays that may appear outside the
+        // Elementor widget CSS scope depending on load timing.
+        'maps.googleapis.com', 'maps.gstatic.com',
       ];
 
       if (blockTypes.includes(type)) return route.abort();
@@ -118,11 +125,18 @@ for (const url of filteredUrls) {
 
         /* ── Countdown timers ──
            Days/Hours/Mins/Secs tick every second — guaranteed false positives.
-           Cover both EA countdown and native Elementor countdown class names. */
-        .elementor-countdown-wrapper,
+           Target every known EA and Elementor countdown selector including the
+           widget-type data attribute (most reliable) and all class variants.
+           [class*="eael-countdown"] catches .eael-countdown-wrapper, .eael-countdown,
+           .eael-countdown-1234 (ID-suffixed wrapper) and any future variants. */
+        [data-widget_type="eael-countdown.default"],
+        [data-widget_type*="countdown"],
+        .elementor-widget-eael-countdown,
         .elementor-widget-countdown,
+        .elementor-countdown-wrapper,
         .elementor-countdown-item,
-        .eael-countdown,
+        [class*="eael-countdown"],
+        [class*="elementor-countdown"],
         .eael-count-down {
           display: none !important;
         }
@@ -202,6 +216,20 @@ for (const url of filteredUrls) {
           display: none !important;
         }
 
+        /* ── EA Progress Bar widget ──
+           CountUp.js drives the percentage counter via requestAnimationFrame.
+           Critically, addStyleTag triggers a CSS reflow which re-fires
+           IntersectionObserver, restarting CountUp from 0. The rAF-stub
+           approach is unreliable because it races with this IO re-trigger.
+           Hiding the entire widget removes the non-deterministic values from
+           the ARIA tree while preserving section headings and descriptions
+           (Implement Unique Styles, Progress Bar Style 01-05 etc.) which
+           are the meaningful structural signals for regression detection. */
+        [data-widget_type="eael-progress-bar.default"],
+        .elementor-widget-eael-progress-bar {
+          display: none !important;
+        }
+
         /* ── Live chat widgets ──
            Hide by aria-label and common vendor container IDs/classes.
            These load inconsistently and cause random failures. */
@@ -246,6 +274,43 @@ for (const url of filteredUrls) {
           splide.go(0); // snap to first slide
         } catch (_) { /* ignore non-Splide elements */ }
       });
+
+      // ── CountUp.js / rAF-driven JS counters → force completion ──────────────
+      // CountUp.js (used by EA Progress Bar, EA Counter, etc.) drives its
+      // animation via requestAnimationFrame. It terminates when:
+      //   (rAF timestamp - startTime) >= animationDuration
+      // CSS animation-duration: 0s has ZERO effect on rAF-based animations.
+      //
+      // Fix: replace window.requestAnimationFrame with a version that immediately
+      // executes the callback with a timestamp 10 s in the future.  Any CountUp
+      // callback still queued in the browser's rAF queue will fire naturally on
+      // the next frame; when CountUp then re-schedules via rAF, our stub runs it
+      // instantly with the future timestamp → CountUp sees elapsed >> duration
+      // and jumps to its final value in one step.
+      // We restore the original rAF after 500 ms (snapshot is at +300 ms).
+      // ── CountUp.js / rAF-driven JS counters → force completion ──────────────
+      // CountUp.js terminates when: (rAF_timestamp - startTime) >= duration.
+      // Strategy: stub rAF to schedule callbacks via setTimeout(cb, 0) with a
+      // timestamp 10 s in the future.  setTimeout (not direct execution) is
+      // critical — calling cb() directly recurses infinitely because CountUp
+      // re-schedules itself inside its own callback (stack overflows before it
+      // can reach the terminal condition, leaving counters stuck at 0).
+      //
+      // Timeline:
+      //  T+0  stub installed
+      //  T+16 natural rAF fires for CountUp (startTime already set); CountUp
+      //       re-schedules via stub → setTimeout(0) queued
+      //  T+17 setTimeout fires: CountUp runs with futureTs
+      //       → elapsed >> duration → terminates at endVal (final value) ✓
+      //  T+300 snapshot taken — DOM shows deterministic final value
+      const _futureTs = performance.now() + 10_000;
+      const _origRaf = window.requestAnimationFrame;
+      window.requestAnimationFrame = (cb) => {
+        setTimeout(() => { try { cb(_futureTs); } catch (_) { /* ignore */ } }, 0);
+        return 0;
+      };
+      // Restore original rAF after snapshot window (500 ms > 300 ms wait)
+      setTimeout(() => { window.requestAnimationFrame = _origRaf; }, 500);
     });
 
     // Short pause so Swiper can update its ARIA attributes after slideTo
