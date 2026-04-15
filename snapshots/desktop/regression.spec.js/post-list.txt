@@ -7,7 +7,16 @@
       - /url: https://essential-addons.com/elementor/docs/dynamic-content-elements/smart-post-list/
     - text: Elements Panel
     - img "EA Smart Post list for Elementor 101"
+    - button "Play, How to Display Your Blog Posts Beautifully using EA Smart Post List": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:20
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - button "Play, How to Display Your Blog Posts Beautifully using EA Smart Post List": Play
     - heading "Filter & Search With Categories" [level=3]
     - text: Choose the source type as posts, add blog categories from ‘Query’ section. Select advanced post layout, enable ajax search bar & show filter category options from ‘Layout Settings’ & configure the ‘List Post Settings’
     - link "All":

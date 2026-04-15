@@ -7,16 +7,6 @@
       - /url: https://essential-addons.com/elementor/docs/content-toggle/
     - text: Elements Panel
     - img "Content Toggle 101"
-    - button "Play, How to Make Your Content Interactive using EA Toggle": Play
-    - slider "Seek": "0"
-    - text: 00:00
-    - timer "Current time": 01:33
-    - button "Mute"
-    - slider "Volume": "1"
-    - button "Settings"
-    - button "Enter fullscreen"
-    - iframe
-    - button "Play, How to Make Your Content Interactive using EA Toggle": Play
     - heading "Display Save Template For Content Toggle" [level=3]
     - text: Choose your save template designs & set your both primary and seconder section Limited Unlimited
     - heading "Basic" [level=2]
@@ -65,55 +55,111 @@
     - text: Visualize data comparison table template to let visitors know what you are offering at a glance with an amazing Gradient style toggle Data Table Comparison Table
     - table:
       - rowgroup:
-        - row "Content Toggle 102 Day Content Toggle 103 Time Content Toggle 104 Class Content Toggle 105 Instructor":
-          - columnheader "Content Toggle 102 Day":
+        - row "Content Toggle 102Day Content Toggle 103Time Content Toggle 104Class Content Toggle 105Instructor":
+          - columnheader "Content Toggle 102Day":
             - img "Content Toggle 102"
             - text: Day
-          - columnheader "Content Toggle 103 Time":
+          - columnheader "Content Toggle 103Time":
             - img "Content Toggle 103"
             - text: Time
-          - columnheader "Content Toggle 104 Class":
+          - columnheader "Content Toggle 104Class":
             - img "Content Toggle 104"
             - text: Class
-          - columnheader "Content Toggle 105 Instructor":
+          - columnheader "Content Toggle 105Instructor":
             - img "Content Toggle 105"
             - text: Instructor
       - rowgroup:
-        - row "Saturday 10 AM – 11 AM Mind Body Yoga Lopita Edward":
-          - cell "Saturday"
-          - cell "10 AM – 11 AM"
-          - cell "Mind Body Yoga"
-          - cell "Lopita Edward"
-        - row "Sunday 1 PM – 2 PM Spinning Mary Walberg":
-          - cell "Sunday"
-          - cell "1 PM – 2 PM"
-          - cell "Spinning"
-          - cell "Mary Walberg"
-        - row "Monday 11:30 AM – 12:30 PM Lower Body Tina Martin":
-          - cell "Monday"
-          - cell "11:30 AM – 12:30 PM"
-          - cell "Lower Body"
-          - cell "Tina Martin"
-        - row "Tuesday 2 PM – 3 PM Aqua Aerobics Mathew Eric":
-          - cell "Tuesday"
-          - cell "2 PM – 3 PM"
-          - cell "Aqua Aerobics"
-          - cell "Mathew Eric"
-        - row "Wednesday 11 AM – 12 PM Poolside Yoga Yara Williams":
-          - cell "Wednesday"
-          - cell "11 AM – 12 PM"
-          - cell "Poolside Yoga"
-          - cell "Yara Williams"
-        - row "Thursday 3 PM – 4 PM Zomba Mark Stanford":
-          - cell "Thursday"
-          - cell "3 PM – 4 PM"
-          - cell "Zomba"
-          - cell "Mark Stanford"
-        - row "Friday 10 AM – 11 AM Cardio Spin Martha Charles":
-          - cell "Friday"
-          - cell "10 AM – 11 AM"
-          - cell "Cardio Spin"
-          - cell "Martha Charles"
+        - row "Content Toggle 102Day Saturday Content Toggle 103Time 10 AM – 11 AM Content Toggle 104Class Mind Body Yoga Content Toggle 105Instructor Lopita Edward":
+          - cell "Content Toggle 102Day Saturday":
+            - img "Content Toggle 102"
+            - text: Day Saturday
+          - cell "Content Toggle 103Time 10 AM – 11 AM":
+            - img "Content Toggle 103"
+            - text: Time 10 AM – 11 AM
+          - cell "Content Toggle 104Class Mind Body Yoga":
+            - img "Content Toggle 104"
+            - text: Class Mind Body Yoga
+          - cell "Content Toggle 105Instructor Lopita Edward":
+            - img "Content Toggle 105"
+            - text: Instructor Lopita Edward
+        - row "Content Toggle 102Day Sunday Content Toggle 103Time 1 PM – 2 PM Content Toggle 104Class Spinning Content Toggle 105Instructor Mary Walberg":
+          - cell "Content Toggle 102Day Sunday":
+            - img "Content Toggle 102"
+            - text: Day Sunday
+          - cell "Content Toggle 103Time 1 PM – 2 PM":
+            - img "Content Toggle 103"
+            - text: Time 1 PM – 2 PM
+          - cell "Content Toggle 104Class Spinning":
+            - img "Content Toggle 104"
+            - text: Class Spinning
+          - cell "Content Toggle 105Instructor Mary Walberg":
+            - img "Content Toggle 105"
+            - text: Instructor Mary Walberg
+        - row "Content Toggle 102Day Monday Content Toggle 103Time 11:30 AM – 12:30 PM Content Toggle 104Class Lower Body Content Toggle 105Instructor Tina Martin":
+          - cell "Content Toggle 102Day Monday":
+            - img "Content Toggle 102"
+            - text: Day Monday
+          - cell "Content Toggle 103Time 11:30 AM – 12:30 PM":
+            - img "Content Toggle 103"
+            - text: Time 11:30 AM – 12:30 PM
+          - cell "Content Toggle 104Class Lower Body":
+            - img "Content Toggle 104"
+            - text: Class Lower Body
+          - cell "Content Toggle 105Instructor Tina Martin":
+            - img "Content Toggle 105"
+            - text: Instructor Tina Martin
+        - row "Content Toggle 102Day Tuesday Content Toggle 103Time 2 PM – 3 PM Content Toggle 104Class Aqua Aerobics Content Toggle 105Instructor Mathew Eric":
+          - cell "Content Toggle 102Day Tuesday":
+            - img "Content Toggle 102"
+            - text: Day Tuesday
+          - cell "Content Toggle 103Time 2 PM – 3 PM":
+            - img "Content Toggle 103"
+            - text: Time 2 PM – 3 PM
+          - cell "Content Toggle 104Class Aqua Aerobics":
+            - img "Content Toggle 104"
+            - text: Class Aqua Aerobics
+          - cell "Content Toggle 105Instructor Mathew Eric":
+            - img "Content Toggle 105"
+            - text: Instructor Mathew Eric
+        - row "Content Toggle 102Day Wednesday Content Toggle 103Time 11 AM – 12 PM Content Toggle 104Class Poolside Yoga Content Toggle 105Instructor Yara Williams":
+          - cell "Content Toggle 102Day Wednesday":
+            - img "Content Toggle 102"
+            - text: Day Wednesday
+          - cell "Content Toggle 103Time 11 AM – 12 PM":
+            - img "Content Toggle 103"
+            - text: Time 11 AM – 12 PM
+          - cell "Content Toggle 104Class Poolside Yoga":
+            - img "Content Toggle 104"
+            - text: Class Poolside Yoga
+          - cell "Content Toggle 105Instructor Yara Williams":
+            - img "Content Toggle 105"
+            - text: Instructor Yara Williams
+        - row "Content Toggle 102Day Thursday Content Toggle 103Time 3 PM – 4 PM Content Toggle 104Class Zomba Content Toggle 105Instructor Mark Stanford":
+          - cell "Content Toggle 102Day Thursday":
+            - img "Content Toggle 102"
+            - text: Day Thursday
+          - cell "Content Toggle 103Time 3 PM – 4 PM":
+            - img "Content Toggle 103"
+            - text: Time 3 PM – 4 PM
+          - cell "Content Toggle 104Class Zomba":
+            - img "Content Toggle 104"
+            - text: Class Zomba
+          - cell "Content Toggle 105Instructor Mark Stanford":
+            - img "Content Toggle 105"
+            - text: Instructor Mark Stanford
+        - row "Content Toggle 102Day Friday Content Toggle 103Time 10 AM – 11 AM Content Toggle 104Class Cardio Spin Content Toggle 105Instructor Martha Charles":
+          - cell "Content Toggle 102Day Friday":
+            - img "Content Toggle 102"
+            - text: Day Friday
+          - cell "Content Toggle 103Time 10 AM – 11 AM":
+            - img "Content Toggle 103"
+            - text: Time 10 AM – 11 AM
+          - cell "Content Toggle 104Class Cardio Spin":
+            - img "Content Toggle 104"
+            - text: Class Cardio Spin
+          - cell "Content Toggle 105Instructor Martha Charles":
+            - img "Content Toggle 105"
+            - text: Instructor Martha Charles
     - heading "Make Your Toggle Look Standout" [level=3]
     - text: Display customize template layout to display any kind of major information with Toggle & style each section to create an attractive look Current Features Upcoming Features
     - link "Content Toggle 134 Info Box":

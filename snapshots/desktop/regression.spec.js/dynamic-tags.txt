@@ -21,4 +21,3 @@
 - heading "Pull in Custom Content from Anywhere" [level=2]
 - text: Custom Post Types allows to grab content from landing pages and documents to showcase on your web page. This feature enhances flexibility, enabling you to pull custom content dynamically from various sources and display it seamlessly. desktop
 - status
-- button "Open chat"

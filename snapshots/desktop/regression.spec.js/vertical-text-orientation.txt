@@ -72,7 +72,7 @@
 - link "BOOK A TABLE":
   - /url: "#"
 - heading "Enjoy our" [level=2]
-- text: Desserts|
+- text: De|
 - heading "Twitter Facebook Instagram" [level=2]
 - heading "Why Use Vertical Text Orientation?" [level=2]
 - heading "Aesthetic Modern" [level=4]

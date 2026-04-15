@@ -1,5 +1,5 @@
 - img "deals"
-- text: 1 New Site Every Minute|
+- text: 1 New S|
 - heading "The Number 1 Most-Popular Elementor Addon:" [level=2]
 - heading "Essential Addons for Elementor" [level=2]
 - text: Bring your dream websites to life with Essential Addons, the most used, no-code Elementor addon for 2 Million web creators from 180+ countries around the globe!

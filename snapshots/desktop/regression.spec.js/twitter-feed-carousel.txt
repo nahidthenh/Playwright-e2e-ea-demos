@@ -6,7 +6,16 @@
     - text: Display your Twitter posts interactively on website with EA Twitter Feed Carousel. It allows showcasing your tweets beautifully with carousel effects without coding. Just pick your preferred layout from Masonry Layout or List Layout and instantly make it happened with a bit of customization.
     - link "Documentation":
       - /url: https://essential-addons.com/elementor/docs/social-elements/twitter-feed-carousel/
+    - button "Pause" [pressed]
+    - slider "Seek": "0.13"
+    - text: 00:00
+    - timer "Current time": "-02:12"
+    - button "Unmute" [pressed]
+    - slider "Volume": "0"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - button "Pause" [pressed]: Play
     - heading "Twitter Feed Carousel Style 1" [level=3]
     - group "1 / 10":
       - link "Twitter Feed Carousel 102":

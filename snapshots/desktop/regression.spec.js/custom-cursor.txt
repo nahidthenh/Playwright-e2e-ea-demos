@@ -75,4 +75,3 @@
 - paragraph: Take control of your cursor colors and effects, ensuring every interaction is aligned with the website’s overall style and branding.
 - text: desktop
 - status
-- button "Open chat"

@@ -22,4 +22,3 @@
 - img "Breadcrumb 12"
 - text: desktop
 - status
-- button "Open chat"

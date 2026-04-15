@@ -151,4 +151,3 @@
     - iframe
 - text: desktop
 - status
-- button "Open chat"

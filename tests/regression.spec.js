@@ -62,23 +62,40 @@ for (const url of filteredUrls) {
   const testName = urlToSnapshotName(url);
 
   test(testName, async ({ page }) => {
-    // ── 1. Navigate ────────────────────────────────────────────────────────
-    // 'load' fires when HTML + render-blocking resources are done.
-    // Much faster than 'networkidle' which stalls on pages with social
-    // embeds, WooCommerce polling, or persistent background requests.
-    // Elementor readiness is handled separately by waitForElementorReady().
+    // ── 1. Block heavy resources to avoid timeouts ─────────────────────────
+    // Abort images, fonts, media and common analytics/tracking scripts.
+    // This does NOT affect ARIA snapshots — elements remain in the DOM
+    // (img alt text, etc. still captured); they just don't download.
+    await page.route('**/*', (route) => {
+      const type = route.request().resourceType();
+      const url  = route.request().url();
+
+      const blockTypes = ['image', 'media', 'font'];
+      const blockDomains = [
+        'google-analytics.com', 'googletagmanager.com',
+        'facebook.net', 'facebook.com/tr',
+        'hotjar.com', 'clarity.ms',
+        'doubleclick.net', 'googlesyndication.com',
+      ];
+
+      if (blockTypes.includes(type)) return route.abort();
+      if (blockDomains.some((d) => url.includes(d))) return route.abort();
+      route.continue();
+    });
+
+    // ── 2. Navigate ────────────────────────────────────────────────────────
     await page.goto(url, {
       waitUntil: 'load',
       timeout: 60_000,
     });
 
-    // ── 2. Dismiss cookie / GDPR banners ───────────────────────────────────
+    // ── 3. Dismiss cookie / GDPR banners ───────────────────────────────────
     await dismissCookieBanner(page);
 
-    // ── 3. Wait for Elementor frontend to finish initializing ──────────────
+    // ── 4. Wait for Elementor frontend to finish initializing ──────────────
     await waitForElementorReady(page);
 
-    // ── 4. Hide elements that change on every load and would cause false positives ──
+    // ── 5. Hide elements that change on every load and would cause false positives ──
     await page.addStyleTag({
       content: `
         /* ── Site chrome (header / footer / WP admin bar) ── */
@@ -114,10 +131,25 @@ for (const url of filteredUrls) {
         .ea-optin-popup, .ea-optin-bar {
           display: none !important;
         }
+
+        /* ── Live chat widgets ──
+           Hide by aria-label and common vendor container IDs/classes.
+           These load inconsistently and cause random failures. */
+        [aria-label="Open chat"],
+        #intercom-container,
+        .intercom-lightweight-app,
+        .intercom-launcher,
+        #hubspot-messages-iframe-container,
+        #crisp-chatbox,
+        .drift-frame-controller,
+        #tidio-chat,
+        #fc_frame {
+          display: none !important;
+        }
       `,
     });
 
-    // ── 5. Capture the ARIA tree and compare against the stored snapshot ───
+    // ── 6. Capture the ARIA tree and compare against the stored snapshot ───
     // page.locator('body').ariaSnapshot() returns a YAML-like string of the
     // full accessibility tree — roles, names, headings, buttons, links, text.
     // CSS classes, nonces, asset hashes and inline styles are invisible to it.

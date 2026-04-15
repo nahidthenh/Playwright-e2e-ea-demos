@@ -57,7 +57,7 @@
   - img "Woo Product Images 12"
 - group "4 / 6":
   - img "Woo Product Images 13"
-- button "Previous slide": prev
+- button "Previous slide" [disabled]: prev
 - button "Next slide": next
 - img "Woo Product Images 16"
 - heading "Drive Sales With Outstanding Image Product Display" [level=2]
@@ -109,7 +109,7 @@
   - img "Woo Product Images 25"
 - group "4 / 6":
   - img "Woo Product Images 26"
-- button "Previous slide": prev
+- button "Previous slide" [disabled]: prev
 - button "Next slide": next
 - img "Woo Product Images 29"
 - heading "Design Consistent Brand Aesthetic With Image Navigation" [level=2]
@@ -136,7 +136,7 @@
 - button "Go to slide 3"
 - button "Go to slide 4"
 - button "Go to slide 5"
-- button "Previous slide": prev
+- button "Previous slide" [disabled]: prev
 - button "Next slide": next
 - img "Woo Product Images 35"
 - heading "Skyrocket Sales Utilizing Interactive Product Images" [level=2]
@@ -168,7 +168,7 @@
   - img "Woo Product Images 42"
 - group "6 / 6":
   - img "Woo Product Images 47"
-- button "Previous slide": prev
+- button "Previous slide" [disabled]: prev
 - button "Next slide": next
 - img "Woo Product Images 48"
 - text: desktop

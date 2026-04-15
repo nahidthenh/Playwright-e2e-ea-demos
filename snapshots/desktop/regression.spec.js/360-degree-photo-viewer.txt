@@ -96,4 +96,3 @@
 - heading "Customizable Navigation Bar" [level=2]
 - text: Personalize controls for easy and user-friendly navigation to customize the ultimate experience desktop
 - status
-- button "Open chat"

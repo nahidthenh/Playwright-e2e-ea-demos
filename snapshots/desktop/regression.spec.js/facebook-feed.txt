@@ -1,0 +1,105 @@
+- main:
+  - article:
+    - img "Facebook Feed 1"
+    - heading "Facebook Feed" [level=2]
+    - text: EA Facebook Feed will let you display your latest Facebook posts on your WordPress site in a stunning card or overlay layout. You can style your feed in an amazing way the way you want and make it look interactive.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/facebook-feed/
+    - text: Elements Panel
+    - img "Facebook Feed 101"
+    - button "Play, How to Showcase Facebook Feed Using Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:17
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Showcase Facebook Feed Using Essential Addons": Play
+    - heading "Showcase Facebook Feed In Card Layout" [level=3]
+    - text: Go to the ‘General Settings’ to choose the card layout from ‘Layout Settings’ feature and sort your content to the newest from the ‘Feed Settings’.
+    - paragraph: Looking for the right Elementor landing page template for your...
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1382129420609086
+    - paragraph: essential-addons.com
+    - heading [level=2]
+    - paragraph
+    - paragraph:
+      - img "🚀"
+      - text: Elementor Version 4 is officially LIVE — and it's...
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1381301950691833
+    - paragraph: essential-addons.com
+    - heading [level=2]
+    - paragraph
+    - paragraph:
+      - img "💬"
+      - text: Is your support team drowning in repetitive questions? Here's...
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1381257380696290
+    - paragraph: betterdocs.co
+    - heading [level=2]
+    - paragraph
+    - heading "Style Your Facebook Card Layout" [level=3]
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1382129420609086
+    - paragraph: essential-addons.com
+    - heading [level=2]
+    - paragraph
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1381301950691833
+    - paragraph: essential-addons.com
+    - heading [level=2]
+    - paragraph
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1381257380696290
+    - paragraph: betterdocs.co
+    - heading [level=2]
+    - paragraph
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1379680417520653
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1379642810857747
+    - paragraph: wpdeveloper.com
+    - heading [level=2]
+    - paragraph
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1377090177779677
+    - paragraph: youtu.be
+    - heading [level=2]
+    - paragraph
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1375391667949528
+    - paragraph: wpdeveloper.com
+    - heading [level=2]
+    - paragraph
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1375283221293706
+    - paragraph: wpdeveloper.com
+    - heading [level=2]
+    - paragraph
+    - link:
+      - /url: https://www.facebook.com/489343776554326/posts/1373593908129304
+    - paragraph: essential-addons.com
+    - heading [level=2]
+    - paragraph
+    - heading "Display Facebook Feed In Overlay Layout" [level=3]
+    - link "4 0":
+      - /url: https://www.facebook.com/489343776554326/posts/1382129420609086
+    - link "1 0":
+      - /url: https://www.facebook.com/489343776554326/posts/1381301950691833
+    - link "4 0":
+      - /url: https://www.facebook.com/489343776554326/posts/1381257380696290
+    - link "9 1":
+      - /url: https://www.facebook.com/489343776554326/posts/1379680417520653
+    - link "4 0":
+      - /url: https://www.facebook.com/489343776554326/posts/1379642810857747
+    - link "7 0":
+      - /url: https://www.facebook.com/489343776554326/posts/1377090177779677
+    - link "5 0":
+      - /url: https://www.facebook.com/489343776554326/posts/1375391667949528
+    - link "2 0":
+      - /url: https://www.facebook.com/489343776554326/posts/1375283221293706
+- text: desktop
+- status

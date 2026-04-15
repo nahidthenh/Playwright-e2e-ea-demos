@@ -7,7 +7,7 @@
     - link "Documentation":
       - /url: https://essential-addons.com/docs/wpforms/
     - img "WPForms 101"
-    - button "Play"
+    - button "Play, How To Style WPForms Using Essential Addons For Elementor": Play
     - slider "Seek": "0"
     - text: 00:00
     - timer "Current time": 01:36
@@ -16,7 +16,7 @@
     - button "Settings"
     - button "Enter fullscreen"
     - iframe
-    - button "Play"
+    - button "Play, How To Style WPForms Using Essential Addons For Elementor": Play
     - heading "WPForms Style 01" [level=3]
     - text: Customize just the way you need and make it suitable for your website Name *
     - textbox "Name * First Name * First Name * First":

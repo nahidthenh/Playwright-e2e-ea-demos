@@ -1,0 +1,26 @@
+- main:
+  - article:
+    - heading "Support" [level=2]
+    - paragraph: Need help with any product? Want to contact with us? You’re at right place.
+    - img "Support 1"
+    - heading "General enquiries" [level=2]
+    - text: If you’re not a Pro user you can still get in touch with the live chat support. It covers pre-sale queries, general enquiries and instant support for customers.
+    - link "Start live chat!":
+      - /url: "#"
+    - img "Support 2"
+    - heading "Priority Support" [level=2]
+    - paragraph: All paid customers can enjoy priority support with guaranteed, fast response times. It might take few hours in weekends.
+    - link "Create Support Ticket!":
+      - /url: https://essential-addons.com/elementor/create-a-ticket/
+    - img "Support 3"
+    - heading "Documentation" [level=2]
+    - paragraph: Covers the plugin usage documentations. Get quick help for general topics.
+    - link "Follow Documentation":
+      - /url: https://essential-addons.com/docs/
+    - img "Support 4"
+    - heading "Community Forum" [level=2]
+    - paragraph: Browse all public tickets and get solutions easily. You can also connect with community and get help and suggestions.
+    - link "Visit Forum":
+      - /url: https://community.wpdeveloper.net/
+- text: desktop
+- status

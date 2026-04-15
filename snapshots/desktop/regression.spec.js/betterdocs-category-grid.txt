@@ -279,4 +279,3 @@
         - /url: https://essential-addons.com/docs-category/marketing-elements/
 - text: desktop
 - status
-- button "Open chat"

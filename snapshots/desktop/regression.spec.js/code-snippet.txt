@@ -44,4 +44,3 @@
 - heading "Control Over Color & Typography" [level=2]
 - text: Customize the appearance of your code snippet to enhance readability and style by adjusting colors, fonts, and text sizes. Whether you prefer a bold, high-contrast color scheme for better visibility or a sleek, minimalistic font style, you can do all desktop
 - status
-- button "Open chat"

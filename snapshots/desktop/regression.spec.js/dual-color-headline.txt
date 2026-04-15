@@ -33,4 +33,3 @@
     - paragraph: Catch the attention of your visitors
 - text: desktop
 - status
-- button "Open chat"
