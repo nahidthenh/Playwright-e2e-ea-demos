@@ -256,5 +256,5 @@
     - /url: https://www.google.com/maps/contrib/113453568266231797628/reviews
   - text: 2 months ago Google's customer service is almost useless when it comes to billing. I was invoiced for my Google workspace account to the wrong address. I was taxed in the wrong state. Upon noticing the incorrect invoice I contacted Google to change my address and asked that the invoice be corrected. I have spent the last several days talking to customer service and all they can say is it can't be fixed. So a giant company like Google can't void an invoice an issue a corrected invoice. It seems immoral to me that this company is excising these business practices. This was not a small bill it was for an annual account of 20 work space users. I am extremely disappointed with their business practices
   - img
-- text: desktop
+- text: mobile
 - status

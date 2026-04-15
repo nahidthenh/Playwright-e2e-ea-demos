@@ -152,5 +152,9 @@
         - 'row "Payment method: Cash on delivery"':
           - rowheader "Payment method:"
           - cell "Cash on delivery"
-- text: desktop
+    - heading "Billing Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP 01315561313 joe@bloggs.com
+    - heading "Shipping Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP
+- text: mobile
 - status

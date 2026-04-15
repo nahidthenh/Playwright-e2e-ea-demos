@@ -16,5 +16,5 @@
     - text: Easily link different sections making every corner of your page a new journey for the visitors. Enhance the browsing experience with flexibility and convenience.
     - heading "Make Websites Interactive With Clickable Column" [level=3]
     - text: Add clickable columns with links to any part of your webpage to make your site as interactive and user-friendly as possible.
-- text: desktop
+- text: mobile
 - status

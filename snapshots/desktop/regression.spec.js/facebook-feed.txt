@@ -15,17 +15,13 @@
     - paragraph: essential-addons.com
     - heading [level=2]
     - paragraph
-    - paragraph:
-      - img "🚀"
-      - text: Elementor Version 4 is officially LIVE — and it's...
+    - paragraph: 🚀 Elementor Version 4 is officially LIVE — and it's...
     - link:
       - /url: https://www.facebook.com/489343776554326/posts/1381301950691833
     - paragraph: essential-addons.com
     - heading [level=2]
     - paragraph
-    - paragraph:
-      - img "💬"
-      - text: Is your support team drowning in repetitive questions? Here's...
+    - paragraph: 💬 Is your support team drowning in repetitive questions? Here's...
     - link:
       - /url: https://www.facebook.com/489343776554326/posts/1381257380696290
     - paragraph: betterdocs.co

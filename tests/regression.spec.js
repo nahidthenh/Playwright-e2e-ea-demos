@@ -173,6 +173,25 @@ for (const url of filteredUrls) {
           display: none !important;
         }
 
+        /* ── Carousels / sliders (Swiper, Splide, Slick, EA Business Reviews) ──
+           Cloned slides for infinite-loop and auto-advancing position make
+           the ARIA tree non-deterministic on every run.
+           Hide clones so only the real slides appear, and freeze all
+           slide-track transitions so the active position is stable. */
+        .swiper-slide-duplicate,
+        .slick-cloned,
+        .splide__slide--clone {
+          display: none !important;
+        }
+        .swiper-wrapper,
+        .slick-track,
+        .splide__track,
+        .splide__list {
+          transition: none !important;
+          animation: none !important;
+          transform: none !important;
+        }
+
         /* ── Live chat widgets ──
            Hide by aria-label and common vendor container IDs/classes.
            These load inconsistently and cause random failures. */

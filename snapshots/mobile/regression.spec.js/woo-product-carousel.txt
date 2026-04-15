@@ -109,14 +109,6 @@
         - strong: "5.00"
         - text: out of 5 based on  1 customer rating
       - text: £60.00
-    - group "1 / 4":
-      - img "Woo Product Carousel 102"
-    - group "2 / 4":
-      - img "Woo Product Carousel 103"
-    - group "3 / 4":
-      - img "Woo Product Carousel 104"
-    - group "4 / 4":
-      - img "Woo Product Carousel 105"
     - heading "Product Carousel Layout 03" [level=3]
     - paragraph: Use layout 'Preset 3', showcase product rating, price & more to make this section appealing
     - group "1 / 4":
@@ -219,5 +211,5 @@
     - button "Go to slide 2"
     - button "Go to slide 3"
     - button "Go to slide 4"
-- text: desktop
+- text: mobile
 - status

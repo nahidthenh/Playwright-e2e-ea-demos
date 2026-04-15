@@ -71,5 +71,5 @@
       - img "WooCommerce Product Collections 113"
       - text: Devices
       - heading "Black" [level=2]
-- text: desktop
+- text: mobile
 - status

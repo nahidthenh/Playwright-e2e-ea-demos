@@ -269,5 +269,5 @@
     - button "Go to slide 4"
     - button "Next slide": 
     - button "Previous slide": 
-- text: desktop
+- text: mobile
 - status

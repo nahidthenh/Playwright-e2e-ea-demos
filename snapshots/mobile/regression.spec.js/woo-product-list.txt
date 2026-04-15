@@ -178,5 +178,5 @@
   - 'button "Add to cart: “Blossom Bloom Glass Vase”"':  Add to cart
 - heading "300 Item" [level=4]
 - paragraph:  Chair
-- text: desktop
+- text: mobile
 - status

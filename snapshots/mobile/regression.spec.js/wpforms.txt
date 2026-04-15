@@ -40,5 +40,5 @@
     - text: Comment or Message *
     - textbox
     - button "Submit"
-- text: desktop
+- text: mobile
 - status

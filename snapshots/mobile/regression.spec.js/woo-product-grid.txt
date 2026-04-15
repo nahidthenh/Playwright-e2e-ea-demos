@@ -147,5 +147,5 @@
         - strong: "0"
         - text: out of 5 £99.00
     - text: Elements Panel
-- text: desktop
+- text: mobile
 - status

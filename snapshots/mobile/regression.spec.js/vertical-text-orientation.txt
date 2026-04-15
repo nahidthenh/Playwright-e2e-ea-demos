@@ -62,7 +62,6 @@
 - heading "04" [level=2]
 - img "Vertical Text Orientation 15"
 - heading "Fashion with Color" [level=2]
-- heading "12 Oct 2025" [level=2]
 - list:
   - listitem: MENU
   - listitem: RESERVATIONS
@@ -71,7 +70,6 @@
 - link "BOOK A TABLE":
   - /url: "#"
 - heading "Enjoy our" [level=2]
-- heading "Twitter Facebook Instagram" [level=2]
 - heading "Why Use Vertical Text Orientation?" [level=2]
 - heading "Aesthetic Modern" [level=4]
 - paragraph: Give your website a fresh, magazine-inspired look that stands out. Vertical text instantly adds a touch of modern design and creativity to any layout.
@@ -88,5 +86,5 @@
 - text: Fine-tune every detail by flipping your text, adjusting letter or word spacing, and setting line height for perfect alignment and balance.
 - img "Vertical Text Orientation 19"
 - heading "Creative Styling" [level=2]
-- text: Enhance your vertical text with stylish backgrounds or gradient effects, turning simple words into striking design elements. desktop
+- text: Enhance your vertical text with stylish backgrounds or gradient effects, turning simple words into striking design elements. mobile
 - status
