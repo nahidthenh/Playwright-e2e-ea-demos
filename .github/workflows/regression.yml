@@ -36,7 +36,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          # Fetch full history so snapshot updates can be committed back
           fetch-depth: 0
 
       # ---------------------------------------------------------------
@@ -49,28 +48,31 @@ jobs:
           cache: "npm"
 
       # ---------------------------------------------------------------
-      # 3. Install npm dependencies (Playwright test runner)
+      # 3. Install npm dependencies (Playwright + Slack reporter)
       # ---------------------------------------------------------------
       - name: Install dependencies
         run: npm ci
 
       # ---------------------------------------------------------------
-      # 4. Install only the Chromium browser (fastest; we use it for both
-      #    desktop and mobile via viewport/UA overrides in playwright.config)
+      # 4. Install only the Chromium browser
       # ---------------------------------------------------------------
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
       # ---------------------------------------------------------------
       # 5. Run regression tests
-      #    - On scheduled / push runs: compare against committed baselines
-      #    - On manual dispatch with update_snapshots=yes: regenerate baselines
+      #    SLACK_CHANNEL_ID  → set in repo Settings → Secrets
+      #    SLACK_BOT_TOKEN → set in repo Settings → Secrets
+      #    PAGES_URL         → link shown in the Slack message
       # ---------------------------------------------------------------
       - name: Run regression tests
         env:
           CI: "true"
-          # Pass optional URL filter from workflow_dispatch input
           URL_FILTER: ${{ github.event.inputs.url_filter || '' }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          # Deep-link to the HTML report artifact for this run
+          PAGES_URL: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
         run: |
           if [ "${{ github.event.inputs.update_snapshots }}" = "yes" ]; then
             echo "Updating baseline snapshots..."
@@ -81,8 +83,7 @@ jobs:
           fi
 
       # ---------------------------------------------------------------
-      # 6. Upload HTML test report as an artifact (available for 30 days)
-      #    Always upload so you can see results even on failure
+      # 6. Upload HTML report (always, 30 day retention)
       # ---------------------------------------------------------------
       - name: Upload Playwright report
         if: always()
@@ -93,7 +94,7 @@ jobs:
           retention-days: 30
 
       # ---------------------------------------------------------------
-      # 7. Upload snapshot diffs on failure so you can inspect visually
+      # 7. Upload snapshot diffs on failure (14 day retention)
       # ---------------------------------------------------------------
       - name: Upload snapshot diffs on failure
         if: failure()
@@ -104,9 +105,7 @@ jobs:
           retention-days: 14
 
       # ---------------------------------------------------------------
-      # 8. (Optional) Commit updated snapshots back to the repo when
-      #    running a manual "update_snapshots=yes" dispatch.
-      #    This keeps baselines in version control automatically.
+      # 8. Commit updated snapshots back to the repo on manual dispatch
       # ---------------------------------------------------------------
       - name: Commit updated snapshots
         if: github.event.inputs.update_snapshots == 'yes'

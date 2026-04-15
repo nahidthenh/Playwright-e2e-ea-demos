@@ -138,6 +138,46 @@ npx playwright test --project=desktop --update-snapshots --grep "new-widget"
 
 ---
 
+## Slack Notifications
+
+Test results are posted to Slack after every CI run using [`playwright-slack-report`](https://github.com/ryanrosello-og/playwright-slack-report).
+
+### Setup (one-time)
+
+**1. Create a Slack Bot**
+- Go to [api.slack.com/apps](https://api.slack.com/apps) → **Create New App** → From scratch
+- Name it e.g. `EA Regression Bot`
+- Under **OAuth & Permissions** → **Bot Token Scopes**, add:
+  - `chat:write`
+  - `chat:write.public`
+- Click **Install to Workspace** → copy the **Bot User OAuth Token** (`xoxb-...`)
+
+**2. Get your Slack Channel ID**
+- Open Slack → right-click the channel → **View channel details** → copy the **Channel ID** at the bottom (`C0XXXXXXXX`)
+
+**3. Add secrets to GitHub**
+- Go to your repo → **Settings → Secrets and variables → Actions → New repository secret**
+
+| Secret name | Value |
+|---|---|
+| `SLACK_BOT_TOKEN` | `xoxb-your-token-here` |
+| `SLACK_CHANNEL_ID` | `C0XXXXXXXXX` |
+
+That's it — the workflow reads these secrets automatically on every run.
+
+### What the Slack message looks like
+
+```
+:essential-addons-logo: Demo Regression - Test Results
+🖥️ View Results!  ← links to the GitHub Actions run
+
+✅ 124 passed   ❌ 4 failed   ⏱ 7m 12s
+```
+
+Failures are listed with the widget name and a short diff summary.
+
+---
+
 ## GitHub Actions
 
 The workflow at [.github/workflows/regression.yml](.github/workflows/regression.yml) runs automatically on:

@@ -11,6 +11,7 @@
     "report": "playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.44.0"
+    "@playwright/test": "^1.44.0",
+    "playwright-slack-report": "^1.1.110"
   }
 }

@@ -17,10 +17,40 @@ module.exports = defineConfig({
   // Use all available CPU cores on CI, 4 locally for stable parallel runs
   workers: process.env.CI ? '100%' : 4,
 
-  // Reporter: HTML for local review, GitHub Actions annotation on CI
+  // ── Reporters ──────────────────────────────────────────────────────────────
+  // CI:    GitHub annotations + HTML report + Slack notification
+  // Local: list output + HTML report (no Slack)
   reporter: process.env.CI
-    ? [['github'], ['html', { outputFolder: 'playwright-report', open: 'never' }]]
-    : [['html', { outputFolder: 'playwright-report', open: 'on-failure' }]],
+    ? [
+        ['github'],
+        ['html', { outputFolder: 'playwright-report', open: 'never' }],
+        [
+          './node_modules/playwright-slack-report/dist/src/SlackReporter.js',
+          {
+            // SLACK_CHANNEL_ID is set as a GitHub Actions secret
+            channels: [process.env.SLACK_CHANNEL_ID],
+
+            // Send to Slack whether tests pass or fail
+            sendResults: 'always',
+
+            // Show all failures in Slack (0 = unlimited)
+            maxNumberOfFailuresToShow: 0,
+
+            // Custom metadata block shown at the top of the Slack message
+            meta: [
+              {
+                key: ':essential-addons-logo: Demo Regression - Test Results',
+                // PAGES_URL is the GitHub Pages / artifact URL set in the workflow
+                value: `🖥️ <${process.env.PAGES_URL}|View Results!>`,
+              },
+            ],
+          },
+        ],
+      ]
+    : [
+        ['list'],
+        ['html', { outputFolder: 'playwright-report', open: 'never' }],
+      ],
 
   // Shared settings applied to every project
   use: {
