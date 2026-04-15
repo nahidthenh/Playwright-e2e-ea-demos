@@ -1,0 +1,126 @@
+name: EA Demo Regression Tests
+
+on:
+  # Run on every push to main/master (e.g. after a plugin release)
+  push:
+    branches: [main, master]
+
+  # Run on every PR targeting main/master
+  pull_request:
+    branches: [main, master]
+
+  # Manual trigger from the GitHub Actions UI
+  # Allows choosing whether to UPDATE baselines or just compare
+  workflow_dispatch:
+    inputs:
+      update_snapshots:
+        description: "Update baseline snapshots? (yes/no)"
+        required: false
+        default: "no"
+      url_filter:
+        description: "Optional URL substring filter (e.g. 'woo' for WooCommerce only)"
+        required: false
+        default: ""
+
+  # Scheduled: run every Monday at 08:00 UTC to catch CDN / CMS drift
+  schedule:
+    - cron: "0 8 * * 1"
+
+jobs:
+  regression:
+    name: DOM Regression (${{ matrix.project }})
+    runs-on: ubuntu-latest
+
+    # Run desktop and mobile projects in parallel as separate matrix jobs
+    strategy:
+      fail-fast: false  # Let all matrix jobs finish even if one fails
+      matrix:
+        project: [desktop, mobile]
+
+    steps:
+      # ---------------------------------------------------------------
+      # 1. Check out the repository (includes snapshots/ directory)
+      # ---------------------------------------------------------------
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so snapshot updates can be committed back
+          fetch-depth: 0
+
+      # ---------------------------------------------------------------
+      # 2. Set up Node.js with npm caching
+      # ---------------------------------------------------------------
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # ---------------------------------------------------------------
+      # 3. Install npm dependencies (Playwright test runner)
+      # ---------------------------------------------------------------
+      - name: Install dependencies
+        run: npm ci
+
+      # ---------------------------------------------------------------
+      # 4. Install only the Chromium browser (fastest; we use it for both
+      #    desktop and mobile via viewport/UA overrides in playwright.config)
+      # ---------------------------------------------------------------
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      # ---------------------------------------------------------------
+      # 5. Run regression tests
+      #    - On scheduled / push runs: compare against committed baselines
+      #    - On manual dispatch with update_snapshots=yes: regenerate baselines
+      # ---------------------------------------------------------------
+      - name: Run regression tests
+        env:
+          CI: "true"
+          # Pass optional URL filter from workflow_dispatch input
+          URL_FILTER: ${{ github.event.inputs.url_filter || '' }}
+        run: |
+          if [ "${{ github.event.inputs.update_snapshots }}" = "yes" ]; then
+            echo "Updating baseline snapshots..."
+            npx playwright test --project=${{ matrix.project }} --update-snapshots
+          else
+            echo "Running regression comparison..."
+            npx playwright test --project=${{ matrix.project }}
+          fi
+
+      # ---------------------------------------------------------------
+      # 6. Upload HTML test report as an artifact (available for 30 days)
+      #    Always upload so you can see results even on failure
+      # ---------------------------------------------------------------
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.project }}
+          path: playwright-report/
+          retention-days: 30
+
+      # ---------------------------------------------------------------
+      # 7. Upload snapshot diffs on failure so you can inspect visually
+      # ---------------------------------------------------------------
+      - name: Upload snapshot diffs on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: snapshot-diffs-${{ matrix.project }}
+          path: test-results/
+          retention-days: 14
+
+      # ---------------------------------------------------------------
+      # 8. (Optional) Commit updated snapshots back to the repo when
+      #    running a manual "update_snapshots=yes" dispatch.
+      #    This keeps baselines in version control automatically.
+      # ---------------------------------------------------------------
+      - name: Commit updated snapshots
+        if: github.event.inputs.update_snapshots == 'yes'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add snapshots/
+          git diff --cached --quiet || git commit -m "chore: update regression snapshots [${{ matrix.project }}] [skip ci]"
+          git push

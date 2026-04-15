@@ -1,0 +1,16 @@
+{
+  "name": "essential-addons-regression",
+  "version": "1.0.0",
+  "description": "Automated DOM regression testing for Essential Addons demo pages",
+  "scripts": {
+    "test": "playwright test",
+    "test:update": "playwright test --update-snapshots",
+    "test:desktop": "playwright test --project=desktop",
+    "test:mobile": "playwright test --project=mobile",
+    "test:filter": "playwright test --grep",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
