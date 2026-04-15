@@ -1,0 +1,83 @@
+- main:
+  - article:
+    - img "Progress Bar 1"
+    - heading "Progress Bar" [level=2]
+    - text: Showcase important stats using EA Progress Bar. You can show your visitors about your latest success rate, future goal predictions or progress rate using ready layout without any coding.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/progress-bar/
+    - text: Elements Panel
+    - img "Progress Bar 101"
+    - button "Play, How To Add Reading Progress Bar Using EA for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:55
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Add Reading Progress Bar Using EA for Elementor": Play
+    - heading "Implement Unique Styles" [level=3]
+    - text: Choose desired Layout Style & display progress rate uniquely to attract potential customers
+    - paragraph
+    - text: Photoshop 0% Illustrator 0% Animation 0% Effects 0% Digital Marketing 0% Content Writing 0% Search Engine Optimization 0% Media Planner 0%
+    - heading "Progress Bar Style 01" [level=3]
+    - text: Display Your Important Data Using Line Layout Style Website Design 0% Video Editor 0% Web Development 0% Mobile Application 0% SEO Marketing 0% Keyword Research 0% Marketing 0% Paid Campaign 0% Sales Marketing 0% Branding 0%
+    - heading "Progress Bar Style 02" [level=3]
+    - text: Change the Progress line using different colors & Customize the entire Style Creativaty 0% Applications 0% Photoshop 0% Development 0% Revenue 0% New Product 0% Development 0% Customer Statisfaction 0%
+    - heading "Progress Bar Style 03" [level=3]
+    - text: Try out the amazing Layout Line Rainbow to make the Progress Bar standout Creativaty 0% Applications 0% Photoshop 0% Development 0% Creativaty 0% Applications 0% Photoshop 0% Development 0%
+    - heading "Progress Bar Style 04" [level=3]
+    - text: Showcase your Achievement rate using the beautiful Circle Layout Style 0%
+    - heading "Website Design" [level=2]
+    - text: 0%
+    - heading "WordPress" [level=2]
+    - text: 0%
+    - heading "App Development" [level=2]
+    - text: 0%
+    - heading "Social Marketing" [level=2]
+    - heading "Progress Bar Style 05" [level=3]
+    - text: Make your Circle Layout Style more Interactive for Audience
+    - paragraph
+    - text: 0%
+    - heading "Web Development" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "Applications" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "Creativity" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "SEO Marketing" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed.
+    - heading "Progress Bar Style 06" [level=3]
+    - text: Design the layout Style just the way you want & make it more lucrative 0%
+    - heading "Website Design" [level=2]
+    - text: 0%
+    - heading "Mobile Application" [level=2]
+    - text: 0%
+    - heading "Corporate Identity" [level=2]
+    - text: 0%
+    - heading "Graphic Design" [level=2]
+    - heading "Progress Bar Style 07" [level=3]
+    - text: Choose the Half Circle Layout Style & Customize it as per your desire
+    - paragraph
+    - text: 0% 0% 100%
+    - heading "Web Development" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "Applications" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0% 0% 100%
+    - heading "Creativity" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "SEO Marketing" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed.
+    - heading "Progress Bar Style 08" [level=3]
+    - text: Showcase your Progress Bar by using the Box Layout Style 0%
+    - heading "Web Development" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "Applications" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "Creativity" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed. 0%
+    - heading "SEO Marketing" [level=2]
+    - text: aliquet elit nulla sed massa. Ut cursus massa urnaaculis estieed.
+- text: desktop
+- status

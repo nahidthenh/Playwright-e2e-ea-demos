@@ -1,0 +1,78 @@
+- main:
+  - article:
+    - img "Image Hotspots 1"
+    - heading "Image Hotspot" [level=2]
+    - text: EA Image Hotspot lets you make the image area hotspots with custom tooltips, so that user can click on the hotspots to reveal an associated text.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/creative-elements/image-hotspots/
+    - text: Elements Panel
+    - img "Image Hotspots 101"
+    - button "Play, How To Create Image Hotspots using EA for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:00
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Create Image Hotspots using EA for Elementor": Play
+    - heading "Make Image Interactive Using Hotspots" [level=3]
+    - text: Put hotspots on the image & help people to find the relevant information
+    - link "Bag":
+      - /url: "#"
+      - text: 
+    - link "Pad":
+      - /url: "#"
+      - text: 
+    - link "Book":
+      - /url: "#"
+      - text: 
+    - link "Mug":
+      - /url: "#"
+      - text: 
+    - link "T-shirt":
+      - /url: "#"
+      - text: 
+    - img "Image Hotspots 102"
+    - heading "Animate The Hotspots" [level=2]
+    - text: Display your beautiful images with animated hotspots by enabling the Tooltip toogle and configure its settings
+    - link "Bag":
+      - /url: "#"
+      - text: 
+    - link "Pad":
+      - /url: "#"
+      - text: 
+    - link "Book":
+      - /url: "#"
+      - text: 
+    - link "Mug":
+      - /url: "#"
+      - text: 
+    - link "Mug":
+      - /url: "#"
+      - text: 
+    - img "Image Hotspots 103"
+    - link "Bag":
+      - /url: "#"
+      - text: 
+    - link "Pad":
+      - /url: "#"
+      - text: 
+    - link "Mug":
+      - /url: "#"
+      - text: 
+    - link "Book":
+      - /url: "#"
+      - text: 
+    - link "T-shirt":
+      - /url: "#"
+      - text: 
+    - link "T-shirt":
+      - /url: "#"
+      - text: 
+    - img "Image Hotspots 104"
+    - heading "Display Price Tags with Hotspots & Link it to Product" [level=2]
+    - text: Display as much as hotspot you want and take your visitors directly to your product pages.
+- text: desktop
+- status

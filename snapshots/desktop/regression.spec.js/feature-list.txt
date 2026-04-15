@@ -1,0 +1,214 @@
+- main:
+  - article:
+    - img "Feature List 1"
+    - heading "Feature List" [level=2]
+    - text: Personalize key features of products and create a astonishing look by adding custom icons or styles and influence audience instantly to have a look and be your next buyer.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/creative-elements/ea-feature-list/
+    - text: Elements Panel
+    - img "Feature List 101"
+    - button "Play, How to Display Product Feature List Using Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:07
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Display Product Feature List Using Essential Addons": Play
+    - heading "Feature List Style 01" [level=3]
+    - paragraph: Applying advance design of feature list to make it look appealing for visitors to take their immediate purchase decision
+    - img "Feature List 102"
+    - list:
+      - listitem:
+        - heading "Easy To Use" [level=2]
+        - paragraph: Configure content settings by adding icon or images,choose icon shape, shape view and enable the connector
+      - listitem:
+        - heading "Daily Report" [level=2]
+        - paragraph: Influence your potential buyers by giving an engaging icon title and choose your preferred header title tag to make it look appealing
+      - listitem:
+        - heading "Real Time" [level=2]
+        - paragraph: Add as much as key aspects you want and enable the toggle to connector and connect each section in an interactive way
+      - listitem:
+        - heading "Extreme Security" [level=2]
+        - paragraph: Style your icon, content and connector from list tab outstandingly by playing with colors and other style sections
+    - heading "Feature List Style 02" [level=3]
+    - text: Select the preferred shape view from framed or stacked layout, decorate the icon background, set connector style to classic and create an amazing look
+    - img "Feature List 103"
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Display Connector" [level=2]
+        - paragraph: Show the Connector between each Icons and give the whole layout an unique design.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - heading "Feature List Style 03" [level=3]
+    - text: Choose the feature list icon shape to Circular, change icon alignment and style it in advance to make it look outstanding and more engaging for buyers
+    - list:
+      - listitem:
+        - heading "Get to know where we live" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+      - listitem:
+        - heading "Experience The Huge Difference" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+      - listitem:
+        - heading "Experience The Huge Difference" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+      - listitem:
+        - heading "Voted Best of 2020" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+    - img "Feature List 104"
+    - list:
+      - listitem:
+        - heading "Get to know where we live" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+      - listitem:
+        - heading "Experience The Huge Difference" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+      - listitem:
+        - heading "Experience The Huge Difference" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+      - listitem:
+        - heading "Voted Best of 2020" [level=2]
+        - paragraph: A simplified version of Info but comes with powerful features.
+    - heading "Feature List Style 04" [level=3]
+    - text: Choose icon shape to Rhombus & style it in a way that visitors can connect instantly
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - list:
+      - listitem:
+        - heading "Easy To Use" [level=2]
+        - paragraph: The Isaac SDK robotics develop toolbox change that. It moves general availability in April.
+      - listitem:
+        - heading "Daily Report" [level=2]
+        - paragraph: The Isaac SDK robotics developer toolbox design that. It moves general availability in April.
+      - listitem:
+        - heading "Real Time" [level=2]
+        - paragraph: The Isaac SDK robotics developer design change that. It moves general availability in April.
+    - list:
+      - listitem:
+        - heading "Easy To Use" [level=2]
+        - paragraph: The Isaac SDK robotics develop toolbox change that. It moves general availability in April.
+      - listitem:
+        - heading "Daily Report" [level=2]
+        - paragraph: The Isaac SDK robotics developer toolbox design that. It moves general availability in April.
+      - listitem:
+        - heading "Real Time" [level=2]
+        - paragraph: The Isaac SDK robotics developer design change that. It moves general availability in April.
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - heading "Feature List Style 05" [level=3]
+    - paragraph: Try out different types of icon shape to Square, Rhombus or Circular and Style each section like connector, icon or content to create an unique look
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - list:
+      - listitem:
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - heading "Feature List Style 06" [level=3]
+    - text: Add your preferred images to set icon with content and style it exclusively
+    - list:
+      - listitem:
+        - img "Feature List 105"
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - img "Feature List 106"
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - img "Feature List 107"
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+    - list:
+      - listitem:
+        - img "Feature List 108"
+        - heading "Amazing Design" [level=2]
+        - paragraph: Use its Fantastic Layout to enhance your Design and make it really attractive to your Audience
+      - listitem:
+        - img "Feature List 109"
+        - heading "Feature Items" [level=2]
+        - paragraph: Add as many Feature Items as you want. You can insert an Icon or an Image for each of the Item.
+      - listitem:
+        - img "Feature List 110"
+        - heading "Ease of Styling" [level=2]
+        - paragraph: Easily personalize every aspects of EA Feature List that you are showcasing on your website.
+- text: desktop
+- status

@@ -1,0 +1,238 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Woo Product Gallery 100"
+    - heading "Woo Product Gallery" [level=2]
+    - text: Beautifully showcase your products with EA Woo Product Gallery & influence visitors to buy immediately. Get amazing ready layouts, lots of customizations & advanced styling options.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/woo-product-gallery
+    - img "Woo Product Gallery 101"
+    - button "Play, How To Create A WooCommerce Product Gallery In Elementor?": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:19
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Create A WooCommerce Product Gallery In Elementor?": Play
+    - heading "Style Stunning Ready Layouts" [level=3]
+    - paragraph: Choose between ‘Grid’ or ‘Masonry’ layouts & ready style presets to create a stand-out look with full customization.
+    - list:
+      - listitem:
+        - link "All":
+          - /url: javascript:;
+      - listitem:
+        - link "Fashion":
+          - /url: javascript:;
+      - listitem:
+        - link "Men":
+          - /url: javascript:;
+      - listitem:
+        - link "Women":
+          - /url: javascript:;
+    - list:
+      - listitem:
+        - img "Mens Trendy T Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Trendy T Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Trendy T Shirt":
+              - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+              - text: 
+        - text: £35.00
+        - link "Mens Trendy T Shirt":
+          - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+          - heading "Mens Trendy T Shirt" [level=2]
+      - listitem:
+        - img "Mens Stylish Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Stylish Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Stylish Shirt":
+              - /url: https://essential-addons.com/product/mens-stylish-shirt/
+              - text: 
+        - text: £75.00
+        - link "Mens Stylish Shirt":
+          - /url: https://essential-addons.com/product/mens-stylish-shirt/
+          - heading "Mens Stylish Shirt" [level=2]
+      - listitem:
+        - img "Mens Comfy T Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Comfy T Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Comfy T Shirt":
+              - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+              - text: 
+        - text: £20.00
+        - link "Mens Comfy T Shirt":
+          - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+          - heading "Mens Comfy T Shirt" [level=2]
+    - heading "Specify Product Categories With Position" [level=3]
+    - paragraph: Showcase gallery categories with ‘Position’ between vertical or horizontal & change alignments with mouse hover effects.
+    - list:
+      - listitem:
+        - link "Fashion":
+          - /url: javascript:;
+      - listitem:
+        - link "Shoe":
+          - /url: javascript:;
+      - listitem:
+        - link "Women":
+          - /url: javascript:;
+      - listitem:
+        - link "Men":
+          - /url: javascript:;
+    - list:
+      - listitem:
+        - img "Mens Trendy T Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Trendy T Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Trendy T Shirt":
+              - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+              - text: 
+        - text: £35.00
+        - link "Mens Trendy T Shirt":
+          - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+          - heading "Mens Trendy T Shirt" [level=2]
+      - listitem:
+        - img "Mens Stylish Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Stylish Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Stylish Shirt":
+              - /url: https://essential-addons.com/product/mens-stylish-shirt/
+              - text: 
+        - text: £75.00
+        - link "Mens Stylish Shirt":
+          - /url: https://essential-addons.com/product/mens-stylish-shirt/
+          - heading "Mens Stylish Shirt" [level=2]
+      - listitem:
+        - img "Mens Comfy T Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Comfy T Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Comfy T Shirt":
+              - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+              - text: 
+        - text: £20.00
+        - link "Mens Comfy T Shirt":
+          - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+          - heading "Mens Comfy T Shirt" [level=2]
+    - button "Load More"
+    - heading "Alluring Product Gallery Layout" [level=3]
+    - paragraph: Configure gallery categories position by ‘Vertical’ with right alignment & style in advance with ready presets.
+    - list:
+      - listitem:
+        - link "All":
+          - /url: javascript:;
+      - listitem:
+        - link "Fashion":
+          - /url: javascript:;
+      - listitem:
+        - link "Men":
+          - /url: javascript:;
+      - listitem:
+        - link "Women":
+          - /url: javascript:;
+    - list:
+      - listitem:
+        - img "Mens Trendy T Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Trendy T Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Trendy T Shirt":
+              - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+              - text: 
+        - text: £35.00
+        - link "Mens Trendy T Shirt":
+          - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+          - heading "Mens Trendy T Shirt" [level=2]
+      - listitem:
+        - img "Mens Stylish Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Stylish Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Stylish Shirt":
+              - /url: https://essential-addons.com/product/mens-stylish-shirt/
+              - text: 
+        - text: £75.00
+        - link "Mens Stylish Shirt":
+          - /url: https://essential-addons.com/product/mens-stylish-shirt/
+          - heading "Mens Stylish Shirt" [level=2]
+      - listitem:
+        - img "Mens Comfy T Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Comfy T Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Comfy T Shirt":
+              - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+              - text: 
+        - text: £20.00
+        - link "Mens Comfy T Shirt":
+          - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+          - heading "Mens Comfy T Shirt" [level=2]
+      - listitem:
+        - img "Mens Black Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Black Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Black Shirt":
+              - /url: https://essential-addons.com/product/mens-black-shirt/
+              - text: 
+        - text: £45.00
+        - link "Mens Black Shirt":
+          - /url: https://essential-addons.com/product/mens-black-shirt/
+          - heading "Mens Black Shirt" [level=2]
+      - listitem:
+        - img "Mens Casual Shirt"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Mens Casual Shirt”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Mens Casual Shirt":
+              - /url: https://essential-addons.com/product/mens-casual-shirt/
+              - text: 
+        - text: £55.00
+        - link "Mens Casual Shirt":
+          - /url: https://essential-addons.com/product/mens-casual-shirt/
+          - heading "Mens Casual Shirt" [level=2]
+      - listitem:
+        - img "Women Light Dress"
+        - list:
+          - listitem:
+            - 'button "Add to cart: “Women Light Dress”"':  Add to cart
+          - listitem: 
+          - listitem:
+            - link "View Details about Women Light Dress":
+              - /url: https://essential-addons.com/product/women-light-dress/
+              - text: 
+        - text: £40.00
+        - link "Women Light Dress":
+          - /url: https://essential-addons.com/product/women-light-dress/
+          - heading "Women Light Dress" [level=2]
+- text: desktop
+- status

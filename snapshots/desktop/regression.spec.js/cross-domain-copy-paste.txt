@@ -1,0 +1,30 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Cross-Domain Copy Paste 100"
+    - heading "Cross-Domain Copy Paste" [level=2]
+    - text: Instantly copy and paste specific sections from one website to another using EA Cross-Domain Copy Paste extension. With this advanced extension, you can recreate the same design across multiple websites with a single click.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/cross-domain-copy-paste
+    - img "Cross-Domain Copy Paste 101"
+    - button "Play, How To Do Cross-Domain Copy Paste In Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:48
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Do Cross-Domain Copy Paste In Elementor": Play
+    - heading "Copy & Paste Any Section From One Site To Another With 1 Click" [level=3]
+    - text: Only with one click you can easily copy any section in Elementor from one website and then paste that to another website without any hassle
+    - img "Cross-Domain Copy Paste 102"
+    - heading "Recreate The Same Design Across Different Websites Effortlessly" [level=3]
+    - text: When using EA Cross-Domain Copy Paste extension, you can easily avoid having to recreate the same sections on different websites.
+    - img "Cross-Domain Copy Paste 103"
+    - heading "Any Element Of Your Website Can Be Copied With Ease" [level=3]
+    - text: Cross-Domain Copy Paste is a global feature so it allows you to copy & paste sections created not only with EA elements but also with other third-party plugins.
+    - img "Cross-Domain Copy Paste 104"
+- text: desktop
+- status

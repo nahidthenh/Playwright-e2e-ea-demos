@@ -1,0 +1,36 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Formstack 100"
+    - heading "Formstack" [level=2]
+    - paragraph: Formstack is an advanced form builder that lets you create & manage multicriteria forms. EA Formstack lets you integrate with the Formstack and use that form inside Elementor Editor
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/formstack/
+    - img "Formstack 101"
+    - button "Play, How to Use FormStack With Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:14
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Use FormStack With Essential Addons for Elementor": Play
+    - heading "Formstack Style" [level=3]
+    - group "Contact Form 1":
+      - text: Contact Form 1 YOUR NAME (REQUIRED) *
+      - textbox "YOUR NAME (REQUIRED)":
+        - /placeholder: Full Name
+      - text: YOUR EMAIL (REQUIRED) *
+      - textbox "YOUR EMAIL (REQUIRED)":
+        - /placeholder: Email Address
+      - text: SUBJECT
+      - textbox "SUBJECT":
+        - /placeholder: Subject
+      - text: YOUR MESSAGE
+      - textbox "YOUR MESSAGE":
+        - /placeholder: Message
+      - button "Send Now"
+- text: desktop
+- status

@@ -1,0 +1,31 @@
+- list:
+  - listitem: 06 Days
+  - listitem: 23 Hours
+  - listitem: 58 Mins
+  - listitem: 48 Secs
+- heading "New Season, More Savings" [level=2]
+- 'heading "On #1 Elementor Addon" [level=2]'
+- link "Grab The Deals":
+  - /url: https://essential-addons.com/spring2026-optin
+- img
+- figure:
+  - img "Woo Product Rating 1"
+- heading "Woo Product Rating" [level=3]
+- heading "Display Product Ratings Elegantly & Amplify Social Proof For Sales" [level=2]
+- text: Add more credibility to your product pages with the Essential Addons Woo Product Rating widget! Build trust and increase conversions by showcasing customer ratings in different styles with advanced customization options.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-woo-product-rating
+- img "Woo Product Rating 2"
+- img "Woo Product Rating 3"
+- img "Woo Product Rating 4"
+- heading "Showcase Customer Reviews With Beautifully Styled Ratings" [level=2]
+- text: Showcase your product ratings in an attractive and professional design to captivate potential buyers and boost their confidence in your brand.
+- img "Woo Product Rating 6"
+- heading "Highlight The Number Of Reviews For A More Lasting Impact" [level=2]
+- paragraph: Display the number of reviewers alongside the ratings and for a clean, impactful presentation.
+- img "Woo Product Rating 8"
+- heading "Display Empty Ratings For Flexible Customization" [level=2]
+- paragraph: Easily show empty ratings to maintain a tailored and visually balanced product display.
+- img "Woo Product Rating 10"
+- text: desktop
+- status

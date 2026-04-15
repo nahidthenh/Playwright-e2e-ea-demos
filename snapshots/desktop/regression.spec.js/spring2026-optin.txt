@@ -1,0 +1,468 @@
+- img "deals"
+- text: 1 New Site Every Minute|
+- heading "The Number 1 Most-Popular Elementor Addon:" [level=2]
+- heading "Essential Addons for Elementor" [level=2]
+- text: Bring your dream websites to life with Essential Addons, the most used, no-code Elementor addon for 2 Million web creators from 180+ countries around the globe!
+- link "Get Started":
+  - /url: https://essential-addons.com/#pricing
+  - img
+  - text: Get Started
+- link "Check Demo":
+  - /url: https://essential-addons.com/demos/
+  - text: Check Demo
+  - img
+- img "Essential Addons for Elementor 1"
+- heading "110+" [level=2]
+- paragraph: Elementor Elements
+- img "Essential Addons for Elementor 2"
+- heading "2 Millions+" [level=2]
+- text: Website Creators
+- img "Essential Addons for Elementor 3"
+- heading "3800+" [level=2]
+- paragraph: Five Star Reviews
+- heading "Design What You Envision With 95+ Widgets" [level=2]
+- text: From designing complex WooCommerce stores to stunning portfolio websites – build it all in Elementor with Essential Addons
+- link "View Demo":
+  - /url: https://essential-addons.com/demos/
+- img "Essential Addons for Elementor 4"
+- tablist:
+  - tab "Content Elements" [selected]:
+    - img
+    - text: Content Elements
+  - tab "Dynamic Content Elements":
+    - img
+    - text: Dynamic Content Elements
+  - tab "Creative Elements":
+    - img
+    - text: Creative Elements
+  - tab "Marketing Elements":
+    - img
+    - text: Marketing Elements
+  - tab "WooCommerce Elements":
+    - img
+    - text: WooCommerce Elements
+  - tab "Documentation Elements":
+    - img
+    - text: Documentation Elements
+  - tab "Social Elements":
+    - img
+    - text: Social Elements
+- link "Creative Button":
+  - /url: https://essential-addons.com/elementor/creative-buttons/
+  - img
+- heading "Creative Button" [level=3]:
+  - link "Creative Button":
+    - /url: https://essential-addons.com/elementor/creative-buttons/
+- link "Dual Color Heading":
+  - /url: https://essential-addons.com/elementor/dual-color-headline/
+  - img
+- heading "Dual Color Heading" [level=3]:
+  - link "Dual Color Heading":
+    - /url: https://essential-addons.com/elementor/dual-color-headline/
+- link "Offcanvas":
+  - /url: https://essential-addons.com/elementor/offcanvas-content/
+  - img
+- heading "Offcanvas" [level=3]:
+  - link "Offcanvas":
+    - /url: https://essential-addons.com/elementor/offcanvas-content/
+- link "Static Product":
+  - /url: https://essential-addons.com/elementor/static-product/
+  - img
+- heading "Static Product" [level=3]:
+  - link "Static Product":
+    - /url: https://essential-addons.com/elementor/static-product/
+- link "Team Member":
+  - /url: https://essential-addons.com/elementor/simple-menu
+  - img
+- heading "Team Member" [level=3]:
+  - link "Team Member":
+    - /url: https://essential-addons.com/elementor/simple-menu
+- link "Advanced Accordion":
+  - /url: https://essential-addons.com/elementor/advanced-accordion/
+  - img
+- heading "Advanced Accordion" [level=3]:
+  - link "Advanced Accordion":
+    - /url: https://essential-addons.com/elementor/advanced-accordion/
+- link "Advanced Menu":
+  - /url: https://essential-addons.com/elementor/advanced-menu/
+  - img
+- heading "Advanced Menu" [level=3]:
+  - link "Advanced Menu":
+    - /url: https://essential-addons.com/elementor/advanced-menu/
+- link "Team Member Carousel":
+  - /url: https://essential-addons.com/elementor/team-members-carousel/
+  - img
+- heading "Team Member Carousel" [level=3]:
+  - link "Team Member Carousel":
+    - /url: https://essential-addons.com/elementor/team-members-carousel/
+- link "Testimonial":
+  - /url: https://essential-addons.com/elementor/testimonials/
+  - img
+- heading "Testimonial" [level=3]:
+  - link "Testimonial":
+    - /url: https://essential-addons.com/elementor/testimonials/
+- link "Advanced Tabs":
+  - /url: https://essential-addons.com/elementor/advanced-tabs/
+  - img
+- heading "Advanced Tabs" [level=3]:
+  - link "Advanced Tabs":
+    - /url: https://essential-addons.com/elementor/advanced-tabs/
+- link "Toggle":
+  - /url: https://essential-addons.com/elementor/content-toggle/
+  - img
+- heading "Toggle" [level=3]:
+  - link "Toggle":
+    - /url: https://essential-addons.com/elementor/content-toggle/
+- link "Breadcrumb":
+  - /url: https://essential-addons.com/breadcrumbs/
+  - img
+- heading "Breadcrumb" [level=3]:
+  - link "Breadcrumb":
+    - /url: https://essential-addons.com/breadcrumbs/
+- link "Flip Box":
+  - /url: https://essential-addons.com/elementor/flip-box/
+  - img
+- heading "Flip Box" [level=3]:
+  - link "Flip Box":
+    - /url: https://essential-addons.com/elementor/flip-box/
+- link "Feature List":
+  - /url: https://essential-addons.com/elementor/feature-list/
+  - img
+- heading "Feature List" [level=3]:
+  - link "Feature List":
+    - /url: https://essential-addons.com/elementor/feature-list/
+- link "Testimonial Slider":
+  - /url: https://essential-addons.com/elementor/testimonial-slider/
+  - img
+- heading "Testimonial Slider" [level=3]:
+  - link "Testimonial Slider":
+    - /url: https://essential-addons.com/elementor/testimonial-slider/
+- link "Advanced Search":
+  - /url: https://essential-addons.com/elementor/advanced-search
+  - img
+- heading "Advanced Search" [level=3]:
+  - link "Advanced Search":
+    - /url: https://essential-addons.com/elementor/advanced-search
+- heading "Build a complete online store with WooCommerce widgets" [level=2]
+- text: Effortlessly create powerful stores with 12+ fully customizable WooCommerce widgets for all your needs
+- link "Build Now":
+  - /url: https://essential-addons.com/demos/#eaWooElements
+  - text: Build Now
+  - img
+- img "Essential Addons for Elementor 5"
+- region "Image Carousel":
+  - group "1 / 2":
+    - figure:
+      - img "slider-image-3.png"
+  - button "Previous slide"
+  - button "Next slide"
+- img "Essential Addons for Elementor 6"
+- img "Essential Addons for Elementor 7"
+- img "Essential Addons for Elementor 8"
+- img "Essential Addons for Elementor 9"
+- img "Essential Addons for Elementor 10"
+- heading "Enjoy Ultimate Control & Lightning Speed" [level=2]
+- text: Enable only the widgets you need to keep your website super lightweight & enjoy seamless performance
+- img "Essential Addons for Elementor 11"
+- heading "Translate To Any Language You Prefer" [level=2]
+- text: Experience smooth compatibility with WPML to convert Essential Addons for Elementor to any language
+- heading "Elevate Elementor With Unique Extensions" [level=2]
+- text: From adding eye-catching parallax motion effects to setting conditional display, enhance your site visitor’s experience effortlessly
+- link "Try Now":
+  - /url: https://essential-addons.com/demos/#eaExensions
+- link "Essential Addons for Elementor 12 Wrapper Link":
+  - /url: https://essential-addons.com/wrapper-link/
+  - img "Essential Addons for Elementor 12"
+  - text: Wrapper Link
+- link "Essential Addons for Elementor 13 Particles":
+  - /url: https://essential-addons.com/particle-effect/
+  - img "Essential Addons for Elementor 13"
+  - text: Particles
+- link "Essential Addons for Elementor 14 Custom JS":
+  - /url: https://essential-addons.com/custom-js/
+  - img "Essential Addons for Elementor 14"
+  - text: Custom JS
+- link "Essential Addons for Elementor 15 Table of Contents":
+  - /url: https://essential-addons.com/table-of-content/
+  - img "Essential Addons for Elementor 15"
+  - text: Table of Contents
+- link "Essential Addons for Elementor 16 Cross-Domain Copy Paste":
+  - /url: https://essential-addons.com/cross-domain-copy-paste/
+  - img "Essential Addons for Elementor 16"
+  - text: Cross-Domain Copy Paste
+- link "Essential Addons for Elementor 12 Wrapper Link":
+  - /url: https://essential-addons.com/wrapper-link/
+  - img "Essential Addons for Elementor 12"
+  - text: Wrapper Link
+- link "Essential Addons for Elementor 13 Particles":
+  - /url: https://essential-addons.com/particle-effect/
+  - img "Essential Addons for Elementor 13"
+  - text: Particles
+- link "Essential Addons for Elementor 14 Custom JS":
+  - /url: https://essential-addons.com/custom-js/
+  - img "Essential Addons for Elementor 14"
+  - text: Custom JS
+- link "Essential Addons for Elementor 15 Table of Contents":
+  - /url: https://essential-addons.com/table-of-content/
+  - img "Essential Addons for Elementor 15"
+  - text: Table of Contents
+- link "Essential Addons for Elementor 16 Cross-Domain Copy Paste":
+  - /url: https://essential-addons.com/cross-domain-copy-paste/
+  - img "Essential Addons for Elementor 16"
+  - text: Cross-Domain Copy Paste
+- link "Essential Addons for Elementor 17 Scroll to Top":
+  - /url: https://essential-addons.com/scroll-to-top
+  - img "Essential Addons for Elementor 17"
+  - text: Scroll to Top
+- link "Essential Addons for Elementor 18 Content Protection":
+  - /url: https://essential-addons.com/content-protection/
+  - img "Essential Addons for Elementor 18"
+  - text: Content Protection
+- link "Essential Addons for Elementor 19 Post Duplicator":
+  - /url: https://essential-addons.com/duplicator/
+  - img "Essential Addons for Elementor 19"
+  - text: Post Duplicator
+- link "Essential Addons for Elementor 20 Parallax Effect":
+  - /url: https://essential-addons.com/parallax-scrolling/
+  - img "Essential Addons for Elementor 20"
+  - text: Parallax Effect
+- link "Essential Addons for Elementor 21 Conditional Display":
+  - /url: https://essential-addons.com/conditional-display/
+  - img "Essential Addons for Elementor 21"
+  - text: Conditional Display
+- link "Essential Addons for Elementor 17 Scroll to Top":
+  - /url: https://essential-addons.com/scroll-to-top
+  - img "Essential Addons for Elementor 17"
+  - text: Scroll to Top
+- link "Essential Addons for Elementor 18 Content Protection":
+  - /url: https://essential-addons.com/content-protection/
+  - img "Essential Addons for Elementor 18"
+  - text: Content Protection
+- link "Essential Addons for Elementor 19 Post Duplicator":
+  - /url: https://essential-addons.com/duplicator/
+  - img "Essential Addons for Elementor 19"
+  - text: Post Duplicator
+- link "Essential Addons for Elementor 20 Parallax Effect":
+  - /url: https://essential-addons.com/parallax-scrolling/
+  - img "Essential Addons for Elementor 20"
+  - text: Parallax Effect
+- link "Essential Addons for Elementor 21 Conditional Display":
+  - /url: https://essential-addons.com/conditional-display/
+  - img "Essential Addons for Elementor 21"
+  - text: Conditional Display
+- link "Essential Addons for Elementor 22 Hover Interactions":
+  - /url: https://essential-addons.com/hover-interaction/
+  - img "Essential Addons for Elementor 22"
+  - text: Hover Interactions
+- link "Essential Addons for Elementor 23 Interactive Animations":
+  - /url: https://essential-addons.com/interactive-animations/
+  - img "Essential Addons for Elementor 23"
+  - text: Interactive Animations
+- link "Essential Addons for Elementor 24 Dynamic Tags":
+  - /url: https://essential-addons.com/dynamic-tags/
+  - img "Essential Addons for Elementor 24"
+  - text: Dynamic Tags
+- link "Essential Addons for Elementor 25 Reading Progress Bar":
+  - /url: https://essential-addons.com/reading-progress/
+  - img "Essential Addons for Elementor 25"
+  - text: Reading Progress Bar
+- link "Essential Addons for Elementor 26 Advanced Tooltip":
+  - /url: https://essential-addons.com/advanced-tooltip/
+  - img "Essential Addons for Elementor 26"
+  - text: Advanced Tooltip
+- link "Essential Addons for Elementor 22 Hover Interactions":
+  - /url: https://essential-addons.com/hover-interaction/
+  - img "Essential Addons for Elementor 22"
+  - text: Hover Interactions
+- link "Essential Addons for Elementor 23 Interactive Animations":
+  - /url: https://essential-addons.com/interactive-animations/
+  - img "Essential Addons for Elementor 23"
+  - text: Interactive Animations
+- link "Essential Addons for Elementor 24 Dynamic Tags":
+  - /url: https://essential-addons.com/dynamic-tags/
+  - img "Essential Addons for Elementor 24"
+  - text: Dynamic Tags
+- link "Essential Addons for Elementor 25 Reading Progress Bar":
+  - /url: https://essential-addons.com/reading-progress/
+  - img "Essential Addons for Elementor 25"
+  - text: Reading Progress Bar
+- link "Essential Addons for Elementor 26 Advanced Tooltip":
+  - /url: https://essential-addons.com/advanced-tooltip/
+  - img "Essential Addons for Elementor 26"
+  - text: Advanced Tooltip
+- 'heading "Spring Special Pricing Plans For #1 Elementor Addon" [level=2]'
+- text: Find the right plan for you & supercharge with
+- strong: 45+ PRO Elementor elements
+- heading "Get $13000+ Value at $749" [level=2]
+- img "Essential Addons for Elementor 27"
+- text: Essential Addons Pro Agency Bundle
+- img "Essential Addons for Elementor 28"
+- text: Site Activation 1 Website $3.99 $4.99 / Month
+- heading "*Billed Annually" [level=5]
+- link "Get started":
+  - /url: https://essential-addons.com/spring2026/eael-single-website
+- text: 1 Site Best Value Unlimited $7.499 $9.99 / Month
+- heading "*Billed Annually" [level=5]
+- link "Get Started":
+  - /url: https://essential-addons.com/spring2026/eael-unlimited-websites
+- text: Unlimited Lifetime Unlimited $224.99 $299.99
+- heading "*Billed one time" [level=5]
+- link "Get started":
+  - /url: https://essential-addons.com/spring2026/eael-lifetime
+- text: Unlimited Support & Update 1 Year 1 year Lifetime 95+ Widgets
+- img "Essential Addons for Elementor 29"
+- img "Essential Addons for Elementor 29"
+- img "Essential Addons for Elementor 29"
+- text: 15 Extensions
+- img "Essential Addons for Elementor 29"
+- img "Essential Addons for Elementor 29"
+- img "Essential Addons for Elementor 29"
+- text: Free Access To Templately PRO For 1 Month For 3 Months For 6 Months
+- heading "$ 13000+ Value" [level=2]
+- heading "WPDeveloper Agency Bundle Lifetime" [level=2]
+- text: $749 $999
+- list:
+  - listitem: Unlimited Sites & Lifetime Support
+  - listitem: Most Popular Elementor Addons
+  - listitem: 5000+ Ready Website Templates
+  - listitem: Best WordPress Knowledge Base
+  - listitem: Advanced Marketing Solution
+  - listitem: All-In-One Link Managment Solution
+  - listitem: AI-powered Hiring Solution
+  - listitem: Content Scheduler for WordPress
+  - listitem: Embedding Solution with 150+ Sources
+- figure:
+  - img "Essential Addons for Elementor 45"
+- figure:
+  - img "Essential Addons for Elementor 46"
+- figure:
+  - img "Essential Addons for Elementor 47"
+- figure:
+  - img "Essential Addons for Elementor 48"
+- figure:
+  - img "Essential Addons for Elementor 49"
+- figure:
+  - img "Essential Addons for Elementor 50"
+- figure:
+  - img "Essential Addons for Elementor 51"
+- figure:
+  - img "Essential Addons for Elementor 52"
+- figure:
+  - img "Essential Addons for Elementor 53"
+- figure:
+  - img "Essential Addons for Elementor 54"
+- figure:
+  - img "Essential Addons for Elementor 55"
+- heading "Get $13,000+ Value at $749" [level=2]
+- link "Get Started":
+  - /url: https://wpdeveloper.com/spring2026/wpdeveloper-agency-bundle-lifetime-unlimited
+- heading "Build Websites In A Click With 3000+ Ready Elementor Templates" [level=2]
+- tablist:
+  - tab "All" [selected]
+  - tab "eCommerce"
+  - tab "Portfolio"
+  - tab "Agency Website"
+  - tab "Services"
+  - tab "SaaS"
+- link "Essential Addons for Elementor 93":
+  - /url: https://templately.com/pack/multigency-elementor-multipurpose-template
+  - img "Essential Addons for Elementor 93"
+- link "Essential Addons for Elementor 94":
+  - /url: https://templately.com/pack/kick-flipper-elementor-skateboard-store
+  - img "Essential Addons for Elementor 94"
+- link "Essential Addons for Elementor 95":
+  - /url: https://templately.com/pack/jackpot-vault-elementor-giveaway-template
+  - img "Essential Addons for Elementor 95"
+- link "Essential Addons for Elementor 96":
+  - /url: https://templately.com/pack/onestopshop-gutenberg-multipurpose-woocommerce-template
+  - img "Essential Addons for Elementor 96"
+- link "Essential Addons for Elementor 97":
+  - /url: https://templately.com/pack/writifyai-content-ai-elementor-template
+  - img "Essential Addons for Elementor 97"
+- link "Essential Addons for Elementor 98":
+  - /url: https://templately.com/pack/bloggerzen-elementor-blogging-template
+  - img "Essential Addons for Elementor 98"
+- link "Essential Addons for Elementor 99":
+  - /url: "#"
+  - img "Essential Addons for Elementor 99"
+- link "Essential Addons for Elementor 100":
+  - /url: https://templately.com/pack/dailyglam-elementor-magazine-template
+  - img "Essential Addons for Elementor 100"
+- link "Essential Addons for Elementor 101":
+  - /url: https://templately.com/pack/eleshoply-ecommerce-website-template
+  - img "Essential Addons for Elementor 101"
+- link "Essential Addons for Elementor 102":
+  - /url: https://templately.com/pack/techai-elementor-technology-template
+  - img "Essential Addons for Elementor 102"
+- link "Essential Addons for Elementor 103":
+  - /url: https://templately.com/pack/renovate-home-decor
+  - img "Essential Addons for Elementor 103"
+- link "Essential Addons for Elementor 104":
+  - /url: https://templately.com/pack/techitok-it-solution-template
+  - img "Essential Addons for Elementor 104"
+- link "Explore More Templates":
+  - /url: https://templately.com/
+- heading "Team Elementor Says" [level=2]
+- heading "\"I've been an Elementor Community Member since 2016, recommending Essential Addons since its release. They continually add value, making it perfect for saving time and getting creative with Elementor.\"" [level=2]
+- heading "Verdi Heinz" [level=2]
+- text: Global Community Manager, Elementor
+- img "Essential Addons for Elementor 135"
+- img "Essential Addons for Elementor 136"
+- heading "3,800+ Five Star" [level=2]
+- img "Essential Addons for Elementor 137"
+- heading "Reviews" [level=2]
+- heading "& Recognition From Top Publications" [level=2]
+- text: “If you use Elementor, Essential Addons is a great way to expand your library of available widgets without slowing your site down.”
+- img "Essential Addons for Elementor 138"
+- text: “Essential Addons for Elementor has the largest number of active users among all third-party extensions on the market. The widgets are tested in all popular web browsers to ensure full browser compatibility for all elements.”
+- img "Essential Addons for Elementor 139"
+- text: The features are rich and allow you to push content personalization very far in Elementor. I recommend the paid version which adds even more features and provides access to attentive and very responsive technical support.
+- img "Essential Addons for Elementor 140"
+- text: "@ofredon “With 60+ additional widgets, Essential Addons is a great add-on to enhance your experience in building a website with WordPress+Elementor.”"
+- img "Essential Addons for Elementor 141"
+- text: The best add-on plugin is Elementor, and it also has the best developers and support, and they worked on the plugin for a long time and solved one of the problems we had. I am very satisfied and grateful to them
+- img "Essential Addons for Elementor 142"
+- text: "@princedm"
+- heading "See Why Industry Experts Are Loving Essential Addons' Latest Features" [level=2]
+- heading "You don’t need to mess with any code. You just toggle the Liquid Glass preset, adjust the intensity, and you’re done. It works with gradients, images, or solid colors — whatever fits your design." [level=3]
+- heading "Create WP Site" [level=4]
+- img "Essential Addons for Elementor 143"
+- text: Adding a nice liquid glass or glassmorphism effect to your site with the help of the Essential Addon plugin is really easy.
+- paragraph: Yannick
+- paragraph: WP Simple Hacks
+- img "Essential Addons for Elementor 144"
+- paragraph: If you’re running Elementor, I highly recommend it. It has loads of features like Liquid Glass Effects that help you build amazing websites.
+- paragraph: Alex Cooper
+- paragraph: WP Eagle
+- img "Essential Addons for Elementor 145"
+- heading "Winner Of The Title Best Elementor Addons For 2 Million Users" [level=2]
+- img "Essential Addons for Elementor 146"
+- heading "Winner Of The WP" [level=2]
+- strong: Awards
+- img "Essential Addons for Elementor 146"
+- heading "Winner Of The WP Awards 2021" [level=2]
+- text: Essential Addons won first place and received the ‘Gold’ award in the ‘Best Addons for Elementor’ category
+- img "Essential Addons for Elementor 148"
+- heading "Second Runner Up Of" [level=2]
+- text: The WP
+- strong: Awards
+- img "Essential Addons for Elementor 148"
+- heading "Second Runner Up Of The WP Awards 2022" [level=2]
+- text: Voted among the top 3 best Elementor Addons by the community & experts from the community
+- heading "Have Questions? We’re Here To Help" [level=2]
+- img "Essential Addons for Elementor 150"
+- heading "Connect with Our Community" [level=2]
+- link "Get Connected":
+  - /url: https://www.facebook.com/groups/essentialaddons/
+- img "Essential Addons for Elementor 151"
+- heading "Live Chat and Support" [level=2]
+- link "Get Started":
+  - /url: https://essential-addons.com/support/
+- img "Essential Addons for Elementor 152"
+- heading "Knowledge and Inspiration" [level=2]
+- link "Read Docs":
+  - /url: https://essential-addons.com/docs/
+- text: What Themes Does Essential Addons for Elementor Work With?
+- paragraph: Essential Addons for Elementor is designed to be compatible with all WordPress themes that work with the Elementor page builder such as, Hello Elementor, Astra, GeneratePress, OceanWP, Hestia, Jupiter X, and many more. Whether you are using a free or premium theme, Essential Addons will seamlessly integrate and enhance your page-building experience.
+- text: What Are The Requirements To Use Essential Addons for Elementor? Will Essential Addons for Elementor Slow Down My Website? Can I Use Essential Addons for Elementor PRO On Multiple Websites? Do You Have A Refund Option? What Will Happen After My License Expires? desktop
+- status

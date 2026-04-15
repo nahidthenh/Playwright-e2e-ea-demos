@@ -1,0 +1,147 @@
+- main:
+  - article:
+    - img "Creative Buttons 1"
+    - heading "Creative Buttons" [level=2]
+    - text: Create stunning Call To Action through EA Creative Buttons. You can make it look outstanding by adding exclusive Button Styles & Effects and add links to redirect your visitors to a specific page.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/creative-buttons/
+    - text: Elements Panel
+    - img "Creative Buttons 101"
+    - button "Play, Creative Button Element - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:51
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Creative Button Element - Essential Addons for Elementor": Play
+    - heading "Primary & Secondary Content Settings" [level=3]
+    - text: Make your button look appealing towards visitors by adding Primary and Secondary content type using 10+ unique button effects & styles
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - heading "Change Shape & Colors of Buttons" [level=3]
+    - text: Use different Colors & Shape of Buttons to style it in advanced using desired Effects
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - link "Explore More Go!":
+      - /url: "#"
+    - heading "Insert Icons That Relate To Your Content" [level=3]
+    - text: Use relatable icon and link to desire button text in order to make it look more interactive
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore The Globe":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Explore More":
+      - /url: "#"
+    - link "Contact":
+      - /url: "#"
+    - link "Contact":
+      - /url: "#"
+    - link "Contact":
+      - /url: "#"
+    - link "Contact":
+      - /url: "#"
+    - link "Explore Go!":
+      - /url: "#"
+    - link "Explore Go!":
+      - /url: "#"
+    - link "Explore Go!":
+      - /url: "#"
+    - link "Explore Go!":
+      - /url: "#"
+- text: desktop
+- status

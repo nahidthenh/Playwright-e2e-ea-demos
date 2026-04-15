@@ -1,0 +1,57 @@
+- figure:
+  - img "Multicolumn Pricing Table 1"
+- heading "Multicolumn Pricing Table" [level=3]
+- heading "Supercharge Your Sales With Engaging Multicolumn Pricing Plans" [level=2]
+- text: Transform your pricing section using the Multicolumn Pricing widget in Elementor. With stunning design options, you can create a visually striking and conversion-optimized pricing plan effortlessly
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-multicolumn-pricing-table/
+- img "Multicolumn Pricing Table 2"
+- img "Multicolumn Pricing Table 3"
+- img "EA Multicolumn Pricing | Essential Addons for Elementor"
+- heading "Design a Unique Pricing Plan for Your Elementor Website Effortlessly" [level=2]
+- paragraph: Personalize your pricing layout as much as you want with advanced customization options
+- tablist:
+  - tab "Multicolumn Pricing Table 4 Design 1" [selected]:
+    - img "Multicolumn Pricing Table 4"
+    - text: Design 1
+  - tab "Multicolumn Pricing Table 5 Design 2":
+    - img "Multicolumn Pricing Table 5"
+    - text: Design 2
+  - tab "Multicolumn Pricing Table 6 Design 3":
+    - img "Multicolumn Pricing Table 6"
+    - text: Design 3
+  - tab "Multicolumn Pricing Table 7 Design 4":
+    - img "Multicolumn Pricing Table 7"
+    - text: Design 4
+- heading "Optimize Your Pricing Structure for Simplicity" [level=2]
+- paragraph: Enhance operational efficiency with a well-organized pricing system that removes complexity and confusion
+- text: Total Features Support & Update Ready Templates Advance Search Floating Table of Content
+- heading "Solo" [level=2]
+- text: $100/mo
+- link "Get Started":
+  - /url: "#"
+- text: 50      Best Value
+- heading "Team" [level=2]
+- text: $240/mo
+- link "Get Started":
+  - /url: "#"
+- text: 100    
+- heading "Enterprise" [level=2]
+- text: $350/mo
+- link "Get Started":
+  - /url: "#"
+- text: Unlimited      See More
+- heading "Create an Impactful Pricing Plan with Feature-Rich Options in Elementor" [level=2]
+- img "Multicolumn Pricing Table 8"
+- heading "Package & Feature" [level=2]
+- text: Add unlimited packages & features effortlessly
+- img "Multicolumn Pricing Table 9"
+- heading "Collapse Rows" [level=2]
+- text: Enable & disable collapse rows in 1-click
+- img "Multicolumn Pricing Table 10"
+- heading "Best Value" [level=2]
+- text: Put a spotlight on your best pricing plan
+- img "Multicolumn Pricing Table 11"
+- heading "Customization" [level=2]
+- text: Build the pricing table the way you want desktop
+- status

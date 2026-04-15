@@ -1,0 +1,192 @@
+- text: Elements Panel
+- img "Woo Product List 100"
+- heading "Woo Product List" [level=2]
+- text: Elevate your WooCommerce product displays with the EA Woo Product List. Effortlessly showcase your products on any page with beautiful presets offering various customization options like badges, titles, excerpts, ratings, and more.
+- link "Documentation":
+  - /url: https://essential-addons.com/elementor/docs/ea-woo-product-list/
+- img "Woo Product List 101"
+- 'button "Play, Essential Addons: Most Popular Elementor Library With 1M+ Happy Users & 2.7k+ Star Reviews"': Play
+- slider "Seek": "0"
+- text: 00:00
+- timer "Current time": 01:18
+- button "Mute"
+- slider "Volume": "1"
+- button "Settings"
+- button "Enter fullscreen"
+- iframe
+- 'button "Play, Essential Addons: Most Popular Elementor Library With 1M+ Happy Users & 2.7k+ Star Reviews"': Play
+- heading "Woo Your Audience With Product List Preset 1" [level=2]
+- text: Customize your Woo product listings with eye-catching badges, empowering your brand identity, while ratings provide instant trust and assurance to potential customers.
+- img
+- paragraph:
+  - strong: Sale
+- link "Saguaro with Wooden stand":
+  - /url: https://essential-addons.com/product/saguaro-with-wooden-stand/
+  - img "Saguaro with Wooden stand"
+- img "Rated 4.5 out of 5":
+  - text:   Rated
+  - strong: "4.5"
+  - text: out of 5 based on  49 customer ratings
+- link "(50)":
+  - /url: https://essential-addons.com/product/saguaro-with-wooden-stand/#reviews
+- paragraph:  Chair
+- heading "Saguaro with Wooden stand" [level=2]:
+  - link "Saguaro with Wooden stand":
+    - /url: https://essential-addons.com/product/saguaro-with-wooden-stand/
+- text: This sofa will give you both vibes of wooden and imported quality fabric. It will be set with any furniture in the living room, and available fabric options are pretty enough to be the center...
+- 'heading "Original price was: £287.00. Current price is: £200.00." [level=3]'
+- paragraph:
+  - 'button "Add to cart: “Saguaro with Wooden stand”"':  Add to cart
+- paragraph: View Product
+- img
+- paragraph:
+  - strong: Sale
+- link "EcoZen Lounge Comfy Chair":
+  - /url: https://essential-addons.com/product/ecozen-lounge-comfy-chair/
+  - img "EcoZen Lounge Comfy Chair"
+- heading "EcoZen Lounge Comfy Chair" [level=2]:
+  - link "EcoZen Lounge Comfy Chair":
+    - /url: https://essential-addons.com/product/ecozen-lounge-comfy-chair/
+- img "Rated 4.5 out of 5":
+  - text:   Rated
+  - strong: "4.5"
+  - text: out of 5 based on  49 customer ratings
+- link "(50)":
+  - /url: https://essential-addons.com/product/ecozen-lounge-comfy-chair/#reviews
+- paragraph:  Chair
+- text: Experience the ultimate in relaxation with the Saguoro, featuring a sleek wooden stand for a perfect blend of style and comfort.
+- 'heading "Original price was: £287.00. Current price is: £220.00." [level=3]'
+- 'heading "Total Sold: 300" [level=4]'
+- paragraph:
+  - 'button "Add to cart: “EcoZen Lounge Comfy Chair”"':  Add to cart
+- paragraph: View Product
+- link "Woodland Bliss Lounge Chair":
+  - /url: https://essential-addons.com/product/woodland-bliss-lounge-chair/
+  - img "Woodland Bliss Lounge Chair"
+- heading "Woodland Bliss Lounge Chair" [level=2]:
+  - link "Woodland Bliss Lounge Chair":
+    - /url: https://essential-addons.com/product/woodland-bliss-lounge-chair/
+- paragraph:  Chair
+- text: The Woodland Comfy Lounge Chair is a masterpiece inspired by the beauty of the forest. Its organic, flowing lines and earthy tones seamlessly blend with any decor, creating a harmonious and calming atmosphere in your...
+- 'heading "Price range: £190.00 through £300.00" [level=3]'
+- paragraph:
+  - link "Select options for “Woodland Bliss Lounge Chair”":
+    - /url: https://essential-addons.com/product/woodland-bliss-lounge-chair/
+    - text:  Select options
+  - text: This product has multiple variants. The options may be chosen on the product page
+- paragraph: View Product
+- heading "Elevate Product Showcase With Preset 2" [level=2]
+- text: Craft compelling narratives with customizable titles, entice your audience with captivating excerpts, and share the full story of your products.
+- paragraph: Sale
+- link "Men Casual Sport Shoes Light Sneakers":
+  - /url: https://essential-addons.com/product/men-casual-sport-shoes-light-sneakers/
+  - img "Men Casual Sport Shoes Light Sneakers"
+- heading "Men Casual Sport Shoes Light Sneakers" [level=2]:
+  - link "Men Casual Sport Shoes Light Sneakers":
+    - /url: https://essential-addons.com/product/men-casual-sport-shoes-light-sneakers/
+- img "Rated 4.5 out of 5":
+  - text:   Rated
+  - strong: "4.5"
+  - text: out of 5 based on  89 customer ratings
+- link "(90)":
+  - /url: https://essential-addons.com/product/men-casual-sport-shoes-light-sneakers/#reviews
+- paragraph:  Shoe
+- text: Men Casual Sport Shoes Light Sneakers White Outdoor Breathable Mesh Black Running Shoes Athletic Jogging Tennis Shoes…
+- 'heading "Original price was: £287.00. Current price is: £200.00." [level=3]'
+- 'heading "Total Sold: 50" [level=4]'
+- paragraph:
+  - 'button "Add to cart: “Men Casual Sport Shoes Light Sneakers”"':  Add to cart
+- paragraph: View Product
+- paragraph: Sale
+- link "StreetSmart Casual LiteRun Shoes":
+  - /url: https://essential-addons.com/product/streetsmart-casual-literun-shoes/
+  - img "StreetSmart Casual LiteRun Shoes"
+- img "Rated 4.5 out of 5":
+  - text:   Rated
+  - strong: "4.5"
+  - text: out of 5 based on  89 customer ratings
+- link "(90)":
+  - /url: https://essential-addons.com/product/streetsmart-casual-literun-shoes/#reviews
+- heading "StreetSmart Casual LiteRun Shoes" [level=2]:
+  - link "StreetSmart Casual LiteRun Shoes":
+    - /url: https://essential-addons.com/product/streetsmart-casual-literun-shoes/
+- text: Combine urban flair with lightweight comfort for a seamless blend of fashion and function with the Woodland Compfy Lounge Chair. This contemporary masterpiece effortlessly…
+- 'heading "Original price was: £287.00. Current price is: £200.00." [level=3]'
+- paragraph:
+  - 'button "Add to cart: “StreetSmart Casual LiteRun Shoes”"':  Add to cart
+- link "EasyBreeze Casual Sports Sneakers":
+  - /url: https://essential-addons.com/product/easybreeze-casual-sports-sneakers/
+  - img "EasyBreeze Casual Sports Sneakers"
+- img "Rated 4.5 out of 5":
+  - text:   Rated
+  - strong: "4.5"
+  - text: out of 5 based on  88 customer ratings
+- link "(90)":
+  - /url: https://essential-addons.com/product/easybreeze-casual-sports-sneakers/#reviews
+- paragraph:  Shoe
+- heading "EasyBreeze Casual Sports Sneakers" [level=2]:
+  - link "EasyBreeze Casual Sports Sneakers":
+    - /url: https://essential-addons.com/product/easybreeze-casual-sports-sneakers/
+- text: Elevate your casual footwear game with the EasyBreeze Casual Sport Sneaker, where laid-back charm meets athletic performance….
+- 'heading "Price range: £70.00 through £140.00" [level=3]'
+- 'heading "Total Sold: 50" [level=4]'
+- paragraph:
+  - link "Select options for “EasyBreeze Casual Sports Sneakers”":
+    - /url: https://essential-addons.com/product/easybreeze-casual-sports-sneakers/
+    - text:  Select options
+  - text: This product has multiple variants. The options may be chosen on the product page
+- paragraph: View Product
+- heading "Transform Your Product Listing With Preset 3" [level=2]
+- text: From one-click ‘Add to Cart’ convenience to customizable product links and beyond – empower your customers to engage and purchase effortlessly.
+- paragraph: Sale
+- link "NatureSway Wooden Accent Chair":
+  - /url: https://essential-addons.com/product/naturesway-wooden-accent-chair/
+  - img "NatureSway Wooden Accent Chair"
+- heading "NatureSway Wooden Accent Chair" [level=2]:
+  - link "NatureSway Wooden Accent Chair":
+    - /url: https://essential-addons.com/product/naturesway-wooden-accent-chair/
+- img "Rated 4.5 out of 5":
+  - text:   Rated
+  - strong: "4.5"
+  - text: out of 5 based on  59 customer ratings
+- link "(60)":
+  - /url: https://essential-addons.com/product/naturesway-wooden-accent-chair/#reviews
+- text: Immerse yourself in the epitome of modern luxury as the Sway chair transforms any space into a haven of sophistication and comfort. This meticulously crafted piece seamlessly blends the clean lines of contemporary design…
+- 'heading "Original price was: £287.00. Current price is: £180.00." [level=3]'
+- paragraph:
+  - 'button "Add to cart: “NatureSway Wooden Accent Chair”"':  Add to cart
+- heading "300 Item" [level=4]
+- paragraph:  Chair
+- paragraph: Sale
+- link "Harmony Haven Sectional Sofa":
+  - /url: https://essential-addons.com/product/harmony-haven-sectional-sofa/
+  - img "Harmony Haven Sectional Sofa"
+- heading "Harmony Haven Sectional Sofa" [level=2]:
+  - link "Harmony Haven Sectional Sofa":
+    - /url: https://essential-addons.com/product/harmony-haven-sectional-sofa/
+- img "Rated 4.5 out of 5":
+  - text:   Rated
+  - strong: "4.5"
+  - text: out of 5 based on  59 customer ratings
+- link "(60)":
+  - /url: https://essential-addons.com/product/harmony-haven-sectional-sofa/#reviews
+- text: Transform your living space into a haven of unparalleled comfort and style with the Harmony Haven sectional sofa. This exquisite piece seamlessly blends modern aesthetics with the indulgent embrace of plush relaxation…
+- 'heading "Original price was: £300.00. Current price is: £210.00." [level=3]'
+- paragraph:
+  - 'button "Add to cart: “Harmony Haven Sectional Sofa”"':  Add to cart
+- heading "300 Item" [level=4]
+- paragraph:  Chair
+- link "Blossom Bloom Glass Vase":
+  - /url: https://essential-addons.com/product/blossom-bloom-glass-vase/
+  - img "Blossom Bloom Glass Vase"
+- heading "Blossom Bloom Glass Vase" [level=2]:
+  - link "Blossom Bloom Glass Vase":
+    - /url: https://essential-addons.com/product/blossom-bloom-glass-vase/
+- text: Bring the beauty of nature indoors with Nature’s Embrace, a ceramic bloom glass vase vase that complements your blooms and designed to showcase your flowers in a cascade of style…
+- 'heading "Original price was: £200.00. Current price is: £130.00." [level=3]'
+- paragraph:
+  - 'button "Add to cart: “Blossom Bloom Glass Vase”"':  Add to cart
+- heading "300 Item" [level=4]
+- paragraph:  Chair
+- text: desktop
+- status

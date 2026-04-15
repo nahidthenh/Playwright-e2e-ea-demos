@@ -1,0 +1,44 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Elementor Gravity Forms 100"
+    - heading "Gravity Forms" [level=2]
+    - text: EA Gravity Forms allows you to design a stunning form, personalize the look, and can easily add styles to collect your customer feedback.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/gravity-forms/
+    - img "Elementor Gravity Forms 101"
+    - 'button "Play, Elementor Widgets: EA Gravity Forms for Elementor"': Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:36
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - 'button "Play, Elementor Widgets: EA Gravity Forms for Elementor"': Play
+    - heading "Design Your EA Gravity Forms" [level=3]
+    - paragraph: Choose your preferred Gravity forms layout from the ‘Select Form’ option, enable title, description, placeholder, and more to style it in advance.
+    - text: Email (Required)
+    - textbox "Email (Required) Email (Required) Email (Required)"
+    - text: Feedback (Required) Please let us know what's on your mind. Have a question for us? Ask away.
+    - textbox "Feedback (Required) Feedback (Required) Feedback (Required)"
+    - text: 0 of 300 max characters
+    - button "Submit"
+    - img "Elementor Gravity Forms 102"
+    - heading "Add Different Styles To Your Form Layout" [level=3]
+    - img "Elementor Gravity Forms 103"
+    - paragraph: Simple Contact Form for EA Demo
+    - text: Email (Required)
+    - textbox
+    - text: Feedback (Required) Please let us know what's on your mind. Have a question for us? Ask away.
+    - textbox
+    - button "Submit"
+    - heading "Customize The Form Outlook In Advance" [level=3]
+    - text: Email (Required)
+    - textbox
+    - text: Feedback (Required) Please let us know what's on your mind. Have a question for us? Ask away.
+    - textbox
+    - button "Submit"
+- text: desktop
+- status

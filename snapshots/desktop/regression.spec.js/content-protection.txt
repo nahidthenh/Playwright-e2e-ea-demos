@@ -1,0 +1,33 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Content Protection 100"
+    - heading "Content Protection" [level=2]
+    - text: EA Content Protection lets you restrict access to any Elementor content by setting up user permission or passwords. With this powerful extension you can lock any kind of Elementor content on your website and style it to make it look attractive to site visitors.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/extensions/ea-content-protection/
+    - img "Content Protection 101"
+    - button "Play, How to Protect your Content with Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:29
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Protect your Content with Essential Addons": Play
+    - heading "Content Protection Style 01" [level=3]
+    - text: Set password to protect any content/block.
+    - textbox "Promo Code"
+    - button "Submit"
+    - heading "Content Protection Style 01" [level=3]
+    - text: Set certain role(s) who could access your content.
+    - textbox "Promo Code"
+    - button "Submit"
+    - heading "Want to take a look at our exciting offer of 50% OFF?" [level=1]
+    - text: Use 1234 to access the content.
+    - textbox "Enter Password"
+    - button "Submit"
+- text: desktop
+- status

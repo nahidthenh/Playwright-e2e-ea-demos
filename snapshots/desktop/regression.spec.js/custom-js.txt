@@ -1,0 +1,68 @@
+- figure:
+  - img "Custom JS | Essential Addons for Elementor"
+- heading "EA Custom JS" [level=3]
+- heading "Add Custom Functions to Elementor with EA Custom JS" [level=2]
+- text: Using EA Custom JS tailor your site with any JavaScript code snippet. Create animations, unique forms or integrate external functions, all within a user-friendly Elementor workflow
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/custom-js/%20
+- img "Custom JS 1"
+- img "Custom JS 2"
+- img "Custom JS 3"
+- heading "Reflective Interaction by Highlighting Elements" [level=2]
+- text: Using EA Custom JS create ‘smart highlights’ for web elements. Hovering or focusing on an element triggers a JS function, changing the targeted element’s appearance to draw user attention.
+- list:
+  - listitem:
+    - link "Zep Watch":
+      - /url: "#"
+  - listitem:
+    - link "Zep Watch PRO":
+      - /url: "#"
+  - listitem:
+    - link "Rax Watch I":
+      - /url: "#"
+  - listitem:
+    - link "Rax Watch II":
+      - /url: "#"
+- img "Custom JS 4"
+- img "Custom JS 5"
+- img "Custom JS 6"
+- img "Custom JS 7"
+- img "Custom JS 8"
+- img "Custom JS 9"
+- img "Custom JS 10"
+- img "Custom JS 11"
+- img "Custom JS 12"
+- img "Custom JS 13"
+- img "Custom JS 14"
+- img "Custom JS 15"
+- heading "Limitless" [level=2]
+- heading "Design" [level=2]
+- heading "Solutions" [level=2]
+- link "Services":
+  - /url: "#"
+- heading "Click here" [level=2]
+- img "Custom JS 16"
+- img "Custom JS 17"
+- img "Custom JS 18"
+- heading "Show or Hide Elements Based on Selection" [level=2]
+- text: Assign unique class names to target elements. EA Custom JS code monitors box choices & targets elements with matching classes. It then shows or hides them based on selection.
+- heading "Create Unique Cursor Effects with Custom JS" [level=2]
+- text: Design amazing cursor effects that interact with your website. EA Custom JS lets you control a custom HTML element’s position & appearance, creating dynamic cursors that follows your mouse.
+- img "Custom JS 19"
+- heading "Upcoming Designs" [level=2]
+- link "View More":
+  - /url: "#"
+- img "Custom JS 20"
+- heading "Trending Designs" [level=2]
+- link "View More":
+  - /url: "#"
+- img "Custom JS 21"
+- img "Custom JS 22"
+- img "Custom JS 23"
+- img "Custom JS 24"
+- heading "Click here" [level=2]
+- img "Custom JS 25"
+- img "Custom JS 26"
+- img "Custom JS 27"
+- text: desktop
+- status

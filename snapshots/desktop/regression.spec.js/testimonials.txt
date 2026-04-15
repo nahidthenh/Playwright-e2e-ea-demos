@@ -1,0 +1,90 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Testimonials 100"
+    - heading "Testimonials" [level=2]
+    - text: Beautifully showcase customer reviews on website to add credibility & influence potential customers to take their immediate purchase decision with EA Testimonials element. You can add your respected client image, short portfolio, valuable words, social share icons & style using advanced features.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/testimonials/
+    - img "Testimonials 101"
+    - button "Play, Testimonial Element - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:38
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Testimonial Element - Essential Addons for Elementor": Play
+    - heading "Select Preferred Testimonials Style" [level=3]
+    - text: Showcase customer reviews outstandingly by selecting your desired Testimonial Styles and Toggle on user name & company block feature to gain customer trust on the spot
+    - img "Testimonials 102"
+    - img "Testimonials 103"
+    - text: GEMs are robotics algorithm for modules that built and optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very human cultural artifacts really lead the business down the certain routes.
+    - figure:
+      - img "Testimonials 102"
+    - paragraph: Alison Burgas
+    - paragraph: Product Designer @microsoft
+    - list:
+      - listitem
+      - listitem
+      - listitem
+      - listitem
+      - listitem
+    - text: 
+    - img "Testimonials 105"
+    - img "Testimonials 106"
+    - figure:
+      - img "Testimonials 105"
+    - paragraph: GEMs are robotics algorithm for modules that optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very human cultural artifacts really.
+    - paragraph: Alison Burgas
+    - paragraph: Product Designer @microsoft
+    - text: 
+    - heading "Choose Testimonials Style" [level=3]
+    - text: Add image, short portfolio of clients, description using advanced default Testimonial Style to make it look standout
+    - heading "Experiment With Testimonials Style" [level=3]
+    - text: With this style, you will get a pre-made layout to display clients image, name, email, designation, quotation & instantly able to create an interactive look to add credibility
+    - figure:
+      - img "Testimonials 108"
+    - text: GEMs are robotics algorithm for modules that optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often.
+    - paragraph: GFXPARTNER - CEO
+    - text: 
+    - figure:
+      - img "Testimonials 109"
+    - text: GEMs are robotics algorithm for modules that optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often.
+    - paragraph: GFXPARTNER - CEO
+    - text: 
+    - heading "Showcase Customer Ratings" [level=3]
+    - text: Toggle on Customer Ratings, select content on Top Style and decorate the whole section using its advanced features and fuctions
+    - figure:
+      - img "Testimonials 110"
+    - paragraph: Alison Burgas
+    - paragraph: Product Designer @microsoft
+    - list:
+      - listitem
+      - listitem
+      - listitem
+      - listitem
+      - listitem
+    - text: Essential Addons brings you more creative elements for free beside what you get built-in with Elementor. Without any coding skill, it enables you to design stunning websites. 
+    - figure:
+      - img "Testimonials 111"
+    - paragraph: Alison Burgas
+    - paragraph: Product Designer @microsoft
+    - list:
+      - listitem
+      - listitem
+      - listitem
+      - listitem
+      - listitem
+    - text: Essential Addons brings you more creative elements for free beside what you get built-in with Elementor. Without any coding skill, it enables you to design stunning websites. 
+    - heading "Change Content Orientation" [level=3]
+    - text: Display client images on top, content on bottom with short brief to create an appealing look & get the full control over every style section
+    - figure:
+      - img "Testimonials 102"
+    - text: GEMs are robotics algorithm for modules that built and optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very human cultural artifacts really lead the business down the certain routes.
+    - paragraph: Alison Burgas
+    - text: 
+- text: desktop
+- status

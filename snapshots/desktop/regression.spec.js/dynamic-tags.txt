@@ -1,0 +1,24 @@
+- figure:
+  - img "Dynamic Tags | Essential Addons for Elementor"
+- heading "Dynamic Tags" [level=3]
+- heading "Automate Content Management & Enhance Reader Engagement" [level=2]
+- text: With EA Dynamic Tags, you can automatically pull and display content from Posts, Woo Products, Terms, and so on based on your preferred predefined parameters. It helps create dynamic pages, minimizing manual updates and enhancing content management efficiency.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-dynamic-tags/
+- img "Dynamic Tags 1"
+- img "Dynamic Tags 2"
+- img "Dynamic Tags | Essential Addons for Elementor"
+- heading "Showcase Latest Posts Automatically" [level=2]
+- text: Posts Dynamic Tags capture content from posts and pages based on the author, categories, and tags. Display content by specific contributors on various sections of the site, such as the homepage or author pages.
+- img "Dynamic Tags | Essential Addons for Elementor"
+- img "Dynamic Tags | Essential Addons for Elementor"
+- heading "Display Featured WooCommerce Products" [level=2]
+- text: Woo Products Dynamic tags retrieve and showcase products based on different categories such as recent or best-selling, and other Woo product types. Any changes to the product types will be automatically reflected, allowing these product listings and featured displays to update dynamically.
+- heading "Present Dynamic Taxonomy Information" [level=2]
+- text: Terms Dynamic Tags help pull all the taxonomy-based categories, tags, formats, product categories, docs categories and more. Display tags on your preferred page or posts in a list, like dynamically showing product categories on any page.
+- img "Dynamic Tags | Essential Addons for Elementor"
+- img "Dynamic Tags | Essential Addons for Elementor"
+- heading "Pull in Custom Content from Anywhere" [level=2]
+- text: Custom Post Types allows to grab content from landing pages and documents to showcase on your web page. This feature enhances flexibility, enabling you to pull custom content dynamically from various sources and display it seamlessly. desktop
+- status
+- button "Open chat"

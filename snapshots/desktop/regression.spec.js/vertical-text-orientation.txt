@@ -1,0 +1,94 @@
+- figure:
+  - img "Vertical Text Orientation 1"
+- heading "Vertical Text Orientation" [level=3]
+- heading "Add A New Dimension To Text With Stylish Placement" [level=2]
+- text: Break the horizontal mold with stylish vertical text. Whether it’s titles, menus or creative labels, make your Elementor site look more artistic and trend-forward.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-vertical-text-orientation/
+- img "Vertical Text Orientation 2"
+- img "Vertical Text Orientation 3"
+- img "EA Vertical Text Orientation"
+- heading "Design Modern Layouts With Vertical Text" [level=2]
+- img "Vertical Text Orientation 4"
+- heading "CASUAL → → FORMAL" [level=3]
+- heading "The new look book is here" [level=2]
+- paragraph: Our latest collection is inspired by the classic Alaskan fiesta featuring long comfy clothes.
+- img "Vertical Text Orientation 5"
+- img "Vertical Text Orientation 6"
+- link "Add To Cart":
+  - /url: "#"
+- heading "Explore" [level=2]
+- img "Vertical Text Orientation 7"
+- heading "Explore Thailand" [level=2]
+- img "Vertical Text Orientation 8"
+- img "Vertical Text Orientation 9"
+- paragraph: Discover Thailand's breathtaking landscapes, where golden beaches meet vibrant culture. From lively markets to peaceful temples, every corner invites adventure. Plan your escape now and experience this tropical paradise!
+- link "Book Now":
+  - /url: "#"
+  - img
+  - text: Book Now
+- heading "ULTIMATE FASHION DESTINATION" [level=3]
+- paragraph: Confidence / Quality / Fast Delivery / Easy Returns
+- img "Vertical Text Orientation 10"
+- heading "Made For Comfort Built For You" [level=2]
+- heading "FLASH SALE WORLDWIDE FREE SHIPPING AVAILABLE GRAB YOUR PREFERRED SIZE" [level=2]
+- heading "01 COLLECTION" [level=2]
+- heading "02 about" [level=2]
+- heading "03 store" [level=2]
+- img "Vertical Text Orientation 11"
+- list:
+  - listitem: Home
+  - listitem: Agency
+  - listitem: Expertise
+  - listitem: Blog
+  - listitem: Contact
+- paragraph: "We don’t follow the rules—we rewrite them. LUMO is the neon sign of agencies: bright, disruptive, and impossible to ignore. From viral launches to thumb-stopping campaigns, we turn wild ideas into unforgettable brands. Let’s make your story impossible to skip."
+- list:
+  - listitem: hello@EA.studio
+  - listitem: (415) 932-7486
+- heading "INNOVATE" [level=2]
+- heading "| Inspired Creativity Captured Moments" [level=2]
+- heading "01" [level=2]
+- img "Vertical Text Orientation 12"
+- heading "Golden Hour Streets" [level=2]
+- heading "12 Oct 2025" [level=2]
+- heading "02" [level=2]
+- img "Vertical Text Orientation 13"
+- heading "Color of Joy" [level=2]
+- heading "24 Oct 2025" [level=2]
+- heading "03" [level=2]
+- img "Vertical Text Orientation 14"
+- heading "Illusion of Colors" [level=2]
+- heading "12 Oct 2025" [level=2]
+- heading "04" [level=2]
+- img "Vertical Text Orientation 15"
+- heading "Fashion with Color" [level=2]
+- heading "12 Oct 2025" [level=2]
+- list:
+  - listitem: MENU
+  - listitem: RESERVATIONS
+- img "Vertical Text Orientation 16"
+- paragraph: We don’t follow the flavor—we create it. Our desserts aren’t just sweet; they’re statements. Bold, irresistible, and unforgettable—just like us.
+- link "BOOK A TABLE":
+  - /url: "#"
+- heading "Enjoy our" [level=2]
+- text: Desserts|
+- heading "Twitter Facebook Instagram" [level=2]
+- heading "Why Use Vertical Text Orientation?" [level=2]
+- heading "Aesthetic Modern" [level=4]
+- paragraph: Give your website a fresh, magazine-inspired look that stands out. Vertical text instantly adds a touch of modern design and creativity to any layout.
+- heading "Better Visual" [level=4]
+- paragraph: Guide visitor attention effortlessly. Use vertical text to highlight section titles, side labels, or key content areas for a balanced and eye-catching design flow.
+- heading "Creative Layout" [level=4]
+- paragraph: Break away from horizontal structures. Vertical text orientation lets you experiment with new compositions, making your Elementor website unique.
+- heading "What Makes Vertical Text Orientation Special?" [level=2]
+- img "Vertical Text Orientation 17"
+- heading "Different Writing Mode" [level=2]
+- text: Choose between Vertical RL and Vertical LR to control your text direction, whether it flows from right to left or left to right.
+- img "Vertical Text Orientation 18"
+- heading "Customization Option" [level=2]
+- text: Fine-tune every detail by flipping your text, adjusting letter or word spacing, and setting line height for perfect alignment and balance.
+- img "Vertical Text Orientation 19"
+- heading "Creative Styling" [level=2]
+- text: Enhance your vertical text with stylish backgrounds or gradient effects, turning simple words into striking design elements. desktop
+- status

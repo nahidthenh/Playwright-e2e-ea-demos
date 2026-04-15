@@ -1,0 +1,154 @@
+- text: Elements Panel
+- img "Woo Account Dashboard - Essential Addons for Elementor"
+- heading "Woo Account Dashboard" [level=2]
+- text: Craft an easy-to-navigate and aesthetic account page for your WooCommerce store that brings together all essential tabs in a single location. Level up the shopping experience of your customers with Woo Account Dashboard.
+- link "Documentation":
+  - /url: https://essential-addons.com/elementor/docs/ea-woo-account-dashboard/
+- img "Woo Account Dashboard 100"
+- button "Play, Configure The WooCommerce My Account With EA Woo Account Dashboard Widget": Play
+- slider "Seek": "0"
+- text: 00:00
+- timer "Current time": 02:56
+- button "Mute"
+- slider "Volume": "1"
+- button "Settings"
+- button "Enter fullscreen"
+- iframe
+- button "Play, Configure The WooCommerce My Account With EA Woo Account Dashboard Widget": Play
+- heading "Classic Preset With Vibrance - Preset 1 (PRO)" [level=3]
+- text: Showcase all the necessary resources next to each other in tabs, and grow customer engagement.
+- navigation "Account pages":
+  - list:
+    - listitem:
+      - link " Dashboard":
+        - /url: https://essential-addons.com/woo-account-dashboard/
+    - listitem:
+      - link " Orders":
+        - /url: https://essential-addons.com/woo-account-dashboard/orders/
+    - listitem:
+      - link " Downloads":
+        - /url: https://essential-addons.com/woo-account-dashboard/downloads/
+    - listitem:
+      - link " Addresses":
+        - /url: https://essential-addons.com/woo-account-dashboard/edit-address/
+    - listitem:
+      - link " Account Details":
+        - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
+    - listitem:
+      - link " Logout":
+        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/?_wpnonce=6e8e5ec1b3
+- img "Woo Account Dashboard 101"
+- paragraph: Hello
+- heading "Jane Miller" [level=5]
+- paragraph:
+  - text: Hello
+  - strong: Jane Miller
+  - text: (not
+  - strong: Jane Miller
+  - text: "?"
+  - link "Log out":
+    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F&_wpnonce=35c6759bb7
+  - text: )
+- paragraph:
+  - text: From your account dashboard you can view your
+  - link "recent orders":
+    - /url: https://essential-addons.com/woo-account-dashboard/orders/
+  - text: ", manage your"
+  - link "shipping and billing addresses":
+    - /url: https://essential-addons.com/woo-account-dashboard/edit-address/
+  - text: ", and"
+  - link "edit your password and account details":
+    - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
+  - text: .
+- heading "Simplicity Meets Necessity - Preset 2 (PRO)" [level=3]
+- text: Display your account’s essentials, orders, and addresses in user-friendly tabs to enhance customer engagement.
+- navigation "Account pages":
+  - list:
+    - listitem:
+      - link "Dashboard":
+        - /url: https://essential-addons.com/woo-account-dashboard/
+    - listitem:
+      - link "Orders":
+        - /url: https://essential-addons.com/woo-account-dashboard/orders/
+    - listitem:
+      - link "Downloads":
+        - /url: https://essential-addons.com/woo-account-dashboard/downloads/
+    - listitem:
+      - link "Addresses":
+        - /url: https://essential-addons.com/woo-account-dashboard/edit-address/
+    - listitem:
+      - link "Account Details":
+        - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
+    - listitem:
+      - link "Logout":
+        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/?_wpnonce=6e8e5ec1b3
+- img "Woo Account Dashboard 101"
+- paragraph: Hello
+- heading "Jane Miller" [level=5]
+- paragraph:
+  - text: Hello
+  - strong: Jane Miller
+  - text: (not
+  - strong: Jane Miller
+  - text: "?"
+  - link "Log out":
+    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F&_wpnonce=35c6759bb7
+  - text: )
+- paragraph:
+  - text: From your account dashboard you can view your
+  - link "recent orders":
+    - /url: https://essential-addons.com/woo-account-dashboard/orders/
+  - text: ", manage your"
+  - link "shipping and billing addresses":
+    - /url: https://essential-addons.com/woo-account-dashboard/edit-address/
+  - text: ", and"
+  - link "edit your password and account details":
+    - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
+  - text: .
+- heading "Elegance With Sleek Design - Preset 3 (PRO)" [level=3]
+- text: An account page with more vibrance and design choices, perfect for matching your aesthetics while serving needs.
+- navigation "Account pages":
+  - list:
+    - listitem:
+      - link " Dashboard":
+        - /url: https://essential-addons.com/woo-account-dashboard/
+    - listitem:
+      - link " Orders":
+        - /url: https://essential-addons.com/woo-account-dashboard/orders/
+    - listitem:
+      - link " Downloads":
+        - /url: https://essential-addons.com/woo-account-dashboard/downloads/
+    - listitem:
+      - link " Addresses":
+        - /url: https://essential-addons.com/woo-account-dashboard/edit-address/
+    - listitem:
+      - link " Account Details":
+        - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
+    - listitem:
+      - link " Logout":
+        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/?_wpnonce=6e8e5ec1b3
+- img "Woo Account Dashboard 101"
+- paragraph: Hello
+- heading "Jane Miller" [level=5]
+- paragraph:
+  - text: Hello
+  - strong: Jane Miller
+  - text: (not
+  - strong: Jane Miller
+  - text: "?"
+  - link "Log out":
+    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F&_wpnonce=35c6759bb7
+  - text: )
+- paragraph:
+  - text: From your account dashboard you can view your
+  - link "recent orders":
+    - /url: https://essential-addons.com/woo-account-dashboard/orders/
+  - text: ", manage your"
+  - link "shipping and billing addresses":
+    - /url: https://essential-addons.com/woo-account-dashboard/edit-address/
+  - text: ", and"
+  - link "edit your password and account details":
+    - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
+  - text: .
+- text: desktop
+- status

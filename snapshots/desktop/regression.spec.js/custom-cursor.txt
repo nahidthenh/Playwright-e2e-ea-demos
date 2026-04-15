@@ -1,0 +1,78 @@
+- figure:
+  - img "Custom cursor 1"
+- heading "Custom cursor" [level=3]
+- heading "Make Every Interaction Engaging With Custom Cursor" [level=2]
+- paragraph: From playful trails to glowing effects, create an interactive experience on your Elementor website. Use this extension on any element of your site to create an engaging browsing experience.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-custom-cursor/
+- img "Custom cursor 2"
+- img "Custom cursor 3"
+- img "Custom Cursor | Essential Addons for Elementor"
+- heading "Why Use Custom Cursor In Your Elementor Site?" [level=2]
+- img "Custom cursor 4"
+- heading "Greater User Engagement" [level=2]
+- paragraph: Adds an interactive element that keeps visitors curious and engaged as they explore your site.
+- img "Custom cursor 5"
+- heading "Stronger Brand Identity" [level=2]
+- paragraph: Reinforces your brand personality by showing your unique style on your website design.
+- img "Custom cursor 6"
+- heading "Improved Visual Guidance" [level=2]
+- paragraph: Interactively helps grab attention and subtly guides users toward key actions or content.
+- heading "Why Use Custom Cursor In Your Elementor Site?" [level=2]
+- tablist:
+  - tab "Trail Particles" [selected]:
+    - img
+    - text: Trail Particles
+  - tab "Ink Trail":
+    - img
+    - text: Ink Trail
+  - tab "Phantom Smoke":
+    - img
+    - text: Phantom Smoke
+  - tab "Chroma Orbs":
+    - img
+    - text: Chroma Orbs
+  - tab "Spirit Echo":
+    - img
+    - text: Spirit Echo
+  - tab "Frost Sparkles":
+    - img
+    - text: Frost Sparkles
+  - tab "Glow Blocks":
+    - img
+    - text: Glow Blocks
+- img "Custom cursor 7"
+- heading "Draw Visitor's Attention with Customized Image Cursor" [level=2]
+- img "Custom cursor 14"
+- heading "Salmon Sashimi" [level=4]
+- img "Rated 3 out of 5"
+- heading "$6.49" [level=4]
+- img "Custom cursor 15"
+- img "Custom cursor 16"
+- heading "Blossom Maki" [level=4]
+- img "Rated 4 out of 5"
+- heading "$6.49" [level=4]
+- img "Custom cursor 15"
+- img "Custom cursor 18"
+- heading "Pearl Sashimi" [level=4]
+- img "Rated 3 out of 5"
+- heading "$7.49" [level=4]
+- img "Custom cursor 15"
+- img "Custom cursor 20"
+- heading "Tempura Delight" [level=4]
+- img "Rated 4 out of 5"
+- heading "$6.49" [level=4]
+- img "Custom cursor 15"
+- heading "What Makes Custom Cursor Special?" [level=2]
+- img "Custom cursor 22"
+- heading "Unlimited Styling" [level=2]
+- paragraph: Customize your cursor with endless styles and effects, letting you create a unique and engaging experience.
+- img "Custom cursor 23"
+- heading "Usable in Any Elements" [level=2]
+- paragraph: Apply to all website Elements, including text, buttons and images, ensuring every interaction feels visually appealing.
+- img "Custom cursor 24"
+- heading "Color Control" [level=2]
+- paragraph: Take control of your cursor colors and effects, ensuring every interaction is aligned with the website’s overall style and branding.
+- text: desktop
+- status
+- button "Open chat"

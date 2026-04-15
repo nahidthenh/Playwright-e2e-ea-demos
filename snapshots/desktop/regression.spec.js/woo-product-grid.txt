@@ -1,0 +1,161 @@
+- main:
+  - article:
+    - img "Woo Product Grid for Elementor 1"
+    - heading "Woo Product Grid" [level=2]
+    - paragraph: Showcase WooCommerce products anywhere in your website using EA Woo Product Grid. You can display it by its category, tags or attributes and add hover effects on the layout to make it stunning.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/dynamic-content-elements/woocommerce-product-grid/
+    - text: Elements Panel
+    - img "Woo Product Grid for Elementor 101"
+    - button "Play, Showcase Your WooCommerce Products using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:48
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Showcase Your WooCommerce Products using Elementor": Play
+    - heading "WooCommerce Product Grid" [level=2]
+    - heading "Add to cart is disabled on demo" [level=2]
+    - list:
+      - listitem:
+        - img "Mens Trendy T Shirt"
+        - link "Mens Trendy T Shirt":
+          - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+          - heading "Mens Trendy T Shirt" [level=2]
+        - img "Rated 4.00 out of 5":
+          - text:   Rated
+          - strong: "4.00"
+          - text: out of 5 based on  2 customer ratings
+        - text: £35.00
+        - 'button "Add to cart: “Mens Trendy T Shirt”"': Add to cart
+      - listitem:
+        - img "Mens Stylish Shirt"
+        - link "Mens Stylish Shirt":
+          - /url: https://essential-addons.com/product/mens-stylish-shirt/
+          - heading "Mens Stylish Shirt" [level=2]
+        - img "Rated 3.50 out of 5":
+          - text:   Rated
+          - strong: "3.50"
+          - text: out of 5 based on  2 customer ratings
+        - text: £75.00
+        - 'button "Add to cart: “Mens Stylish Shirt”"': Add to cart
+      - listitem:
+        - img "Mens Comfy T Shirt"
+        - link "Mens Comfy T Shirt":
+          - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+          - heading "Mens Comfy T Shirt" [level=2]
+        - img "Rated 3.00 out of 5":
+          - text:   Rated
+          - strong: "3.00"
+          - text: out of 5 based on  1 customer rating
+        - text: £20.00
+        - 'button "Add to cart: “Mens Comfy T Shirt”"': Add to cart
+      - listitem:
+        - img "Mens Black Shirt"
+        - link "Mens Black Shirt":
+          - /url: https://essential-addons.com/product/mens-black-shirt/
+          - heading "Mens Black Shirt" [level=2]
+        - img "Rated 5.00 out of 5":
+          - text:   Rated
+          - strong: "5.00"
+          - text: out of 5 based on  1 customer rating
+        - text: £45.00
+        - 'button "Add to cart: “Mens Black Shirt”"': Add to cart
+    - list:
+      - listitem:
+        - img "Mens Trendy T Shirt"
+        - link "":
+          - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+        - 'button "Add to cart: “Mens Trendy T Shirt”"': Add to cart 
+        - link "Mens Trendy T Shirt":
+          - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+          - heading "Mens Trendy T Shirt" [level=2]
+        - img "Rated 4.00 out of 5":
+          - text:   Rated
+          - strong: "4.00"
+          - text: out of 5 based on  2 customer ratings
+        - text: £35.00
+      - listitem:
+        - img "Mens Stylish Shirt"
+        - link "":
+          - /url: https://essential-addons.com/product/mens-stylish-shirt/
+        - 'button "Add to cart: “Mens Stylish Shirt”"': Add to cart 
+        - link "Mens Stylish Shirt":
+          - /url: https://essential-addons.com/product/mens-stylish-shirt/
+          - heading "Mens Stylish Shirt" [level=2]
+        - img "Rated 3.50 out of 5":
+          - text:   Rated
+          - strong: "3.50"
+          - text: out of 5 based on  2 customer ratings
+        - text: £75.00
+      - listitem:
+        - img "Mens Comfy T Shirt"
+        - link "":
+          - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+        - 'button "Add to cart: “Mens Comfy T Shirt”"': Add to cart 
+        - link "Mens Comfy T Shirt":
+          - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+          - heading "Mens Comfy T Shirt" [level=2]
+        - img "Rated 3.00 out of 5":
+          - text:   Rated
+          - strong: "3.00"
+          - text: out of 5 based on  1 customer rating
+        - text: £20.00
+      - listitem:
+        - img "Mens Black Shirt"
+        - link "":
+          - /url: https://essential-addons.com/product/mens-black-shirt/
+        - 'button "Add to cart: “Mens Black Shirt”"': Add to cart 
+        - link "Mens Black Shirt":
+          - /url: https://essential-addons.com/product/mens-black-shirt/
+          - heading "Mens Black Shirt" [level=2]
+        - img "Rated 5.00 out of 5":
+          - text:   Rated
+          - strong: "5.00"
+          - text: out of 5 based on  1 customer rating
+        - text: £45.00
+    - list:
+      - listitem:
+        - img "Men Casual Sport Shoes Light Sneakers"
+        - link "Men Casual Sport Shoes Light Sneakers":
+          - /url: https://essential-addons.com/product/men-casual-sport-shoes-light-sneakers/
+          - heading "Men Casual Sport Shoes Light Sneakers" [level=2]
+        - img "Rated 4.5 out of 5":
+          - text:   Rated
+          - strong: "4.5"
+          - text: out of 5 based on  89 customer ratings
+        - text: "Sale! Original price was: £287.00. Current price is: £200.00."
+      - listitem:
+        - img "EasyBreeze Casual Sports Sneakers"
+        - link "EasyBreeze Casual Sports Sneakers":
+          - /url: https://essential-addons.com/product/easybreeze-casual-sports-sneakers/
+          - heading "EasyBreeze Casual Sports Sneakers" [level=2]
+        - img "Rated 4.5 out of 5":
+          - text:   Rated
+          - strong: "4.5"
+          - text: out of 5 based on  88 customer ratings
+        - text: "Price range: £70.00 through £140.00 This product has multiple variants. The options may be chosen on the product page"
+      - listitem:
+        - img "StreetSmart Casual LiteRun Shoes"
+        - link "StreetSmart Casual LiteRun Shoes":
+          - /url: https://essential-addons.com/product/streetsmart-casual-literun-shoes/
+          - heading "StreetSmart Casual LiteRun Shoes" [level=2]
+        - img "Rated 4.5 out of 5":
+          - text:   Rated
+          - strong: "4.5"
+          - text: out of 5 based on  89 customer ratings
+        - text: "Sale! Original price was: £287.00. Current price is: £200.00."
+      - listitem:
+        - img "Sports shoe for men"
+        - link "Sports shoe for men":
+          - /url: https://essential-addons.com/product/sports-shoe-for-men/
+          - heading "Sports shoe for men" [level=2]
+        - text:   Rated
+        - strong: "0"
+        - text: out of 5 £99.00
+    - text: Elements Panel
+- text: desktop
+- status

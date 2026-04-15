@@ -1,0 +1,172 @@
+- main:
+  - article:
+    - img "Contact Form 7 1"
+    - heading "Contact Form 7" [level=2]
+    - text: Design your contact form container, fields and choose preferred form layout to style it exclusively using EA Contact Form 7.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/contact-form-7/
+    - text: Elements Panel
+    - img "Contact Form 7 101"
+    - button "Play, Elementor Widgets- EA Contact Form 7 for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:37
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Elementor Widgets- EA Contact Form 7 for Elementor": Play
+    - heading "Contact Form 1 Style" [level=3]
+    - text: Choose form type & style the form container as you want
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+    - heading "Nurture With Colors" [level=3]
+    - text: Create an engaging look with different colors for your landing pages
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+    - heading "Interactive Form Title" [level=3]
+    - text: Give an interactive tittle to your form, change title color, input & text area style to make it standout
+    - heading "Say Hello, On Our Support!" [level=3]
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+    - heading "Flexibility To Display Error Messages" [level=3]
+    - text: You can enable toggle to show the error messages and validation errors & style it by changing background, text color, border or margin
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+    - heading "Advanced Design of Form" [level=3]
+    - text: Your form will look more engaging for visitors by changing form container, title, description, labels, and more
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+    - heading "Engage Audience With Form" [level=3]
+    - text: Style contact from exclusively for your potential customers
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+    - heading "Style Your Form Container" [level=3]
+    - text: Make your form unique by changing the style of container
+    - status
+    - list
+    - form "Contact form":
+      - paragraph:
+        - text: Your Name (required)
+        - textbox "Your Name (required)"
+      - paragraph:
+        - text: Your Email (required)
+        - textbox "Your Email (required)"
+      - paragraph:
+        - text: Subject
+        - textbox "Subject"
+      - paragraph:
+        - text: Your Message
+        - textbox "Your Message"
+      - paragraph:
+        - button "Send"
+- text: desktop
+- status

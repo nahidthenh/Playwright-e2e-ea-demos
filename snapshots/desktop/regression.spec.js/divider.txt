@@ -1,0 +1,33 @@
+- main:
+  - article:
+    - img "Divider 1"
+    - heading "Divider" [level=2]
+    - text: EA Divider will let you make a space between two content sections of website in an innovative way. You can add image, icon or texts into the space to make it look standout. Let’s check out this element functionalities in detail.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/creative-elements/divider/
+    - text: Elements Panel
+    - img "Divider 101"
+    - button "Play, How To Use Divider Using Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:14
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Use Divider Using Essential Addons": Play
+    - heading "Style Divider With Image" [level=3]
+    - text: Style divider element with image, set different colors, direction & alignment
+    - heading "Icon Divider Style 01" [level=4]
+    - img "Divider 102"
+    - heading "Icon Divider Style 02" [level=4]
+    - img "Divider 102"
+    - heading "Icon Divider Style 03" [level=4]
+    - img "Divider 102"
+    - heading "Divide Sections With Text" [level=3]
+    - text: Divide section with preferred text content, direction & Customize Styles Line with Divider Line with Divider Line with Divider
+    - heading "Try Out Dot’s Divider Style" [level=3]
+    - text: Divide sections with Dot’s style and change the outlook of website Divider with Dot’s Divider with Dot’s Divider with Dot’s
+- text: desktop
+- status

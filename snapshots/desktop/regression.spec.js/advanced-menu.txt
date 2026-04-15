@@ -1,0 +1,218 @@
+- main:
+  - article:
+    - img "Advanced Menu 1"
+    - heading "Advanced Menu" [level=2]
+    - text: Display your navigation menu anywhere in the website by using EA Advanced Menu element. You can implement any design by choosing preferred skin, add menu types of navigation and set the layout position to make it looks user-friendly for your visitors.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/content-elements/ea-advanced-menu/
+    - text: Elements Panel
+    - img "Advanced Menu 101"
+    - button "Play, How to Create a Beautiful Navigation Menu using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:04
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Create a Beautiful Navigation Menu using Elementor": Play
+    - heading "Style Default Skin & Horizontal Layout" [level=3]
+    - text: Add drop down menu icon, animation effect, hover effect and change content alignment
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - heading "Change Top Level Item Alignment" [level=3]
+    - text: Set alignment to right or left and modify solid border type, color, animation & more
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - heading "Add To Top Drop Down Animation" [level=3]
+    - text: Choose ‘To Top’ drop down menu animation, add icon and change the navigation
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - heading "Zoom In Drop Down Animation" [level=3]
+    - text: Choose ‘Zoom In ‘ drop down animation, add border type, background & hover color
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - heading "Zoom Out Drop Down Animation" [level=3]
+    - text: Choose ‘Zoom Out’ drop down animation, experiment with background & more
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - heading "Fade Drop Down Animation" [level=3]
+    - text: Choose ‘Fade’ drop down animation & customize the entire look of navigation menu
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+    - heading "Style Vertical Layout Menu" [level=3]
+    - text: Select vertical layout to display navigation menu in different form
+    - link "Learn More":
+      - /url: "#"
+    - heading "Different Styles Of Vertical Menu" [level=3]
+    - paragraph: Showcase vertical layout of menu in different places of website, change background color, mouse hover color, add animation & more to make it more user-friendly
+    - link "Learn More":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://essential-addons.com/
+      - listitem:
+        - link "Elements":
+          - /url: "#"
+      - listitem:
+        - link "Support":
+          - /url: https://essential-addons.com/support/
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+      - listitem:
+        - link "Contact Us":
+          - /url: "#"
+- text: desktop
+- status
+- button "Open chat"

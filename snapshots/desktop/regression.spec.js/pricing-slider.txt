@@ -1,0 +1,183 @@
+- figure:
+  - img "Pricing Slider 1"
+- heading "Pricing Slider" [level=2]
+- heading "Display Dynamic Pricing With An Interactive Draggable Slider" [level=1]
+- paragraph: "Pricing that moves with your business. A fully interactive pricing slider widget from Essential Addons: drag to explore plans, toggle billing cycles and show value in real time. No code, pure Elementor."
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-pricing-slider/
+- img "Pricing Slider | Essential Addons for Elementor"
+- heading "Drag the slider. See it work." [level=2]
+- paragraph: Interact with the widget below to see how it looks on a live website built with Essential Addons
+- text: All package
+- paragraph: All
+- paragraph: Starter
+- paragraph: Basic
+- paragraph: Growth
+- paragraph: Advanced
+- paragraph: Our pricing plans are built to adapt to every stage of your growth — from simple starter setups to fully managed, high-performance solutions. Each tier offers a balance of flexibility, scalability, and expert support to help you achieve consistent results without overpaying.
+- heading "MICRO START" [level=3]
+- paragraph: Grow steadily
+- img
+- list:
+  - listitem: 3 Social Media Posts
+  - listitem: Basic Profile Optimization
+  - listitem: 1 Platform Management
+  - listitem: Monthly Insights
+  - listitem: Email Support
+- link "Buy Now":
+  - /url: "#"
+- text: $ 29 /mo
+- heading "STARTER PLUS" [level=3]
+- paragraph: Most Popular
+- paragraph: Grow steadily
+- img
+- list:
+  - listitem: 7 Social Media Posts
+  - listitem: Basic Profile Optimization
+  - listitem: 1 Platform Management
+  - listitem: Monthly Insights
+  - listitem: Email Support
+- link "Buy Now":
+  - /url: "#"
+- text: $ 59 /mo
+- heading "BASIC PLUS" [level=3]
+- paragraph: Boost visibility
+- img
+- list:
+  - listitem: 12 Posts
+  - listitem: SEO Optimization + Keywords
+  - listitem: 2 Campaigns
+  - listitem: Content Calendar + Captions
+  - listitem: Priority Email Support
+- link "Buy Now":
+  - /url: "#"
+- text: $ 99 /mo
+- heading "SMART MARKETING" [level=3]
+- paragraph: Smarter growth
+- img
+- list:
+  - listitem: 18 Posts
+  - listitem: Ads Optimization
+  - listitem: Competitor Tracking
+  - listitem: Bi-weekly Reports
+  - listitem: Strategy Suggestions
+- link "Buy Now":
+  - /url: "#"
+- text: $ 140 /mo
+- heading "GROWTH PLUS" [level=3]
+- paragraph: Scale faster
+- img
+- list:
+  - listitem: 25 Posts
+  - listitem: Advanced SEO
+  - listitem: 3 Campaigns + Retargeting
+  - listitem: Weekly Reports
+  - listitem: Landing Page Optimization
+- link "Buy Now":
+  - /url: "#"
+- text: $ 210 /mo
+- heading "SCALE" [level=3]
+- paragraph: Full control
+- img
+- list:
+  - listitem: 35 Posts
+  - listitem: Multi-Channel Ads
+  - listitem: Conversion Tracking
+  - listitem: Funnel Optimization
+  - listitem: Weekly Strategy Calls
+- link "Buy Now":
+  - /url: "#"
+- text: $ 280 /mo
+- heading "ADVANCED PLUS" [level=3]
+- paragraph: Full control
+- img
+- list:
+  - listitem: 45+ Posts
+  - listitem: Full Funnel Strategy
+  - listitem: Automation Setup
+  - listitem: Dedicated Account Manager
+  - listitem: A/B Testing
+- link "Buy Now":
+  - /url: "#"
+- text: $ 420 /mo
+- heading "BUSINESS ELITE" [level=3]
+- paragraph: Max performance
+- img
+- list:
+  - listitem: 50+ Posts
+  - listitem: Multi-Platform Management
+  - listitem: Advanced Analytics Dashboard
+  - listitem: Weekly Strategy + Reporting
+  - listitem: Priority Support
+- link "Buy Now":
+  - /url: "#"
+- text: $ 500 /mo
+- heading "PREMIUM PLUS" [level=3]
+- paragraph: All-in power
+- img
+- list:
+  - listitem: 60+ Posts
+  - listitem: Full Marketing Automation
+  - listitem: Sales Funnel + CRM Integration
+  - listitem: Daily Monitoring
+  - listitem: Dedicated Team
+- text: $ 550 /mo $ 650 /mo
+- link "Buy Now":
+  - /url: "#"
+- heading "One Slider. Endless Customization." [level=2]
+- paragraph: Customize pricing plans effortlessly with dynamic, fully editable options that adapt to your needs in real time
+- img
+- text: Beginner-friendly
+- img
+- paragraph: All
+- paragraph: Kickstart
+- paragraph: Active
+- paragraph: Strong
+- paragraph: Elite
+- heading "Starter Fit" [level=3]
+- text: $ 29
+- paragraph: per user/month, Billed annually
+- paragraph
+- list:
+  - listitem: 3 Workout Plans / Week
+  - listitem: Basic Diet Guide
+  - listitem: Home Workout Focus
+  - listitem: Weekly Progress Tracker
+  - listitem: Priority Support
+- link "Get Started":
+  - /url: "#"
+- text: Most Popular
+- heading "Fit Lite" [level=3]
+- text: $ 49
+- paragraph: per user/month, Billed annually
+- paragraph
+- list:
+  - listitem: 4 Workout Plans / Week
+  - listitem: Beginner Diet Plan
+  - listitem: Video Exercise Guide
+  - listitem: Bi-weekly Check-ins
+  - listitem: Priority Support
+- link "Get Started":
+  - /url: "#"
+- heading "Everything packed in." [level=2]
+- paragraph: From smooth drag interactions to fully customizable layouts, the EA Pricing Slider has every detail you may need
+- img "Pricing Slider 4"
+- heading "Edit Your Pricing Live" [level=2]
+- paragraph: Customize your pricing plans directly in your Elementor page builder & see the outcome live.
+- img "Pricing Slider 5"
+- heading "Enjoy Design Flexibility" [level=2]
+- paragraph: Colors, fonts, spacing, track style — customize every pixel directly in Elementor.
+- img "Pricing Slider 6"
+- heading "Get Mobile Responsiveness" [level=2]
+- paragraph: Looks and works perfectly across all screen sizes, out of the box.
+- img "Pricing Slider 7"
+- heading "Pick Monthly/Yearly" [level=2]
+- paragraph: Set your pricing plans monthly/yearly. Both options are available. No custom JS needed.
+- img "Pricing Slider 8"
+- heading "Drag Slider Smoothly" [level=2]
+- paragraph: Silky slider movement with real-time price update on every step. Zero lag.
+- heading "Built for every pricing page." [level=2]
+- paragraph: From SaaS tools to creative agencies, the widget adapts to any business model
+- img "Pricing Slider 9"
+- text: desktop
+- status

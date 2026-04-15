@@ -1,0 +1,48 @@
+- main:
+  - article:
+    - img "Content Timeline 1"
+    - heading "Content Timeline" [level=2]
+    - text: Create a memory lane from your contents using EA Content Timeline. You can display both custom or dynamic source & create a stunning timeline without using any code.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/content-timeline/
+    - text: Elements Panel
+    - img "Content Timeline 101"
+    - 'button "Play, Content Timeline for Elementor: How to Display Posts on Content Timeline Using Essential Addons"': Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:05
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - 'button "Play, Content Timeline for Elementor: How to Display Posts on Content Timeline Using Essential Addons"': Play
+    - heading "Center Layout With Custom Source" [level=3]
+    - text: Choose custom source from ‘Timeline Content’ and style each section of it to make it look standout  02 September 2019
+    - heading "How to Include Elementor Template using a Shortcode" [level=2]
+    - text: Thanks to Elementor PRO, you can now easily include your ....  05 September 2019
+    - heading "What’s New in Essential Addons for Elementor Version 3.0?" [level=2]
+    - text: With the Introduction of Essential Addons 3.0, you are about …  08 September 2019
+    - heading "How to Filter Your WordPress Blogs Based on Categories or Tags" [level=2]
+    - text: To get more traffic on your content, it is important …  05 September 2019
+    - heading "How To Hide Your Existing Page From Certain Users in Elementor" [level=2]
+    - text: Once you turn on the Elementor Role Manager option, users …
+    - heading "Custom Content With Left & Right Layout" [level=3]
+    - text: Display the post publishing date inside or outside of the timeline from ‘Layout Settings’  02 September 2019
+    - heading "How to Include Elementor Template using a Shortcode" [level=2]
+    - text:  05 September 2019
+    - heading "What’s New in Essential Addons for Elementor Version 3.0?" [level=2]
+    - text:  08 September 2019
+    - heading "How to Filter Your WordPress Blogs Based on Categories or Tags" [level=2]
+    - text:  05 September 2019
+    - heading "How To Hide Your Existing Page From Certain Users in Elementor" [level=2]
+    - text:  02 September 2019
+    - heading "How to Include Elementor Template using a Shortcode" [level=2]
+    - text:  05 September 2019
+    - heading "What’s New in Essential Addons for Elementor Version 3.0?" [level=2]
+    - text:  08 September 2019
+    - heading "How to Filter Your WordPress Blogs Based on Categories or Tags" [level=2]
+    - text:  05 September 2019
+    - heading "How To Hide Your Existing Page From Certain Users in Elementor" [level=2]
+- text: desktop
+- status

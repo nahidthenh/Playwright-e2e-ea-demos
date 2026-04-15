@@ -1,0 +1,366 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Woo Product Compare 100"
+    - heading "Woo Product Compare" [level=2]
+    - paragraph: EA Woo Product Compare lets you compare your desired WooCommerce products beautifully anywhere on the page using its plenty of ready theme layouts and advanced styling options.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/woo-product-compare/
+    - img "Woo Product Compare 101"
+    - button "Play, How To Create A WooCommerce Product Comparison Table In Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:43
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Create A WooCommerce Product Comparison Table In Elementor": Play
+    - heading "Pick & Style Your Preferred Ready Themes" [level=3]
+    - paragraph: Configure the Product Compare ‘Products’ section to add desired items typing names & pick from seven ready theme layouts of ‘Presets’
+    - table:
+      - rowgroup:
+        - row "Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader
+          - cell "Sports shoe for men":
+            - img "Sports shoe for men"
+          - cell "Casual Shoe for men":
+            - img "Casual Shoe for men"
+          - cell "Super Running Shoe":
+            - img "Super Running Shoe"
+        - row "Title Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader "Title"
+          - cell "Sports shoe for men"
+          - cell "Casual Shoe for men"
+          - cell "Super Running Shoe"
+        - row "Price £99.00 £80.00 £60.00":
+          - rowheader "Price"
+          - cell "£99.00"
+          - cell "£80.00"
+          - cell "£60.00"
+        - row "Availability In stock In stock In stock":
+          - rowheader "Availability"
+          - cell "In stock"
+          - cell "In stock"
+          - cell "In stock"
+        - row "Weight - - -":
+          - rowheader "Weight"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Dimension N/A N/A N/A":
+          - rowheader "Dimension"
+          - cell "N/A"
+          - cell "N/A"
+          - cell "N/A"
+        - row "Color Black, Colourful Black, Colourful Colourful":
+          - rowheader "Color"
+          - cell "Black, Colourful"
+          - cell "Black, Colourful"
+          - cell "Colourful"
+        - 'row "Add to cart Add to cart: “Sports shoe for men” Add to cart: “Casual Shoe for men” Add to cart: “Super Running Shoe”"':
+          - rowheader "Add to cart"
+          - 'cell "Add to cart: “Sports shoe for men”"':
+            - 'button "Add to cart: “Sports shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Casual Shoe for men”"':
+            - 'button "Add to cart: “Casual Shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Super Running Shoe”"':
+            - 'button "Add to cart: “Super Running Shoe”"': Add to cart
+    - heading "Make A Stunning Comparison With Theme 1" [level=3]
+    - paragraph: Choose Theme 1 ready layouts, configure the ‘Compare Table Settings’ all fields, add ‘Fields Icon’ & style it in advance
+    - table:
+      - rowgroup:
+        - row "Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader
+          - cell "Sports shoe for men":
+            - img "Sports shoe for men"
+          - cell "Casual Shoe for men":
+            - img "Casual Shoe for men"
+          - cell "Super Running Shoe":
+            - img "Super Running Shoe"
+        - row "Title Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader "Title"
+          - cell "Sports shoe for men"
+          - cell "Casual Shoe for men"
+          - cell "Super Running Shoe"
+        - row "Price £99.00 £80.00 £60.00":
+          - rowheader "Price"
+          - cell "£99.00"
+          - cell "£80.00"
+          - cell "£60.00"
+        - row "Availability In stock In stock In stock":
+          - rowheader "Availability"
+          - cell "In stock"
+          - cell "In stock"
+          - cell "In stock"
+        - row "Weight - - -":
+          - rowheader "Weight"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Dimension N/A N/A N/A":
+          - rowheader "Dimension"
+          - cell "N/A"
+          - cell "N/A"
+          - cell "N/A"
+        - row "Color Black, Colourful Black, Colourful Colourful":
+          - rowheader "Color"
+          - cell "Black, Colourful"
+          - cell "Black, Colourful"
+          - cell "Colourful"
+        - 'row "Add to cart Add to cart: “Sports shoe for men” Add to cart: “Casual Shoe for men” Add to cart: “Super Running Shoe”"':
+          - rowheader "Add to cart"
+          - 'cell "Add to cart: “Sports shoe for men”"':
+            - 'button "Add to cart: “Sports shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Casual Shoe for men”"':
+            - 'button "Add to cart: “Casual Shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Super Running Shoe”"':
+            - 'button "Add to cart: “Super Running Shoe”"': Add to cart
+        - row "Price £99.00 £80.00 £60.00":
+          - rowheader "Price"
+          - cell "£99.00"
+          - cell "£80.00"
+          - cell "£60.00"
+    - heading "Choose Theme 2 & Change The Entire Outlook" [level=3]
+    - paragraph: Use interactive Theme 2 ready layouts & configure your product compare page in advance according to your need
+    - table:
+      - rowgroup:
+        - row "Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader
+          - cell "Sports shoe for men":
+            - img "Sports shoe for men"
+          - cell "Casual Shoe for men":
+            - img "Casual Shoe for men"
+          - cell "Super Running Shoe":
+            - img "Super Running Shoe"
+        - row "Title Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader "Title"
+          - cell "Sports shoe for men"
+          - cell "Casual Shoe for men"
+          - cell "Super Running Shoe"
+        - row "Price £99.00 £80.00 £60.00":
+          - rowheader "Price"
+          - cell "£99.00"
+          - cell "£80.00"
+          - cell "£60.00"
+        - row "Availability In stock In stock In stock":
+          - rowheader "Availability"
+          - cell "In stock"
+          - cell "In stock"
+          - cell "In stock"
+        - row "Weight - - -":
+          - rowheader "Weight"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Dimension N/A N/A N/A":
+          - rowheader "Dimension"
+          - cell "N/A"
+          - cell "N/A"
+          - cell "N/A"
+        - row "Color Black, Colourful Black, Colourful Colourful":
+          - rowheader "Color"
+          - cell "Black, Colourful"
+          - cell "Black, Colourful"
+          - cell "Colourful"
+        - 'row "Add to cart Add to cart: “Sports shoe for men” Add to cart: “Casual Shoe for men” Add to cart: “Super Running Shoe”"':
+          - rowheader "Add to cart"
+          - 'cell "Add to cart: “Sports shoe for men”"':
+            - 'button "Add to cart: “Sports shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Casual Shoe for men”"':
+            - 'button "Add to cart: “Casual Shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Super Running Shoe”"':
+            - 'button "Add to cart: “Super Running Shoe”"': Add to cart
+    - heading "Interactive Ready Layouts Of Theme 4" [level=3]
+    - paragraph: Pick Theme 4 exclusive design & use different layouts to make your Woo Product Compare section compelling for any of your website pages
+    - table:
+      - rowgroup:
+        - row "Sports shoe for men Sports shoe for men £99.00 Casual Shoe for men Casual Shoe for men £80.00 Super Running Shoe Super Running Shoe £60.00":
+          - rowheader
+          - cell "Sports shoe for men Sports shoe for men £99.00":
+            - img "Sports shoe for men"
+            - paragraph: Sports shoe for men
+            - text: £99.00
+          - cell "Casual Shoe for men Casual Shoe for men £80.00":
+            - img "Casual Shoe for men"
+            - paragraph: Casual Shoe for men
+            - text: £80.00
+          - cell "Super Running Shoe Super Running Shoe £60.00":
+            - img "Super Running Shoe"
+            - paragraph: Super Running Shoe
+            - text: £60.00
+        - row "SKU - - -":
+          - rowheader "SKU"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Availability In stock In stock In stock":
+          - rowheader "Availability"
+          - cell "In stock"
+          - cell "In stock"
+          - cell "In stock"
+        - row "Title Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader "Title"
+          - cell "Sports shoe for men"
+          - cell "Casual Shoe for men"
+          - cell "Super Running Shoe"
+        - row "Size £99.00 £80.00 £60.00":
+          - rowheader "Size"
+          - cell "£99.00"
+          - cell "£80.00"
+          - cell "£60.00"
+        - row "Weight - - -":
+          - rowheader "Weight"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Dimension N/A N/A N/A":
+          - rowheader "Dimension"
+          - cell "N/A"
+          - cell "N/A"
+          - cell "N/A"
+        - row "Color Black, Colourful Black, Colourful Colourful":
+          - rowheader "Color"
+          - cell "Black, Colourful"
+          - cell "Black, Colourful"
+          - cell "Colourful"
+        - 'row "Add to cart Add to cart: “Sports shoe for men” Add to cart: “Casual Shoe for men” Add to cart: “Super Running Shoe”"':
+          - rowheader "Add to cart"
+          - 'cell "Add to cart: “Sports shoe for men”"':
+            - 'button "Add to cart: “Sports shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Casual Shoe for men”"':
+            - 'button "Add to cart: “Casual Shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Super Running Shoe”"':
+            - 'button "Add to cart: “Super Running Shoe”"': Add to cart
+    - heading "Get Theme 5 Unique Design & Style It" [level=3]
+    - paragraph: Make your entire eCommerce website any product page interactive anytime using Theme 5 or any other layouts and change the outlook
+    - table:
+      - rowgroup:
+        - row "Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader
+          - cell "Sports shoe for men"
+          - cell "Casual Shoe for men"
+          - cell "Super Running Shoe"
+        - row "Sports shoe for men Casual Shoe for men Super Running Shoe":
+          - rowheader
+          - cell "Sports shoe for men":
+            - img "Sports shoe for men"
+          - cell "Casual Shoe for men":
+            - img "Casual Shoe for men"
+          - cell "Super Running Shoe":
+            - img "Super Running Shoe"
+        - row "Price £99.00 £80.00 £60.00":
+          - rowheader "Price"
+          - cell "£99.00"
+          - cell "£80.00"
+          - cell "£60.00"
+        - row "Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum":
+          - rowheader "Description"
+          - cell "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum":
+            - list:
+              - listitem: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              - listitem: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+          - cell
+          - cell
+        - 'row "Add to cart Add to cart: “Sports shoe for men” Add to cart: “Casual Shoe for men” Add to cart: “Super Running Shoe”"':
+          - rowheader "Add to cart"
+          - 'cell "Add to cart: “Sports shoe for men”"':
+            - 'button "Add to cart: “Sports shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Casual Shoe for men”"':
+            - 'button "Add to cart: “Casual Shoe for men”"': Add to cart
+          - 'cell "Add to cart: “Super Running Shoe”"':
+            - 'button "Add to cart: “Super Running Shoe”"': Add to cart
+        - row "SKU - - -":
+          - rowheader "SKU"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Availability In stock In stock In stock":
+          - rowheader "Availability"
+          - cell "In stock"
+          - cell "In stock"
+          - cell "In stock"
+        - row "Weight - - -":
+          - rowheader "Weight"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Dimension N/A N/A N/A":
+          - rowheader "Dimension"
+          - cell "N/A"
+          - cell "N/A"
+          - cell "N/A"
+        - row "Color Black, Colourful Black, Colourful Colourful":
+          - rowheader "Color"
+          - cell "Black, Colourful"
+          - cell "Black, Colourful"
+          - cell "Colourful"
+    - heading "Add & Style Your Theme 6 Ready Layouts" [level=3]
+    - paragraph: Choose Theme 6 to make your product comparison section interactive than others and style it interactively as per your wish
+    - table:
+      - rowgroup:
+        - row "Compare Products Mens Running Shoe Super Running Shoe Colorful Shoe for men":
+          - rowheader "Compare Products":
+            - heading "Compare Products" [level=1]
+          - cell "Mens Running Shoe":
+            - img "Mens Running Shoe"
+          - cell "Super Running Shoe":
+            - img "Super Running Shoe"
+          - cell "Colorful Shoe for men":
+            - img "Colorful Shoe for men"
+        - row "Title Mens Running Shoe Super Running Shoe Colorful Shoe for men":
+          - rowheader "Title"
+          - cell "Mens Running Shoe"
+          - cell "Super Running Shoe"
+          - cell "Colorful Shoe for men"
+        - row "Price £50.00 £60.00 £75.00":
+          - rowheader "Price"
+          - cell "£50.00"
+          - cell "£60.00"
+          - cell "£75.00"
+        - row "Description":
+          - rowheader "Description"
+          - cell
+          - cell
+          - cell
+        - 'row "Add to cart Add to cart: “Mens Running Shoe” Add to cart: “Super Running Shoe” Add to cart: “Colorful Shoe for men”"':
+          - rowheader "Add to cart"
+          - 'cell "Add to cart: “Mens Running Shoe”"':
+            - 'button "Add to cart: “Mens Running Shoe”"': Add to cart
+          - 'cell "Add to cart: “Super Running Shoe”"':
+            - 'button "Add to cart: “Super Running Shoe”"': Add to cart
+          - 'cell "Add to cart: “Colorful Shoe for men”"':
+            - 'button "Add to cart: “Colorful Shoe for men”"': Add to cart
+        - row "SKU - - -":
+          - rowheader "SKU"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Availability In stock In stock In stock":
+          - rowheader "Availability"
+          - cell "In stock"
+          - cell "In stock"
+          - cell "In stock"
+        - row "Weight - - -":
+          - rowheader "Weight"
+          - cell "-"
+          - cell "-"
+          - cell "-"
+        - row "Dimension N/A N/A N/A":
+          - rowheader "Dimension"
+          - cell "N/A"
+          - cell "N/A"
+          - cell "N/A"
+        - row "Color Colourful, White Colourful Colourful":
+          - rowheader "Color"
+          - cell "Colourful, White"
+          - cell "Colourful"
+          - cell "Colourful"
+        - row "Price £50.00 £60.00 £75.00":
+          - rowheader "Price"
+          - cell "£50.00"
+          - cell "£60.00"
+          - cell "£75.00"
+- text: desktop
+- status

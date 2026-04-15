@@ -1,0 +1,53 @@
+- list:
+  - listitem: 06 Days
+  - listitem: 23 Hours
+  - listitem: 58 Mins
+  - listitem: 45 Secs
+- heading "New Season, More Savings" [level=2]
+- 'heading "On #1 Elementor Addon" [level=2]'
+- link "Grab The Deals":
+  - /url: https://essential-addons.com/spring2026-optin
+- img
+- figure:
+  - img "Hover Interaction | Essential Addons for Elementor"
+- heading "Hover Interaction" [level=3]
+- heading "Display Content With Dazzling Hover Effects & Engage More" [level=2]
+- text: Essential Addons Hover Interaction lets you create captivating visual experiences for your website visitors. Simply apply unique effects to different elements – from buttons and images to text and more. Watch engagement escalate as users interact with your content in exciting new ways.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-hover-interaction/
+- img "Hover Interaction 1"
+- img "Hover Interaction 2"
+- img "Hover Interaction | Essential Addons for Elementor"
+- img "Hover Interaction | Essential Addons for Elementor"
+- img "Hover Interaction | Essential Addons for Elementor"
+- heading "Reduced Opacity While Hovering" [level=2]
+- heading "Increased Opacity While Hovering" [level=2]
+- img "Hover Interaction | Essential Addons for Elementor"
+- img "Hover Interaction | Essential Addons for Elementor"
+- heading "Alexander Hughes" [level=2]
+- text: Designer
+- img "Hover Interaction | Essential Addons for Elementor"
+- heading "Trinity Rodman" [level=2]
+- text: Javascript Developer
+- img "Hover Interaction | Essential Addons for Elementor"
+- heading "Joe Scally" [level=2]
+- text: Marketing Executive
+- img "Hover Interaction | Essential Addons for Elementor"
+- heading "Christian Pulisic" [level=2]
+- text: Frontend Developer
+- heading "Take A Look At Our" [level=2]
+- heading "TOP DEALS OF THE DAY" [level=2]
+- text: Get best deals on all your online travel bookings. Book hotels flights bus trains and cabs.
+- button "Plan My Trip"
+- img "Hover Interaction | Essential Addons for Elementor"
+- img "Hover Interaction | Essential Addons for Elementor"
+- img "Hover Interaction | Essential Addons for Elementor"
+- heading "Health App Builder" [level=2]
+- text: Build the perfect health apps with features and options tailored to your clients.
+- img "Hover Interaction | Essential Addons for Elementor"
+- heading "Interactive Templates" [level=2]
+- text: A large number of responsive templates for any device and screens.
+- heading "IT Solutions" [level=2]
+- heading "Our best features" [level=2]
+- text: desktop
+- status

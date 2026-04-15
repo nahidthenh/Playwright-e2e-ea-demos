@@ -1,0 +1,44 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Parallax Scrolling 100"
+    - heading "Parallax Effect" [level=2]
+    - text: EA Parallax extension allows you to make your web pages more dynamic by adding interactive motion scrolling effects to the content. Choose from in-motion, multi-layered lots of more customization options to instantly grab visitor’s attention with parallax effects.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/extensions/ea-parallax/
+    - img "Parallax Scrolling 101"
+    - button "Play, How To Add Parallax Effects In WordPress": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:01
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Add Parallax Effects In WordPress": Play
+    - heading "Scroll & Zoom Parallax Effect" [level=3]
+    - text: Add beautiful scroll and zoom motion effects to your web pages with EA Parallax extension
+    - img "Parallax Scrolling 102"
+    - paragraph:
+      - strong: Essential Addons Parallax Effects
+    - paragraph: Parallax Effects is an amazing way to make your website look incredible by adding motion scroll to your web page content. It’s a creative way to make your site pages seem more interactive. With EA Parallax extension you can choose from 5 different motion effects to make your website stand out.
+    - heading "Mouse Hover Interaction" [level=3]
+    - text: Add multi-layered parallax motion effects with mouse hover animation. You can interact visually by simply moving the mouse over the section
+    - heading "Mouse Hover Interaction" [level=2]
+    - heading "You can interact visually by simply just moving the mouse over the section" [level=3]
+    - heading "In-Motion Parallax Effects" [level=3]
+    - text: Highlight your web content more creatively by adding in-motion parallax effects without any coding and amaze your site visitors
+    - heading "Best Way to Make Parallax" [level=2]
+    - heading "Stationary and Cosmetic Items" [level=3]
+    - text: You can easily make unlimited parallax efect with our brand new section parallax. You also align anywhere.
+    - img "Parallax Scrolling 103"
+    - img "Parallax Scrolling 104"
+    - heading "Fade & Zoom Motion Effects" [level=3]
+    - text: Choose between zoom and fade effects or use both to make your website pages stand out using the Parallax extension from Essential Addons
+    - heading "Best Way to Make Parallax" [level=2]
+    - heading "Stationary and Cosmetic Items" [level=3]
+    - text: You can easily make unlimited parallax efect with our brand new section parallax. You also align anywhere.
+    - img "Parallax Scrolling 105"
+- text: desktop
+- status

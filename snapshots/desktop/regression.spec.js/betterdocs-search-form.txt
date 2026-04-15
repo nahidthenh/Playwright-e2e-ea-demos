@@ -1,0 +1,275 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Betterdocs Search Form 100"
+    - heading "BetterDocs Search Form" [level=2]
+    - text: Add an advanced search bar to your BetterDocs knowledge base using the EA BetterDocs Search Form. Enhance your user experience with this live search bar widget and customize it just the way you want to make your knowledge base look more attractive.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/betterdocs-search-form/
+    - img "Betterdocs Search Form 101"
+    - button "Play, How to Create BetterDocs Knowledge Base with Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:00
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Create BetterDocs Knowledge Base with Elementor": Play
+    - heading "Amazing Live Search Form" [level=3]
+    - text: Add an advanced search form to make it easy for visitors to quickly search through your knowledge base
+    - img
+    - textbox "Search Input":
+      - /placeholder: Search
+    - article:
+      - img "Betterdocs Search Form 102"
+      - heading "Getting Started" [level=2]
+      - text: "10"
+      - list:
+        - listitem:
+          - text: 
+          - link "How to Retrieve Google API Keys?":
+            - /url: https://essential-addons.com/docs/how-to-retrieve-google-api-keys/
+        - listitem:
+          - text: 
+          - link "How to Retrieve & Configure Google Sheets API Keys, ID, Range & Much More":
+            - /url: https://essential-addons.com/docs/how-to-configure-google-sheets-api-keys/
+        - listitem:
+          - text: 
+          - link "How To Verify Essential Addons PRO License Key & Authenticate?":
+            - /url: https://essential-addons.com/docs/verify-essential-addons-pro-license-key/
+        - listitem:
+          - text: 
+          - link "Get Support":
+            - /url: https://essential-addons.com/docs/get-support/
+        - listitem:
+          - text: 
+          - link "Purchasing Pro Version":
+            - /url: https://essential-addons.com/docs/purchasing-pro-version/
+        - listitem:
+          - text: 
+          - link "Installing PRO version":
+            - /url: https://essential-addons.com/docs/installing-pro-version/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/getting-started/
+    - article:
+      - img "Betterdocs Search Form 103"
+      - heading "How to Use My Account" [level=2]
+      - text: "7"
+      - list:
+        - listitem:
+          - text: 
+          - link "Upgrade License":
+            - /url: https://essential-addons.com/docs/upgrade-license/
+        - listitem:
+          - text: 
+          - link "Print Invoice":
+            - /url: https://essential-addons.com/docs/print-invoice/
+        - listitem:
+          - text: 
+          - link "Profile":
+            - /url: https://essential-addons.com/docs/profile/
+        - listitem:
+          - text: 
+          - link "Subscriptions":
+            - /url: https://essential-addons.com/docs/subscriptions/
+        - listitem:
+          - text: 
+          - link "Purchase History":
+            - /url: https://essential-addons.com/docs/purchase-history/
+        - listitem:
+          - text: 
+          - link "Downloads":
+            - /url: https://essential-addons.com/docs/downloads/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/how-to-use-my-account/
+    - article:
+      - img "Betterdocs Search Form 104"
+      - heading "FAQ" [level=2]
+      - text: "54"
+      - list:
+        - listitem:
+          - text: 
+          - link "How to Retrieve Instagram Access Token for Essential Addons?":
+            - /url: https://essential-addons.com/docs/how-to-retrieve-instagram-access-token/
+        - listitem:
+          - text: 
+          - link "How To Prepare Data For The EA Fancy Chart To Upload Via CSV, JSON, And Google Sheets?":
+            - /url: https://essential-addons.com/docs/prepare-data-ea-fancy-chart/
+        - listitem:
+          - text: 
+          - link "How Does The FAQ Schema In EA Advanced Accordion Work?":
+            - /url: https://essential-addons.com/docs/faq-schema-advanced-accordion/
+        - listitem:
+          - text: 
+          - link "How To Open A Specific Tab In EA Advanced Tabs Widget?":
+            - /url: https://essential-addons.com/docs/open-a-specific-tab/
+        - listitem:
+          - text: 
+          - link "How To Open A Specific Accordion In EA Advanced Accordion Widget?":
+            - /url: https://essential-addons.com/docs/open-a-specific-accordion/
+        - listitem:
+          - text: 
+          - link "Does Essential Addons Support Elementor Dynamic Tags & Advanced Custom Fields?":
+            - /url: https://essential-addons.com/docs/elementor-dynamic-tags/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/faq/
+    - article:
+      - img "Betterdocs Search Form 105"
+      - heading "Content Elements" [level=2]
+      - text: "31"
+      - list:
+        - listitem:
+          - text: 
+          - link "EA Code Snippet":
+            - /url: https://essential-addons.com/docs/ea-code-snippet/
+        - listitem:
+          - text: 
+          - link "EA Breadcrumbs":
+            - /url: https://essential-addons.com/docs/ea-breadcrumbs/
+        - listitem:
+          - text: 
+          - link "EA Advanced Search":
+            - /url: https://essential-addons.com/docs/advanced-search/
+        - listitem:
+          - text: 
+          - link "How To Open A Specific Tab In EA Advanced Tabs Widget?":
+            - /url: https://essential-addons.com/docs/open-a-specific-tab/
+        - listitem:
+          - text: 
+          - link "How To Open A Specific Accordion In EA Advanced Accordion Widget?":
+            - /url: https://essential-addons.com/docs/open-a-specific-accordion/
+        - listitem:
+          - text: 
+          - link "Simple Menu":
+            - /url: https://essential-addons.com/docs/simple-menu/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/content-elements/
+    - article:
+      - img "Betterdocs Search Form 106"
+      - heading "Creative Elements" [level=2]
+      - text: "22"
+      - list:
+        - listitem:
+          - text: 
+          - link "EA 360 Degree Photo Viewer":
+            - /url: https://essential-addons.com/docs/ea-360-degree-photo-viewer/
+        - listitem:
+          - text: 
+          - link "EA Stacked Cards":
+            - /url: https://essential-addons.com/docs/ea-stacked-cards/
+        - listitem:
+          - text: 
+          - link "EA Fancy Chart":
+            - /url: https://essential-addons.com/docs/ea-fancy-chart/
+        - listitem:
+          - text: 
+          - link "EA SVG Draw":
+            - /url: https://essential-addons.com/docs/ea-svg-draw/
+        - listitem:
+          - text: 
+          - link "EA NFT Gallery":
+            - /url: https://essential-addons.com/docs/ea-nft-gallery/
+        - listitem:
+          - text: 
+          - link "EA Interactive Circle":
+            - /url: https://essential-addons.com/docs/interactive-circle/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/creative-elements/
+    - article:
+      - img "Betterdocs Search Form 107"
+      - heading "Dynamic Content Elements" [level=2]
+      - text: "11"
+      - list:
+        - listitem:
+          - text: 
+          - link "EA Business Reviews":
+            - /url: https://essential-addons.com/docs/ea-business-reviews/
+        - listitem:
+          - text: 
+          - 'link "EA for Elementor Advanced Data Table: Google Sheet, TablePress & NinjaTables Integrations"':
+            - /url: https://essential-addons.com/docs/elementor-data-table-google-sheet-tablepress/
+        - listitem:
+          - text: 
+          - link "EA Advanced Data Table":
+            - /url: https://essential-addons.com/docs/advanced-data-table/
+        - listitem:
+          - text: 
+          - link "Post Carousel":
+            - /url: https://essential-addons.com/docs/post-carousel/
+        - listitem:
+          - text: 
+          - link "Smart Post List":
+            - /url: https://essential-addons.com/docs/smart-post-list/
+        - listitem:
+          - text: 
+          - link "Content Ticker":
+            - /url: https://essential-addons.com/docs/content-ticker/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/dynamic-content-elements/
+    - article:
+      - img "Betterdocs Search Form 108"
+      - heading "Extensions" [level=2]
+      - text: "18"
+      - list:
+        - listitem:
+          - text: 
+          - link "EA Vertical Text Orientation":
+            - /url: https://essential-addons.com/docs/ea-vertical-text-orientation/
+        - listitem:
+          - text: 
+          - link "EA Image Masking And Morphing":
+            - /url: https://essential-addons.com/docs/ea-image-masking-with-morphing/
+        - listitem:
+          - text: 
+          - link "EA Custom Cursor":
+            - /url: https://essential-addons.com/docs/ea-custom-cursor/
+        - listitem:
+          - text: 
+          - link "EA Liquid Glass Effects":
+            - /url: https://essential-addons.com/docs/ea-liquid-glass-effects/
+        - listitem:
+          - text: 
+          - link "How to Use EA Dynamic Tags?":
+            - /url: https://essential-addons.com/docs/ea-dynamic-tags/
+        - listitem:
+          - text: 
+          - link "EA Interactive Animations":
+            - /url: https://essential-addons.com/docs/ea-interactive-animations/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/extensions/
+    - article:
+      - img "Betterdocs Search Form 109"
+      - heading "Form Styler Elements" [level=2]
+      - text: "12"
+      - list:
+        - listitem:
+          - text: 
+          - 'link "Login | Register Form: Social Login & reCAPTCHA"':
+            - /url: https://essential-addons.com/docs/social-login-recaptcha/
+        - listitem:
+          - text: 
+          - link "Login | Register Form":
+            - /url: https://essential-addons.com/docs/login-register-form/
+        - listitem:
+          - text: 
+          - link "EA Typeform":
+            - /url: https://essential-addons.com/docs/ea-typeform/
+        - listitem:
+          - text: 
+          - link "Formstack":
+            - /url: https://essential-addons.com/docs/formstack/
+        - listitem:
+          - text: 
+          - link "Fluent Forms":
+            - /url: https://essential-addons.com/docs/fluent-form/
+        - listitem:
+          - text: 
+          - link "EA WPForms":
+            - /url: https://essential-addons.com/docs/wpforms/
+      - link "Explore More":
+        - /url: https://essential-addons.com/docs-category/form-styler-elements/
+- text: desktop
+- status
+- button "Open chat"

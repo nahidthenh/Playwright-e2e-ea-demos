@@ -1,0 +1,47 @@
+- figure:
+  - img "Code Snippet 1"
+- heading "Code Snippet" [level=3]
+- heading "Showcase Code Seamlessly On Your Elementor Website" [level=1]
+- text: With Code Snippet, you can elegantly display HTML, CSS, JavaScript, or any other popular programming code on your Elementor site. The widget offers neat & clean formatting and a one-click ‘copy’ button that makes it easier for visitors to copy your code.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-code-snippet
+- img "Code Snippet 2"
+- img "Code Snippet 3"
+- img "Code Snippet 4"
+- heading "Display Code On Your Elementor Site Effortlessly" [level=2]
+- img "Code Snippet 5"
+- heading "Documentation" [level=4]
+- img "Code Snippet 6"
+- heading "Step 1:" [level=5]
+- img "Code Snippet 7"
+- heading "Step 2:" [level=5]
+- img "Code Snippet 8"
+- img "📄"
+- text: filename.js
+- button "Copy code to clipboard Copy code to clipboard":
+  - img
+- text: "// Dark mode toggle with Local Storage const toggleTheme = () => { const body = document.body; body.classList.toggle('dark'); if (body.classList.contains('dark')) { localStorage.setItem('theme', 'dark'); } else { localStorage.setItem('theme', 'light'); } }; // On load, check saved theme window.onload = () => { const theme = localStorage.getItem('theme'); if (theme === 'dark') { document.body.classList.add('dark'); } }; // Example: connect to a button document.getElementById('themeToggle').addEventListener('click', toggleTheme);"
+- img "Code Snippet 9"
+- heading "On this Page" [level=5]
+- img "Code Snippet 10"
+- heading "Customize Your Code Appearance In Your Way" [level=2]
+- img "Code Snippet 11"
+- heading "Programming Language Support" [level=2]
+- text: Display code written in a wide range of programming languages, including HTML, CSS, JavaScript, and more
+- img "Code Snippet 12"
+- heading "Add Code Line Numbers" [level=2]
+- text: Display line numbers alongside your code to improve readability and make referencing specific lines easier
+- img "Code Snippet 13"
+- heading "Light/Dark Mode" [level=2]
+- text: Switch between light and dark modes to match your website’s design or personal preference. With just a click, choose the one that provides the best viewing experience for your visitors to read your provided code
+- img "Code Snippet 14"
+- heading "One-Click Code Copy" [level=2]
+- text: Allow visitors to copy your code snippets instantly with a single click
+- img "Code Snippet 15"
+- heading "Name Your Code File" [level=2]
+- text: Label your code snippets with custom file names, such as index.html or style.css
+- img "Code Snippet 16"
+- heading "Control Over Color & Typography" [level=2]
+- text: Customize the appearance of your code snippet to enhance readability and style by adjusting colors, fonts, and text sizes. Whether you prefer a bold, high-contrast color scheme for better visibility or a sleek, minimalistic font style, you can do all desktop
+- status
+- button "Open chat"

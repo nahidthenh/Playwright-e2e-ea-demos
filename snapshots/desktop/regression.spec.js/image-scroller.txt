@@ -1,0 +1,42 @@
+- main:
+  - article:
+    - img "Image Scroller 1"
+    - heading "Image Scroller" [level=2]
+    - text: Add scrolling effect on images using EA Image Scroller & make the website interactive enough to influence your visitors engage.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/creative-elements/ea-image-scroller/
+    - text: Elements Panel
+    - img "Image Scroller 101"
+    - button "Play, How to Use EA Image Scroller for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:20
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Use EA Image Scroller for Elementor": Play
+    - heading "Vertical Scrolling Effect On Hover" [level=3]
+    - text: Turn on the Auto Scroller, Choose Vertical effect & see the outstanding scrolling effect on hover.
+    - img "Image Scroller 102"
+    - img "Image Scroller 103"
+    - heading "Horizontal Scrolling Effect On Hover" [level=3]
+    - text: Turn on the Auto Scroller, Set Horizontal effect & see the amazing hover scrolling effect
+    - img "Image Scroller 104"
+    - img "Image Scroller 105"
+    - img "Image Scroller 106"
+    - img "Image Scroller 107"
+    - heading "Vertical Image Scroller On Drag" [level=3]
+    - paragraph: Turn off the Auto Scroller feature and get the Vertical Image Scrolling on dragging.
+    - heading "Make Images Interactive With Auto Scroll" [level=3]
+    - text: Hold audience attention at mouser hover by toggle on the exclusive Auto Scroll feature, set faster scrolling & fix image container height as you desire to.
+    - img "Image Scroller 108"
+    - img "Image Scroller 109"
+    - img "Image Scroller 110"
+    - heading "Horizontal Image Scroller On Drag" [level=3]
+    - text: Turn off the Auto Scroller feature & Showcase the Horizontal Image Scrolling on dragging.
+    - img "Image Scroller 111"
+    - img "Image Scroller 112"
+- text: desktop
+- status

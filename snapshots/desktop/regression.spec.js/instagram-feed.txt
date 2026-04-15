@@ -1,0 +1,177 @@
+- list:
+  - listitem: 06 Days
+  - listitem: 23 Hours
+  - listitem: 58 Mins
+  - listitem: 59 Secs
+- heading "New Season, More Savings" [level=2]
+- 'heading "On #1 Elementor Addon" [level=2]'
+- link "Grab The Deals":
+  - /url: https://essential-addons.com/spring2026-optin
+- img
+- main:
+  - article:
+    - img "Instagram Feed for Elementor 1"
+    - heading "Instagram Feed" [level=2]
+    - text: Catch your site visitor’s attention by displaying stunning Instagram Feed with the EA Instagram. You can add interactive hover effects and options to add beautiful Overlay Layout or a classic Card Layout
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/instagram-feed/
+    - text: Elements Panel
+    - img "Instagram Feed for Elementor 101"
+    - button "Play, How To Display Your Instagram Feed Using Elementor [2020]": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:00
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Display Your Instagram Feed Using Elementor [2020]": Play
+    - heading "Instagram Posts With Card Layout" [level=3]
+    - text: A simple classic layout to showcase your Instagram posts in minimalistic way
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA928D8JsCc/
+      - img "Photo by eademo2020"
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9dPl_pjUd/
+      - img "Photo by eademo2020"
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9dNI7Jfqp/
+      - img "Photo by eademo2020"
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9c11vp9na/
+      - img "Photo by eademo2020"
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9c0KhpUKy/
+      - img "Photo by eademo2020"
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9cy01J9Zh/
+      - img "Photo by eademo2020"
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9cwy_J-OP/
+      - img "Photo by eademo2020"
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9cu5EpaCm/
+      - img "Photo by eademo2020"
+    - heading "Card Layout With Content Inside" [level=3]
+    - text: A simple classic layout with the option to display caption, date, comments & more
+    - 'link "Photo by eademo2020 A breathtaking mountainview #nature #mountainscape..."':
+      - /url: https://www.instagram.com/p/CA928D8JsCc/
+      - img "Photo by eademo2020"
+      - paragraph: "A breathtaking mountainview #nature #mountainscape..."
+    - text:  03 Jun 2020
+    - 'link "Photo by eademo2020 #mountainscape #nature #mountainlife..."':
+      - /url: https://www.instagram.com/p/CA9dPl_pjUd/
+      - img "Photo by eademo2020"
+      - paragraph: "#mountainscape #nature #mountainlife..."
+    - text:  03 Jun 2020
+    - 'link "Photo by eademo2020 Can never get tired of watching the sunset #beautifulsunsetv..."':
+      - /url: https://www.instagram.com/p/CA9dNI7Jfqp/
+      - img "Photo by eademo2020"
+      - paragraph: "Can never get tired of watching the sunset #beautifulsunsetv..."
+    - text:  03 Jun 2020
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9c11vp9na/
+      - img "Photo by eademo2020"
+    - text:  03 Jun 2020
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9c0KhpUKy/
+      - img "Photo by eademo2020"
+    - text:  03 Jun 2020
+    - link "Photo by eademo2020":
+      - /url: https://www.instagram.com/p/CA9cy01J9Zh/
+      - img "Photo by eademo2020"
+    - text:  03 Jun 2020
+    - link "Photo by eademo2020 Majestic...":
+      - /url: https://www.instagram.com/p/CA9cwy_J-OP/
+      - img "Photo by eademo2020"
+      - paragraph: Majestic...
+    - text:  03 Jun 2020
+    - link "Photo by eademo2020 Peaceful...":
+      - /url: https://www.instagram.com/p/CA9cu5EpaCm/
+      - img "Photo by eademo2020"
+      - paragraph: Peaceful...
+    - text:  03 Jun 2020
+    - button "Load More"
+    - heading "Posts Overlay Style (Basic)" [level=3]
+    - text: Display your full gallery with ‘load more’ option & take your visitors on Instagram
+    - 'link "Photo by eademo2020 A breathtaking mountainview #nature #mountainscape...  03 Jun 2020"':
+      - /url: https://www.instagram.com/p/CA928D8JsCc/
+      - img "Photo by eademo2020"
+      - paragraph: "A breathtaking mountainview #nature #mountainscape..."
+      - text:  03 Jun 2020
+    - 'link "Photo by eademo2020 #mountainscape #nature #mountainlife...  03 Jun 2020"':
+      - /url: https://www.instagram.com/p/CA9dPl_pjUd/
+      - img "Photo by eademo2020"
+      - paragraph: "#mountainscape #nature #mountainlife..."
+      - text:  03 Jun 2020
+    - 'link "Photo by eademo2020 Can never get tired of watching the sunset #beautifulsunsetv...  03 Jun 2020"':
+      - /url: https://www.instagram.com/p/CA9dNI7Jfqp/
+      - img "Photo by eademo2020"
+      - paragraph: "Can never get tired of watching the sunset #beautifulsunsetv..."
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9c11vp9na/
+      - img "Photo by eademo2020"
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9c0KhpUKy/
+      - img "Photo by eademo2020"
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cy01J9Zh/
+      - img "Photo by eademo2020"
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Majestic...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cwy_J-OP/
+      - img "Photo by eademo2020"
+      - paragraph: Majestic...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Peaceful...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cu5EpaCm/
+      - img "Photo by eademo2020"
+      - paragraph: Peaceful...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Pretty...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9csghpGgj/
+      - img "Photo by eademo2020"
+      - paragraph: Pretty...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 A great expanse of sea...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cqFUpaqX/
+      - img "Photo by eademo2020"
+      - paragraph: A great expanse of sea...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Silver lining...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cn2bJpxr/
+      - img "Photo by eademo2020"
+      - paragraph: Silver lining...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Little beauty...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cl7dpdiT/
+      - img "Photo by eademo2020"
+      - paragraph: Little beauty...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Tranquility...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9ciPep8J6/
+      - img "Photo by eademo2020"
+      - paragraph: Tranquility...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Where the earth rises to meet the sky...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cgcfJW7U/
+      - img "Photo by eademo2020"
+      - paragraph: Where the earth rises to meet the sky...
+      - text:  03 Jun 2020
+    - link "Photo by eademo2020 Cause I am a sunflower, a little funny. If I was a rose, may...  03 Jun 2020":
+      - /url: https://www.instagram.com/p/CA9cdEJp6hT/
+      - img "Photo by eademo2020"
+      - paragraph: Cause I am a sunflower, a little funny. If I was a rose, may...
+      - text:  03 Jun 2020
+    - 'link "Photo by eademo2020 Breathtaking #nature...  03 Jun 2020"':
+      - /url: https://www.instagram.com/p/CA9cVqsJHZY/
+      - img "Photo by eademo2020"
+      - paragraph: "Breathtaking #nature..."
+      - text:  03 Jun 2020
+    - button "Load More"
+- text: desktop
+- status

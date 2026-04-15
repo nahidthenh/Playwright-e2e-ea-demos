@@ -1,0 +1,31 @@
+- main:
+  - article:
+    - img "Fancy Text 1"
+    - heading "Fancy Text" [level=2]
+    - text: Break the monotonous look of your website by adding different type of animation in text using EA Fancy Text. Present the text content with advanced features, animations and set up the speed to make it look amazing.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/fancy-text/
+    - text: Elements Panel
+    - img "Fancy Text 101"
+    - button "Play, Fancy Text - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:43
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Fancy Text - Essential Addons for Elementor": Play
+    - heading "Fancy Text Style 01" [level=3]
+    - paragraph: Set your Prefix, Fancy Text & Suffix and choose different animation styles, set up the speed & lesser the delay
+    - text: You Can Customize Typography| You Can Customize Typography| You Can Customize Typography| You Can Bring Success| To Your Business
+    - heading "Fancy Text Style 02" [level=3]
+    - paragraph: Try out different animation effects like typing, fade, fade up or more to make it catchy for your visitors to keep the attention on your page
+    - text: You Can Customize Typography| You Can Update Typography Designer Customize Background
+    - heading "Fancy Text Style 03" [level=3]
+    - text: Showcase your desired text trying more fancy styles like Zoom, Swing or more Fancy Texts supports zoom effect Fancy Texts supports swing effect Fancy Texts supports fade effect
+    - heading "Fancy Text Style 04" [level=3]
+    - text: Customize the overall design by changing Background Color, text color or Cursor Color etc You can customize Background Color| An example of Fade Down Effect An example of fade up effect An example of fade right effect An example of fade left effect An example of Zoom effect An example of Bounce effect An example of Swing effect
+- text: desktop
+- status

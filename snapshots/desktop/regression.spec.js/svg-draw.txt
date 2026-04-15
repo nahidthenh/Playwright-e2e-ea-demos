@@ -1,0 +1,67 @@
+- img "SVG Draw 1"
+- heading "SVG Draw" [level=2]
+- paragraph: EA SVG Draw lets you showcase SVG elements on your website. You can display logos or icons in an awe-inspiring and interactive way that instantly grabs your audience’s attention with this useful element.
+- link "Documentation":
+  - /url: https://essential-addons.com/elementor/docs/ea-svg-draw/
+- text: Elements Panel
+- img "SVG Draw 101"
+- button "Play, How To Show SVG Animations With Essential Addons?": Play
+- slider "Seek": "0"
+- text: 00:00
+- timer "Current time": 02:38
+- button "Mute"
+- slider "Volume": "1"
+- button "Settings"
+- button "Enter fullscreen"
+- iframe
+- button "Play, How To Show SVG Animations With Essential Addons?": Play
+- heading "Engage Visitors With Unique Animations" [level=2]
+- text: Morph your logos into different shapes, spin your icons around, or create interactive ‘Fill Before & Fill After’ animations that illustrate your content in a visually engaging way.
+- img
+- heading "Fill Before Draw" [level=3]
+- img
+- heading "Fill After Draw" [level=3]
+- img
+- heading "Fill Before Draw" [level=3]
+- img
+- heading "Fill After Draw" [level=3]
+- heading "Grab The Audience's Attention With Exciting Effects" [level=2]
+- text: Bring your website to life with stunning animations and add captivating ‘Reverse & Restart’ effects that are bound to mesmerize your visitors.
+- img
+- heading "Fill Before Draw" [level=3]
+- img
+- heading "On Page Load Reverse" [level=3]
+- img
+- heading "On Page Load Restart" [level=3]
+- img
+- heading "Mouse Hover Effect" [level=3]
+- img
+- heading "Mouse Hover Reverse" [level=3]
+- img
+- heading "Mouse Hover Restart" [level=3]
+- heading "Create Dynamic Website With Eye-Catchy Scroll Effect" [level=2]
+- text: Take your website’s appeal to new heights with the ‘On-page Scroll’ effect and level up your visual game with playful SVG drawings.
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- heading "Show Stunning Animations In Mesmerising Colors" [level=2]
+- text: Elevate your website’s visual appeal by showcasing customized SVG visuals such as line drawings, cartoon-like graphics, etc, and create a lasting impression among the visitors.
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- text: desktop
+- status

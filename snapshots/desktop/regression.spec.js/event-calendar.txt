@@ -1,0 +1,328 @@
+- main:
+  - article:
+    - img "Event Calendar 1"
+    - heading "Event Calendar" [level=2]
+    - text: EA Event Calendar will let you showcase the upcoming events on website & help your visitors to know the exact dates with a beautiful calendar. Using its exclusive features & functions, you can easily make it looks attractive.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/event-calendar/
+    - text: Elements Panel
+    - img "Event Calendar 101"
+    - button "Play, How to Display Event Calendar On Your Website Using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:05
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Display Event Calendar On Your Website Using Elementor": Play
+    - img "Event Calendar 102"
+    - heading "Instantly Integrate With The Calendar Tool You're Using" [level=3]
+    - paragraph: Essential Addons Event Calendar let's you integrate with the most popular calendar tools and showcase that calendar in your website
+    - figure:
+      - link "Event Calendar 103":
+        - /url: https://essential-addons.com/elementor/docs/event-calendar/
+        - img "Event Calendar 103"
+    - heading "EA Event Calendar for Elementor" [level=3]:
+      - link "EA Event Calendar for Elementor":
+        - /url: https://essential-addons.com/elementor/docs/event-calendar/
+    - figure:
+      - link "Event Calendar 104":
+        - /url: https://essential-addons.com/elementor/docs/event-calendar/#3-toc-title
+        - img "Event Calendar 104"
+    - heading "Google Calendar" [level=3]:
+      - link "Google Calendar":
+        - /url: https://essential-addons.com/elementor/docs/event-calendar/#3-toc-title
+    - figure:
+      - link "Event Calendar 105":
+        - /url: https://essential-addons.com/elementor/docs/ea-event-calendar-eventon/
+        - img "Event Calendar 105"
+    - heading "EventON" [level=3]:
+      - link "EventON":
+        - /url: https://essential-addons.com/elementor/docs/ea-event-calendar-eventon/
+    - figure:
+      - link "Event Calendar 106":
+        - /url: https://essential-addons.com/elementor/docs/elementor-event-calendar-integration/
+        - img "Event Calendar 106"
+    - heading "The Event Calendar" [level=3]:
+      - link "The Event Calendar":
+        - /url: https://essential-addons.com/elementor/docs/elementor-event-calendar-integration/
+    - heading "Choose Manual Events Source" [level=3]
+    - heading "Create & manage your event manually with advanced styling" [level=6]
+    - button ""
+    - button ""
+    - button "today" [disabled]
+    - heading "April 2026" [level=2]
+    - button " day"
+    - button " week"
+    - button " month" [pressed]
+    - button " list"
+    - grid:
+      - rowgroup:
+        - row "Monday Tuesday Wednesday Thursday Friday Saturday Sunday":
+          - columnheader "Monday": Mon
+          - columnheader "Tuesday": Tue
+          - columnheader "Wednesday": Wed
+          - columnheader "Thursday": Thu
+          - columnheader "Friday": Fri
+          - columnheader "Saturday": Sat
+          - columnheader "Sunday": Sun
+      - rowgroup:
+        - row "March 30, 2026 March 31, 2026 April 1, 2026 April 2, 2026 April 3, 2026 April 4, 2026 April 5, 2026":
+          - gridcell "March 30, 2026": "30"
+          - gridcell "March 31, 2026": "31"
+          - gridcell "April 1, 2026": "1"
+          - gridcell "April 2, 2026": "2"
+          - gridcell "April 3, 2026": "3"
+          - gridcell "April 4, 2026": "4"
+          - gridcell "April 5, 2026": "5"
+        - row "April 6, 2026 April 7, 2026 April 8, 2026 April 9, 2026 April 10, 2026 April 11, 2026 April 12, 2026":
+          - gridcell "April 6, 2026": "6"
+          - gridcell "April 7, 2026": "7"
+          - gridcell "April 8, 2026": "8"
+          - gridcell "April 9, 2026": "9"
+          - gridcell "April 10, 2026": "10"
+          - gridcell "April 11, 2026": "11"
+          - gridcell "April 12, 2026": "12"
+        - row "April 13, 2026 April 14, 2026 April 15, 2026 April 16, 2026 April 17, 2026 April 18, 2026 April 19, 2026":
+          - gridcell "April 13, 2026": "13"
+          - gridcell "April 14, 2026": "14"
+          - gridcell "April 15, 2026": "15"
+          - gridcell "April 16, 2026": "16"
+          - gridcell "April 17, 2026": "17"
+          - gridcell "April 18, 2026": "18"
+          - gridcell "April 19, 2026": "19"
+        - row "April 20, 2026 April 21, 2026 April 22, 2026 April 23, 2026 April 24, 2026 April 25, 2026 April 26, 2026":
+          - gridcell "April 20, 2026": "20"
+          - gridcell "April 21, 2026": "21"
+          - gridcell "April 22, 2026": "22"
+          - gridcell "April 23, 2026": "23"
+          - gridcell "April 24, 2026": "24"
+          - gridcell "April 25, 2026": "25"
+          - gridcell "April 26, 2026": "26"
+        - row "April 27, 2026 April 28, 2026 April 29, 2026 April 30, 2026 May 1, 2026 May 2, 2026 May 3, 2026":
+          - gridcell "April 27, 2026": "27"
+          - gridcell "April 28, 2026": "28"
+          - gridcell "April 29, 2026": "29"
+          - gridcell "April 30, 2026": "30"
+          - gridcell "May 1, 2026": "1"
+          - gridcell "May 2, 2026": "2"
+          - gridcell "May 3, 2026": "3"
+        - row "May 4, 2026 May 5, 2026 May 6, 2026 May 7, 2026 May 8, 2026 May 9, 2026 May 10, 2026":
+          - gridcell "May 4, 2026": "4"
+          - gridcell "May 5, 2026": "5"
+          - gridcell "May 6, 2026": "6"
+          - gridcell "May 7, 2026": "7"
+          - gridcell "May 8, 2026": "8"
+          - gridcell "May 9, 2026": "9"
+          - gridcell "May 10, 2026": "10"
+    - heading "Showcase Google Calendar Events" [level=3]
+    - text: Display your Google calendar events by following the easy steps
+    - button ""
+    - button ""
+    - button "today" [disabled]
+    - heading "April 2026" [level=2]
+    - button " day"
+    - button " week"
+    - button " month" [pressed]
+    - button " list"
+    - grid:
+      - rowgroup:
+        - row "Monday Tuesday Wednesday Thursday Friday Saturday Sunday":
+          - columnheader "Monday": Mon
+          - columnheader "Tuesday": Tue
+          - columnheader "Wednesday": Wed
+          - columnheader "Thursday": Thu
+          - columnheader "Friday": Fri
+          - columnheader "Saturday": Sat
+          - columnheader "Sunday": Sun
+      - rowgroup:
+        - row "March 30, 2026 March 31, 2026 April 1, 2026 April 2, 2026 April 3, 2026 April 4, 2026 April 5, 2026":
+          - gridcell "March 30, 2026": "30"
+          - gridcell "March 31, 2026": "31"
+          - gridcell "April 1, 2026": "1"
+          - gridcell "April 2, 2026": "2"
+          - gridcell "April 3, 2026": "3"
+          - gridcell "April 4, 2026": "4"
+          - gridcell "April 5, 2026": "5"
+        - row "April 6, 2026 April 7, 2026 April 8, 2026 April 9, 2026 April 10, 2026 April 11, 2026 April 12, 2026":
+          - gridcell "April 6, 2026": "6"
+          - gridcell "April 7, 2026": "7"
+          - gridcell "April 8, 2026": "8"
+          - gridcell "April 9, 2026": "9"
+          - gridcell "April 10, 2026": "10"
+          - gridcell "April 11, 2026": "11"
+          - gridcell "April 12, 2026": "12"
+        - row "April 13, 2026 April 14, 2026 April 15, 2026 April 16, 2026 April 17, 2026 April 18, 2026 April 19, 2026":
+          - gridcell "April 13, 2026": "13"
+          - gridcell "April 14, 2026": "14"
+          - gridcell "April 15, 2026": "15"
+          - gridcell "April 16, 2026": "16"
+          - gridcell "April 17, 2026": "17"
+          - gridcell "April 18, 2026": "18"
+          - gridcell "April 19, 2026": "19"
+        - row "April 20, 2026 April 21, 2026 April 22, 2026 April 23, 2026 April 24, 2026 April 25, 2026 April 26, 2026":
+          - gridcell "April 20, 2026": "20"
+          - gridcell "April 21, 2026": "21"
+          - gridcell "April 22, 2026": "22"
+          - gridcell "April 23, 2026": "23"
+          - gridcell "April 24, 2026": "24"
+          - gridcell "April 25, 2026": "25"
+          - gridcell "April 26, 2026": "26"
+        - row "April 27, 2026 April 28, 2026 April 29, 2026 April 30, 2026 May 1, 2026 May 2, 2026 May 3, 2026":
+          - gridcell "April 27, 2026": "27"
+          - gridcell "April 28, 2026": "28"
+          - gridcell "April 29, 2026": "29"
+          - gridcell "April 30, 2026": "30"
+          - gridcell "May 1, 2026": "1"
+          - gridcell "May 2, 2026": "2"
+          - gridcell "May 3, 2026": "3"
+        - row "May 4, 2026 May 5, 2026 May 6, 2026 May 7, 2026 May 8, 2026 May 9, 2026 May 10, 2026":
+          - gridcell "May 4, 2026": "4"
+          - gridcell "May 5, 2026": "5"
+          - gridcell "May 6, 2026": "6"
+          - gridcell "May 7, 2026": "7"
+          - gridcell "May 8, 2026": "8"
+          - gridcell "May 9, 2026": "9"
+          - gridcell "May 10, 2026": "10"
+    - heading "Make Your Calendar Standout" [level=3]
+    - heading "Experiment with background, text or & configure the style section" [level=6]
+    - button ""
+    - button ""
+    - button "today" [disabled]
+    - heading "April 2026" [level=2]
+    - button " day"
+    - button " week"
+    - button " month" [pressed]
+    - button " list"
+    - grid:
+      - rowgroup:
+        - row "Monday Tuesday Wednesday Thursday Friday Saturday Sunday":
+          - columnheader "Monday": Mon
+          - columnheader "Tuesday": Tue
+          - columnheader "Wednesday": Wed
+          - columnheader "Thursday": Thu
+          - columnheader "Friday": Fri
+          - columnheader "Saturday": Sat
+          - columnheader "Sunday": Sun
+      - rowgroup:
+        - row "March 30, 2026 March 31, 2026 April 1, 2026 April 2, 2026 April 3, 2026 April 4, 2026 April 5, 2026":
+          - gridcell "March 30, 2026": "30"
+          - gridcell "March 31, 2026": "31"
+          - gridcell "April 1, 2026": "1"
+          - gridcell "April 2, 2026": "2"
+          - gridcell "April 3, 2026": "3"
+          - gridcell "April 4, 2026": "4"
+          - gridcell "April 5, 2026": "5"
+        - row "April 6, 2026 April 7, 2026 April 8, 2026 April 9, 2026 April 10, 2026 April 11, 2026 April 12, 2026":
+          - gridcell "April 6, 2026": "6"
+          - gridcell "April 7, 2026": "7"
+          - gridcell "April 8, 2026": "8"
+          - gridcell "April 9, 2026": "9"
+          - gridcell "April 10, 2026": "10"
+          - gridcell "April 11, 2026": "11"
+          - gridcell "April 12, 2026": "12"
+        - row "April 13, 2026 April 14, 2026 April 15, 2026 April 16, 2026 April 17, 2026 April 18, 2026 April 19, 2026":
+          - gridcell "April 13, 2026": "13"
+          - gridcell "April 14, 2026": "14"
+          - gridcell "April 15, 2026": "15"
+          - gridcell "April 16, 2026": "16"
+          - gridcell "April 17, 2026": "17"
+          - gridcell "April 18, 2026": "18"
+          - gridcell "April 19, 2026": "19"
+        - row "April 20, 2026 April 21, 2026 April 22, 2026 April 23, 2026 April 24, 2026 April 25, 2026 April 26, 2026":
+          - gridcell "April 20, 2026": "20"
+          - gridcell "April 21, 2026": "21"
+          - gridcell "April 22, 2026": "22"
+          - gridcell "April 23, 2026": "23"
+          - gridcell "April 24, 2026": "24"
+          - gridcell "April 25, 2026": "25"
+          - gridcell "April 26, 2026": "26"
+        - row "April 27, 2026 April 28, 2026 April 29, 2026 April 30, 2026 May 1, 2026 May 2, 2026 May 3, 2026":
+          - gridcell "April 27, 2026": "27"
+          - gridcell "April 28, 2026": "28"
+          - gridcell "April 29, 2026": "29"
+          - gridcell "April 30, 2026": "30"
+          - gridcell "May 1, 2026": "1"
+          - gridcell "May 2, 2026": "2"
+          - gridcell "May 3, 2026": "3"
+        - row "May 4, 2026 May 5, 2026 May 6, 2026 May 7, 2026 May 8, 2026 May 9, 2026 May 10, 2026":
+          - gridcell "May 4, 2026": "4"
+          - gridcell "May 5, 2026": "5"
+          - gridcell "May 6, 2026": "6"
+          - gridcell "May 7, 2026": "7"
+          - gridcell "May 8, 2026": "8"
+          - gridcell "May 9, 2026": "9"
+          - gridcell "May 10, 2026": "10"
+    - heading "Style Your Event Popups" [level=3]
+    - text: Add event details, links & style every section using its advance settings
+    - button ""
+    - button ""
+    - button "today" [disabled]
+    - heading "April 2026" [level=2]
+    - button " day"
+    - button " week"
+    - button " month" [pressed]
+    - button " list"
+    - grid:
+      - rowgroup:
+        - row "Monday Tuesday Wednesday Thursday Friday Saturday Sunday":
+          - columnheader "Monday": Mon
+          - columnheader "Tuesday": Tue
+          - columnheader "Wednesday": Wed
+          - columnheader "Thursday": Thu
+          - columnheader "Friday": Fri
+          - columnheader "Saturday": Sat
+          - columnheader "Sunday": Sun
+      - rowgroup:
+        - row "March 30, 2026 March 31, 2026 April 1, 2026 April 2, 2026 April 3, 2026 April 4, 2026 April 5, 2026":
+          - gridcell "March 30, 2026": "30"
+          - gridcell "March 31, 2026": "31"
+          - gridcell "April 1, 2026": "1"
+          - gridcell "April 2, 2026": "2"
+          - gridcell "April 3, 2026": "3"
+          - gridcell "April 4, 2026": "4"
+          - gridcell "April 5, 2026": "5"
+        - row "April 6, 2026 April 7, 2026 April 8, 2026 April 9, 2026 April 10, 2026 April 11, 2026 April 12, 2026":
+          - gridcell "April 6, 2026": "6"
+          - gridcell "April 7, 2026": "7"
+          - gridcell "April 8, 2026": "8"
+          - gridcell "April 9, 2026": "9"
+          - gridcell "April 10, 2026": "10"
+          - gridcell "April 11, 2026": "11"
+          - gridcell "April 12, 2026": "12"
+        - row "April 13, 2026 April 14, 2026 April 15, 2026 April 16, 2026 April 17, 2026 April 18, 2026 April 19, 2026":
+          - gridcell "April 13, 2026": "13"
+          - gridcell "April 14, 2026": "14"
+          - gridcell "April 15, 2026": "15"
+          - gridcell "April 16, 2026": "16"
+          - gridcell "April 17, 2026": "17"
+          - gridcell "April 18, 2026": "18"
+          - gridcell "April 19, 2026": "19"
+        - row "April 20, 2026 April 21, 2026 April 22, 2026 April 23, 2026 April 24, 2026 April 25, 2026 April 26, 2026":
+          - gridcell "April 20, 2026": "20"
+          - gridcell "April 21, 2026": "21"
+          - gridcell "April 22, 2026": "22"
+          - gridcell "April 23, 2026": "23"
+          - gridcell "April 24, 2026": "24"
+          - gridcell "April 25, 2026": "25"
+          - gridcell "April 26, 2026": "26"
+        - row "April 27, 2026 April 28, 2026 April 29, 2026 April 30, 2026 May 1, 2026 May 2, 2026 May 3, 2026":
+          - gridcell "April 27, 2026": "27"
+          - gridcell "April 28, 2026": "28"
+          - gridcell "April 29, 2026": "29"
+          - gridcell "April 30, 2026": "30"
+          - gridcell "May 1, 2026": "1"
+          - gridcell "May 2, 2026": "2"
+          - gridcell "May 3, 2026": "3"
+        - row "May 4, 2026 May 5, 2026 May 6, 2026 May 7, 2026 May 8, 2026 May 9, 2026 May 10, 2026":
+          - gridcell "May 4, 2026": "4"
+          - gridcell "May 5, 2026": "5"
+          - gridcell "May 6, 2026": "6"
+          - gridcell "May 7, 2026": "7"
+          - gridcell "May 8, 2026": "8"
+          - gridcell "May 9, 2026": "9"
+          - gridcell "May 10, 2026": "10"
+- text: desktop
+- status

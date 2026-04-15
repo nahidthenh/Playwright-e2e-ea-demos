@@ -1,0 +1,39 @@
+- main:
+  - article:
+    - text: Elements Panel Elements Panel
+    - img "Login Register Form 199"
+    - heading "Login Register Form" [level=2]
+    - text: Elements Panel Elements Panel Create amazing and attractive login or registration forms in Elementor without any coding using EA Login Register Form. With this advanced widget, you can guide your visitors to register as a member on your website & make it easier for old members to quickly log in as well
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/login-register-form/
+    - img "Login Register Form 398"
+    - button "Play, How to Create a Login / Registration Form in Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:48
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Create a Login / Registration Form in Elementor": Play
+    - heading "Registration Form 1" [level=3]
+    - paragraph: Use Essential Addons & create registration form to let your users register on your website
+    - heading "Login Form" [level=3]
+    - text: Ceate login form using Essential Addons & let your users log in easily to ensure better user experience
+    - img "Form Logo Image"
+    - text: Username or Email Address
+    - textbox "Username or Email Address"
+    - text: Password
+    - textbox "Password"
+    - button "Show password"
+    - paragraph:
+      - checkbox
+      - text: Remember Me
+    - paragraph:
+      - link "Forgot password?":
+        - /url: https://essential-addons.com/woo-account-dashboard/lost-password/
+    - button "Sign In"
+    - heading "Registration Form 2" [level=3]
+- text: desktop
+- status

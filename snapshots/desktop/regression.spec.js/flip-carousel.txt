@@ -1,0 +1,75 @@
+- main:
+  - article:
+    - img "Flip Carousel 1"
+    - heading "Flip Carousel" [level=2]
+    - text: EA Flip Carousel let’s you showcase your product images in an impressive way. With the help of it, you can make your customers get blown away with your design
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/flip-carousel/
+    - img "Flip Carousel 2"
+    - button "Play, Elementor Flip Carousel Widget - How to Display Flip Carousel Using Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:00
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Elementor Flip Carousel Widget - How to Display Flip Carousel Using Essential Addons": Play
+    - heading "Remarkable coverflow style" [level=3]
+    - text: Make it available for any type of posts, besides individually can configure it only for all posts or pages type. Elements Panel
+    - list:
+      - listitem:
+        - img "Flip Carousel 102"
+      - listitem:
+        - img "Flip Carousel 103"
+      - listitem:
+        - img "Flip Carousel 104"
+      - listitem:
+        - img "Flip Carousel 105"
+      - listitem:
+        - img "Flip Carousel 106"
+    - heading "Amazing flat carousel style" [level=3]
+    - list:
+      - listitem:
+        - img "Flip Carousel 107"
+      - listitem:
+        - img "Flip Carousel 108"
+      - listitem:
+        - img "Flip Carousel 109"
+      - listitem:
+        - img "Flip Carousel 110"
+      - listitem:
+        - img "Flip Carousel 111"
+    - heading "Stunning Flat carousel style 2" [level=3]
+    - list:
+      - listitem:
+        - img "Flip Carousel 112"
+      - listitem:
+        - img "Flip Carousel 113"
+      - listitem:
+        - img "Flip Carousel 114"
+      - listitem:
+        - img "Flip Carousel 115"
+      - listitem:
+        - img "Flip Carousel 116"
+      - listitem:
+        - img "Flip Carousel 116"
+      - listitem:
+        - img "Flip Carousel 118"
+    - button
+    - button
+    - heading "Interactive Wheel Carousel Style" [level=3]
+    - list:
+      - listitem:
+        - img "Flip Carousel 119"
+      - listitem:
+        - img "Flip Carousel 120"
+      - listitem:
+        - img "Flip Carousel 121"
+      - listitem:
+        - img "Flip Carousel 122"
+      - listitem:
+        - img "Flip Carousel 123"
+- text: desktop
+- status

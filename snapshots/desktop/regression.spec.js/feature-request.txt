@@ -1,0 +1,19 @@
+- main:
+  - article:
+    - heading "Feature Requests" [level=3]
+    - paragraph: Is Essential Addons for Elementor missing something? Let us know what you want to have in the next updates. We are open to discuss and consider all reasonable ideas in order to take Essential Addons to it next level.
+    - group "Feature Request Form EA":
+      - text: Feature Request Form EA Name *
+      - textbox "Name *":
+        - /placeholder: Name
+      - text: Email *
+      - textbox "Email":
+        - /placeholder: Email Address
+      - text: Subject *
+      - textbox "Subject"
+      - text: Your Message *
+      - textbox "Your Message"
+      - button "Send Message"
+    - img "Feature Request 1"
+- text: desktop
+- status

@@ -1,0 +1,24 @@
+- figure:
+  - img "Woo Product Price 1"
+- heading "Woo Product Price" [level=3]
+- heading "Accelerate Sales by Displaying Catchy Woo Product Prices" [level=2]
+- text: Transform your WooCommerce single product pages with stunning product price layouts like never before. Woo Product Price allows you to captivate your customer’s attention with customized pricing styles that help to drive your sales.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-woo-product-price
+- img "Woo Product Price 2"
+- img "Woo Product Price 3"
+- img "Woo Product Price 4"
+- heading "Boost Conversions with Compelling Pricing Displays" [level=2]
+- text: Engage customers by showcasing pricing that captures attention, making it easy for customers to see value and encouraging them to complete their purchases.
+- img "Woo Product Price 6"
+- heading "Highlight Discounts with Stunning Sales Badges" [level=2]
+- text: Capture attention using catchy sale badges that draw customers in, making savings irresistible and prompting immediate buying decisions.
+- img "Woo Product Price 8"
+- heading "Drive Urgency with Limited-Time Promotional Offers" [level=2]
+- text: Create urgency with limited-time promotional offers that create a sense of scarcity, compelling customers to act quickly before the opportunity disappears.
+- img "Woo Product Price 10"
+- heading "Customize Pricing Styles To Boost Customer Attention" [level=2]
+- text: Tailor your pricing styles aligning with the brand to maximize customer attention and enhance perceived value, ultimately leading to increased sales.
+- img "Woo Product Price 12"
+- text: desktop
+- status

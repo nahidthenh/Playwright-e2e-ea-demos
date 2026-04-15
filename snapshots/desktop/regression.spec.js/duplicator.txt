@@ -1,0 +1,28 @@
+- text: Elements Panel
+- img "EA Duplicator 100"
+- heading "Post Duplicator" [level=2]
+- text: EA Post Duplicator Extension will let you make duplicates to any of your website page or post types just with a click. It can help you to create multiple posts in a short amount of time or even cloning a post as a draft for further editing.
+- link "Documentation":
+  - /url: https://essential-addons.com/elementor/docs/duplicator/
+- img "EA Duplicator 101"
+- button "Play, How to Duplicate Any Post Types with Essential Addons": Play
+- slider "Seek": "0"
+- text: 00:00
+- timer "Current time": 01:45
+- button "Mute"
+- slider "Volume": "1"
+- button "Settings"
+- button "Enter fullscreen"
+- iframe
+- button "Play, How to Duplicate Any Post Types with Essential Addons": Play
+- heading "Configure EA Duplicator Post Types & Settings" [level=3]
+- text: Select your preferred post types as post, page or others. Here we will go with the ‘Post’ & configure EA Duplicator ‘Settings’ for that.
+- img "EA Duplicator 102"
+- heading "Edit Your Duplicate Post With Full Freedom" [level=3]
+- text: Choose your desired post & make a hit on the ‘EA Duplicator’. You can create as many copies you want just with one click
+- img "EA Duplicator 103"
+- heading "Get Full Freedom To Edit Your Duplicate Posts" [level=3]
+- text: Fill your post with your own content & make it the way you want. Now just hit the post ‘Publish’ button to make it live on the spot.
+- img "EA Duplicator 104"
+- text: desktop
+- status

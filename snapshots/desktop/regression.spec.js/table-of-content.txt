@@ -1,0 +1,70 @@
+- main:
+  - article:
+    - img "Table of Contents 1"
+    - heading "Table of Contents" [level=2]
+    - text: EA Table of Contents will let you showcase your all blog posts supported headers in a table view and an organized way. You can use this extension globally for all your website pages to display all content in a table format and style it in advance by changing color, view position or adding number or icon on the list view.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/table-of-content/
+    - text: Elements Panel
+    - img "Table of Contents 101"
+    - button "Play, How to Display Table of Content For Blog Posts Pages Using Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:59
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Display Table of Content For Blog Posts Pages Using Essential Addons": Play
+    - heading "Different Styles Of Table Of Contents" [level=3]
+    - text: Table of Contents will showcase your all blog posts headers, sub headers in a list view and you can style it in advance
+    - link "Table of Contents 102":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-2
+      - img "Table of Contents 102"
+    - link "View style 2 demo":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-2
+    - link "Table of Contents 103":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-3/
+      - img "Table of Contents 103"
+    - link "View style 3 demo":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-3/
+    - link "Table of Contents 104":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-4/
+      - img "Table of Contents 104"
+    - link "View style 4 demo":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-4/
+    - link "Table of Contents 105":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-5/
+      - img "Table of Contents 105"
+    - link "View style 5 demo":
+      - /url: https://essential-addons.com/elementor/table-of-content/toc-demo-style-5/
+    - heading "Table Of Contents Demo 1" [level=2]
+    - paragraph: Choose the supported headers types of blogs like H2, H3, H4 or others and it will automatically take those in a table list view
+    - heading "EA Duplicator" [level=3]
+    - text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:"
+    - heading "EA Reading Progress Bar" [level=3]
+    - text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with: The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn’t distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content."
+    - heading "The passage experienced a surge in popularity during the 1960s" [level=4]
+    - text: Letraset used it on their dry transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.
+    - img "Table of Contents 106"
+    - heading "Upgrade License" [level=4]
+    - text: The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn’t distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.
+    - heading "Print Invoice" [level=4]
+    - text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:"
+    - img "Table of Contents 107"
+    - heading "Lorem ipsum, or lipsum as it is sometimes known" [level=4]
+    - text: "laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with: The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our generator to get your or read on for the authoritative history of lorem ipsum."
+    - heading "Profile" [level=4]
+    - text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with: Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:"
+    - img "Table of Contents 108"
+    - heading "Subscription" [level=4]
+    - text: The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn’t distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.
+    - heading "EA Content Protection" [level=3]
+    - text: The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn’t distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.
+    - heading "EA Advanced Tooltip" [level=3]
+    - text: The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn’t distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content. The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.
+    - heading "The passage is attributed to an unknown typesetter in the 15th century" [level=5]
+    - text: "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:"
+- text: desktop
+- status

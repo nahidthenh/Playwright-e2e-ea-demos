@@ -1,0 +1,63 @@
+- text: Elements Panel
+- img "Woo Cross Sells 100"
+- heading "Woo Cross Sells" [level=2]
+- text: EA Woo Cross Sells is the essential tool to enhance your WooCommerce store’s product offerings. This premium widget allows you to effortlessly display related items to your customers, helping them discover complementary products & enhancing their shopping experience.
+- link "Documentation":
+  - /url: https://essential-addons.com/elementor/docs/ea-woo-cross-sells/
+- text: 
+- button "Play, How To Configure Cross-Sell With The EA Woo Cross Sell Widget?": Play
+- slider "Seek": "0"
+- text: 00:00
+- timer "Current time": 03:31
+- button "Mute"
+- slider "Volume": "1"
+- button "Settings"
+- button "Enter fullscreen"
+- iframe
+- button "Play, How To Configure Cross-Sell With The EA Woo Cross Sell Widget?": Play
+- heading "Simple & Elegant Style 1(PRO)" [level=3]
+- text: Effortlessly captivate your customers as they hover over products. Elevate your store’s charm with this seamless blend of style and functionality.
+- img "Woo Cross Sells 101"
+- img "Woo Cross Sells 104"
+- heading "You might be interested in this Cross Sell Product" [level=4]
+- img "Running Shoe"
+- text: Running Shoe
+- deletion: £99.00
+- text: "Original price was: £99.00."
+- insertion: £49.00
+- text: "Current price is: £49.00."
+- link " View":
+  - /url: https://essential-addons.com/product/running-shoe/
+- heading "Modest & Classy Style 2(PRO)" [level=3]
+- text: Ignite your shopping journey with an elegant style with cross-sells. Effortlessly add products to your cart and preview their details with a simple hover.
+- img "Woo Cross Sells 105"
+- img "Woo Cross Sells 104"
+- heading "You might be interested in this Cross Sell Product" [level=4]
+- img "Roja Parfums Haute Luxe"
+- link "":
+  - /url: https://essential-addons.com/product/roja-parfums-haute-luxe/
+- text: Roja Parfums Haute Luxe
+- deletion: £99.00
+- text: "Original price was: £99.00."
+- insertion: £49.00
+- text: "Current price is: £49.00."
+- heading "Smooth & Minimal Style 3(PRO)" [level=3]
+- text: Immerse yourself in sophistication with a beautiful style preset. Woo Cross Sells commands attention, showcasing products with grace in a refined vertical arrangement.
+- img "Woo Cross Sells 109"
+- img "Woo Cross Sells 103"
+- heading "You might be interested in these Cross Sell Products" [level=4]
+- img "Herman Miller Aeron Chair"
+- link "Herman Miller Aeron Chair":
+  - /url: https://essential-addons.com/product/herman-miller-aeron-chair/
+- deletion: £99.00
+- text: "Original price was: £99.00."
+- insertion: £49.00
+- text: "Current price is: £49.00. The Herman Miller Aeron Chair is a popular choice for the office, offering ergonomic comfort and sleek design. With adjustable features and breathable material, it’s a reliable option for long hours of work."
+- img "Steelcase Gesture Chair"
+- link "Steelcase Gesture Chair":
+  - /url: https://essential-addons.com/product/steelcase-gesture-chair/
+- deletion: £99.00
+- text: "Original price was: £99.00."
+- insertion: £49.00
+- text: "Current price is: £49.00. The Steelcase Gesture Chair is designed to adapt to various sitting postures, making it ideal for a dynamic office environment. Its intuitive adjustments and flexible backrest ensure optimal support throughout the day. desktop"
+- status

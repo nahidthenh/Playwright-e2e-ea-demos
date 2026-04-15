@@ -1,0 +1,142 @@
+- main:
+  - article:
+    - img "Content Ticker 1"
+    - heading "Content Ticker" [level=2]
+    - paragraph: EA Content Ticker will let you showcase your trending news with amazing animation effects. You can add ticker type as custom or dynamic and give it a stunning look that attracts audience.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/content-ticker/
+    - text: Elements Panel
+    - img "Content Ticker 101"
+    - button "Play, Add Content Ticker using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:54
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Add Content Ticker using Elementor": Play
+    - heading "Custom Ticker With Animation" [level=3]
+    - text: Choose from the various ‘Ticker Type’, modify content and include some animations Trending Today
+    - group "2 / 2":
+      - link "How to Include Elementor Template":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How to Include Elementor Template using a Shortcode":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How to Include Elementor Template":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How to Include Elementor Template using a Shortcode":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - text: News Hightlights
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - text: Top Stories
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - text: Latest Hightlights
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - text: Trending Today
+    - group "2 / 2":
+      - link "How to Include Elementor Template":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How to Include Elementor Template using a Shortcode":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How to Include Elementor Template":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How to Include Elementor Template using a Shortcode":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - text: Latest Highlights
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - text: Top Stories
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - text: News Highlights
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - group "2 / 2":
+      - link "How To Hide Your Existing Page":
+        - /url: "#"
+    - group "1 / 2":
+      - link "How To Hide Your Existing Page From Certain Users in Elementor":
+        - /url: "#"
+    - button "Next slide": 
+    - button "Previous slide": 
+- text: desktop
+- status

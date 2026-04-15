@@ -1,0 +1,166 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Woo Thank You 100"
+    - heading "Woo Thank You" [level=2]
+    - paragraph: Elevate your customers’ shopping experience by personalizing their order confirmation messages with the EA Woo Thank You widget. Experience the endless possibilities of customization as you craft personalized thank-you messages that resonate with your customers and leave a positive post-purchase experience.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/ea-woo-thank-you
+    - text: 
+    - button "Play, How To Configure EA Woo Thank You Widget?": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:19
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Configure EA Woo Thank You Widget?": Play
+    - heading "Delight Customers With A Neat & Stylish Preset 1" [level=3]
+    - text: Elevate your customer’s happiness and experience in every order confirmation message. Customize your thank you message with your brand aesthetics Thanks For Your Order!
+    - list:
+      - listitem: "Order number: 290491"
+      - listitem: "Date: 3 March, 2026"
+      - listitem: "Total: £65.00"
+      - listitem: "Payment Method: Cash on delivery"
+    - paragraph: Pay with cash upon delivery.
+    - heading "Order Summary:" [level=2]
+    - table:
+      - rowgroup:
+        - row "Products Total":
+          - columnheader "Products"
+          - columnheader "Total"
+      - rowgroup:
+        - 'row "Mens Comfy T Shirt Mens Comfy T Shirt Qty: 1 £20.00"':
+          - 'cell "Mens Comfy T Shirt Mens Comfy T Shirt Qty: 1"':
+            - img "Mens Comfy T Shirt"
+            - link "Mens Comfy T Shirt":
+              - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+            - text: "Qty: 1"
+          - cell "£20.00"
+        - 'row "Mens Trendy T Shirt Mens Trendy T Shirt Qty: 1 £35.00"':
+          - 'cell "Mens Trendy T Shirt Mens Trendy T Shirt Qty: 1"':
+            - img "Mens Trendy T Shirt"
+            - link "Mens Trendy T Shirt":
+              - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+            - text: "Qty: 1"
+          - cell "£35.00"
+    - heading "Billing Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP 01315561313 joe@bloggs.com
+    - heading "Shipping Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP
+    - table:
+      - rowgroup:
+        - 'row "Subtotal: £55.00"':
+          - rowheader "Subtotal:"
+          - cell "£55.00"
+        - 'row "Shipping: £10.00 via Flat rate"':
+          - rowheader "Shipping:"
+          - cell "£10.00 via Flat rate"
+        - 'row "Total: £65.00"':
+          - rowheader "Total:"
+          - cell "£65.00"
+        - 'row "Payment method: Cash on delivery"':
+          - rowheader "Payment method:"
+          - cell "Cash on delivery"
+    - heading "Enhance Post Purchase Experience With Preset 2" [level=3]
+    - text: Level up your customers’ satisfaction game by leaving a lasting impression by providing a sleek and clear thank-you message with endless customization Hello Joe, Thanks, Your Order is Confirmed!
+    - heading "Order Details" [level=2]
+    - list:
+      - listitem: "Order number: 290491"
+      - listitem: "Date: 3 March, 2026"
+      - listitem: "Total: £65.00"
+      - listitem: "Payment Method: Cash on delivery"
+    - paragraph: Pay with cash upon delivery.
+    - table:
+      - rowgroup:
+        - row "Products Price Quantity Total":
+          - columnheader "Products"
+          - columnheader "Price"
+          - columnheader "Quantity"
+          - columnheader "Total"
+      - rowgroup:
+        - row "Mens Comfy T Shirt Mens Comfy T Shirt £20.00 1 £20.00":
+          - cell "Mens Comfy T Shirt Mens Comfy T Shirt":
+            - img "Mens Comfy T Shirt"
+            - link "Mens Comfy T Shirt":
+              - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+          - cell "£20.00"
+          - cell "1"
+          - cell "£20.00"
+        - row "Mens Trendy T Shirt Mens Trendy T Shirt £35.00 1 £35.00":
+          - cell "Mens Trendy T Shirt Mens Trendy T Shirt":
+            - img "Mens Trendy T Shirt"
+            - link "Mens Trendy T Shirt":
+              - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+          - cell "£35.00"
+          - cell "1"
+          - cell "£35.00"
+    - table:
+      - rowgroup:
+        - 'row "Subtotal: £55.00"':
+          - rowheader "Subtotal:"
+          - cell "£55.00"
+        - 'row "Shipping: £10.00 via Flat rate"':
+          - rowheader "Shipping:"
+          - cell "£10.00 via Flat rate"
+        - 'row "Total: £65.00"':
+          - rowheader "Total:"
+          - cell "£65.00"
+        - 'row "Payment method: Cash on delivery"':
+          - rowheader "Payment method:"
+          - cell "Cash on delivery"
+    - heading "Billing Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP 01315561313 joe@bloggs.com
+    - heading "Shipping Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP
+    - heading "Maximize Engagement With Simplified & Clean Preset 3" [level=3]
+    - text: Skyrocket customer satisfaction by turning order confirmations into customized messages with separate columns and detailed information Thank you ! Your Order has Been Received
+    - heading "Order Summary" [level=2]
+    - list:
+      - listitem: "Order number: 290491"
+      - listitem: "Date: 3 March, 2026"
+      - listitem: "Total: £65.00"
+      - listitem: "Payment Method: Cash on delivery"
+    - paragraph: Pay with cash upon delivery.
+    - heading "Billing Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP 01315561313 joe@bloggs.com
+    - heading "Shipping Address" [level=2]
+    - text: Joe Bloggs 123 High Street Edinburgh EH2 1PP
+    - table:
+      - rowgroup:
+        - row "Products Total":
+          - columnheader "Products"
+          - columnheader "Total"
+      - rowgroup:
+        - 'row "Mens Comfy T Shirt Mens Comfy T Shirt Qty: 1 £20.00"':
+          - 'cell "Mens Comfy T Shirt Mens Comfy T Shirt Qty: 1"':
+            - img "Mens Comfy T Shirt"
+            - link "Mens Comfy T Shirt":
+              - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+            - text: "Qty: 1"
+          - cell "£20.00"
+        - 'row "Mens Trendy T Shirt Mens Trendy T Shirt Qty: 1 £35.00"':
+          - 'cell "Mens Trendy T Shirt Mens Trendy T Shirt Qty: 1"':
+            - img "Mens Trendy T Shirt"
+            - link "Mens Trendy T Shirt":
+              - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+            - text: "Qty: 1"
+          - cell "£35.00"
+    - table:
+      - rowgroup:
+        - 'row "Subtotal: £55.00"':
+          - rowheader "Subtotal:"
+          - cell "£55.00"
+        - 'row "Shipping: £10.00 via Flat rate"':
+          - rowheader "Shipping:"
+          - cell "£10.00 via Flat rate"
+        - 'row "Total: £65.00"':
+          - rowheader "Total:"
+          - cell "£65.00"
+        - 'row "Payment method: Cash on delivery"':
+          - rowheader "Payment method:"
+          - cell "Cash on delivery"
+- text: desktop
+- status

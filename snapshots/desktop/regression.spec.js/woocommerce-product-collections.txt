@@ -1,0 +1,85 @@
+- main:
+  - article:
+    - img "WooCommerce Product Collections 1"
+    - heading "Woo Product Collection" [level=2]
+    - text: Showcase WooCommerce products anywhere in your website using EA Woo Product Collection. You can display it by its category, tags or attributes and add hover effects on the layout to make it stunning.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/dynamic-content-elements/ea-woo-product-collections/
+    - text: Elements Panel
+    - img "WooCommerce Product Collections 101"
+    - button "Play, How to Add WooCommerce Product Collections using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:53
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Add WooCommerce Product Collections using Elementor": Play
+    - heading "Woo Product Grid With Category" [level=3]
+    - text: Choose your preferred category from ‘Collection Type’ & make the grid look standout
+    - link "WooCommerce Product Collections 102 Collections Men":
+      - /url: https://essential-addons.com/product-category/man/
+      - img "WooCommerce Product Collections 102"
+      - text: Collections
+      - heading "Men" [level=2]
+    - link "WooCommerce Product Collections 103 Collections Women":
+      - /url: https://essential-addons.com/product-category/woman/
+      - img "WooCommerce Product Collections 103"
+      - text: Collections
+      - heading "Women" [level=2]
+    - link "WooCommerce Product Collections 104 Collections Shoe":
+      - /url: https://essential-addons.com/product-category/shoe/
+      - img "WooCommerce Product Collections 104"
+      - text: Collections
+      - heading "Shoe" [level=2]
+    - heading "Woo Product Grid With Attributes" [level=3]
+    - link "WooCommerce Product Collections 105 Women Fashion Colourful":
+      - /url: https://essential-addons.com/color/colourful/
+      - img "WooCommerce Product Collections 105"
+      - text: Women Fashion
+      - heading "Colourful" [level=2]
+    - link "WooCommerce Product Collections 106 Gown Collections Women":
+      - /url: https://essential-addons.com/product-tag/women/
+      - img "WooCommerce Product Collections 106"
+      - text: Gown Collections
+      - heading "Women" [level=2]
+    - link "WooCommerce Product Collections 107 Fashionable Dresses Women":
+      - /url: https://essential-addons.com/product-tag/women/
+      - img "WooCommerce Product Collections 107"
+      - text: Fashionable Dresses
+      - heading "Women" [level=2]
+    - heading "Woo Product Grid With Animation" [level=3]
+    - link "WooCommerce Product Collections 108 DSLR Cameras Black":
+      - /url: https://essential-addons.com/color/black/
+      - img "WooCommerce Product Collections 108"
+      - text: DSLR Cameras
+      - heading "Black" [level=2]
+    - link "WooCommerce Product Collections 109 Headphone Collections Black":
+      - /url: https://essential-addons.com/color/black/
+      - img "WooCommerce Product Collections 109"
+      - text: Headphone Collections
+      - heading "Black" [level=2]
+    - link "WooCommerce Product Collections 110 Winter Collections Men":
+      - /url: https://essential-addons.com/product-category/man/
+      - img "WooCommerce Product Collections 110"
+      - text: Winter Collections
+      - heading "Men" [level=2]
+    - link "WooCommerce Product Collections 111 Shorts Collections Men":
+      - /url: https://essential-addons.com/product-category/man/
+      - img "WooCommerce Product Collections 111"
+      - text: Shorts Collections
+      - heading "Men" [level=2]
+    - link "WooCommerce Product Collections 112 Device Collections Black":
+      - /url: https://essential-addons.com/color/black/
+      - img "WooCommerce Product Collections 112"
+      - text: Device Collections
+      - heading "Black" [level=2]
+    - link "WooCommerce Product Collections 113 Devices Black":
+      - /url: https://essential-addons.com/color/black/
+      - img "WooCommerce Product Collections 113"
+      - text: Devices
+      - heading "Black" [level=2]
+- text: desktop
+- status

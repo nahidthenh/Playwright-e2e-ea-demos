@@ -1,0 +1,60 @@
+- main:
+  - article:
+    - img "Post Timeline 1"
+    - heading "Post Timeline" [level=2]
+    - text: EA Post Timeline will let you display blog posts, pages or custom posts in a stunning vertical layout. You can set your preferred number of posts, add amazing effects, image overlay, button and more to drag audience interest.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/post-timeline/
+    - text: Elements Panel
+    - img "Post Timeline 101"
+    - button "Play, How to Display Post Timeline with Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:47
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Display Post Timeline with Essential Addons": Play
+    - heading "Vertical Post Timeline Layout" [level=3]
+    - text: Set the source type, choose the number of posts per page, add image overlay, hover effects & more
+    - article:
+      - link "April 9, 2026 Discover the most common Elementor SEO mistakes that quietly hurt... Elementor SEO Mistakes That Are Quietly Killing Your Rankings":
+        - /url: https://essential-addons.com/elementor-seo-mistakes/
+        - time: April 9, 2026
+        - paragraph: Discover the most common Elementor SEO mistakes that quietly hurt...
+        - heading "Elementor SEO Mistakes That Are Quietly Killing Your Rankings" [level=2]
+    - article:
+      - link "March 25, 2026 Choosing the right Elementor landing page template can make a... How to Pick the Right Elementor Landing Page Template for Your Business Goals":
+        - /url: https://essential-addons.com/right-elementor-landing-page-template/
+        - time: March 25, 2026
+        - paragraph: Choosing the right Elementor landing page template can make a...
+        - heading "How to Pick the Right Elementor Landing Page Template for Your Business Goals" [level=2]
+    - article:
+      - link "March 19, 2026 A weak CTA means a leaking funnel — no matter... The Ultimate Guide to Call to Action Design That Converts":
+        - /url: https://essential-addons.com/complete-guide-to-call-to-action-design/
+        - time: March 19, 2026
+        - paragraph: A weak CTA means a leaking funnel — no matter...
+        - heading "The Ultimate Guide to Call to Action Design That Converts" [level=2]
+    - article:
+      - 'link "March 13, 2026 Want faster website development? Explore 13 practical tips—from templates and... How to Reduce Website Development Time: 13 Smarter Strategies for Faster Builds"':
+        - /url: https://essential-addons.com/how-to-reduce-website-development-time/
+        - time: March 13, 2026
+        - paragraph: Want faster website development? Explore 13 practical tips—from templates and...
+        - 'heading "How to Reduce Website Development Time: 13 Smarter Strategies for Faster Builds" [level=2]'
+    - article:
+      - 'link "March 5, 2026 In this guide, you’ll learn more about Elementor’s latest release,... Elementor Version 4 Explained: Everything You Need to Know About The Atomic Editor"':
+        - /url: https://essential-addons.com/elementor-version-4-the-atomic-editor/
+        - time: March 5, 2026
+        - paragraph: In this guide, you’ll learn more about Elementor’s latest release,...
+        - 'heading "Elementor Version 4 Explained: Everything You Need to Know About The Atomic Editor" [level=2]'
+    - article:
+      - 'link "March 3, 2026 Elementor One introduces a new era of website creation by... Elementor One: A Complete Overview of the New Website Creation Experience"':
+        - /url: https://essential-addons.com/elementor-one-a-complete-overview/
+        - time: March 3, 2026
+        - paragraph: Elementor One introduces a new era of website creation by...
+        - 'heading "Elementor One: A Complete Overview of the New Website Creation Experience" [level=2]'
+    - button "Load More"
+- text: desktop
+- status

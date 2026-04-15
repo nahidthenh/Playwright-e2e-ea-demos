@@ -1,0 +1,191 @@
+- main:
+  - article:
+    - img "Pricing Table 1"
+    - heading "Pricing Table" [level=2]
+    - text: EA Pricing Table will let you create effective product pricing table with perfect styling to get more sales from your prospective buyers.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/pricing-table/
+    - text: Elements Panel
+    - img "Pricing Table 101"
+    - button "Play, Pricing Table Element - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:34
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Pricing Table Element - Essential Addons for Elementor": Play
+    - heading "Pricing Table Style 01" [level=3]
+    - text: Display product pricing table using default style, add text content, and enable list icon feature to make it look more interactive for visitors
+    - heading "Basic" [level=2]
+    - text: $49/Mo
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - heading "Standard" [level=2]
+    - text: $59/Mo
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - heading "Enterprise" [level=2]
+    - text: $89/Mo
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - heading "Pricing Table Style 02" [level=3]
+    - text: Choose your product pricing style, add icon with text, and style just the way you want 
+    - heading "Basic" [level=2]
+    - text: For Medium Business $49/Mo
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - text: 
+    - heading "Standard" [level=2]
+    - text: For Medium Business $59/Mo
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - text: 
+    - heading "Enterprise" [level=2]
+    - text: For Large Business $79/Mo
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - heading "Pricing Table Style 03" [level=3]
+    - text: Use call to action button on every pricing style, enable the button toggle and more to make it standout
+    - heading "Free plan" [level=2]
+    - text: $00/Month
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Start Now":
+      - /url: "#"
+    - heading "Basic plan" [level=2]
+    - text: $49/Month
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Start Now":
+      - /url: "#"
+    - heading "Standard plan" [level=2]
+    - text: $79/Month
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Start Now":
+      - /url: "#"
+    - heading "Premium plan" [level=2]
+    - text: $99/Month
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Start Now":
+      - /url: "#"
+    - heading "Pricing Table Style 04" [level=3]
+    - text: You can add header image, title, sub title & style it using this pricing style $40/Month
+    - heading "Starter" [level=2]
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage Space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - text: $60/Month
+    - heading "Standard" [level=2]
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage Space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - text: $90/Month
+    - heading "Enterprise" [level=2]
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage Space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - heading "Pricing Table Style 05" [level=3]
+    - text: You can add effects on content, change alignment, pricing position and style it the way you want $49.50Permonth
+    - heading "Basic" [level=2]
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - text: $59.50Permonth
+    - heading "Standard" [level=2]
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+    - text: $79.50Permonth
+    - heading "Enterprise" [level=2]
+    - list:
+      - listitem: Unlimited calls
+      - listitem: Free hosting
+      - listitem: 500 MB of storage space
+      - listitem: 500 MB Bandwidth
+      - listitem: 24/7 support
+    - link "Get Started":
+      - /url: "#"
+- text: desktop
+- status

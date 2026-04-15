@@ -1,0 +1,196 @@
+- main:
+  - article:
+    - img "Price Menu 1"
+    - heading "Price Menu" [level=2]
+    - text: EA Price Menu allows you to create amazing Pricing Menu of your Food Items or any sort of products quite easily. It comes with lots of different layouts so that you can effortlessly get a top-notch design and make your pricing landing page attractive.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/marketing-elements/price-menu/
+    - text: Elements Panel
+    - img "Price Menu 101"
+    - button "Play, Create Attractive Price Menu using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:41
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Create Attractive Price Menu using Elementor": Play
+    - heading "Showcase Price Menu in Stylish Way" [level=3]
+    - text: Get ready to design stunning Price Menu within a few mintues
+    - img "Price Menu 102"
+    - heading "Breakfast Menu" [level=3]
+    - heading "Fig and lemon cake" [level=4]
+    - text: $10
+    - heading "Heirloom Tomato" [level=4]
+    - text: $25
+    - heading "Italian Spaghetti" [level=4]
+    - text: $28
+    - heading "Calamari Diavolo" [level=4]
+    - text: $10
+    - heading "Home made bread" [level=4]
+    - text: $8
+    - img "Price Menu 103"
+    - heading "Lunch Menu" [level=3]
+    - heading "Eggs Norwegian" [level=4]
+    - text: $35
+    - heading "Pring Veg & Pasta" [level=4]
+    - text: $28
+    - heading "Grilled Chinook Salmon" [level=4]
+    - text: $38
+    - heading "Smoked Salmon" [level=4]
+    - text: $18
+    - heading "Smoked Paprika" [level=4]
+    - text: $27
+    - img "Price Menu 104"
+    - heading "Dinner Menu" [level=3]
+    - heading "Italian Spaghetti" [level=4]
+    - text: $29
+    - heading "Calamari Diavolo" [level=4]
+    - text: $32
+    - heading "Smoked Salmon" [level=4]
+    - text: $45
+    - heading "Eggs Norwegian" [level=4]
+    - text: $29
+    - heading "Pring Veg & Pasta" [level=4]
+    - text: $35
+    - heading "Full Customization Freedom" [level=3]
+    - text: Customize your Price Menu any way you wish and make it stand out
+    - img "Price Menu 105"
+    - heading "Eggs Norwegian" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - img "Price Menu 106"
+    - heading "Bacon,Coleslaw" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - img "Price Menu 107"
+    - heading "Croissant (Plain)" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - img "Price Menu 108"
+    - heading "Optic Big Salad" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - img "Price Menu 109"
+    - heading "Salad With Vegetables" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - img "Price Menu 110"
+    - heading "Sea Food" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - heading "Add Item Images" [level=3]
+    - text: Add as many Images as you want and make Price Menu eye-catchy
+    - img "Price Menu 111"
+    - heading "Eggs Benedict" [level=4]
+    - text: $9
+    - img "Price Menu 112"
+    - heading "Bread" [level=4]
+    - text: $3
+    - img "Price Menu 113"
+    - heading "Cocktail" [level=4]
+    - text: $15
+    - img "Price Menu 114"
+    - heading "Coffee" [level=4]
+    - text: $5
+    - img "Price Menu 115"
+    - heading "Vegetable Pizza" [level=4]
+    - text: $12
+    - img "Price Menu 116"
+    - heading "Capuccino" [level=4]
+    - text: $7
+    - heading "Today's Menu" [level=3]
+    - heading "Fish N Chip" [level=4]:
+      - link "Fish N Chip":
+        - /url: "#"
+    - text: $10.00
+    - heading "Lamb Burger" [level=4]:
+      - link "Lamb Burger":
+        - /url: "#"
+    - text: $17.00
+    - heading "Shrimp Stir Fry" [level=4]
+    - text: $12.00
+    - heading "Beef Meatloaves" [level=4]
+    - text: $19.00
+    - heading "Cheese Gnocchi" [level=4]
+    - text: $21.00
+    - heading "Chicken Param" [level=4]
+    - text: $23.00
+    - img "Price Menu 109"
+    - heading "Salad With Vegetables" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - img "Price Menu 118"
+    - heading "Sea food" [level=4]
+    - text: $35 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm
+    - heading "Create Top-notch Price Menu" [level=3]
+    - text: Design attractive Price Menu by using Title-Price Connector
+    - img "Price Menu 119"
+    - img "Price Menu 120"
+    - heading "Burger Price" [level=3]
+    - heading "Beef Burger" [level=4]:
+      - link "Beef Burger":
+        - /url: "#"
+    - text: $17.00
+    - heading "Lamb Burger" [level=4]:
+      - link "Lamb Burger":
+        - /url: "#"
+    - text: $15.00
+    - heading "Elk Burger" [level=4]
+    - text: $12.00
+    - heading "Bison Burger" [level=4]
+    - text: $19.00
+    - heading "Turkey Burger" [level=4]
+    - text: $21.00
+    - img "Price Menu 121"
+    - heading "Ice Cream" [level=3]
+    - heading "Beef Burger" [level=4]:
+      - link "Beef Burger":
+        - /url: "#"
+    - text: $17.00
+    - heading "Lamb Burger" [level=4]:
+      - link "Lamb Burger":
+        - /url: "#"
+    - text: $15.00
+    - heading "Elk Burger" [level=4]
+    - text: $12.00
+    - heading "Bison Burger" [level=4]
+    - text: $19.00
+    - heading "Turkey Burger" [level=4]
+    - text: $21.00
+    - img "Price Menu 122"
+    - heading "Make Your Price Menu Stand Out" [level=3]
+    - text: Grab everyone’s attention by adding ‘Sales amount’ and ‘Title Separator’
+    - heading "Breakfast Menu" [level=3]
+    - img "Price Menu 123"
+    - heading "Fig and lemon cake" [level=4]
+    - text: $10
+    - heading "Heirloom Tomato" [level=4]
+    - text: $25
+    - heading "Italian Spaghetti" [level=4]
+    - text: $28
+    - heading "Calamari Diavolo" [level=4]
+    - text: $10
+    - heading "Home made bread" [level=4]
+    - text: $8
+    - heading "Lunch Menu" [level=3]
+    - img "Price Menu 124"
+    - heading "Eggs Norwegian" [level=4]
+    - text: $35
+    - heading "Pring Veg & Pasta" [level=4]
+    - text: $28
+    - heading "Grilled Chinook Salmon" [level=4]
+    - text: $38
+    - heading "Smoked Salmon" [level=4]
+    - text: $18
+    - heading "Smoked Paprika" [level=4]
+    - text: $27
+    - heading "Dinner Menu" [level=3]
+    - img "Price Menu 125"
+    - heading "Italian Spaghetti" [level=4]
+    - text: $29
+    - heading "Calamari Diavolo" [level=4]
+    - text: $32
+    - heading "Smoked Salmon" [level=4]
+    - text: $45
+    - heading "Eggs Norwegian" [level=4]
+    - text: $29
+    - heading "Pring Veg & Pasta" [level=4]
+    - text: $35
+- text: desktop
+- status

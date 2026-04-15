@@ -1,0 +1,223 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Testimonial Slider 100"
+    - heading "Testimonial Slider" [level=2]
+    - text: EA Testimonial Slider allows you to create an interactive testimonials board that showcase many reviews in one organized place beautifully. It will add credibility to your business & influence potential buyers to complete purchase
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/testimonial-slider/
+    - img "Testimonial Slider 101"
+    - button "Play, Testimonial Slider Element - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:29
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Testimonial Slider Element - Essential Addons for Elementor": Play
+    - heading "Exclusively Showcase Customer Reviews On Slider" [level=3]
+    - paragraph: Add items on the slider, configure the ‘Carousel Settings’ with ‘Slide’ effect, set ‘Visible Items’, choose ‘Classic’ style, change background or text colors, alignments, & display arrow to make it standout.
+    - group "2 / 2":
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "1 / 2":
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "2 / 2":
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "1 / 2":
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - button "Next slide": 
+    - button "Previous slide": 
+    - heading "Style Your Testimonial Slider With Images" [level=3]
+    - text: ‘Select Style’ to ‘Content Bottom|Icon Title Inline’ style, set position & configure the settings the way you want to make it look.
+    - group "2 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - paragraph: John Doe
+      - paragraph: Codetic
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+    - group "1 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - paragraph: John Doe
+      - paragraph: Codetic
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+    - group "2 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - paragraph: John Doe
+      - paragraph: Codetic
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+    - group "1 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - paragraph: John Doe
+      - paragraph: Codetic
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+    - button "Next slide": 
+    - button "Previous slide": 
+    - heading "'Icon/Image | Content' Style of Slider" [level=3]
+    - group "2 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "1 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "2 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "1 / 2":
+      - figure:
+        - img "Testimonial Slider 102"
+      - text:  GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - button "Next slide": 
+    - button "Previous slide": 
+    - heading "Default Style Of Testimonial Slider" [level=3]
+    - group "2 / 2":
+      - text: 
+      - figure:
+        - img "Testimonial Slider 102"
+      - text: GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "1 / 2":
+      - text: 
+      - figure:
+        - img "Testimonial Slider 102"
+      - text: GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "2 / 2":
+      - text: 
+      - figure:
+        - img "Testimonial Slider 102"
+      - text: GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - group "1 / 2":
+      - text: 
+      - figure:
+        - img "Testimonial Slider 102"
+      - text: GEMs are robotics algorithm for modules that built & optimized for NVIDIA AGX Data should underlie every business decision. Data should underlie every business Yet too often some very down the certain routes.
+      - list:
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - paragraph: John Doe
+      - paragraph: Codetic
+    - button "Next slide": 
+    - button "Previous slide": 
+- text: desktop
+- status

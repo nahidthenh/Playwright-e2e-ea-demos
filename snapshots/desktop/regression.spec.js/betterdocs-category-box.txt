@@ -1,0 +1,85 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Betterdocs Category Box 100"
+    - heading "BetterDocs Category Box" [level=2]
+    - text: Display your BetterDocs knowledgebase in stunning box style on your Elementor site using EA BetterDocs Category Box. You will get the full freedom to customize the layout section and style it to make it interactive.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/betterdocs-category-box/
+    - img "Betterdocs Category Box 101"
+    - button "Play, How to Create BetterDocs Knowledge Base with Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:00
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Create BetterDocs Knowledge Base with Elementor": Play
+    - heading "Configure BetterDocs Category Box Layout" [level=3]
+    - text: Setup the ‘Query’ settings to choose which document will display on the website using the include or exclude option with others. Also, pick your preferred layout from ‘Layout’ settings, and style it in advance to make your knowledgebase standout.
+    - link "Betterdocs Category Box 102 Getting Started 10articles":
+      - /url: https://essential-addons.com/docs-category/getting-started/
+      - img "Betterdocs Category Box 102"
+      - heading "Getting Started" [level=2]
+      - text: 10articles
+    - link "Betterdocs Category Box 103 How to Use My Account 7articles":
+      - /url: https://essential-addons.com/docs-category/how-to-use-my-account/
+      - img "Betterdocs Category Box 103"
+      - heading "How to Use My Account" [level=2]
+      - text: 7articles
+    - link "Betterdocs Category Box 104 FAQ 54articles":
+      - /url: https://essential-addons.com/docs-category/faq/
+      - img "Betterdocs Category Box 104"
+      - heading "FAQ" [level=2]
+      - text: 54articles
+    - link "Betterdocs Category Box 105 Content Elements 31articles":
+      - /url: https://essential-addons.com/docs-category/content-elements/
+      - img "Betterdocs Category Box 105"
+      - heading "Content Elements" [level=2]
+      - text: 31articles
+    - link "Betterdocs Category Box 106 Creative Elements 22articles":
+      - /url: https://essential-addons.com/docs-category/creative-elements/
+      - img "Betterdocs Category Box 106"
+      - heading "Creative Elements" [level=2]
+      - text: 22articles
+    - link "Betterdocs Category Box 107 Dynamic Content Elements 11articles":
+      - /url: https://essential-addons.com/docs-category/dynamic-content-elements/
+      - img "Betterdocs Category Box 107"
+      - heading "Dynamic Content Elements" [level=2]
+      - text: 11articles
+    - heading "Try More Beautifully Designed Layouts" [level=3]
+    - link "Betterdocs Category Box 108 AppSumo 8":
+      - /url: https://essential-addons.com/docs-category/appsumo/
+      - img "Betterdocs Category Box 108"
+      - heading "AppSumo" [level=2]
+      - text: "8"
+    - link "Betterdocs Category Box 105 Content Elements 31":
+      - /url: https://essential-addons.com/docs-category/content-elements/
+      - img "Betterdocs Category Box 105"
+      - heading "Content Elements" [level=2]
+      - text: "31"
+    - link "Betterdocs Category Box 106 Creative Elements 22":
+      - /url: https://essential-addons.com/docs-category/creative-elements/
+      - img "Betterdocs Category Box 106"
+      - heading "Creative Elements" [level=2]
+      - text: "22"
+    - link "Betterdocs Category Box 111 Documentation Elements 3":
+      - /url: https://essential-addons.com/docs-category/documentation-elements/
+      - img "Betterdocs Category Box 111"
+      - heading "Documentation Elements" [level=2]
+      - text: "3"
+    - link "Betterdocs Category Box 107 Dynamic Content Elements 11":
+      - /url: https://essential-addons.com/docs-category/dynamic-content-elements/
+      - img "Betterdocs Category Box 107"
+      - heading "Dynamic Content Elements" [level=2]
+      - text: "11"
+    - link "Betterdocs Category Box 113 Extensions 18":
+      - /url: https://essential-addons.com/docs-category/extensions/
+      - img "Betterdocs Category Box 113"
+      - heading "Extensions" [level=2]
+      - text: "18"
+- text: desktop
+- status
+- button "Open chat"

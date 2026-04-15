@@ -1,0 +1,38 @@
+- main:
+  - article:
+    - img "Tooltip 1"
+    - heading "Tooltip" [level=2]
+    - text: EA Tooltip will let you present your icon, text, images or short-codes content in an elegant manner with mouse hover effect to make it engaging for the visitors.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/tooltip/
+    - text: Elements Panel
+    - img "Tooltip 101"
+    - button "Play, How To Use EA Advanced Tooltip For Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:48
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Use EA Advanced Tooltip For Elementor": Play
+    - heading "Tooltip On Bottom Hover Effect" [level=3]
+    - text: Set your content hover direction & speed from Tooltip settings
+    - img "Tooltip 102"
+    - img "Tooltip 103"
+    - img "Tooltip 104"
+    - img "Tooltip 105"
+    - heading "Tooltip On Right Hover Direction" [level=3]
+    - text: Expose preferred images with Tooltip & setting up content hover direction to right
+    - img "Tooltip 106"
+    - img "Tooltip 106"
+    - heading "Different Types Of Tooltips Style" [level=3]
+    - text: Setup hover for left, right, top & bottom effect of content to make it look appealing
+    - img "Tooltip 108"
+    - img "Tooltip 109"
+    - img "Tooltip 110"
+    - img "Tooltip 111"
+    - img "Tooltip 112"
+- text: desktop
+- status

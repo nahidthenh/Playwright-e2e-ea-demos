@@ -1,0 +1,108 @@
+- main:
+  - article:
+    - img "Advanced Tabs for Elementor 1"
+    - heading "Advanced Tabs" [level=2]
+    - text: EA Advanced Tab will let you display key information in an interactive manner that support custom made nested tabs design to attract audience on an instance.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/advanced-tabs/
+    - text: Elements Panel
+    - img "Advanced Tabs for Elementor 101"
+    - button "Play, How to Present Your Content in a Stylish Manner Using Advanced Tabs for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:48
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Present Your Content in a Stylish Manner Using Advanced Tabs for Elementor": Play
+    - heading "Use Horizontal Layout of Tabs" [level=3]
+    - text: Spotlight on organizational achievements, goals & more using Horizontal Layout
+    - tablist:
+      - tab "PHILOSOPHY" [selected]:
+        - img
+        - text: PHILOSOPHY
+      - tab "MISSION & VISION":
+        - img
+        - text: MISSION & VISION
+      - tab "GOALS":
+        - img
+        - text: GOALS
+      - tab "PRIVACY POLICY":
+        - img
+        - text: PRIVACY POLICY
+    - text: Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+    - heading "Select Vertical Layout of Tabs" [level=3]
+    - text: Change the outlook of key information using vertical layout of EA Advanced Tabs
+    - tablist:
+      - tab "Easy To Use" [selected]:
+        - img
+        - text: Easy To Use
+      - tab "Mission & Vision":
+        - img
+        - text: Mission & Vision
+      - tab "Goals":
+        - img
+        - text: Goals
+      - tab "Privacy Policy":
+        - img
+        - text: Privacy Policy
+    - text: Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+    - heading "Showcase Nested Template Design" [level=3]
+    - paragraph: Chooso content type as ‘Saved Template’ to use custom design from your used content
+    - tablist:
+      - tab "PHILOSOPHY" [selected]:
+        - img
+        - text: PHILOSOPHY
+      - tab "MISSION":
+        - img
+        - text: MISSION
+      - tab "VISION":
+        - img
+        - text: VISION
+      - tab "GOALS":
+        - img
+        - text: GOALS
+      - tab "PRIVACY":
+        - img
+        - text: PRIVACY
+    - tablist:
+      - tab "Easy To Use" [selected]
+      - tab "Mission & Vision"
+      - tab "Goals"
+      - tab "Privacy Policy"
+    - text: Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim.
+    - heading "Enable In Line Icon Design" [level=3]
+    - text: Toggle on Icon tab and choose from In line or Stacked design and style each section of content tab to drag audience interest instantly
+    - tablist:
+      - tab "PHILOSOPHY" [selected]:
+        - img
+        - text: PHILOSOPHY
+      - tab "MISSION & VISION":
+        - img
+        - text: MISSION & VISION
+      - tab "GOALS":
+        - img
+        - text: GOALS
+    - text: Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+    - heading "Use Custom Template Design" [level=3]
+    - paragraph: Visualize your success story, having full control over the design section of Advanced Tabs using Custom template and choose it from ‘Content Type’ feature
+    - tablist:
+      - tab "PHILOSOPHY" [selected]:
+        - img
+        - text: PHILOSOPHY
+      - tab "MISSION & VISION":
+        - img
+        - text: MISSION & VISION
+      - tab "GOALS":
+        - img
+        - text: GOALS
+      - tab "PRIVACY POLICY":
+        - img
+        - text: PRIVACY POLICY
+    - img "Advanced Tabs for Elementor 102"
+    - text: Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque scelerisque dapibus. Praesent elementum feugiat dignissim. Placerat mi id interdum mollis. Praesent pharetra, justo ut scelerisque mattis quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent pharetra, justo ut scelerisque mattis quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut
+- text: desktop
+- status
+- button "Open chat"

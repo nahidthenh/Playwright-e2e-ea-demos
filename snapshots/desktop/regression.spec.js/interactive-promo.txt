@@ -1,0 +1,121 @@
+- main:
+  - article:
+    - img "Interactive Promo 1"
+    - heading "Interactive Promo" [level=2]
+    - text: EA Interactive Promo lets you decorate your website outlook with its amazing Promo effects. You can insert desired content and style it on your own choice. Lets find out how it actually works.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/interactive-promo/
+    - text: Elements Panel
+    - img "Interactive Promo 101"
+    - button "Play, Interactive Promo Element - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:08
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Interactive Promo Element - Essential Addons for Elementor": Play
+    - heading "Promote Interactive Content" [level=3]
+    - text: Add attractive heading, inner content & beautiful images to drag visitors attention on a very first look
+    - figure "It’s a pleasure We have only one earth to dwell, don’t destroy the nature and don’t make it hell. It’s a pleasure":
+      - img "Interactive Promo 102"
+      - heading "It’s a pleasure" [level=2]
+      - paragraph: We have only one earth to dwell, don’t destroy the nature and don’t make it hell.
+      - link "It’s a pleasure":
+        - /url: "#"
+    - figure "Amazing Colorful City We have only one earth to dwell, don’t destroy the nature and don’t make it hell. Amazing Colorful City":
+      - img "Interactive Promo 103"
+      - heading "Amazing Colorful City" [level=2]
+      - paragraph: We have only one earth to dwell, don’t destroy the nature and don’t make it hell.
+      - link "Amazing Colorful City":
+        - /url: "#"
+    - 'figure "Effect : Layla An Amazing way to display your heading with content, above a nice image! Effect : Layla"':
+      - img "Interactive Promo 104"
+      - 'heading "Effect : Layla" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Layla"':
+        - /url: "#"
+    - 'figure "Effect : Oscar An Amazing way to display your heading with content, above a nice image! Effect : Oscar"':
+      - img "Interactive Promo 105"
+      - 'heading "Effect : Oscar" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Oscar"':
+        - /url: "#"
+    - 'figure "Effect : Marley An Amazing way to display your heading with content, above a nice image! Effect : Marley"':
+      - img "Interactive Promo 106"
+      - 'heading "Effect : Marley" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Marley"':
+        - /url: "#"
+    - 'figure "Effect : Ruby An Amazing way to display your heading with content, above a nice image! Effect : Ruby"':
+      - img "Interactive Promo 107"
+      - 'heading "Effect : Ruby" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Ruby"':
+        - /url: "#"
+    - 'figure "Effect : Roxy An Amazing way to display your heading with content, above a nice image! Effect : Roxy"':
+      - img "Interactive Promo 108"
+      - 'heading "Effect : Roxy" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Roxy"':
+        - /url: "#"
+    - 'figure "Effect : Bubba An Amazing way to display your heading with content, above a nice image! Effect : Bubba"':
+      - img "Interactive Promo 109"
+      - 'heading "Effect : Bubba" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Bubba"':
+        - /url: "#"
+    - 'figure "Effect : Romeo An Amazing way to display your heading with content, above a nice image! Effect : Romeo"':
+      - img "Interactive Promo 110"
+      - 'heading "Effect : Romeo" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Romeo"':
+        - /url: "#"
+    - 'figure "Effect : Sarah An Amazing way to display your heading with content, above a nice image! Effect : Sarah"':
+      - img "Interactive Promo 111"
+      - 'heading "Effect : Sarah" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Sarah"':
+        - /url: "#"
+    - 'figure "Effect : Chico An Amazing way to display your heading with content, above a nice image! Effect : Chico"':
+      - img "Interactive Promo 112"
+      - 'heading "Effect : Chico" [level=2]'
+      - paragraph
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - paragraph
+      - 'link "Effect : Chico"':
+        - /url: "#"
+    - 'figure "Effect : Milo An Amazing way to display your heading with content, above a nice image! Effect : Milo"':
+      - img "Interactive Promo 113"
+      - 'heading "Effect : Milo" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Milo"':
+        - /url: "#"
+    - 'figure "Effect : Apolo An Amazing way to display your heading with content, above a nice image! Effect : Apolo"':
+      - img "Interactive Promo 114"
+      - 'heading "Effect : Apolo" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Apolo"':
+        - /url: "#"
+    - 'figure "Effect : Jazz An Amazing way to display your heading with content, above a nice image! Effect : Jazz"':
+      - img "Interactive Promo 115"
+      - 'heading "Effect : Jazz" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Jazz"':
+        - /url: "#"
+    - 'figure "Effect : Ming An Amazing way to display your heading with content, above a nice image! Effect : Ming"':
+      - img "Interactive Promo 116"
+      - 'heading "Effect : Ming" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Ming"':
+        - /url: "#"
+    - 'figure "Effect : Chico An Amazing way to display your heading with content, above a nice image! Effect : Chico"':
+      - img "Interactive Promo 117"
+      - 'heading "Effect : Chico" [level=2]'
+      - paragraph: An Amazing way to display your heading with content, above a nice image!
+      - 'link "Effect : Chico"':
+        - /url: "#"
+- text: desktop
+- status

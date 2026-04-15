@@ -1,0 +1,38 @@
+- main:
+  - article:
+    - img "Offcanvas Content 1"
+    - heading "Offcanvas" [level=2]
+    - text: Instantly display stunning sidebar menu using EA Offcanvas. Configure button position, direction, add different transitions to content & style it to make it standout for your site visitors
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/content-elements/essential-addons-elementor-offcanvas/
+    - img "Offcanvas Content 2"
+    - button "Play, How to Create a Beautiful Offcanvas Menu using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:05
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Create a Beautiful Offcanvas Menu using Elementor": Play
+    - text: Elements Panel
+    - heading "Configure Offcanvas Settings & Style" [level=3]
+    - paragraph: Choose your preferred ‘Content Type’, add button text, set content direction to right or left, select from ‘Content Transition’ to ‘Slide’, include mouse hover effects, and style it in advance to make it interactive
+    - text: Left Side Right Side
+    - heading "Offcanvas Style 2 - Saved Template" [level=3]
+    - heading "Showcase Any Content" [level=3]
+    - paragraph: Display your saved template or anything as off-canvas menu
+    - text: Check Now
+    - heading "Offcanvas Style 03 - Blog Post" [level=3]
+    - paragraph: Choose content type as ‘Sidebar’, try out different positions, set content transition as ‘Push’ & style it the way you want
+    - text: Sidebar Left Sidebar Right
+    - img "Offcanvas Content 104"
+    - heading "Offcanvas Style 04" [level=3]
+    - heading "Great Photography Is Weird" [level=3]
+    - text: We are a full service Digital Marketing Agency all the foundation tools you need for inbound success. With this module there’s no need to go another day. Talk to Me
+    - heading "Offcanvas Style 05" [level=3]
+    - paragraph: Showcase custom content & saved widgets template, configure the settings & style it in advance.
+    - text: Custom Content Saved Widget
+- text: desktop
+- status

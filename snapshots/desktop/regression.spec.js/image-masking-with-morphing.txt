@@ -1,0 +1,71 @@
+- figure:
+  - img "Image Masking With Morphing 1"
+- heading "Image Masking" [level=3]
+- heading "Add Life To Your Website Images With Image Masking" [level=2]
+- text: Enhance your Elementor website’s visuals by transforming static images into dynamic, interactive elements. Create a seamless transition between images to captivate your audience and make your content stand out.
+- link "Documentation":
+  - /url: https://essential-addons.com/docs/ea-image-masking-with-morphing/
+- img "Image Masking With Morphing 2"
+- img "Image Masking With Morphing 3"
+- img "Image Masking With Morphing 4"
+- heading "Captivate Visitors With Creative Masking & Morphing On Your Elementor Pages" [level=2]
+- img "Image Masking With Morphing 5"
+- heading "Cyberpunk" [level=2]
+- text: A Rebellion In Electric Color, A Vision Of Tomorrow Born From The Chaos Of Today.
+- heading "Visualize the Rhythm. Mask the Sound." [level=2]
+- text: Bring your music to life with dynamic visuals and interactive masks — create, morph, and shape every beat like never before.
+- img "Image Masking With Morphing 6"
+- img "Image Masking With Morphing 7"
+- heading "The Team That Morphs Imagination Into Reality" [level=2]
+- figure:
+  - img
+- heading "Emma Oliviana" [level=2]
+- heading "UX UI Designer" [level=3]
+- paragraph
+- figure:
+  - img
+- heading "John Richard" [level=2]
+- heading "UX UI Designer" [level=3]
+- paragraph
+- figure:
+  - img
+- heading "Charlotte Ava" [level=2]
+- heading "Digital Marketer" [level=3]
+- paragraph
+- img "Image Masking With Morphing 11"
+- heading "Flavors in Every Shape" [level=2]
+- list:
+  - listitem: Grilled lobster tails with lemon, garlic, and parsley butter.
+  - listitem: Rich, buttery, and perfectly seasoned.
+  - listitem: Takes a little time but worth it.
+  - listitem: Ideal for dinner parties and special guests.
+- heading "Scoop Your Imagination Into Shape" [level=2]
+- img "Image Masking With Morphing 12"
+- heading "Red Velvet" [level=5]
+- paragraph: Strawberry Scoop
+- img "Image Masking With Morphing 13"
+- heading "Mixed Scoop" [level=5]
+- text: Vanilla & Strawberry
+- heading "Capture Wildlife Spirit with Seamless Masking" [level=3]
+- img "Image Masking With Morphing 14"
+- heading "Watch Your Images Take Shape on Hover" [level=3]
+- img "Image Masking With Morphing 15"
+- img "Image Masking With Morphing 16"
+- img "Image Masking With Morphing 17"
+- img "Image Masking With Morphing 18"
+- img "Image Masking With Morphing 19"
+- img "Image Masking With Morphing 20"
+- img "Image Masking With Morphing 21"
+- img "Image Masking With Morphing 22"
+- heading "Why You Use Image Masking" [level=2]
+- img "Image Masking With Morphing 23"
+- heading "Image/SVG Masking" [level=6]
+- paragraph: Choose a shape or upload as you wish to mask your images. Get the size, position, repeat and hover customization at your fingertips.
+- img "Image Masking With Morphing 24"
+- heading "Custom Clip Path" [level=6]
+- paragraph: Use Clippy to generate your custom clip path. Choose your shape, resize, copy the clip-path and paste it to your Elementor page builder.
+- img "Image Masking With Morphing 25"
+- heading "Image Morphing" [level=6]
+- paragraph: Apply morphing effects to your website images, regardless of SVG or Clip Path, effortlessly. Get the option to set duration, loop and more.
+- text: desktop
+- status

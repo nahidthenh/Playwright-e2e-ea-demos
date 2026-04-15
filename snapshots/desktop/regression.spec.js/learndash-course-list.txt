@@ -1,0 +1,153 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "LearnDash Course List 100"
+    - heading "LearnDash Course List" [level=2]
+    - text: Display your LearnDash online courses beautifully on the Elementor site using the EA LearnDash Course List element & customize the appearance as per your preference to boost your course enrollment on site.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/learndash-course-list/
+    - img "LearnDash Course List 101"
+    - button "Play, How to Display LearnDash Courses with Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:30
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Display LearnDash Courses with Elementor": Play
+    - heading "Configure The Course List Layout In Advance" [level=3]
+    - text: Choose the default layout or pick the preferred ones from the layout settings ‘Skin’ option. Set your layout mode to grid or masonry, configure the course sort settings & style it the way you want.
+    - link "LearnDash Course List 102":
+      - /url: https://essential-addons.com/courses/communication-master-class/
+      - img "LearnDash Course List 102"
+    - text: $67
+    - heading "Communication Master Class-Complete Guide To Be An Expert" [level=4]:
+      - link "Communication Master Class-Complete Guide To Be An Expert":
+        - /url: https://essential-addons.com/courses/communication-master-class/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - link "LearnDash Course List 103":
+      - /url: https://essential-addons.com/courses/css-master-course/
+      - img "LearnDash Course List 103"
+    - text: $55
+    - heading "CSS Master Course-The Complete Guide Of 2020" [level=4]:
+      - link "CSS Master Course-The Complete Guide Of 2020":
+        - /url: https://essential-addons.com/courses/css-master-course/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - link "LearnDash Course List 104":
+      - /url: https://essential-addons.com/courses/web-design-training/
+      - img "LearnDash Course List 104"
+    - text: $65
+    - heading "UI & UX Web Design Master Course-Strategy, Design & Development" [level=4]:
+      - link "UI & UX Web Design Master Course-Strategy, Design & Development":
+        - /url: https://essential-addons.com/courses/web-design-training/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - heading "Beautifully Style Your LearnDash Course Layout" [level=3]
+    - text: Affiliate Intermediate
+    - link "LearnDash Course List 102 $67":
+      - /url: https://essential-addons.com/courses/communication-master-class/
+      - img "LearnDash Course List 102"
+      - text: $67
+    - heading "Communication Master Class-Complete Guide To Be An Expert" [level=4]:
+      - link "Communication Master Class-Complete Guide To Be An Expert":
+        - /url: https://essential-addons.com/courses/communication-master-class/
+    - text: Expert SEO
+    - link "LearnDash Course List 103 $55":
+      - /url: https://essential-addons.com/courses/css-master-course/
+      - img "LearnDash Course List 103"
+      - text: $55
+    - heading "CSS Master Course-The Complete Guide Of 2020" [level=4]:
+      - link "CSS Master Course-The Complete Guide Of 2020":
+        - /url: https://essential-addons.com/courses/css-master-course/
+    - text: Design Intermediate
+    - link "LearnDash Course List 104 $65":
+      - /url: https://essential-addons.com/courses/web-design-training/
+      - img "LearnDash Course List 104"
+      - text: $65
+    - heading "UI & UX Web Design Master Course-Strategy, Design & Development" [level=4]:
+      - link "UI & UX Web Design Master Course-Strategy, Design & Development":
+        - /url: https://essential-addons.com/courses/web-design-training/
+    - heading "Impress Your Visitors With Innovation" [level=3]
+    - link "LearnDash Course List 102":
+      - /url: https://essential-addons.com/courses/communication-master-class/
+      - img "LearnDash Course List 102"
+    - text: $67
+    - heading "Communication Master Class-Complete Guide To Be An Expert" [level=4]:
+      - link "Communication Master Class-Complete Guide To Be An Expert":
+        - /url: https://essential-addons.com/courses/communication-master-class/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - link "LearnDash Course List 104":
+      - /url: https://essential-addons.com/courses/web-design-training/
+      - img "LearnDash Course List 104"
+    - text: $65
+    - heading "UI & UX Web Design Master Course-Strategy, Design & Development" [level=4]:
+      - link "UI & UX Web Design Master Course-Strategy, Design & Development":
+        - /url: https://essential-addons.com/courses/web-design-training/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - link "LearnDash Course List 110":
+      - /url: https://essential-addons.com/courses/marketing-training/
+      - img "LearnDash Course List 110"
+    - text: $57
+    - heading "Email & Affiliate Marketing Mastermind" [level=4]:
+      - link "Email & Affiliate Marketing Mastermind":
+        - /url: https://essential-addons.com/courses/marketing-training/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - heading "Make It Standout The Way You Want" [level=3]
+    - text: Affiliate Intermediate
+    - link "LearnDash Course List 102":
+      - /url: https://essential-addons.com/courses/communication-master-class/
+      - img "LearnDash Course List 102"
+    - heading "Communication Master Class-Complete Guide To Be An Expert" [level=4]:
+      - link "Communication Master Class-Complete Guide To Be An Expert":
+        - /url: https://essential-addons.com/courses/communication-master-class/
+    - text: $67 4 Nov 19
+    - link "Read More":
+      - /url: https://essential-addons.com/courses/communication-master-class/
+    - text: Design Intermediate
+    - link "LearnDash Course List 104":
+      - /url: https://essential-addons.com/courses/web-design-training/
+      - img "LearnDash Course List 104"
+    - heading "UI & UX Web Design Master Course-Strategy, Design & Development" [level=4]:
+      - link "UI & UX Web Design Master Course-Strategy, Design & Development":
+        - /url: https://essential-addons.com/courses/web-design-training/
+    - text: $65 4 Nov 19
+    - link "Read More":
+      - /url: https://essential-addons.com/courses/web-design-training/
+    - text: Expert Intermediate
+    - link "LearnDash Course List 110":
+      - /url: https://essential-addons.com/courses/marketing-training/
+      - img "LearnDash Course List 110"
+    - heading "Email & Affiliate Marketing Mastermind" [level=4]:
+      - link "Email & Affiliate Marketing Mastermind":
+        - /url: https://essential-addons.com/courses/marketing-training/
+    - text: $57 4 Nov 19
+    - link "Read More":
+      - /url: https://essential-addons.com/courses/marketing-training/
+    - heading "Exclusively Change The Appearance" [level=3]
+    - link "LearnDash Course List 103 $55":
+      - /url: https://essential-addons.com/courses/css-master-course/
+      - img "LearnDash Course List 103"
+      - text: $55
+    - heading "CSS Master Course-The Complete Guide Of 2020" [level=4]:
+      - link "CSS Master Course-The Complete Guide Of 2020":
+        - /url: https://essential-addons.com/courses/css-master-course/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - link "LearnDash Course List 102 $67":
+      - /url: https://essential-addons.com/courses/communication-master-class/
+      - img "LearnDash Course List 102"
+      - text: $67
+    - heading "Communication Master Class-Complete Guide To Be An Expert" [level=4]:
+      - link "Communication Master Class-Complete Guide To Be An Expert":
+        - /url: https://essential-addons.com/courses/communication-master-class/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+    - link "LearnDash Course List 110 $57":
+      - /url: https://essential-addons.com/courses/marketing-training/
+      - img "LearnDash Course List 110"
+      - text: $57
+    - heading "Email & Affiliate Marketing Mastermind" [level=4]:
+      - link "Email & Affiliate Marketing Mastermind":
+        - /url: https://essential-addons.com/courses/marketing-training/
+    - paragraph: In iOS, interface elements layouts can configured change shape size …
+- text: desktop
+- status

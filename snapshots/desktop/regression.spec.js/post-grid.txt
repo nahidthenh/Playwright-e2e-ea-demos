@@ -1,0 +1,182 @@
+- main:
+  - article:
+    - img "Post Grid for Elementor 1"
+    - heading "Post Grid" [level=2]
+    - text: Organize and display your multiple blog posts in a grid layout using EA Post Grid. You can choose your preferred layout from layout settings, add animation to it and make it looks interactive for visitors.
+    - link "Documentation":
+      - /url: https://essential-addons.com/docs/post-grid/
+    - text: Elements Panel
+    - img "Post Grid for Elementor 101"
+    - button "Play, How to Showcase Post Grid Using Essential Addons For Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:30
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Showcase Post Grid Using Essential Addons For Elementor": Play
+    - heading "Masonry Layout With Animation" [level=3]
+    - paragraph: Select source type as posts, set your post layout to masonry to give it an unique look
+    - article:
+      - img "Elementor-Grid-Container"
+      - link "Shahidul Islam":
+        - /url: https://essential-addons.com/author/shahidulwpdeveloper-com/
+        - img "Shahidul Islam"
+      - link "Shahidul Islam":
+        - /url: https://essential-addons.com/author/shahidulwpdeveloper-com/
+      - text: 
+      - time: October 4, 2023
+    - article:
+      - img "Examples of 404 Pages"
+      - link "Ahmed Kawser":
+        - /url: https://essential-addons.com/author/ahmed/
+        - img "Ahmed Kawser"
+      - link "Ahmed Kawser":
+        - /url: https://essential-addons.com/author/ahmed/
+      - text: 
+      - time: July 12, 2022
+    - article:
+      - img "Top 15 Best Chrome Extensions for Web Developers"
+      - link "afrin":
+        - /url: https://essential-addons.com/author/syeda-sanjida-afrin/
+        - img "afrin"
+      - link "afrin":
+        - /url: https://essential-addons.com/author/syeda-sanjida-afrin/
+      - text: 
+      - time: March 3, 2023
+    - article:
+      - img "Elementor AI Image Generator"
+      - link "Editorial Stuff":
+        - /url: https://essential-addons.com/author/editor/
+        - img "Editorial Stuff"
+      - link "Editorial Stuff":
+        - /url: https://essential-addons.com/author/editor/
+      - text: 
+      - time: June 24, 2023
+    - article:
+      - img "Post Grid for Elementor 102"
+      - link "Afshana Diya":
+        - /url: https://essential-addons.com/author/afshana/
+        - img "Afshana Diya"
+      - link "Afshana Diya":
+        - /url: https://essential-addons.com/author/afshana/
+      - text: 
+      - time: May 9, 2019
+    - article:
+      - img "Elementor for Creating a New WordPress Site"
+      - link "Razthee Md. Yakini":
+        - /url: https://essential-addons.com/author/razthee/
+        - img "Razthee Md. Yakini"
+      - link "Razthee Md. Yakini":
+        - /url: https://essential-addons.com/author/razthee/
+      - text: 
+      - time: April 24, 2024
+    - button "Load More"
+    - heading "Enable 'Read More' Button" [level=3]
+    - article:
+      - img "Post Grid for Elementor 103"
+      - link "Akash":
+        - /url: https://essential-addons.com/author/akash/
+        - img "Akash"
+      - link "Akash":
+        - /url: https://essential-addons.com/author/akash/
+      - text: 
+      - time: April 19, 2019
+      - paragraph: EA Product Grid element lets you place your WooCommerce Products...
+      - link "Read More >":
+        - /url: https://essential-addons.com/elementor-woocommerce-products/
+    - article:
+      - img "Post Grid for Elementor 104"
+      - link "Khan Rafin":
+        - /url: https://essential-addons.com/author/rafin/
+        - img "Khan Rafin"
+      - link "Khan Rafin":
+        - /url: https://essential-addons.com/author/rafin/
+      - text: 
+      - time: April 29, 2019
+      - paragraph: A professional photography website should showcase the amazing
+      - link "Read More >":
+        - /url: https://essential-addons.com/photography-website-elementor/
+    - article:
+      - img "Post Grid for Elementor 102"
+      - link "Afshana Diya":
+        - /url: https://essential-addons.com/author/afshana/
+        - img "Afshana Diya"
+      - link "Afshana Diya":
+        - /url: https://essential-addons.com/author/afshana/
+      - text: 
+      - time: May 9, 2019
+      - paragraph: An unreliable hosting provider can do a lot of damages...
+      - link "Read More >":
+        - /url: https://essential-addons.com/managed-hosting-elementor/
+    - heading "Disable Image From Masonry Post Layout" [level=3]
+    - article:
+      - paragraph: Explore how agencies use Elementor and Essential Addons to overcome...
+      - link "Read More >":
+        - /url: https://essential-addons.com/how-agencies-use-elementor/
+    - article:
+      - paragraph: Master the art of using Elementor motion effects while keeping...
+      - link "Read More >":
+        - /url: https://essential-addons.com/add-motion-effects-in-elementor/
+    - article:
+      - paragraph: Discover how Vertical Text Orientation can give your website a...
+      - link "Read More >":
+        - /url: https://essential-addons.com/how-to-show-vertical-text-on-elementor/
+    - heading "Post Grid With Zoom In Animation" [level=3]
+    - article:
+      - img "Image Optimizer plugin"
+      - link "Towfique Ahmed":
+        - /url: https://essential-addons.com/author/towfique/
+        - img "Towfique Ahmed"
+      - link "Towfique Ahmed":
+        - /url: https://essential-addons.com/author/towfique/
+      - text: 
+      - time: February 29, 2024
+      - paragraph: If you are looking for a plugin that can help...
+      - link "Read More >":
+        - /url: https://essential-addons.com/wordpress-image-optimizer-plugins/
+    - article:
+      - img "WordPress CRM Plugin"
+      - link "Tanaz":
+        - /url: https://essential-addons.com/author/tanaz/
+        - img "Tanaz"
+      - link "Tanaz":
+        - /url: https://essential-addons.com/author/tanaz/
+      - text: 
+      - time: March 10, 2021
+      - paragraph: Discover some of the best top 5 WordPress CRM plugins...
+      - link "Read More >":
+        - /url: https://essential-addons.com/top-5-best-wordpress-crm-plugins-compared-to-fuel-up-your-business/
+    - article:
+      - img "rss feed"
+      - link "Faguni":
+        - /url: https://essential-addons.com/author/mumtahina-faguni/
+        - img "Faguni"
+      - link "Faguni":
+        - /url: https://essential-addons.com/author/mumtahina-faguni/
+      - text: 
+      - time: June 15, 2021
+      - paragraph: List of 5 best WordPress RSS Feed plugins to help...
+      - link "Read More >":
+        - /url: https://essential-addons.com/best-rss-feed-plugins-wordpress/
+    - heading "Post Grid With SlideUp Animation" [level=3]
+    - article:
+      - img "Post Grid for Elementor 106"
+    - article:
+      - img "Post Grid for Elementor 107"
+    - article:
+      - img "Post Grid for Elementor 108"
+    - heading "Change Post Grid Style & Color & Typography" [level=3]
+    - article:
+      - img "Post Grid for Elementor 109"
+      - paragraph: To boost your sales rate, implementing a Feature List is...
+    - article:
+      - img "Post Grid for Elementor 110"
+      - paragraph: For the major contribution of our amazing clients, we would...
+    - article:
+      - img "Post Grid for Elementor 107"
+      - paragraph: With Elementor, you can create WooCommerce Shop Pages in minutes....
+- text: desktop
+- status

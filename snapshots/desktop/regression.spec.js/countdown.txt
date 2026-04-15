@@ -1,0 +1,72 @@
+- main:
+  - article:
+    - img "Countdown 1"
+    - heading "Countdown" [level=2]
+    - text: Include a countdown time to boost your click-through rates using EA Countdown element. You can build both functional and visually appealing countdown effect on website to grab attention.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/creative-elements/ea-countdown/
+    - text: Elements Panel
+    - img "Countdown 101"
+    - button "Play, Countdown Element - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:30
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Countdown Element - Essential Addons for Elementor": Play
+    - heading "Showcase Stunning Countdown Effects" [level=3]
+    - text: Build and design your timer by trying out different styles of Countdown
+    - list:
+      - listitem: 00 Days
+      - listitem: 11 Hours
+      - listitem: 58 Minutes
+      - listitem: 57 Seconds
+    - heading "Coming Soon!" [level=2]
+    - paragraph: We are currently working on an awesome new design. Stay tuned for more information.
+    - heading "Opening Soon" [level=2]
+    - list:
+      - listitem: "00 : Days"
+      - listitem: "00 : Hours"
+      - listitem: "00 : Minutes"
+      - listitem: 00 Seconds
+    - heading "Grand Opening" [level=3]
+    - text: Display your Countdown beautifully using In-line Label Timer
+    - link "Contact Us":
+      - /url: "#"
+    - list:
+      - listitem: 00Days
+      - listitem: 00Hours
+      - listitem: 00Minutes
+      - listitem: 00Seconds
+    - heading "Create Engaging Timer" [level=3]
+    - text: Make your countdown standout using its advanced features and functions
+    - list:
+      - listitem: 00 Days
+      - listitem: 00 Hours
+      - listitem: 00 Minutes
+      - listitem: 00 Seconds
+    - list:
+      - listitem: 00 Days
+      - listitem: 00 Hours
+      - listitem: 00 Minutes
+      - listitem: 00 Seconds
+    - heading "Coming Soon!" [level=3]
+    - text: Visualize outstanding countdown effect by trying out Block Label Timer
+    - heading "Opening Soon" [level=3]
+    - list:
+      - listitem: 00Days
+      - listitem: 00Hours
+      - listitem: 00Minutes
+      - listitem: 00Seconds
+    - list:
+      - listitem: 00 Days
+      - listitem: 00 Hours
+      - listitem: 00 Minutes
+      - listitem: 00 Seconds
+    - heading "Opening Soon" [level=2]
+    - paragraph: Look at all the amazing styles of EA Countdown & change the website outlook instantly
+- text: desktop
+- status

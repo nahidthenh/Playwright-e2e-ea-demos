@@ -1,0 +1,151 @@
+- main:
+  - article:
+    - img "One Page Navigation 1"
+    - heading "One Page Navigation" [level=2]
+    - text: EA One Page Navigation lets you create amazing one page website with only few clicks using Elementor. It gives you complete customization options and improves the overall user experience of your WordPress website.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/creative-elements/one-page-navigation/
+    - text: Elements Panel
+    - img "One Page Navigation 101"
+    - button "Play, How to Create One Page Navigation in Your WordPress Website Using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:19
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How to Create One Page Navigation in Your WordPress Website Using Elementor": Play
+    - heading "Create One Page Navigation" [level=3]
+    - paragraph: Help your visitors navigate easily & improve user experience
+    - img "One Page Navigation 102"
+    - heading "Customize Within Minutes" [level=3]
+    - paragraph: Style your one page website just the way you want
+    - figure:
+      - img "EA One Page Navigation"
+    - heading "Simple Configuration" [level=4]
+    - figure:
+      - img "One Page Navigation 103"
+    - heading "Limitless Styles" [level=4]
+    - figure:
+      - img "One Page Navigation 104"
+    - heading "Responsive Design" [level=4]
+    - heading "Create Beautiful Single Page Website" [level=3]
+    - figure:
+      - img "One Page Navigation 105"
+    - heading "Smooth Navigation" [level=4]
+    - paragraph: EA One Page Navigation offers smooth navigation. Your site visitors can easily get access to the information they are searching for and improve user experience.
+    - figure:
+      - img "EA One Page Navigation"
+    - heading "Simple Configuration" [level=4]
+    - paragraph: EA One Page Navigation is super-easy to configure. You can easily assign your section ID and set up your one page website within a few mintues.
+    - figure:
+      - img "One Page Navigation 106"
+    - heading "Tons of Icons" [level=4]
+    - paragraph: Insert any navigation Icons you want and make your one page website stand out to your site visitors. You even have the freedom to add SVG icons as well.
+    - figure:
+      - img "One Page Navigation 107"
+    - heading "Limitless Styling Options" [level=4]
+    - paragraph: Complete control over how you want the One page navigation to appear. You can change the colors, icons, typography and many others any way you want.
+    - heading "Flexible Pricing for Everyone" [level=3]
+    - text: Essential Addons Agency Bundle
+    - img "One Page Navigation 108"
+    - text: Site Activation 1 Website $3.99 $4.99 / Month
+    - heading "*Billed Annually" [level=5]
+    - link "Get started":
+      - /url: https://essential-addons.com/spring2026/eael-single-website
+    - text: 1 Site Best Value Unlimited $7.499 $9.99 / Month
+    - heading "*Billed Annually" [level=5]
+    - link "Get Started":
+      - /url: https://essential-addons.com/spring2026/eael-unlimited-websites
+    - text: Unlimited Lifetime Unlimited $224.99 $299.99
+    - heading "*Billed one time" [level=5]
+    - link "Get started":
+      - /url: https://essential-addons.com/spring2026/eael-lifetime
+    - text: Unlimited Support & Update 1 Year 1 year Lifetime 95+ Widgets
+    - img "One Page Navigation 109"
+    - img "One Page Navigation 109"
+    - img "One Page Navigation 109"
+    - text: 15 Extensions
+    - img "One Page Navigation 109"
+    - img "One Page Navigation 109"
+    - img "One Page Navigation 109"
+    - text: Free Access To Templately PRO For 1 Month For 3 Months For 6 Months
+    - heading "$ 13000+ Value" [level=2]
+    - heading "WPDeveloper Agency Bundle Lifetime" [level=2]
+    - text: $749 $999
+    - list:
+      - listitem: Unlimited Sites & Lifetime Support
+      - listitem: Most Popular Elementor Addons
+      - listitem: 5000+ Ready Website Templates
+      - listitem: Best WordPress Knowledge Base
+      - listitem: Advanced Marketing Solution
+      - listitem: All-In-One Link Managment Solution
+      - listitem: AI-powered Hiring Solution
+      - listitem: Content Scheduler for WordPress
+      - listitem: Embedding Solution with 150+ Sources
+    - figure:
+      - img "One Page Navigation 125"
+    - figure:
+      - img "One Page Navigation 126"
+    - figure:
+      - img "One Page Navigation 127"
+    - figure:
+      - img "One Page Navigation 128"
+    - figure:
+      - img "One Page Navigation 129"
+    - figure:
+      - img "One Page Navigation 130"
+    - figure:
+      - img "One Page Navigation 131"
+    - figure:
+      - img "One Page Navigation 132"
+    - figure:
+      - img "One Page Navigation 133"
+    - figure:
+      - img "One Page Navigation 134"
+    - figure:
+      - img "One Page Navigation 135"
+    - heading "Get $13,000+ Value at $749" [level=2]
+    - link "Get Started":
+      - /url: https://wpdeveloper.com/spring2026/wpdeveloper-agency-bundle-lifetime-unlimited
+    - heading "Our Latest Blogs" [level=3]
+    - article:
+      - img "Elementor SEO Mistakes That Are Quietly Killing Your Rankings"
+      - paragraph: Discover the most common Elementor SEO mistakes that quietly hurt...
+      - link "Read More":
+        - /url: https://essential-addons.com/elementor-seo-mistakes/
+    - article:
+      - img "How to Pick the Right Elementor Landing Page Template for Your Business Goals"
+      - paragraph: Choosing the right Elementor landing page template can make a...
+      - link "Read More":
+        - /url: https://essential-addons.com/right-elementor-landing-page-template/
+    - article:
+      - img "call to action design"
+      - paragraph: A weak CTA means a leaking funnel — no matter...
+      - link "Read More":
+        - /url: https://essential-addons.com/complete-guide-to-call-to-action-design/
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: "#"
+          - text: 
+      - listitem:
+        - link "Features":
+          - /url: "#"
+          - img
+      - listitem:
+        - link "Services":
+          - /url: "#"
+          - img
+      - listitem:
+        - link "Pricing Plans":
+          - /url: "#"
+          - img
+      - listitem:
+        - link "Blog":
+          - /url: "#"
+          - img
+- text: desktop
+- status

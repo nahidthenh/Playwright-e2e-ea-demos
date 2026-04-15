@@ -1,0 +1,515 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Woo Product Carousel 100"
+    - heading "Woo Product Carousel" [level=2]
+    - paragraph: Design your WooCommerce products display section interactively with EA Woo Product Carousel. It comes with plenty of ready carousel layouts, effects, and styling options to make your woo product carousel layout standout and user engaging.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/woo-product-carousel
+    - img "Woo Product Carousel 101"
+    - button "Play, How To Create A WooCommerce Product Carousel In Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:37
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Create A WooCommerce Product Carousel In Elementor": Play
+    - heading "Use Ready Carousel Layouts & Advanced Styles" [level=3]
+    - paragraph: Add layout 'Preset 1' out of four ready carousel layouts with 'Slide' effects & advanced styling options
+    - group "2 / 4":
+      - img "Mens Stylish Shirt"
+      - heading "Mens Stylish Shirt" [level=2]
+      - img "Rated 3.50 out of 5":
+        - text:   Rated
+        - strong: "3.50"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+    - group "3 / 4":
+      - img "Mens Comfy T Shirt"
+      - heading "Mens Comfy T Shirt" [level=2]
+      - img "Rated 3.00 out of 5":
+        - text:   Rated
+        - strong: "3.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £20.00
+    - group "4 / 4":
+      - img "Mens Black Shirt"
+      - heading "Mens Black Shirt" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £45.00
+    - group "1 / 4":
+      - img "Mens Trendy T Shirt"
+      - heading "Mens Trendy T Shirt" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £35.00
+    - group "2 / 4":
+      - img "Mens Stylish Shirt"
+      - heading "Mens Stylish Shirt" [level=2]
+      - img "Rated 3.50 out of 5":
+        - text:   Rated
+        - strong: "3.50"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+    - group "3 / 4":
+      - img "Mens Comfy T Shirt"
+      - heading "Mens Comfy T Shirt" [level=2]
+      - img "Rated 3.00 out of 5":
+        - text:   Rated
+        - strong: "3.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £20.00
+    - group "4 / 4":
+      - img "Mens Black Shirt"
+      - heading "Mens Black Shirt" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £45.00
+    - group "1 / 4":
+      - img "Mens Trendy T Shirt"
+      - heading "Mens Trendy T Shirt" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £35.00
+    - group "2 / 4":
+      - img "Mens Stylish Shirt"
+      - heading "Mens Stylish Shirt" [level=2]
+      - img "Rated 3.50 out of 5":
+        - text:   Rated
+        - strong: "3.50"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+    - group "3 / 4":
+      - img "Mens Comfy T Shirt"
+      - heading "Mens Comfy T Shirt" [level=2]
+      - img "Rated 3.00 out of 5":
+        - text:   Rated
+        - strong: "3.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £20.00
+    - button "Go to slide 1"
+    - button "Go to slide 2"
+    - button "Go to slide 3"
+    - button "Go to slide 4"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - heading "Product Carousel Layout 02" [level=3]
+    - paragraph: Insert ready carousel layout 'Preset 2', add 'Coverflow' effects & exclusive styles
+    - group "2 / 4":
+      - img "Women Chocolate Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Chocolate Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-chocolate-dress/
+      - heading "Women Chocolate Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+    - group "3 / 4":
+      - img "Women Hot Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Hot Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-hot-dress/
+      - heading "Women Hot Dress" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £99.00
+    - group "4 / 4":
+      - img "Women Trendy Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Trendy Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-trendy-dress/
+      - heading "Women Trendy Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £60.00
+    - group "1 / 4":
+      - img "Women Light Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Light Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-light-dress/
+      - heading "Women Light Dress" [level=2]
+      - img "Rated 2.00 out of 5":
+        - text:   Rated
+        - strong: "2.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £40.00
+    - group "2 / 4":
+      - img "Women Chocolate Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Chocolate Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-chocolate-dress/
+      - heading "Women Chocolate Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+    - group "3 / 4":
+      - img "Women Hot Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Hot Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-hot-dress/
+      - heading "Women Hot Dress" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £99.00
+    - group "4 / 4":
+      - img "Women Trendy Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Trendy Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-trendy-dress/
+      - heading "Women Trendy Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £60.00
+    - group "1 / 4":
+      - img "Women Light Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Light Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-light-dress/
+      - heading "Women Light Dress" [level=2]
+      - img "Rated 2.00 out of 5":
+        - text:   Rated
+        - strong: "2.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £40.00
+    - group "2 / 4":
+      - img "Women Chocolate Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Chocolate Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-chocolate-dress/
+      - heading "Women Chocolate Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+    - group "3 / 4":
+      - img "Women Hot Dress"
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Hot Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-hot-dress/
+      - heading "Women Hot Dress" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £99.00
+    - group "2 / 4":
+      - img "Woo Product Carousel 103"
+    - group "3 / 4":
+      - img "Woo Product Carousel 104"
+    - group "4 / 4":
+      - img "Woo Product Carousel 105"
+    - group "1 / 4":
+      - img "Woo Product Carousel 102"
+    - group "2 / 4":
+      - img "Woo Product Carousel 103"
+    - group "3 / 4":
+      - img "Woo Product Carousel 104"
+    - group "4 / 4":
+      - img "Woo Product Carousel 105"
+    - group "1 / 4":
+      - img "Woo Product Carousel 102"
+    - group "2 / 4":
+      - img "Woo Product Carousel 103"
+    - group "3 / 4":
+      - img "Woo Product Carousel 104"
+    - heading "Product Carousel Layout 03" [level=3]
+    - paragraph: Use layout 'Preset 3', showcase product rating, price & more to make this section appealing
+    - group "2 / 4":
+      - text: Sale!
+      - img "M1 SoundPro"
+      - heading "M1 SoundPro" [level=2]
+      - text: "Original price was: £200.00. Current price is: £170.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "3 / 4":
+      - text: Sale!
+      - img "Bloom Vase Set"
+      - heading "Bloom Vase Set" [level=2]
+      - text: "Original price was: £200.00. Current price is: £180.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "4 / 4":
+      - text: Sale!
+      - img "Oak Serenity"
+      - heading "Oak Serenity" [level=2]
+      - text: "Original price was: £200.00. Current price is: £180.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "1 / 4":
+      - text: Sale!
+      - img "Radiant Rose Serum"
+      - heading "Radiant Rose Serum" [level=2]
+      - text: "Original price was: £200.00. Current price is: £180.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "2 / 4":
+      - text: Sale!
+      - img "M1 SoundPro"
+      - heading "M1 SoundPro" [level=2]
+      - text: "Original price was: £200.00. Current price is: £170.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "3 / 4":
+      - text: Sale!
+      - img "Bloom Vase Set"
+      - heading "Bloom Vase Set" [level=2]
+      - text: "Original price was: £200.00. Current price is: £180.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "4 / 4":
+      - text: Sale!
+      - img "Oak Serenity"
+      - heading "Oak Serenity" [level=2]
+      - text: "Original price was: £200.00. Current price is: £180.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "1 / 4":
+      - text: Sale!
+      - img "Radiant Rose Serum"
+      - heading "Radiant Rose Serum" [level=2]
+      - text: "Original price was: £200.00. Current price is: £180.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "2 / 4":
+      - text: Sale!
+      - img "M1 SoundPro"
+      - heading "M1 SoundPro" [level=2]
+      - text: "Original price was: £200.00. Current price is: £170.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - group "3 / 4":
+      - text: Sale!
+      - img "Bloom Vase Set"
+      - heading "Bloom Vase Set" [level=2]
+      - text: "Original price was: £200.00. Current price is: £180.00.   Rated"
+      - strong: "0"
+      - text: out of 5
+    - button "Go to slide 1"
+    - button "Go to slide 2"
+    - button "Go to slide 3"
+    - button "Go to slide 4"
+    - button "Next slide": 
+    - button "Previous slide": 
+    - heading "Product Carousel Layout 04" [level=3]
+    - paragraph: Display product tags with ready layout 'Preset 4', show title, configure quick view & other styles
+    - group "2 / 4":
+      - img "Women Chocolate Dress"
+      - heading "Women Chocolate Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Chocolate Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-chocolate-dress/
+    - group "3 / 4":
+      - img "Women Hot Dress"
+      - heading "Women Hot Dress" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £99.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Hot Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-hot-dress/
+    - group "4 / 4":
+      - img "Women Trendy Dress"
+      - heading "Women Trendy Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £60.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Trendy Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-trendy-dress/
+    - group "1 / 4":
+      - img "Women Light Dress"
+      - heading "Women Light Dress" [level=2]
+      - img "Rated 2.00 out of 5":
+        - text:   Rated
+        - strong: "2.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £40.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Light Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-light-dress/
+    - group "2 / 4":
+      - img "Women Chocolate Dress"
+      - heading "Women Chocolate Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Chocolate Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-chocolate-dress/
+    - group "3 / 4":
+      - img "Women Hot Dress"
+      - heading "Women Hot Dress" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £99.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Hot Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-hot-dress/
+    - group "4 / 4":
+      - img "Women Trendy Dress"
+      - heading "Women Trendy Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £60.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Trendy Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-trendy-dress/
+    - group "1 / 4":
+      - img "Women Light Dress"
+      - heading "Women Light Dress" [level=2]
+      - img "Rated 2.00 out of 5":
+        - text:   Rated
+        - strong: "2.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £40.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Light Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-light-dress/
+    - group "2 / 4":
+      - img "Women Chocolate Dress"
+      - heading "Women Chocolate Dress" [level=2]
+      - img "Rated 5.00 out of 5":
+        - text:   Rated
+        - strong: "5.00"
+        - text: out of 5 based on  2 customer ratings
+      - text: £75.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Chocolate Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-chocolate-dress/
+    - group "3 / 4":
+      - img "Women Hot Dress"
+      - heading "Women Hot Dress" [level=2]
+      - img "Rated 4.00 out of 5":
+        - text:   Rated
+        - strong: "4.00"
+        - text: out of 5 based on  1 customer rating
+      - text: £99.00
+      - list:
+        - listitem:
+          - 'button "Add to cart: “Women Hot Dress”"':  Add to cart
+        - listitem: 
+        - listitem "Details":
+          - link "":
+            - /url: https://essential-addons.com/product/women-hot-dress/
+    - button "Go to slide 1"
+    - button "Go to slide 2"
+    - button "Go to slide 3"
+    - button "Go to slide 4"
+- text: desktop
+- status

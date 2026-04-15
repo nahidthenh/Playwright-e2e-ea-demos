@@ -1,0 +1,204 @@
+- main:
+  - article:
+    - text: Elements Panel
+    - img "Woo Cart 100"
+    - heading "Woo Cart" [level=2]
+    - text: Design a stunning and attractive Cart Page for your WooCommerce store without any coding using EA Woo Cart element from Essential Addons for Elementor and boost your online sales effortlessly.
+    - link "Documentation":
+      - /url: https://essential-addons.com/elementor/docs/woocommerce-cart/
+    - img "Woo Cart 101"
+    - button "Play, How To Include Add To Cart In Your WooCommerce Site": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 04:03
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, How To Include Add To Cart In Your WooCommerce Site": Play
+    - heading "Design An Attractive Cart Page With Ready Layouts" [level=3]
+    - text: Create a stunning Add To Cart page for your WooCommerce store easily with EA Woo Cart Product Title Price Quantity Subtotal
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+      - img "Mens Comfy T Shirt"
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+    - text: £20.00 - Mens Comfy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: + £20.00
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=94c7bb58efc3b337800875b5d382a072&_wpnonce=07f4d43056
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+      - img "Mens Trendy T Shirt"
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+    - text: £35.00 - Mens Trendy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: + £35.00
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=5e388103a391daabe3de1d76a6739ccd&_wpnonce=07f4d43056
+    - text: "Coupon:"
+    - 'textbox "Coupon: Coupon: Coupon: Coupon:"':
+      - /placeholder: Coupon code
+    - button "Apply Coupon"
+    - link " Continue Shopping":
+      - /url: https://essential-addons.com/shop/
+    - button "Update Cart"
+    - table:
+      - rowgroup:
+        - row "Subtotal £55.00":
+          - rowheader "Subtotal"
+          - cell "£55.00"
+        - 'row "Shipment Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+          - rowheader "Shipment"
+          - 'cell "Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+            - list:
+              - listitem: "Flat rate: £10.00"
+            - paragraph: Shipping options will be updated during checkout.
+            - button "Calculate shipping"
+        - row "Total £65.00":
+          - rowheader "Total"
+          - cell "£65.00":
+            - strong: £65.00
+    - link "Proceed to Checkout":
+      - /url: https://essential-addons.com/woo-checkout/
+    - heading "Create Interactive & Stylish WooCommerce Cart Table" [level=3]
+    - text: Style the appearance of your WooCommerce Cart table to attract and engage site visitors Product Price Quantity Total
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=94c7bb58efc3b337800875b5d382a072&_wpnonce=07f4d43056
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+      - img "Mens Comfy T Shirt"
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+    - text: £20.00 - Mens Comfy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: + £20.00
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=5e388103a391daabe3de1d76a6739ccd&_wpnonce=07f4d43056
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+      - img "Mens Trendy T Shirt"
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+    - text: £35.00 - Mens Trendy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: "+ £35.00 Coupon:"
+    - textbox "Coupon code"
+    - button "Apply Coupon"
+    - link " Continue Shopping":
+      - /url: https://essential-addons.com/shop/
+    - button "Update Cart"
+    - table:
+      - rowgroup:
+        - row "Subtotal £55.00":
+          - rowheader "Subtotal"
+          - cell "£55.00"
+        - 'row "Shipment Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+          - rowheader "Shipment"
+          - 'cell "Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+            - list:
+              - listitem: "Flat rate: £10.00"
+            - paragraph: Shipping options will be updated during checkout.
+            - button "Calculate shipping"
+        - row "Total £65.00":
+          - rowheader "Total"
+          - cell "£65.00":
+            - strong: £65.00
+    - link "Proceed to Checkout":
+      - /url: https://essential-addons.com/woo-checkout/
+    - heading "Customize Every Component In Your Cart Page" [level=3]
+    - text: Make your WooCommerce Cart page stand out with eye-catching designs and styling options Product Title Price Quantity Subtotal
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+      - img "Mens Comfy T Shirt"
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+    - text: £20.00 - Mens Comfy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: + £20.00
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=94c7bb58efc3b337800875b5d382a072&_wpnonce=07f4d43056
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+      - img "Mens Trendy T Shirt"
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+    - text: £35.00 - Mens Trendy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: + £35.00
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=5e388103a391daabe3de1d76a6739ccd&_wpnonce=07f4d43056
+    - text: "Coupon:"
+    - textbox "Coupon code"
+    - button "Apply Coupon"
+    - link " Continue Shopping":
+      - /url: https://essential-addons.com/shop/
+    - button "Update Cart"
+    - table:
+      - rowgroup:
+        - row "Subtotal £55.00":
+          - rowheader "Subtotal"
+          - cell "£55.00"
+        - 'row "Shipment Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+          - rowheader "Shipment"
+          - 'cell "Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+            - list:
+              - listitem: "Flat rate: £10.00"
+            - paragraph: Shipping options will be updated during checkout.
+            - button "Calculate shipping"
+        - row "Total £65.00":
+          - rowheader "Total"
+          - cell "£65.00":
+            - strong: £65.00
+    - link "Proceed to Checkout":
+      - /url: https://essential-addons.com/woo-checkout/
+    - heading "Show Products, Prices & Details Beautifully On Your Cart Page" [level=3]
+    - text: Style and personalize every button, table background color, typography and more easily Product Price Quantity Total
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=94c7bb58efc3b337800875b5d382a072&_wpnonce=07f4d43056
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+      - img "Mens Comfy T Shirt"
+    - link "Mens Comfy T Shirt":
+      - /url: https://essential-addons.com/product/mens-comfy-t-shirt/
+    - text: £20.00 - Mens Comfy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: + £20.00
+    - link "Remove this item":
+      - /url: https://essential-addons.com/cart/?remove_item=5e388103a391daabe3de1d76a6739ccd&_wpnonce=07f4d43056
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+      - img "Mens Trendy T Shirt"
+    - link "Mens Trendy T Shirt":
+      - /url: https://essential-addons.com/product/mens-trendy-t-shirt/
+    - text: £35.00 - Mens Trendy T Shirt quantity
+    - spinbutton "Product quantity": "1"
+    - text: "+ £35.00 Coupon:"
+    - textbox "Coupon code"
+    - button "Apply Coupon"
+    - link " Continue Shopping":
+      - /url: https://essential-addons.com/shop/
+    - button "Update Cart"
+    - table:
+      - rowgroup:
+        - row "Subtotal £55.00":
+          - rowheader "Subtotal"
+          - cell "£55.00"
+        - 'row "Shipment Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+          - rowheader "Shipment"
+          - 'cell "Flat rate: £10.00 Shipping options will be updated during checkout. Calculate shipping"':
+            - list:
+              - listitem: "Flat rate: £10.00"
+            - paragraph: Shipping options will be updated during checkout.
+            - button "Calculate shipping"
+        - row "Total £65.00":
+          - rowheader "Total"
+          - cell "£65.00":
+            - strong: £65.00
+    - link "Proceed to Checkout":
+      - /url: https://essential-addons.com/woo-checkout/
+- text: desktop
+- status
