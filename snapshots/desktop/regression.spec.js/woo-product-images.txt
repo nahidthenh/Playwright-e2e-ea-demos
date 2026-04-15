@@ -5,7 +5,6 @@
 - text: Enhance your WooCommerce store’s appeal with picturesque product images. Use prebuilt presets & customize placement, style and more to captivate customers and boost sales.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-woo-product-images/
-- img "Woo Product Images 2"
 - img "Woo Product Images 3"
 - img "Woo Product Images | Essential Addons for Elementor"
 - heading "Showcase Product Images With Visually Unique Effects" [level=2]
@@ -13,163 +12,69 @@
 - link:
   - /url: "#"
   - img
-- group "6 / 6":
-  - img "Woo Product Images 9"
-- group "1 / 6":
-  - img "Woo Product Images 4"
-- group "2 / 6":
-  - img "Woo Product Images 4"
-- group "3 / 6":
-  - img "Woo Product Images 6"
-- group "4 / 6":
-  - img "Woo Product Images 7"
-- group "5 / 6":
-  - img "Woo Product Images 8"
-- group "6 / 6":
-  - img "Woo Product Images 9"
-- group "1 / 6":
-  - img "Woo Product Images 4"
-- group "3 / 6":
-  - img "Woo Product Images 12"
-- group "4 / 6":
-  - img "Woo Product Images 13"
-- group "5 / 6":
-  - img "Woo Product Images 14"
-- group "6 / 6":
-  - img "Woo Product Images 15"
-- group "1 / 6":
-  - img "Woo Product Images 10"
-- group "2 / 6":
-  - img "Woo Product Images 10"
-- group "3 / 6":
-  - img "Woo Product Images 12"
-- group "4 / 6":
-  - img "Woo Product Images 13"
-- group "5 / 6":
-  - img "Woo Product Images 14"
-- group "6 / 6":
-  - img "Woo Product Images 15"
-- group "1 / 6":
-  - img "Woo Product Images 10"
-- group "2 / 6":
-  - img "Woo Product Images 10"
-- group "3 / 6":
-  - img "Woo Product Images 12"
-- group "4 / 6":
-  - img "Woo Product Images 13"
-- button "Previous slide" [disabled]: prev
-- button "Next slide": next
+- img "Woo Product Images 4"
+- img "Woo Product Images 4"
+- img "Woo Product Images 6"
+- img "Woo Product Images 7"
+- img "Woo Product Images 8"
+- img "Woo Product Images 9"
+- img "Woo Product Images 10"
+- img "Woo Product Images 10"
+- img "Woo Product Images 12"
+- img "Woo Product Images 13"
+- img "Woo Product Images 14"
+- img "Woo Product Images 15"
+- text: prev next
 - img "Woo Product Images 16"
 - heading "Drive Sales With Outstanding Image Product Display" [level=2]
 - text: Present your products in remarkable ways using product images tailored & designed to leave a lasting impression.
 - link:
   - /url: "#"
   - img
-- group "6 / 6":
-  - img "Woo Product Images 17"
-- group "1 / 6":
-  - img "Woo Product Images 17"
-- group "2 / 6":
-  - img "Woo Product Images 18"
-- group "3 / 6":
-  - img "Woo Product Images 19"
-- group "4 / 6":
-  - img "Woo Product Images 20"
-- group "5 / 6":
-  - img "Woo Product Images 21"
-- group "6 / 6":
-  - img "Woo Product Images 17"
-- group "1 / 6":
-  - img "Woo Product Images 17"
-- group "3 / 6":
-  - img "Woo Product Images 25"
-- group "4 / 6":
-  - img "Woo Product Images 26"
-- group "5 / 6":
-  - img "Woo Product Images 27"
-- group "6 / 6":
-  - img "Woo Product Images 23"
-- group "1 / 6":
-  - img "Woo Product Images 23"
-- group "2 / 6":
-  - img "Woo Product Images 24"
-- group "3 / 6":
-  - img "Woo Product Images 25"
-- group "4 / 6":
-  - img "Woo Product Images 26"
-- group "5 / 6":
-  - img "Woo Product Images 27"
-- group "6 / 6":
-  - img "Woo Product Images 23"
-- group "1 / 6":
-  - img "Woo Product Images 23"
-- group "2 / 6":
-  - img "Woo Product Images 24"
-- group "3 / 6":
-  - img "Woo Product Images 25"
-- group "4 / 6":
-  - img "Woo Product Images 26"
-- button "Previous slide" [disabled]: prev
-- button "Next slide": next
+- img "Woo Product Images 17"
+- img "Woo Product Images 18"
+- img "Woo Product Images 19"
+- img "Woo Product Images 20"
+- img "Woo Product Images 21"
+- img "Woo Product Images 17"
+- img "Woo Product Images 23"
+- img "Woo Product Images 24"
+- img "Woo Product Images 25"
+- img "Woo Product Images 26"
+- img "Woo Product Images 27"
+- img "Woo Product Images 23"
+- text: prev next
 - img "Woo Product Images 29"
 - heading "Design Consistent Brand Aesthetic With Image Navigation" [level=2]
 - text: Enhance customer interest with polished, high-quality visuals that drive better interaction and higher sales with unique navigations. Sale!
 - link:
   - /url: "#"
   - img
-- group "5 / 5":
-  - img "Woo Product Images 30"
-- group "1 / 5":
-  - img "Woo Product Images 30"
-- group "2 / 5":
-  - img "Woo Product Images 31"
-- group "3 / 5":
-  - img "Woo Product Images 32"
-- group "4 / 5":
-  - img "Woo Product Images 33"
-- group "5 / 5":
-  - img "Woo Product Images 30"
-- group "1 / 5":
-  - img "Woo Product Images 30"
-- button "Go to slide 1"
-- button "Go to slide 2"
-- button "Go to slide 3"
-- button "Go to slide 4"
-- button "Go to slide 5"
-- button "Previous slide" [disabled]: prev
-- button "Next slide": next
+- img "Woo Product Images 30"
+- img "Woo Product Images 31"
+- img "Woo Product Images 32"
+- img "Woo Product Images 33"
+- img "Woo Product Images 30"
+- text: prev next
 - img "Woo Product Images 35"
 - heading "Skyrocket Sales Utilizing Interactive Product Images" [level=2]
 - paragraph: Turn static visuals into dynamic elements to inspire customer interaction and significantly boost sales.
 - link:
   - /url: "#"
   - img
-- group "1 / 6":
-  - img "Woo Product Images 36"
-- group "2 / 6":
-  - img "Woo Product Images 37"
-- group "3 / 6":
-  - img "Woo Product Images 38"
-- group "4 / 6":
-  - img "Woo Product Images 39"
-- group "5 / 6":
-  - img "Woo Product Images 36"
-- group "6 / 6":
-  - img "Woo Product Images 41"
-- group "1 / 6":
-  - img "Woo Product Images 42"
-- group "2 / 6":
-  - img "Woo Product Images 43"
-- group "3 / 6":
-  - img "Woo Product Images 44"
-- group "4 / 6":
-  - img "Woo Product Images 45"
-- group "5 / 6":
-  - img "Woo Product Images 42"
-- group "6 / 6":
-  - img "Woo Product Images 47"
-- button "Previous slide" [disabled]: prev
-- button "Next slide": next
+- img "Woo Product Images 36"
+- img "Woo Product Images 37"
+- img "Woo Product Images 38"
+- img "Woo Product Images 39"
+- img "Woo Product Images 36"
+- img "Woo Product Images 41"
+- img "Woo Product Images 42"
+- img "Woo Product Images 43"
+- img "Woo Product Images 44"
+- img "Woo Product Images 45"
+- img "Woo Product Images 42"
+- img "Woo Product Images 47"
+- text: prev next
 - img "Woo Product Images 48"
 - text: desktop
 - status

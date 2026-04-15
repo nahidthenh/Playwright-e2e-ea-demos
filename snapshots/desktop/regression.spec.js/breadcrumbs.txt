@@ -5,7 +5,6 @@
 - text: Help web visitors navigate your website better with clear and intuitive breadcrumb text paths. Use this element to create link trails that define the visitor’s location when exploring your Elementor website.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-breadcrumbs/
-- img "Breadcrumb 2"
 - img "Breadcrumb 3"
 - img "Breadcrumb 4"
 - heading "Place Link Trails To Guide Your Website’s Visitors" [level=2]

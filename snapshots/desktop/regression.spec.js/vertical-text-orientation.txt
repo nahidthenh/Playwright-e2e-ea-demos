@@ -5,7 +5,6 @@
 - text: Break the horizontal mold with stylish vertical text. Whether it’s titles, menus or creative labels, make your Elementor site look more artistic and trend-forward.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-vertical-text-orientation/
-- img "Vertical Text Orientation 2"
 - img "Vertical Text Orientation 3"
 - img "EA Vertical Text Orientation"
 - heading "Design Modern Layouts With Vertical Text" [level=2]
@@ -72,7 +71,7 @@
 - link "BOOK A TABLE":
   - /url: "#"
 - heading "Enjoy our" [level=2]
-- text: De|
+- text: Desserts|
 - heading "Twitter Facebook Instagram" [level=2]
 - heading "Why Use Vertical Text Orientation?" [level=2]
 - heading "Aesthetic Modern" [level=4]

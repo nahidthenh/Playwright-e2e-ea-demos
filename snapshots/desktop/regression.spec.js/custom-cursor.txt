@@ -5,7 +5,6 @@
 - paragraph: From playful trails to glowing effects, create an interactive experience on your Elementor website. Use this extension on any element of your site to create an engaging browsing experience.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-custom-cursor/
-- img "Custom cursor 2"
 - img "Custom cursor 3"
 - img "Custom Cursor | Essential Addons for Elementor"
 - heading "Why Use Custom Cursor In Your Elementor Site?" [level=2]

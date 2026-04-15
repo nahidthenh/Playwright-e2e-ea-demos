@@ -7,7 +7,6 @@
     - text: Display all of your content in beautiful and interactive layouts with EA Dynamic Gallery. Choose between a stunning grid layout or an attractive masonry layout. Amaze your readers with hover animations and even add popup to make your posts truly dynamic.
     - link "Documentation":
       - /url: https://essential-addons.com/elementor/docs/dynamic-content-elements/dynamic-filterable-gallery/
-    - img "video-icon.png"
     - img "Dynamic gallery 2"
     - img "Dynamic gallery 3"
     - heading "Use Custom Field As A Source Of Gallery Content" [level=2]

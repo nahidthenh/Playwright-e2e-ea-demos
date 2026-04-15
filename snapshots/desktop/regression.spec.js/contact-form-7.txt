@@ -7,11 +7,13 @@
       - /url: https://essential-addons.com/docs/contact-form-7/
     - text: Elements Panel
     - img "Contact Form 7 101"
+    - iframe
     - heading "Contact Form 1 Style" [level=3]
     - text: Choose form type & style the form container as you want
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"
@@ -31,6 +33,7 @@
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"
@@ -48,6 +51,7 @@
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"
@@ -68,6 +72,7 @@
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"
@@ -87,6 +92,7 @@
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"
@@ -106,6 +112,7 @@
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"
@@ -125,6 +132,7 @@
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"
@@ -144,6 +152,7 @@
     - status
     - list
     - form "Contact form":
+      - group
       - paragraph:
         - text: Your Name (required)
         - textbox "Your Name (required)"

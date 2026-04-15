@@ -7,7 +7,16 @@
       - /url: https://essential-addons.com/elementor/docs/dynamic-content-elements/ea-woo-product-collections/
     - text: Elements Panel
     - img "WooCommerce Product Collections 101"
+    - button "Play, How to Add WooCommerce Product Collections using Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:53
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - button "Play, How to Add WooCommerce Product Collections using Elementor": Play
     - heading "Woo Product Grid With Category" [level=3]
     - text: Choose your preferred category from ‘Collection Type’ & make the grid look standout
     - link "WooCommerce Product Collections 102 Collections Men":

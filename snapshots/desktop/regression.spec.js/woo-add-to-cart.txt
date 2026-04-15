@@ -5,7 +5,6 @@
 - text: Streamline how visitors add products to their shopping carts while browsing your store using the Add to Cart widget from Essential Addons. It’s the perfect solution to convert window shoppers to customers and boost retention.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-woo-add-to-cart/
-- img "Woo Add To Cart 2"
 - img "Woo Add To Cart 3"
 - img "Woo Add To Cart 4"
 - heading "Boost Conversions with Quick & Easy Cart Options" [level=2]

@@ -7,7 +7,6 @@
       - /url: https://essential-addons.com/elementor/docs/dynamic-content-elements/post-carousel/
     - text: Elements Panel
     - img "Post Carousel 101"
-    - iframe
     - heading "Showcase Your Posts With Animated Carousel" [level=3]
     - article:
       - img "How Agencies Use Elementor And Essential Addons to Deliver Projects Faster"

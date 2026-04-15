@@ -7,7 +7,6 @@
     - link "Documentation":
       - /url: https://essential-addons.com/elementor/docs/content-elements/simple-menu
     - img "Simple Menu 101"
-    - iframe
     - heading "Style Default Skin & Horizontal Layout" [level=3]
     - text: Add drop down menu icon, animation effect, hover effect and change content alignment
     - list:

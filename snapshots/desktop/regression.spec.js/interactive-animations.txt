@@ -5,7 +5,6 @@
 - text: Bring your Elementor website to life by creating responsive animations that trigger on page load and scrolling time with the new EA Interactive Animations extension. This lets you create a fully dynamic and appealing web page without needing any coding expertise to elevate your site visitor’s experience.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-interactive-animation/
-- img "Interactive Animations 1"
 - img "Interactive Animations 2"
 - img "Interactive Animations | Essential Addons for Elementor"
 - heading "Interactive" [level=2]

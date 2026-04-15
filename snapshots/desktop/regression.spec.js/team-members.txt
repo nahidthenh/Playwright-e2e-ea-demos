@@ -7,6 +7,16 @@
       - /url: https://essential-addons.com/docs/team-members/
     - text: Elements Panel
     - img "Team Members 101"
+    - button "Play, Team Member Element - Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 03:05
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
+    - iframe
+    - button "Play, Team Member Element - Essential Addons for Elementor": Play
     - heading "Represent Team With Style Preset" [level=3]
     - text: Showcase each member image, designation, social shares using different style presets
     - figure:

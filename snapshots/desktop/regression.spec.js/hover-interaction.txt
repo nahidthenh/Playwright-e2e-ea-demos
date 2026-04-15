@@ -5,7 +5,6 @@
 - text: Essential Addons Hover Interaction lets you create captivating visual experiences for your website visitors. Simply apply unique effects to different elements – from buttons and images to text and more. Watch engagement escalate as users interact with your content in exciting new ways.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-hover-interaction/
-- img "Hover Interaction 1"
 - img "Hover Interaction 2"
 - img "Hover Interaction | Essential Addons for Elementor"
 - img "Hover Interaction | Essential Addons for Elementor"

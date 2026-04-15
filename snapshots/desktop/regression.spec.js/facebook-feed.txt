@@ -7,16 +7,6 @@
       - /url: https://essential-addons.com/docs/facebook-feed/
     - text: Elements Panel
     - img "Facebook Feed 101"
-    - button "Play, How to Showcase Facebook Feed Using Essential Addons": Play
-    - slider "Seek": "0"
-    - text: 00:00
-    - timer "Current time": 02:17
-    - button "Mute"
-    - slider "Volume": "1"
-    - button "Settings"
-    - button "Enter fullscreen"
-    - iframe
-    - button "Play, How to Showcase Facebook Feed Using Essential Addons": Play
     - heading "Showcase Facebook Feed In Card Layout" [level=3]
     - text: Go to the ‘General Settings’ to choose the card layout from ‘Layout Settings’ feature and sort your content to the newest from the ‘Feed Settings’.
     - paragraph: Looking for the right Elementor landing page template for your...
@@ -25,17 +15,13 @@
     - paragraph: essential-addons.com
     - heading [level=2]
     - paragraph
-    - paragraph:
-      - img "🚀"
-      - text: Elementor Version 4 is officially LIVE — and it's...
+    - paragraph: 🚀 Elementor Version 4 is officially LIVE — and it's...
     - link:
       - /url: https://www.facebook.com/489343776554326/posts/1381301950691833
     - paragraph: essential-addons.com
     - heading [level=2]
     - paragraph
-    - paragraph:
-      - img "💬"
-      - text: Is your support team drowning in repetitive questions? Here's...
+    - paragraph: 💬 Is your support team drowning in repetitive questions? Here's...
     - link:
       - /url: https://www.facebook.com/489343776554326/posts/1381257380696290
     - paragraph: betterdocs.co

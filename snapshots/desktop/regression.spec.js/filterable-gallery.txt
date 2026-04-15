@@ -7,7 +7,6 @@
     - text: Showcase as many images as you want by ensuring the high quality and organizing them in an outstanding layout by using EA Filterable Gallery. Let’s find out all of its amazing features & functions in a while.
     - link "Documentation":
       - /url: https://essential-addons.com/docs/filterable-gallery/
-    - img "Filterable Gallery for Elementor 2"
     - img "Filterable Gallery for Elementor 3"
     - img "Filterable Gallery for Elementor 4"
     - heading "Display Images With Overlay Layout" [level=2]

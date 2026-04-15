@@ -7,7 +7,7 @@
       - /url: https://essential-addons.com/elementor/docs/creative-elements/one-page-navigation/
     - text: Elements Panel
     - img "One Page Navigation 101"
-    - button "Play, How to Create One Page Navigation in Your WordPress Website Using Elementor": Play
+    - button "Play"
     - slider "Seek": "0"
     - text: 00:00
     - timer "Current time": 02:19
@@ -16,7 +16,7 @@
     - button "Settings"
     - button "Enter fullscreen"
     - iframe
-    - button "Play, How to Create One Page Navigation in Your WordPress Website Using Elementor": Play
+    - button "Play"
     - heading "Create One Page Navigation" [level=3]
     - paragraph: Help your visitors navigate easily & improve user experience
     - img "One Page Navigation 102"

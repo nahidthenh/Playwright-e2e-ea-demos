@@ -7,7 +7,16 @@
       - /url: https://essential-addons.com/elementor/docs/woo-checkout
     - text: Elements Panel
     - img "Woo Checkout 100"
+    - button "Play, How to Customize WooCommerce Checkout Page Using Essential Addons for Elementor": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:23
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - button "Play, How to Customize WooCommerce Checkout Page Using Essential Addons for Elementor": Play
     - link "Multi Steps":
       - /url: https://essential-addons.com/elementor/woo-checkout/woocommerce-checkout-multi-steps
     - link "Split":

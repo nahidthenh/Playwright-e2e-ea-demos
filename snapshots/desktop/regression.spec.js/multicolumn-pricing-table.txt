@@ -5,7 +5,6 @@
 - text: Transform your pricing section using the Multicolumn Pricing widget in Elementor. With stunning design options, you can create a visually striking and conversion-optimized pricing plan effortlessly
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-multicolumn-pricing-table/
-- img "Multicolumn Pricing Table 2"
 - img "Multicolumn Pricing Table 3"
 - img "EA Multicolumn Pricing | Essential Addons for Elementor"
 - heading "Design a Unique Pricing Plan for Your Elementor Website Effortlessly" [level=2]

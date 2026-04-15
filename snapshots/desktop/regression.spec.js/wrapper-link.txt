@@ -7,7 +7,16 @@
     - link "Documentation":
       - /url: https://essential-addons.com/elementor/docs/ea-wrapper-link/
     - img "Wrapper Link 101"
+    - button "Play, How To Use A Wrapper Link In Elementor?": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:09
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - button "Play, How To Use A Wrapper Link In Elementor?": Play
     - heading "Enjoy Full Freedom To Insert Links Anywhere" [level=3]
     - text: Add sections with no-follow links, enable links to be opened in a new tab, use custom attributes, and much more with the EA Wrapper Link.
     - img "Wrapper Link 102"

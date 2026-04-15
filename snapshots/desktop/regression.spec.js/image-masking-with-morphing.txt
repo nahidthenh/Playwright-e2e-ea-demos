@@ -5,7 +5,6 @@
 - text: Enhance your Elementor website’s visuals by transforming static images into dynamic, interactive elements. Create a seamless transition between images to captivate your audience and make your content stand out.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-image-masking-with-morphing/
-- img "Image Masking With Morphing 2"
 - img "Image Masking With Morphing 3"
 - img "Image Masking With Morphing 4"
 - heading "Captivate Visitors With Creative Masking & Morphing On Your Elementor Pages" [level=2]

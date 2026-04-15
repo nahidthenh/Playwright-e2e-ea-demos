@@ -5,7 +5,6 @@
 - text: Make browsing effortless and let visitors explore your website’s content with a smooth scroll with stacked cards. Enhance navigation, improve engagement and take the web visitors’ experience to the next level.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-stacked-cards/
-- img "Stacked Cards 2"
 - img "Stacked Cards 3"
 - img "Stacked Cards | Essential Addons for Elementor"
 - heading "Use Stacked Cards For Effortless Scrolling & Stunning Visual Experiences" [level=2]

@@ -5,7 +5,6 @@
 - text: With EA Dynamic Tags, you can automatically pull and display content from Posts, Woo Products, Terms, and so on based on your preferred predefined parameters. It helps create dynamic pages, minimizing manual updates and enhancing content management efficiency.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-dynamic-tags/
-- img "Dynamic Tags 1"
 - img "Dynamic Tags 2"
 - img "Dynamic Tags | Essential Addons for Elementor"
 - heading "Showcase Latest Posts Automatically" [level=2]

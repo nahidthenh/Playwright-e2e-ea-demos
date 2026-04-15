@@ -5,7 +5,6 @@
 - text: With Code Snippet, you can elegantly display HTML, CSS, JavaScript, or any other popular programming code on your Elementor site. The widget offers neat & clean formatting and a one-click ‘copy’ button that makes it easier for visitors to copy your code.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-code-snippet
-- img "Code Snippet 2"
 - img "Code Snippet 3"
 - img "Code Snippet 4"
 - heading "Display Code On Your Elementor Site Effortlessly" [level=2]

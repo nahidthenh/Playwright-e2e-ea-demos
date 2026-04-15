@@ -5,7 +5,6 @@
 - text: Add more credibility to your product pages with the Essential Addons Woo Product Rating widget! Build trust and increase conversions by showcasing customer ratings in different styles with advanced customization options.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-woo-product-rating
-- img "Woo Product Rating 2"
 - img "Woo Product Rating 3"
 - img "Woo Product Rating 4"
 - heading "Showcase Customer Reviews With Beautifully Styled Ratings" [level=2]

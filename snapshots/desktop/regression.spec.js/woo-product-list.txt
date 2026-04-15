@@ -5,7 +5,16 @@
 - link "Documentation":
   - /url: https://essential-addons.com/elementor/docs/ea-woo-product-list/
 - img "Woo Product List 101"
+- 'button "Play, Essential Addons: Most Popular Elementor Library With 1M+ Happy Users & 2.7k+ Star Reviews"': Play
+- slider "Seek": "0"
+- text: 00:00
+- timer "Current time": 01:18
+- button "Mute"
+- slider "Volume": "1"
+- button "Settings"
+- button "Enter fullscreen"
 - iframe
+- 'button "Play, Essential Addons: Most Popular Elementor Library With 1M+ Happy Users & 2.7k+ Star Reviews"': Play
 - heading "Woo Your Audience With Product List Preset 1" [level=2]
 - text: Customize your Woo product listings with eye-catching badges, empowering your brand identity, while ratings provide instant trust and assurance to potential customers.
 - img

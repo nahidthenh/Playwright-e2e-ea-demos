@@ -1,5 +1,5 @@
 - img "deals"
-- text: 1 New S|
+- text: 1 New Site Every Minute|
 - heading "The Number 1 Most-Popular Elementor Addon:" [level=2]
 - heading "Essential Addons for Elementor" [level=2]
 - text: Bring your dream websites to life with Essential Addons, the most used, no-code Elementor addon for 2 Million web creators from 180+ countries around the globe!
@@ -426,15 +426,12 @@
 - heading "See Why Industry Experts Are Loving Essential Addons' Latest Features" [level=2]
 - heading "You don’t need to mess with any code. You just toggle the Liquid Glass preset, adjust the intensity, and you’re done. It works with gradients, images, or solid colors — whatever fits your design." [level=3]
 - heading "Create WP Site" [level=4]
-- img "Essential Addons for Elementor 143"
 - text: Adding a nice liquid glass or glassmorphism effect to your site with the help of the Essential Addon plugin is really easy.
 - paragraph: Yannick
 - paragraph: WP Simple Hacks
-- img "Essential Addons for Elementor 144"
 - paragraph: If you’re running Elementor, I highly recommend it. It has loads of features like Liquid Glass Effects that help you build amazing websites.
 - paragraph: Alex Cooper
 - paragraph: WP Eagle
-- img "Essential Addons for Elementor 145"
 - heading "Winner Of The Title Best Elementor Addons For 2 Million Users" [level=2]
 - img "Essential Addons for Elementor 146"
 - heading "Winner Of The WP" [level=2]

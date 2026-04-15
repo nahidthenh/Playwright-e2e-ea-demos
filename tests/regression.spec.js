@@ -117,18 +117,37 @@ for (const url of filteredUrls) {
         }
 
         /* ── Countdown timers ──
-           Days/Hours/Mins/Secs tick every second — guaranteed false positives. */
+           Days/Hours/Mins/Secs tick every second — guaranteed false positives.
+           Cover both EA countdown and native Elementor countdown class names. */
         .elementor-countdown-wrapper,
-        .eael-countdown {
+        .elementor-widget-countdown,
+        .elementor-countdown-item,
+        .eael-countdown,
+        .eael-count-down {
+          display: none !important;
+        }
+
+        /* ── Embedded videos ──
+           We block the media file from downloading but the <video> element
+           and its native browser controls (Play/Seek/Mute/Fullscreen) still
+           appear in the ARIA tree. Hide the element and its Elementor wrappers. */
+        video,
+        .elementor-widget-video,
+        .elementor-video-container,
+        .elementor-fit-aspect-ratio,
+        .eael-video-gallery-wrap,
+        .eael-video-gallery {
           display: none !important;
         }
 
         /* ── Seasonal / promotional banners ──
-           Use exact class names from the EA site to avoid hiding body
-           or other wrapper elements that share a substring. */
+           "New Season, More Savings" / spring2026 promo bar loads
+           inconsistently — hide by known class names and the optin URL pattern. */
         .promo-bar, .offer-bar, .sale-bar,
         .announcement-bar,
-        .ea-optin-popup, .ea-optin-bar {
+        .ea-optin-popup, .ea-optin-bar,
+        .ea-spring-promo, .spring-promo-bar,
+        [class*="optin-bar"], [class*="promo-bar"] {
           display: none !important;
         }
 

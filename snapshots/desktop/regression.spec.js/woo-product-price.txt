@@ -5,7 +5,6 @@
 - text: Transform your WooCommerce single product pages with stunning product price layouts like never before. Woo Product Price allows you to captivate your customer’s attention with customized pricing styles that help to drive your sales.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-woo-product-price
-- img "Woo Product Price 2"
 - img "Woo Product Price 3"
 - img "Woo Product Price 4"
 - heading "Boost Conversions with Compelling Pricing Displays" [level=2]

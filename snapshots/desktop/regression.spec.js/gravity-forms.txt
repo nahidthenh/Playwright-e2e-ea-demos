@@ -7,7 +7,16 @@
     - link "Documentation":
       - /url: https://essential-addons.com/docs/gravity-forms/
     - img "Elementor Gravity Forms 101"
+    - 'button "Play, Elementor Widgets: EA Gravity Forms for Elementor"': Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:36
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - 'button "Play, Elementor Widgets: EA Gravity Forms for Elementor"': Play
     - heading "Design Your EA Gravity Forms" [level=3]
     - paragraph: Choose your preferred Gravity forms layout from the ‘Select Form’ option, enable title, description, placeholder, and more to style it in advance.
     - text: Email (Required)

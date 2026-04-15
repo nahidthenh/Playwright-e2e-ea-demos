@@ -1,3 +1,13 @@
+- list:
+  - listitem: 06 Days
+  - listitem: 23 Hours
+  - listitem: 59 Mins
+  - listitem: 00 Secs
+- heading "New Season, More Savings" [level=2]
+- 'heading "On #1 Elementor Addon" [level=2]'
+- link "Grab The Deals":
+  - /url: https://essential-addons.com/spring2026-optin
+- img
 - figure:
   - img "360 Degree Photo Viewer 1"
 - heading "360 Degree Photo Viewer" [level=3]
@@ -5,7 +15,6 @@
 - text: Showcase products (real estate properties, eCommerce products, travel destinations, artwork & more) on your Elementor website from every angle that gives your visitors an immersive and interactive experience.
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-360-degree-photo-viewer/
-- img "360 Degree Photo Viewer 2"
 - img "360 Degree Photo Viewer 3"
 - img "EA 360 Degree Photo Viewer | Essential Addons for Elementor"
 - heading "Transform Image Displays Into Captivating 3D Experience" [level=2]

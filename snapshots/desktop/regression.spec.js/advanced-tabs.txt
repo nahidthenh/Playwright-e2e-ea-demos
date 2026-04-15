@@ -7,7 +7,6 @@
       - /url: https://essential-addons.com/docs/advanced-tabs/
     - text: Elements Panel
     - img "Advanced Tabs for Elementor 101"
-    - iframe
     - heading "Use Horizontal Layout of Tabs" [level=3]
     - text: Spotlight on organizational achievements, goals & more using Horizontal Layout
     - tablist:

@@ -7,350 +7,107 @@
       - /url: https://essential-addons.com/elementor/docs/content-elements/logo-carousel/
     - text: Elements Panel
     - img "Logo Carousel 101"
-    - iframe
     - heading "Unique Logo Carousel Styles" [level=3]
     - text: Try out different Logo Carousel Effects like Slide, Fade, Cube, Coverflow, Flip and Style up in advance and make it look appealing for visitors
-    - group "1 / 6":
-      - link "Logo Carousel 102":
-        - /url: "#"
-        - img "Logo Carousel 102"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - group "5 / 6":
-      - link "Logo Carousel 106":
-        - /url: "#"
-        - img "Logo Carousel 106"
-    - group "6 / 6":
-      - link "Logo Carousel 107":
-        - /url: "#"
-        - img "Logo Carousel 107"
-    - group "1 / 6":
-      - link "Logo Carousel 102":
-        - /url: "#"
-        - img "Logo Carousel 102"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - group "5 / 6":
-      - link "Logo Carousel 106":
-        - /url: "#"
-        - img "Logo Carousel 106"
-    - group "6 / 6":
-      - link "Logo Carousel 107":
-        - /url: "#"
-        - img "Logo Carousel 107"
-    - group "1 / 6":
-      - link "Logo Carousel 102":
-        - /url: "#"
-        - img "Logo Carousel 102"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - group "5 / 6":
-      - link "Logo Carousel 106":
-        - /url: "#"
-        - img "Logo Carousel 106"
-    - group "6 / 6":
-      - link "Logo Carousel 107":
-        - /url: "#"
-        - img "Logo Carousel 107"
-    - button "Go to slide 1"
-    - button "Go to slide 2"
-    - button "Go to slide 3"
-    - button "Go to slide 4"
-    - button "Go to slide 5"
-    - button "Go to slide 6"
+    - link "Logo Carousel 102":
+      - /url: "#"
+      - img "Logo Carousel 102"
+    - link "Logo Carousel 103":
+      - /url: "#"
+      - img "Logo Carousel 103"
+    - link "Logo Carousel 104":
+      - /url: "#"
+      - img "Logo Carousel 104"
+    - link "Logo Carousel 105":
+      - /url: "#"
+      - img "Logo Carousel 105"
+    - link "Logo Carousel 106":
+      - /url: "#"
+      - img "Logo Carousel 106"
+    - link "Logo Carousel 107":
+      - /url: "#"
+      - img "Logo Carousel 107"
     - heading "Choose Slide Carousel Effect On Logo" [level=3]
     - text: Use Slide Carousel Effect, set direction on left, enable toggle to dots on navigation panel, set position and Style up the section to make it looks standout
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - group "5 / 6":
-      - link "Logo Carousel 106":
-        - /url: "#"
-        - img "Logo Carousel 106"
-    - group "6 / 6":
-      - link "Logo Carousel 107":
-        - /url: "#"
-        - img "Logo Carousel 107"
-    - group "1 / 6":
-      - link "Logo Carousel 102":
-        - /url: "#"
-        - img "Logo Carousel 102"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - group "5 / 6":
-      - link "Logo Carousel 106":
-        - /url: "#"
-        - img "Logo Carousel 106"
-    - group "6 / 6":
-      - link "Logo Carousel 107":
-        - /url: "#"
-        - img "Logo Carousel 107"
-    - group "1 / 6":
-      - link "Logo Carousel 102":
-        - /url: "#"
-        - img "Logo Carousel 102"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - button "Go to slide 1"
-    - button "Go to slide 2"
-    - button "Go to slide 3"
-    - button "Go to slide 4"
-    - button "Go to slide 5"
-    - button "Go to slide 6"
+    - link "Logo Carousel 102":
+      - /url: "#"
+      - img "Logo Carousel 102"
+    - link "Logo Carousel 103":
+      - /url: "#"
+      - img "Logo Carousel 103"
+    - link "Logo Carousel 104":
+      - /url: "#"
+      - img "Logo Carousel 104"
+    - link "Logo Carousel 105":
+      - /url: "#"
+      - img "Logo Carousel 105"
+    - link "Logo Carousel 106":
+      - /url: "#"
+      - img "Logo Carousel 106"
+    - link "Logo Carousel 107":
+      - /url: "#"
+      - img "Logo Carousel 107"
     - heading "Advanced Design In Slide Carousel" [level=3]
     - text: Set up the item gap to separate logos, visible items, Toggle on Auto Play to set the slider speed and enable infinite loop to run the carousel
-    - group "1 / 6":
-      - link "Logo Carousel 114":
-        - /url: "#"
-        - img "Logo Carousel 114"
-    - group "2 / 6":
-      - link "Logo Carousel 115":
-        - /url: "#"
-        - img "Logo Carousel 115"
-    - group "3 / 6":
-      - link "Logo Carousel 116":
-        - /url: "#"
-        - img "Logo Carousel 116"
-    - group "4 / 6":
-      - link "Logo Carousel 117":
-        - /url: "#"
-        - img "Logo Carousel 117"
-    - group "5 / 6":
-      - link "Logo Carousel 118":
-        - /url: "#"
-        - img "Logo Carousel 118"
-    - group "6 / 6":
-      - link "Logo Carousel 119":
-        - /url: "#"
-        - img "Logo Carousel 119"
-    - group "1 / 6":
-      - link "Logo Carousel 114":
-        - /url: "#"
-        - img "Logo Carousel 114"
-    - group "2 / 6":
-      - link "Logo Carousel 115":
-        - /url: "#"
-        - img "Logo Carousel 115"
-    - group "3 / 6":
-      - link "Logo Carousel 116":
-        - /url: "#"
-        - img "Logo Carousel 116"
-    - group "4 / 6":
-      - link "Logo Carousel 117":
-        - /url: "#"
-        - img "Logo Carousel 117"
-    - group "5 / 6":
-      - link "Logo Carousel 118":
-        - /url: "#"
-        - img "Logo Carousel 118"
-    - group "6 / 6":
-      - link "Logo Carousel 119":
-        - /url: "#"
-        - img "Logo Carousel 119"
-    - group "1 / 6":
-      - link "Logo Carousel 114":
-        - /url: "#"
-        - img "Logo Carousel 114"
-    - group "2 / 6":
-      - link "Logo Carousel 115":
-        - /url: "#"
-        - img "Logo Carousel 115"
-    - group "3 / 6":
-      - link "Logo Carousel 116":
-        - /url: "#"
-        - img "Logo Carousel 116"
-    - group "4 / 6":
-      - link "Logo Carousel 117":
-        - /url: "#"
-        - img "Logo Carousel 117"
-    - group "5 / 6":
-      - link "Logo Carousel 118":
-        - /url: "#"
-        - img "Logo Carousel 118"
-    - group "6 / 6":
-      - link "Logo Carousel 119":
-        - /url: "#"
-        - img "Logo Carousel 119"
-    - button "Go to slide 1"
-    - button "Go to slide 2"
-    - button "Go to slide 3"
-    - button "Go to slide 4"
-    - button "Go to slide 5"
-    - button "Go to slide 6"
+    - link "Logo Carousel 114":
+      - /url: "#"
+      - img "Logo Carousel 114"
+    - link "Logo Carousel 115":
+      - /url: "#"
+      - img "Logo Carousel 115"
+    - link "Logo Carousel 116":
+      - /url: "#"
+      - img "Logo Carousel 116"
+    - link "Logo Carousel 117":
+      - /url: "#"
+      - img "Logo Carousel 117"
+    - link "Logo Carousel 118":
+      - /url: "#"
+      - img "Logo Carousel 118"
+    - link "Logo Carousel 119":
+      - /url: "#"
+      - img "Logo Carousel 119"
     - heading "Experiment With Background Colors" [level=3]
     - text: Try out different colors to change the outlook of logo background
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - group "5 / 6":
-      - link "Logo Carousel 106":
-        - /url: "#"
-        - img "Logo Carousel 106"
-    - group "6 / 6":
-      - link "Logo Carousel 107":
-        - /url: "#"
-        - img "Logo Carousel 107"
-    - group "1 / 6":
-      - link "Logo Carousel 102":
-        - /url: "#"
-        - img "Logo Carousel 102"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - group "5 / 6":
-      - link "Logo Carousel 106":
-        - /url: "#"
-        - img "Logo Carousel 106"
-    - group "6 / 6":
-      - link "Logo Carousel 107":
-        - /url: "#"
-        - img "Logo Carousel 107"
-    - group "1 / 6":
-      - link "Logo Carousel 102":
-        - /url: "#"
-        - img "Logo Carousel 102"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 104":
-        - /url: "#"
-        - img "Logo Carousel 104"
-    - group "4 / 6":
-      - link "Logo Carousel 105":
-        - /url: "#"
-        - img "Logo Carousel 105"
-    - button "Next slide": 
-    - button "Previous slide": 
+    - link "Logo Carousel 102":
+      - /url: "#"
+      - img "Logo Carousel 102"
+    - link "Logo Carousel 103":
+      - /url: "#"
+      - img "Logo Carousel 103"
+    - link "Logo Carousel 104":
+      - /url: "#"
+      - img "Logo Carousel 104"
+    - link "Logo Carousel 105":
+      - /url: "#"
+      - img "Logo Carousel 105"
+    - link "Logo Carousel 106":
+      - /url: "#"
+      - img "Logo Carousel 106"
+    - link "Logo Carousel 107":
+      - /url: "#"
+      - img "Logo Carousel 107"
+    - text:  
     - heading "Create Transparent Look On Logos" [level=3]
     - text: Choose transparent color from Style panel Logos section and give it an elegant look
-    - group "3 / 6":
-      - link "Logo Carousel 116":
-        - /url: "#"
-        - img "Logo Carousel 116"
-    - group "4 / 6":
-      - link "Logo Carousel 117":
-        - /url: "#"
-        - img "Logo Carousel 117"
-    - group "5 / 6":
-      - link "Logo Carousel 118":
-        - /url: "#"
-        - img "Logo Carousel 118"
-    - group "6 / 6":
-      - link "Logo Carousel 119":
-        - /url: "#"
-        - img "Logo Carousel 119"
-    - group "1 / 6":
-      - link "Logo Carousel 114":
-        - /url: "#"
-        - img "Logo Carousel 114"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 116":
-        - /url: "#"
-        - img "Logo Carousel 116"
-    - group "4 / 6":
-      - link "Logo Carousel 117":
-        - /url: "#"
-        - img "Logo Carousel 117"
-    - group "5 / 6":
-      - link "Logo Carousel 118":
-        - /url: "#"
-        - img "Logo Carousel 118"
-    - group "6 / 6":
-      - link "Logo Carousel 119":
-        - /url: "#"
-        - img "Logo Carousel 119"
-    - group "1 / 6":
-      - link "Logo Carousel 114":
-        - /url: "#"
-        - img "Logo Carousel 114"
-    - group "2 / 6":
-      - link "Logo Carousel 103":
-        - /url: "#"
-        - img "Logo Carousel 103"
-    - group "3 / 6":
-      - link "Logo Carousel 116":
-        - /url: "#"
-        - img "Logo Carousel 116"
-    - group "4 / 6":
-      - link "Logo Carousel 117":
-        - /url: "#"
-        - img "Logo Carousel 117"
-    - button "Next slide": 
-    - button "Previous slide": 
+    - link "Logo Carousel 114":
+      - /url: "#"
+      - img "Logo Carousel 114"
+    - link "Logo Carousel 103":
+      - /url: "#"
+      - img "Logo Carousel 103"
+    - link "Logo Carousel 116":
+      - /url: "#"
+      - img "Logo Carousel 116"
+    - link "Logo Carousel 117":
+      - /url: "#"
+      - img "Logo Carousel 117"
+    - link "Logo Carousel 118":
+      - /url: "#"
+      - img "Logo Carousel 118"
+    - link "Logo Carousel 119":
+      - /url: "#"
+      - img "Logo Carousel 119"
+    - text:  
 - text: desktop
 - status

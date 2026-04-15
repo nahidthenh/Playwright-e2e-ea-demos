@@ -7,7 +7,16 @@
     - link "Documentation":
       - /url: https://essential-addons.com/elementor/docs/extensions/ea-content-protection/
     - img "Content Protection 101"
+    - button "Play, How to Protect your Content with Essential Addons": Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 01:29
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - button "Play, How to Protect your Content with Essential Addons": Play
     - heading "Content Protection Style 01" [level=3]
     - text: Set password to protect any content/block.
     - textbox "Promo Code"

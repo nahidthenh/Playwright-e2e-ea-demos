@@ -6,7 +6,6 @@
 - text: Transform your designs into fully editable web pages with ease. This widget allows you to turn your Figma files into dynamic, customizable web pages in Elementor, making it quicker to build stunning websites with real-time adjustments
 - link "Documentation":
   - /url: https://essential-addons.com/docs/ea-figma-to-elementor-converter/
-- img "Figma to Elementor Converter 3"
 - img "Figma to Elementor Converter 4"
 - img "Figma to Elementor Converter | Essential Addons for Elementor"
 - 'heading "A Sneak Peek: How Figma Design Converts Into Elementor Pages" [level=2]'

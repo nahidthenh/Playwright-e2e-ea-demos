@@ -5,7 +5,6 @@
 - text: Using EA Custom JS tailor your site with any JavaScript code snippet. Create animations, unique forms or integrate external functions, all within a user-friendly Elementor workflow
 - link "Documentation":
   - /url: https://essential-addons.com/docs/custom-js/%20
-- img "Custom JS 1"
 - img "Custom JS 2"
 - img "Custom JS 3"
 - heading "Reflective Interaction by Highlighting Elements" [level=2]

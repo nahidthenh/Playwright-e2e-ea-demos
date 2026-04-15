@@ -7,7 +7,16 @@
       - /url: https://essential-addons.com/docs/content-timeline/
     - text: Elements Panel
     - img "Content Timeline 101"
+    - 'button "Play, Content Timeline for Elementor: How to Display Posts on Content Timeline Using Essential Addons"': Play
+    - slider "Seek": "0"
+    - text: 00:00
+    - timer "Current time": 02:05
+    - button "Mute"
+    - slider "Volume": "1"
+    - button "Settings"
+    - button "Enter fullscreen"
     - iframe
+    - 'button "Play, Content Timeline for Elementor: How to Display Posts on Content Timeline Using Essential Addons"': Play
     - heading "Center Layout With Custom Source" [level=3]
     - text: Choose custom source from ‘Timeline Content’ and style each section of it to make it look standout  02 September 2019
     - heading "How to Include Elementor Template using a Shortcode" [level=2]

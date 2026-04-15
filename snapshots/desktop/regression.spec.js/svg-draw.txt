@@ -5,7 +5,16 @@
   - /url: https://essential-addons.com/elementor/docs/ea-svg-draw/
 - text: Elements Panel
 - img "SVG Draw 101"
+- button "Play, How To Show SVG Animations With Essential Addons?": Play
+- slider "Seek": "0"
+- text: 00:00
+- timer "Current time": 02:38
+- button "Mute"
+- slider "Volume": "1"
+- button "Settings"
+- button "Enter fullscreen"
 - iframe
+- button "Play, How To Show SVG Animations With Essential Addons?": Play
 - heading "Engage Visitors With Unique Animations" [level=2]
 - text: Morph your logos into different shapes, spin your icons around, or create interactive ‘Fill Before & Fill After’ animations that illustrate your content in a visually engaging way.
 - img

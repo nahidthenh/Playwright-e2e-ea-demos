@@ -1,3 +1,13 @@
+- list:
+  - listitem: 06 Days
+  - listitem: 23 Hours
+  - listitem: 58 Mins
+  - listitem: 42 Secs
+- heading "New Season, More Savings" [level=2]
+- 'heading "On #1 Elementor Addon" [level=2]'
+- link "Grab The Deals":
+  - /url: https://essential-addons.com/spring2026-optin
+- img
 - img "NFT Gallery 1"
 - heading "NFT Gallery" [level=2]
 - text: EA NFT Gallery lets you effortlessly add NFTs in Elementor without any coding to enhance your WordPress website. With this unique element, you can showcase your NFT collections and boost engagement with your site visitors.
