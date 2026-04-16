@@ -26,7 +26,7 @@
         - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
     - listitem:
       - link " Logout":
-        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/?_wpnonce=6e8e5ec1b3
+        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/
 - img "Woo Account Dashboard 101"
 - paragraph: Hello
 - heading "Jane Miller" [level=5]
@@ -37,7 +37,7 @@
   - strong: Jane Miller
   - text: "?"
   - link "Log out":
-    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F&_wpnonce=35c6759bb7
+    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F
   - text: )
 - paragraph:
   - text: From your account dashboard you can view your
@@ -71,7 +71,7 @@
         - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
     - listitem:
       - link "Logout":
-        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/?_wpnonce=6e8e5ec1b3
+        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/
 - img "Woo Account Dashboard 101"
 - paragraph: Hello
 - heading "Jane Miller" [level=5]
@@ -82,7 +82,7 @@
   - strong: Jane Miller
   - text: "?"
   - link "Log out":
-    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F&_wpnonce=35c6759bb7
+    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F
   - text: )
 - paragraph:
   - text: From your account dashboard you can view your
@@ -116,7 +116,7 @@
         - /url: https://essential-addons.com/woo-account-dashboard/edit-account/
     - listitem:
       - link " Logout":
-        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/?_wpnonce=6e8e5ec1b3
+        - /url: https://essential-addons.com/woo-account-dashboard/customer-logout/
 - img "Woo Account Dashboard 101"
 - paragraph: Hello
 - heading "Jane Miller" [level=5]
@@ -127,7 +127,7 @@
   - strong: Jane Miller
   - text: "?"
   - link "Log out":
-    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F&_wpnonce=35c6759bb7
+    - /url: https://essential-addons.com/access/?action=logout&redirect_to=https%3A%2F%2Fessential-addons.com%2Fwoo-account-dashboard%2F
   - text: )
 - paragraph:
   - text: From your account dashboard you can view your

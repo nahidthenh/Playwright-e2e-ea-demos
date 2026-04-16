@@ -328,7 +328,10 @@ for (const url of filteredUrls) {
     // First run (--update-snapshots) → file is written as the baseline
     // Next runs                      → string is diffed; any structural
     //                                  change fails the test
-    const ariaTree = await page.locator('body').ariaSnapshot();
+    const ariaTree = (await page.locator('body').ariaSnapshot())
+      // Strip dynamic WordPress nonces so logout URLs don't cause false failures
+      .replace(/[?&]_wpnonce=[a-f0-9]+/g, '')
+      .replace(/([?&])_wpnonce=[a-f0-9]+&/g, '$1');
     expect(ariaTree).toMatchSnapshot(`${testName}.txt`);
   });
 }

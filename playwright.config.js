@@ -41,7 +41,7 @@ module.exports = defineConfig({
             // Custom metadata block shown at the top of the Slack message
             meta: [
               {
-                key: ':essential-addons-logo: Demo Regression - Test Results',
+                key: ':essential-addons-logo: Demos Regression - Test Results',
                 // PAGES_URL is the GitHub Pages / artifact URL set in the workflow
                 value: `🖥️ <${process.env.PAGES_URL}|View Results!>`,
               },
