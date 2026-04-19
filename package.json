@@ -1,14 +1,23 @@
 {
   "name": "essential-addons-regression",
-  "version": "1.0.0",
-  "description": "Automated DOM regression testing for Essential Addons demo pages",
+  "version": "2.0.0",
+  "description": "Visual regression testing for Essential Addons for Elementor demo pages",
   "scripts": {
-    "test": "playwright test",
-    "test:update": "playwright test --update-snapshots",
-    "test:desktop": "playwright test --project=desktop",
-    "test:mobile": "playwright test --project=mobile",
-    "test:filter": "playwright test --grep",
-    "report": "playwright show-report"
+    "baseline": "node capture.js --mode=baseline",
+    "current": "node capture.js --mode=current",
+    "compare": "node compare.js",
+    "report": "node report.js",
+    "test": "npm run current && npm run compare && npm run report",
+    "open-report": "open reports/report.html",
+    "aria:test": "playwright test",
+    "aria:update": "playwright test --update-snapshots",
+    "aria:desktop": "playwright test --project=desktop",
+    "aria:mobile": "playwright test --project=mobile",
+    "aria:report": "playwright show-report"
+  },
+  "dependencies": {
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^6.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.44.0",

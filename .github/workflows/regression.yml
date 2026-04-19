@@ -1,135 +1,163 @@
-name: EA Demo Regression Tests
+name: EA Visual Regression
 
 on:
-  # Manual trigger from the GitHub Actions UI
-  # Allows choosing whether to UPDATE baselines or just compare
+  # ── Manual trigger ───────────────────────────────────────────────────────────
+  # "baseline" → capture reference screenshots and save them as an artifact
+  # "compare"  → download saved baseline, capture current, diff, publish report
   workflow_dispatch:
     inputs:
-      update_snapshots:
-        description: "Update baseline snapshots? (yes/no)"
-        required: false
-        default: "no"
-      url_filter:
-        description: "Optional URL substring filter (e.g. 'woo' for WooCommerce only)"
-        required: false
-        default: ""
+      mode:
+        description: '"baseline" saves new reference screenshots | "compare" checks for regressions'
+        required: true
+        default: compare
+        type: choice
+        options:
+          - compare
+          - baseline
 
-  # Scheduled: run every Monday at 08:00 UTC to catch CDN / CMS drift
+  # ── Weekly scheduled compare ─────────────────────────────────────────────────
   schedule:
-    - cron: "0 8 * * 1"
+    - cron: '0 8 * * 1'   # Every Monday 08:00 UTC
 
-# Permissions required for GitHub Pages deployment and snapshot commits
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
+env:
+  # schedule has no inputs — default to 'compare'
+  RUN_MODE: ${{ github.event.inputs.mode || 'compare' }}
+
 jobs:
-  regression:
-    name: DOM Regression (${{ matrix.project }})
+  # ────────────────────────────────────────────────────────────────────────────
+  # Main job — captures screenshots and optionally compares them
+  # ────────────────────────────────────────────────────────────────────────────
+  visual-regression:
+    name: Visual Regression — ${{ github.event.inputs.mode || 'compare' }}
     runs-on: ubuntu-latest
 
-    # Run desktop and mobile projects in parallel as separate matrix jobs
-    strategy:
-      fail-fast: false  # Let all matrix jobs finish even if one fails
-      matrix:
-        project: [desktop]
-
     steps:
-      # ---------------------------------------------------------------
-      # 1. Check out the repository (includes snapshots/ directory)
-      # ---------------------------------------------------------------
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      # ---------------------------------------------------------------
-      # 2. Set up Node.js with npm caching
-      # ---------------------------------------------------------------
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "npm"
+          node-version: '20'
+          cache: npm
 
-      # ---------------------------------------------------------------
-      # 3. Install npm dependencies (Playwright + Slack reporter)
-      # ---------------------------------------------------------------
-      - name: Install dependencies
+      - name: Install npm dependencies
         run: npm ci
 
-      # ---------------------------------------------------------------
-      # 4. Install only the Chromium browser
-      # ---------------------------------------------------------------
-      - name: Install Playwright browsers
+      # Only Chromium is needed — desktop-only at 1920×1080
+      - name: Install Chromium
         run: npx playwright install chromium --with-deps
 
-      # ---------------------------------------------------------------
-      # 5. Run regression tests
-      #    SLACK_CHANNEL_ID  → set in repo Settings → Secrets
-      #    SLACK_BOT_TOKEN   → set in repo Settings → Secrets
-      #    PAGES_URL         → GitHub Pages URL shown in the Slack message
-      # ---------------------------------------------------------------
-      - name: Run regression tests
-        env:
-          CI: "true"
-          URL_FILTER: ${{ github.event.inputs.url_filter || '' }}
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
-          PAGES_URL: "https://nahidthenh.github.io/Playwright-e2e-ea-demos"
-        run: |
-          if [ "${{ github.event.inputs.update_snapshots }}" = "yes" ]; then
-            echo "Updating baseline snapshots..."
-            npx playwright test --project=${{ matrix.project }} --update-snapshots
-          else
-            echo "Running regression comparison..."
-            npx playwright test --project=${{ matrix.project }}
-          fi
+      # ════════════════════════════════════════════════════════════════════════
+      # BASELINE MODE
+      # Trigger manually BEFORE deploying a plugin update.
+      # Go to: Actions → EA Visual Regression → Run workflow → mode: baseline
+      # ════════════════════════════════════════════════════════════════════════
 
-      # ---------------------------------------------------------------
-      # 6. Upload blob report for later merging (always, 1 day retention)
-      #    The publish job downloads these and merges into one HTML report
-      # ---------------------------------------------------------------
-      - name: Upload blob report
-        if: always()
+      - name: Capture baseline screenshots
+        if: env.RUN_MODE == 'baseline'
+        run: npm run baseline
+
+      # Saves baseline PNGs as a named artifact.
+      # overwrite:true replaces the previous baseline on every run.
+      # retention-days:90 keeps it for one full quarter.
+      - name: Save baseline artifact
+        if: env.RUN_MODE == 'baseline'
         uses: actions/upload-artifact@v4
         with:
-          name: blob-report-${{ matrix.project }}
-          path: blob-report/
-          retention-days: 1
+          name: visual-regression-baseline
+          path: screenshots/baseline/
+          retention-days: 90
+          overwrite: true
 
-      # ---------------------------------------------------------------
-      # 7. Upload snapshot diffs on failure (14 day retention)
-      # ---------------------------------------------------------------
-      - name: Upload snapshot diffs on failure
-        if: failure()
+      - name: Baseline complete
+        if: env.RUN_MODE == 'baseline'
+        run: |
+          echo "✅ Baseline captured and saved as artifact 'visual-regression-baseline'."
+          echo "   Now deploy your plugin update, then re-run with mode=compare."
+
+      # ════════════════════════════════════════════════════════════════════════
+      # COMPARE MODE  (default — also triggered by the weekly schedule)
+      # Trigger manually AFTER deploying a plugin update.
+      # ════════════════════════════════════════════════════════════════════════
+
+      # Restore the previously saved baseline PNGs
+      - name: Restore baseline screenshots
+        if: env.RUN_MODE == 'compare'
+        uses: actions/download-artifact@v4
+        with:
+          name: visual-regression-baseline
+          path: screenshots/baseline/
+
+      # Take fresh screenshots of the live site
+      - name: Capture current screenshots
+        if: env.RUN_MODE == 'compare'
+        run: npm run current
+
+      # Pixel-by-pixel diff — exits non-zero when any page fails.
+      # continue-on-error so the report is always generated even on failure.
+      - name: Compare screenshots
+        if: env.RUN_MODE == 'compare'
+        id: compare
+        run: node compare.js
+        continue-on-error: true
+
+      # Generate the interactive HTML report
+      - name: Generate HTML report
+        if: env.RUN_MODE == 'compare'
+        run: node report.js
+
+      # Build a self-contained Pages folder.
+      # report.html uses relative paths like ../screenshots/...
+      # We copy everything under pages/ and rewrite the paths so they resolve
+      # correctly when served from the GitHub Pages root.
+      - name: Prepare GitHub Pages directory
+        if: env.RUN_MODE == 'compare'
+        run: |
+          mkdir -p pages/screenshots
+          cp -r screenshots/. pages/screenshots/
+          sed 's|../screenshots/|screenshots/|g' reports/report.html > pages/index.html
+
+      # Upload diff + current screenshots + report for local download.
+      # Extract this artifact and open reports/report.html locally to see
+      # full-resolution screenshots with working image paths.
+      - name: Upload results artifact
+        if: env.RUN_MODE == 'compare'
         uses: actions/upload-artifact@v4
         with:
-          name: snapshot-diffs-${{ matrix.project }}
-          path: test-results/
-          retention-days: 14
+          name: visual-regression-results
+          path: |
+            screenshots/diff/
+            screenshots/current/
+            reports/
+          retention-days: 30
 
-      # ---------------------------------------------------------------
-      # 8. Commit updated snapshots back to the repo on manual dispatch
-      # ---------------------------------------------------------------
-      - name: Commit updated snapshots
-        if: github.event.inputs.update_snapshots == 'yes'
+      - name: Upload Pages artifact
+        if: env.RUN_MODE == 'compare'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages/
+
+      # Fail the workflow run so the ❌ is visible in the Actions list
+      - name: Fail on regressions
+        if: env.RUN_MODE == 'compare' && steps.compare.outcome == 'failure'
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add snapshots/
-          git diff --cached --quiet || git commit -m "chore: update regression snapshots [${{ matrix.project }}] [skip ci]"
-          git push
+          echo "::error::Visual regressions detected — see the 'visual-regression-results' artifact or the GitHub Pages report."
+          exit 1
 
-  # ---------------------------------------------------------------
-  # Merge both matrix reports and publish to GitHub Pages
-  # Runs after both desktop + mobile jobs finish (pass or fail)
-  # ---------------------------------------------------------------
+  # ────────────────────────────────────────────────────────────────────────────
+  # Publish the HTML report to GitHub Pages
+  # Runs after the main job, even on failure, so you can always view the report.
+  # ────────────────────────────────────────────────────────────────────────────
   publish:
     name: Publish Report to GitHub Pages
-    needs: regression
-    if: always()
+    needs: visual-regression
+    if: always() && (github.event.inputs.mode == 'compare' || github.event_name == 'schedule')
     runs-on: ubuntu-latest
 
     environment:
@@ -137,44 +165,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      # ---------------------------------------------------------------
-      # Download blob reports from both matrix jobs into one folder
-      # ---------------------------------------------------------------
-      - name: Download blob reports
-        uses: actions/download-artifact@v4
-        with:
-          pattern: blob-report-*
-          path: all-blob-reports
-          merge-multiple: true
-
-      # ---------------------------------------------------------------
-      # Install Playwright so we can run merge-reports
-      # ---------------------------------------------------------------
-      - name: Install Playwright
-        run: npm install @playwright/test
-
-      # ---------------------------------------------------------------
-      # Merge desktop + mobile blob reports into a single HTML report
-      # ---------------------------------------------------------------
-      - name: Merge reports
-        run: npx playwright merge-reports --reporter html ./all-blob-reports
-
-      # ---------------------------------------------------------------
-      # Upload the merged report as a Pages artifact
-      # ---------------------------------------------------------------
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: playwright-report/
-
-      # ---------------------------------------------------------------
-      # Deploy to GitHub Pages
-      # ---------------------------------------------------------------
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
