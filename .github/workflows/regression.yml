@@ -152,6 +152,19 @@ jobs:
         with:
           path: pages/
 
+      # Run aria snapshot tests. playwright.config.js wires up playwright-slack-report
+      # on CI, so this step also sends the Slack notification automatically.
+      # continue-on-error so aria failures don't mask pixel-comparison failures below.
+      - name: Run aria tests + notify Slack
+        if: env.RUN_MODE == 'compare'
+        continue-on-error: true
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          # Pages URL is predictable: https://<owner>.github.io/<repo>/
+          PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: npx playwright test --project=desktop
+
       # Fail the workflow run so the ❌ is visible in the Actions list
       - name: Fail on regressions
         if: env.RUN_MODE == 'compare' && steps.compare.outcome == 'failure'
@@ -169,9 +182,6 @@ jobs:
     if: always() && (github.event.inputs.mode == 'compare' || github.event_name == 'schedule')
     runs-on: ubuntu-latest
 
-    outputs:
-      page_url: ${{ steps.deployment.outputs.page_url }}
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -180,41 +190,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # Notify Slack with the compare result and a link to the Pages report.
-  # Uses @slack/webhook (already in devDependencies) via notify.js.
-  # Requires a SLACK_WEBHOOK_URL repository secret (Incoming Webhook URL).
-  # ────────────────────────────────────────────────────────────────────────────
-  notify:
-    name: Slack Notification
-    needs: [visual-regression, publish]
-    if: always() && (github.event.inputs.mode == 'compare' || github.event_name == 'schedule')
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: npm
-
-      - name: Install npm dependencies
-        run: npm ci
-
-      - name: Download results artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: visual-regression-results
-          # Extract to workspace root so reports/results.json lands where notify.js expects it
-        continue-on-error: true   # don't break notify if artifact upload failed
-
-      - name: Send Slack notification
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          PAGES_URL: ${{ needs.publish.outputs.page_url }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: node notify.js
