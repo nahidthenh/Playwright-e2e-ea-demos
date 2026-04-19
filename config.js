@@ -38,7 +38,8 @@ module.exports = {
   navigationTimeout: 60_000,  // page.goto() hard limit
   settleDelay:        2_000,  // pause after all stabilization before the screenshot
   scrollStep:           500,  // pixels scrolled per auto-scroll step
-  scrollDelay:           80,  // ms between scroll steps (500 px / 80 ms ≈ 6 s for a 30 000 px page)
+  scrollDelay:           80,  // ms between scroll steps
+  maxScrollHeight:    30000,  // safety cap — stops scrolling at 30 000 px even on infinite-scroll pages
 
   // ── Resilience ────────────────────────────────────────────────────────────
   retries:   2,  // retries per failing page (total attempts = retries + 1)

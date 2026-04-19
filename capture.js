@@ -315,24 +315,28 @@ async function stabilizePage(page) {
 
 // ── Scroll the page top→bottom to trigger lazy loading ───────────────────────
 async function autoScroll(page) {
-  // We pass step and delay into page.evaluate as a serialisable parameter
-  // so config values don't need to be accessible inside the browser context.
+  // maxScrollHeight caps how far we scroll on pages with infinite scroll
+  // (social feeds, post grids, etc.) whose scrollHeight keeps growing as
+  // you scroll — without a cap the loop would never terminate.
   await page.evaluate(
-    ({ step, delay }) =>
+    ({ step, delay, maxHeight }) =>
       new Promise(resolve => {
         let scrolled = 0;
         const id = setInterval(() => {
           window.scrollBy(0, step);
           scrolled += step;
-          // document.body.scrollHeight updates as new content is lazy-loaded,
-          // so we re-read it on every tick rather than caching it upfront.
-          if (scrolled >= document.body.scrollHeight) {
+          // Stop when we've reached the bottom OR hit the safety cap
+          if (scrolled >= document.body.scrollHeight || scrolled >= maxHeight) {
             clearInterval(id);
             resolve();
           }
         }, delay);
       }),
-    { step: config.scrollStep, delay: config.scrollDelay }
+    {
+      step:      config.scrollStep,
+      delay:     config.scrollDelay,
+      maxHeight: config.maxScrollHeight,
+    }
   );
 }
 
