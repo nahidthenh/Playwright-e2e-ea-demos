@@ -1,18 +1,15 @@
-# Essential Addons Demos — Automated Regression Testing
+# Essential Addons Demos — Visual Regression Testing
 
-Automated DOM regression tests for [Essential Addons](https://essential-addons.com) demo pages using Playwright. Detects structural/UI changes across 127+ widget pages after every plugin update.
+Automated pixel-level visual regression tests for [Essential Addons](https://essential-addons.com) demo pages. Detects visual changes across 119+ widget pages after every plugin update by comparing full-page screenshots.
 
 ---
 
 ## How It Works
 
-1. Playwright visits each URL from `urls.txt`
-2. Waits for Elementor to finish rendering
-3. Dismisses cookie banners, hides dynamic noise (countdown timers, NotificationX popups, header/footer)
-4. Captures the **ARIA accessibility tree** of the page body as a `.txt` snapshot
-5. On future runs, compares the current tree against the baseline — any structural change fails the test
-
-**Why ARIA snapshots?** They capture semantic structure (headings, buttons, links, regions) but ignore CSS classes, nonces, asset hashes, and inline styles. This means zero false positives from implementation changes, and diffs that clearly show *what* changed.
+1. **Baseline** — Chromium captures full-page screenshots of every URL in `urls.txt` and saves them as the reference
+2. **Compare** — After a plugin update, fresh screenshots are taken and compared pixel-by-pixel against the baseline using [pixelmatch](https://github.com/mapbox/pixelmatch)
+3. **Report** — An interactive HTML report is published to GitHub Pages showing pass/fail per page with side-by-side diff images
+4. **Notify** — Slack receives a per-page pass/fail summary via `playwright-slack-report`
 
 ---
 
@@ -20,242 +17,209 @@ Automated DOM regression tests for [Essential Addons](https://essential-addons.c
 
 ```
 essential-addons-demos-automation/
-├── urls.txt                        # 127+ demo page URLs (one per line)
-├── playwright.config.js            # Parallel config, desktop + mobile projects
+├── urls.txt                    # 119+ demo page URLs (one per line)
+├── config.js                   # All tunable settings (thresholds, timeouts, selectors)
+├── capture.js                  # Takes full-page screenshots
+├── compare.js                  # Pixel-diffs baseline vs current, writes reports/results.json
+├── report.js                   # Generates reports/report.html from results.json
 ├── package.json
+├── playwright.config.js        # Playwright config (reporters including Slack)
 ├── .github/
 │   └── workflows/
-│       └── regression.yml          # GitHub Actions CI pipeline
+│       └── regression.yml      # GitHub Actions CI pipeline
 ├── tests/
-│   └── regression.spec.js          # Main test file (parametrized by URL)
-├── utils/
-│   ├── readUrls.js                 # Reads and parses urls.txt
-│   ├── nameHelper.js               # URL → unique test/snapshot name
-│   └── domCleaner.js               # CSS noise filter reference
-└── snapshots/
-    └── desktop/
-        └── tests/regression.spec.js/
-            ├── elementor--advanced-tabs.txt
-            ├── elementor--countdown.txt
-            └── ...                 # One .txt file per URL
+│   └── regression.spec.js      # Converts results.json into Playwright tests for Slack reporting
+├── screenshots/
+│   ├── baseline/desktop/       # Reference screenshots (restored from cache on compare runs)
+│   ├── current/desktop/        # Fresh screenshots captured during compare
+│   └── diff/desktop/           # Highlighted diff images (red = changed pixels)
+├── reports/
+│   └── results.json            # Machine-readable comparison results
+└── utils/
+    ├── readUrls.js
+    └── nameHelper.js
 ```
 
 ---
 
-## Setup
+## Local Setup
 
-**Requirements:** Node.js 18+
+**Requirements:** Node.js 20+
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-org/essential-addons-demos-automation.git
-cd essential-addons-demos-automation
+git clone https://github.com/nahidthenh/Playwright-e2e-ea-demos.git
+cd Playwright-e2e-ea-demos
 
 # 2. Install dependencies
 npm install
 
-# 3. Install Playwright browser (Chromium only)
+# 3. Install Chromium
 npx playwright install chromium --with-deps
 ```
 
 ---
 
-## Running Tests
+## Running Locally
 
-### Compare against baselines
+### Step 1 — Capture baseline (before a plugin update)
+
 ```bash
-npx playwright test
+npm run baseline
 ```
-Runs all 128 tests in parallel. Fails if any widget's structure changed since the last baseline.
 
-### Desktop only
+Saves screenshots to `screenshots/baseline/desktop/`.
+
+### Step 2 — Deploy your plugin update, then capture current
+
 ```bash
-npx playwright test --project=desktop
+npm run current
 ```
 
-### Mobile only
+Saves screenshots to `screenshots/current/desktop/`.
+
+### Step 3 — Compare
+
 ```bash
-npx playwright test --project=mobile
+node compare.js
 ```
 
-### Single widget
+Diffs baseline vs current, writes diff images to `screenshots/diff/desktop/` and results to `reports/results.json`.
+
+### Step 4 — View the HTML report
+
 ```bash
-npx playwright test --grep "elementor--advanced-tabs"
+node report.js
+open reports/report.html
 ```
-
-### Filter by keyword (e.g. all WooCommerce widgets)
-```bash
-URL_FILTER=woo npx playwright test
-```
-
-### View HTML report after a run
-```bash
-npx playwright show-report
-```
-
----
-
-## Baseline Management
-
-### Generate baselines (first time or full refresh)
-```bash
-npx playwright test --project=desktop --update-snapshots
-```
-Creates a `.txt` snapshot file for every URL. Commit these files — they are the source of truth for future comparisons.
-
-### Update a single widget after an intentional change
-```bash
-npx playwright test --project=desktop --update-snapshots --grep "elementor--advanced-tabs"
-```
-
-### Update all baselines after a major release
-```bash
-npx playwright test --update-snapshots
-```
-
-> **Commit the updated snapshots** so the next CI run compares against the new baseline:
-> ```bash
-> git add snapshots/
-> git commit -m "chore: update regression snapshots after v6.x release"
-> git push
-> ```
-
----
-
-## Adding or Removing URLs
-
-Edit `urls.txt` — one URL per line. Lines starting with `#` are treated as comments and skipped.
-
-```
-# New widgets added in v6.x
-https://essential-addons.com/elementor/new-widget/
-```
-
-After adding URLs, generate baselines for the new ones:
-```bash
-npx playwright test --project=desktop --update-snapshots --grep "new-widget"
-```
-
----
-
-## Slack Notifications
-
-Test results are posted to Slack after every CI run using [`playwright-slack-report`](https://github.com/ryanrosello-og/playwright-slack-report).
-
-### Setup (one-time)
-
-**1. Create a Slack Bot**
-- Go to [api.slack.com/apps](https://api.slack.com/apps) → **Create New App** → From scratch
-- Name it e.g. `EA Regression Bot`
-- Under **OAuth & Permissions** → **Bot Token Scopes**, add:
-  - `chat:write`
-  - `chat:write.public`
-- Click **Install to Workspace** → copy the **Bot User OAuth Token** (`xoxb-...`)
-
-**2. Get your Slack Channel ID**
-- Open Slack → right-click the channel → **View channel details** → copy the **Channel ID** at the bottom (`C0XXXXXXXX`)
-
-**3. Add secrets to GitHub**
-- Go to your repo → **Settings → Secrets and variables → Actions → New repository secret**
-
-| Secret name | Value |
-|---|---|
-| `SLACK_BOT_TOKEN` | `xoxb-your-token-here` |
-| `SLACK_CHANNEL_ID` | `C0XXXXXXXXX` |
-
-That's it — the workflow reads these secrets automatically on every run.
-
-### What the Slack message looks like
-
-```
-:essential-addons-logo: Demo Regression - Test Results
-🖥️ View Results!  ← links to the GitHub Actions run
-
-✅ 124 passed   ❌ 4 failed   ⏱ 7m 12s
-```
-
-Failures are listed with the widget name and a short diff summary.
 
 ---
 
 ## GitHub Actions
 
-The workflow at [.github/workflows/regression.yml](.github/workflows/regression.yml) runs automatically on:
+The workflow at [.github/workflows/regression.yml](.github/workflows/regression.yml) has two modes triggered manually or on a weekly schedule.
 
-| Trigger | Behaviour |
+### One-time: Add repository secrets
+
+Go to your repo → **Settings → Secrets and variables → Actions → New repository secret**
+
+| Secret | Value |
 |---|---|
-| Every Monday 08:00 UTC | Compares against committed baselines |
-| Manual dispatch | Choose to compare OR update baselines |
+| `SLACK_BOT_TOKEN` | Bot OAuth token (`xoxb-...`) from [api.slack.com/apps](https://api.slack.com/apps) |
+| `SLACK_CHANNEL_ID` | Channel ID to post to (right-click channel in Slack → View channel details) |
 
-### Manual dispatch options
+> To get `SLACK_BOT_TOKEN`: create a Slack app → **OAuth & Permissions** → add scopes `chat:write` and `chat:write.public` → Install to Workspace → copy the Bot User OAuth Token.
 
-Go to **Actions → EA Demo Regression Tests → Run workflow**:
+### Running the workflow
 
-| Input | Description |
-|---|---|
-| `update_snapshots` | Set to `yes` to regenerate all baselines and auto-commit them |
-| `url_filter` | Optional substring filter e.g. `woo` to run only WooCommerce widgets |
+Go to **Actions → EA Visual Regression → Run workflow**
 
-When `update_snapshots=yes`, the bot automatically commits the new snapshots back to the repo with `[skip ci]` so it doesn't trigger another run.
+#### Mode: `baseline`
 
-### Artifacts
+Run this **before** deploying a plugin update to capture reference screenshots.
 
-After every run, two artifacts are uploaded:
+1. Go to **Actions → EA Visual Regression → Run workflow**
+2. Select mode: `baseline`
+3. Click **Run workflow**
 
-- `playwright-report-desktop` — Full HTML report (30 day retention)
-- `snapshot-diffs-desktop` — Diff files on failure (14 day retention)
+The baseline screenshots are saved to the GitHub Actions cache and also uploaded as an artifact (`visual-regression-baseline`, 90-day retention) for manual download.
+
+#### Mode: `compare`
+
+Run this **after** deploying a plugin update to detect visual regressions.
+
+1. Go to **Actions → EA Visual Regression → Run workflow**
+2. Select mode: `compare` (or leave as default)
+3. Click **Run workflow**
+
+What happens:
+- Restores baseline screenshots from cache
+- Captures fresh screenshots of the live site
+- Diffs them pixel-by-pixel
+- Generates and publishes an HTML report to GitHub Pages
+- Posts per-page pass/fail results to Slack
+
+> **Important:** You must run `baseline` at least once before running `compare`. If no baseline exists in cache the compare run will fail at the restore step.
+
+#### Weekly schedule
+
+A `compare` run triggers automatically every **Monday at 08:00 UTC** to catch any unnoticed regressions.
 
 ---
 
-## Understanding a Failure
+## Tuning
 
-When a test fails, the output shows exactly what changed:
+All settings are in [config.js](config.js):
+
+| Setting | Default | Description |
+|---|---|---|
+| `diffThreshold` | `0.1` | Per-pixel colour tolerance (0 = exact, 1 = ignore all) |
+| `failThreshold` | `0.5` | % of changed pixels that marks a page as FAIL |
+| `batchSize` | `2` on CI, `5` locally | Parallel Chromium pages (lower = less RAM) |
+| `navigationTimeout` | `60000` ms | Hard timeout per page load |
+| `settleDelay` | `2000` ms | Pause before screenshot to let animations finish |
+| `maxScrollHeight` | `30000` px | Safety cap for infinite-scroll pages |
+| `retries` | `2` | Retries per failing page |
+
+### Adding or removing URLs
+
+Edit `urls.txt` — one URL per line. Lines starting with `#` are comments.
 
 ```
-Error: Snapshot comparison failed:
-
-  - heading "Advanced Tabs" [level=2]          ✓ matches
-  - text: "EA Advanced Tab will let you..."    ✓ matches
-- - link "Documentation"                       ✗ missing in current
-+ + link "Docs"                                ✗ new in current
+# New widget added in v6.x
+https://essential-addons.com/elementor/new-widget/
 ```
 
-This means the "Documentation" link was renamed to "Docs" — a real change caught by the regression test.
+After adding new URLs, run a fresh `baseline` to include them.
 
-**If the change is intentional:** update the baseline for that widget.
-**If the change is unexpected:** investigate the plugin update that caused it.
+### Hiding dynamic elements
+
+Elements that change on every load (countdown timers, popups, live chat widgets) are hidden before capture via CSS. Add selectors to the `hideSelectors` array in `config.js`:
+
+```js
+hideSelectors: [
+  '.your-dynamic-element',
+  // ...
+]
+```
+
+### Masking elements
+
+Elements that should stay in the layout but be excluded from pixel comparison (e.g. a map or video canvas) go in `maskSelectors`. They are replaced with a solid rectangle in the screenshot:
+
+```js
+maskSelectors: [
+  '.elementor-widget-eael-sphere-photo-viewer',
+]
+```
 
 ---
 
-## Snapshot Noise Filters
+## Artifacts & Report
 
-The following dynamic elements are hidden before snapshotting to prevent false positives:
+After a `compare` run:
 
-| Element | Why hidden |
-|---|---|
-| Site header & footer | Navigation changes don't indicate widget regressions |
-| NotificationX popups | Random sales/FOMO notifications change on every load |
-| Countdown timers | Days/Hours/Mins/Secs tick every second |
-| Seasonal promo banners | Campaign-specific content unrelated to widget functionality |
-| WP admin bar | Only visible when logged in |
+| Artifact | Contents | Retention |
+|---|---|---|
+| `visual-regression-results` | `screenshots/diff/`, `screenshots/current/`, `reports/` | 30 days |
+| `visual-regression-baseline` | `screenshots/baseline/` | 90 days |
+| GitHub Pages | Interactive HTML report with diff images | Permanent |
+
+The GitHub Pages report is published at:
+`https://nahidthenh.github.io/Playwright-e2e-ea-demos/`
 
 ---
 
 ## Troubleshooting
 
-**Test times out on a specific page**
-Some pages (especially heavy Facebook embed or WooCommerce pages) occasionally exceed the 60s timeout due to server load. Retry:
-```bash
-npx playwright test --project=desktop --update-snapshots --grep "facebook-feed"
-```
+**Capture hangs mid-run**
+The runner ran out of memory. Lower `batchSize` in `config.js` or cancel and re-run — the workflow has a 30-minute timeout on capture steps.
 
-**Snapshot is empty / 0 bytes**
-Make sure CSS selectors in the `addStyleTag` block don't accidentally match the `<body>` element. The known pitfall: `[class*="notificationx"]` matches `body.has-notificationx`. Always use exact class names for third-party plugins.
+**`fail-on-cache-miss` error on compare**
+No baseline exists in cache. Run the workflow with mode `baseline` first.
 
-**Too many false positives after a run**
-A dynamic element is leaking into snapshots. Identify the element from the diff, add its exact CSS class to the `addStyleTag` block in [tests/regression.spec.js](tests/regression.spec.js), then regenerate baselines.
+**Too many false positives**
+A dynamic element is leaking into screenshots. Identify it from the diff images in the report, add its CSS selector to `hideSelectors` in `config.js`, then re-run baseline.
 
-**Want to run only failed tests from the last run**
-```bash
-npx playwright test --last-failed
-```
+**Slack notification not sent**
+Verify `SLACK_BOT_TOKEN` and `SLACK_CHANNEL_ID` are set in repo secrets and that the bot has been added to the target channel (`/invite @your-bot-name`).
