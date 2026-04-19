@@ -43,7 +43,7 @@ module.exports = {
 
   // ── Resilience ────────────────────────────────────────────────────────────
   retries:   2,  // retries per failing page (total attempts = retries + 1)
-  batchSize: 5,  // pages captured in parallel; lower if RAM is tight
+  batchSize: process.env.CI ? 2 : 5,  // fewer parallel pages on CI to avoid OOM
 
   // ── Optional server-side "test mode" ─────────────────────────────────────
   // When set, this query param is appended to every URL.

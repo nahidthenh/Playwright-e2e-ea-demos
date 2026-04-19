@@ -62,6 +62,7 @@ jobs:
 
       - name: Capture baseline screenshots
         if: env.RUN_MODE == 'baseline'
+        timeout-minutes: 30
         run: npm run baseline
 
       # Saves baseline PNGs to cache so compare runs can find them across runs.
@@ -106,6 +107,7 @@ jobs:
       # Take fresh screenshots of the live site
       - name: Capture current screenshots
         if: env.RUN_MODE == 'compare'
+        timeout-minutes: 30
         run: npm run current
 
       # Pixel-by-pixel diff — exits non-zero when any page fails.
