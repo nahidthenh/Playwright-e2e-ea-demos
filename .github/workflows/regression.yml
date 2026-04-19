@@ -23,6 +23,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read   # needed to read/restore the cache
 
 env:
   # schedule has no inputs — default to 'compare'
@@ -63,9 +64,16 @@ jobs:
         if: env.RUN_MODE == 'baseline'
         run: npm run baseline
 
-      # Saves baseline PNGs as a named artifact.
-      # overwrite:true replaces the previous baseline on every run.
-      # retention-days:90 keeps it for one full quarter.
+      # Saves baseline PNGs to cache so compare runs can find them across runs.
+      # The fixed key means a new baseline run always overwrites the previous one.
+      - name: Save baseline to cache
+        if: env.RUN_MODE == 'baseline'
+        uses: actions/cache/save@v4
+        with:
+          path: screenshots/baseline/
+          key: visual-regression-baseline
+
+      # Also upload as artifact so the baseline PNGs can be downloaded manually.
       - name: Save baseline artifact
         if: env.RUN_MODE == 'baseline'
         uses: actions/upload-artifact@v4
@@ -86,13 +94,14 @@ jobs:
       # Trigger manually AFTER deploying a plugin update.
       # ════════════════════════════════════════════════════════════════════════
 
-      # Restore the previously saved baseline PNGs
+      # Restore the previously saved baseline PNGs from cache (persists across runs)
       - name: Restore baseline screenshots
         if: env.RUN_MODE == 'compare'
-        uses: actions/download-artifact@v4
+        uses: actions/cache/restore@v4
         with:
-          name: visual-regression-baseline
           path: screenshots/baseline/
+          key: visual-regression-baseline
+          fail-on-cache-miss: true
 
       # Take fresh screenshots of the live site
       - name: Capture current screenshots
@@ -160,6 +169,9 @@ jobs:
     if: always() && (github.event.inputs.mode == 'compare' || github.event_name == 'schedule')
     runs-on: ubuntu-latest
 
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -168,3 +180,41 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # Notify Slack with the compare result and a link to the Pages report.
+  # Uses @slack/webhook (already in devDependencies) via notify.js.
+  # Requires a SLACK_WEBHOOK_URL repository secret (Incoming Webhook URL).
+  # ────────────────────────────────────────────────────────────────────────────
+  notify:
+    name: Slack Notification
+    needs: [visual-regression, publish]
+    if: always() && (github.event.inputs.mode == 'compare' || github.event_name == 'schedule')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Download results artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: visual-regression-results
+          # Extract to workspace root so reports/results.json lands where notify.js expects it
+        continue-on-error: true   # don't break notify if artifact upload failed
+
+      - name: Send Slack notification
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          PAGES_URL: ${{ needs.publish.outputs.page_url }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: node notify.js
