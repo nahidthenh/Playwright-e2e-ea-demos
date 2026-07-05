@@ -2,6 +2,8 @@
 
 Automated pixel-level visual regression tests for [Essential Addons](https://essential-addons.com) demo pages. Detects visual changes across 119+ widget pages after every plugin update by comparing full-page screenshots.
 
+> **Also in this repo:** the **[Demo Smoke Test](smoke/README.md)** (`smoke/`) — a post-deploy crawler that discovers every demo page at runtime and fails the build on PHP errors, uncaught JS exceptions, first-party 4xx/5xx, or missing/empty widgets. Run it with `npm run smoke` or via the *EA Demo Smoke Test* GitHub Action.
+
 ---
 
 ## How It Works

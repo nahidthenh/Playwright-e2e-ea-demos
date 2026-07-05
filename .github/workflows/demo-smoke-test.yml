@@ -1,0 +1,95 @@
+name: EA Demo Smoke Test
+
+# Crawls every Elementor demo page on essential-addons.com after a plugin
+# deploy and fails on first-party PHP errors, uncaught JS exceptions,
+# 4xx/5xx asset failures, or missing/empty widgets.
+# Campaign popups, countdowns and marketing-pixel noise are downgraded to
+# warnings via smoke/ignore-config.ts.
+
+on:
+  # ── Manual trigger — run after uploading a new plugin zip ─────────────────
+  workflow_dispatch:
+    inputs:
+      concurrency:
+        description: 'Parallel pages (keep modest to avoid hammering the server)'
+        required: false
+        default: '8'
+      base_url:
+        description: 'Site under test'
+        required: false
+        default: 'https://essential-addons.com'
+
+  # ── Post-deploy trigger ───────────────────────────────────────────────────
+  # Fire this from your deploy pipeline once the new zip is live:
+  #   curl -X POST \
+  #     -H "Authorization: Bearer $GH_TOKEN" \
+  #     -H "Accept: application/vnd.github+json" \
+  #     https://api.github.com/repos/<owner>/<repo>/dispatches \
+  #     -d '{"event_type":"plugin-deployed"}'
+  repository_dispatch:
+    types: [plugin-deployed]
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    name: Crawl demo pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      SMOKE_CONCURRENCY: ${{ github.event.inputs.concurrency || '8' }}
+      SMOKE_BASE_URL: ${{ github.event.inputs.base_url || 'https://essential-addons.com' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install chromium --with-deps
+
+      # Discovery (Elements Panel → sitemap cross-check → urls.txt fallback),
+      # crawl, per-page checks, annotations and $GITHUB_STEP_SUMMARY are all
+      # handled by the Playwright run (globalSetup / globalTeardown).
+      - name: Run smoke test
+        run: npx playwright test --config=playwright.smoke.config.ts
+
+      # ────────────────────────────────────────────────────────────────────
+      # OPTIONAL STUB — server-side debug.log scan (NOT ACTIVE)
+      # Some PHP errors are logged to wp-content/debug.log but suppressed
+      # on-screen. Once SSH/WP-CLI access to the demo server is available:
+      #   1. Add secrets: DEMO_SSH_HOST, DEMO_SSH_USER, DEMO_SSH_KEY
+      #   2. Flip the `if: false` below to `if: always()`
+      #   3. Adjust the remote path to the real debug.log location
+      # ────────────────────────────────────────────────────────────────────
+      - name: Fetch & scan server debug.log (stub — enable when SSH access exists)
+        if: false
+        continue-on-error: true
+        run: |
+          # ssh-agent setup with $DEMO_SSH_KEY, then e.g.:
+          # scp "$DEMO_SSH_USER@$DEMO_SSH_HOST:/path/to/wp-content/debug.log" smoke-results/debug.log
+          # grep -Ein "PHP (Fatal error|Parse error|Warning|Notice|Deprecated)" smoke-results/debug.log \
+          #   && echo "::warning title=debug.log::PHP errors found in server debug.log — see artifact" \
+          #   || echo "debug.log clean"
+          echo "debug.log scan not enabled yet"
+
+      # Full machine-readable results + per-page JSON + traces of failed pages
+      - name: Upload results artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-test-results
+          path: |
+            smoke-results/
+            smoke-report/
+          retention-days: 30

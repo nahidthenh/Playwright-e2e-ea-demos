@@ -9,6 +9,8 @@
     "report": "node report.js",
     "test": "npm run current && npm run compare && npm run report",
     "open-report": "open reports/report.html",
+    "smoke": "playwright test --config=playwright.smoke.config.ts",
+    "smoke:report": "open smoke-report/index.html",
     "aria:test": "playwright test",
     "aria:update": "playwright test --update-snapshots",
     "aria:desktop": "playwright test --project=desktop",

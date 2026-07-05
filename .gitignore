@@ -7,3 +7,7 @@ test-results/
 # Visual regression screenshots and reports
 screenshots/
 reports/
+
+# Demo smoke test output
+smoke-results/
+smoke-report/
